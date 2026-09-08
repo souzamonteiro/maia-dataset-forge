@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/papers/*
+data/text/*
+data/chunks/*
+data/datasets/*
+data/rejected/*
+data/logs/*
+!data/**/.gitkeep

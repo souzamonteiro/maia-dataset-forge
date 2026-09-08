@@ -1,0 +1,19 @@
+{
+  "name": "maia-dataset-forge",
+  "version": "0.1.0",
+  "description": "Reproducible academic corpus and SFT dataset builder for Maia Academic",
+  "type": "module",
+  "license": "MIT",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "start": "node src/cli.js",
+    "discover": "node src/cli.js discover",
+    "download": "node src/cli.js download",
+    "extract": "node src/cli.js extract",
+    "generate": "node src/cli.js generate",
+    "validate": "node src/cli.js validate",
+    "export": "node src/cli.js export",
+    "pipeline": "node src/cli.js pipeline",
+    "test": "node --test"
+  }
+}

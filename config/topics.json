@@ -1,0 +1,18 @@
+{
+  "targetPapers": 1000,
+  "papersPerTopic": 100,
+  "fromYear": 2018,
+  "openAccessOnly": true,
+  "topics": [
+    {"id":"computational-modeling","query":"computational modeling simulation numerical methods"},
+    {"id":"machine-learning","query":"machine learning deep learning scientific applications"},
+    {"id":"scientific-computing","query":"scientific computing numerical linear algebra optimization"},
+    {"id":"complex-systems","query":"complex systems network science agent based modeling"},
+    {"id":"software-engineering","query":"software engineering architecture testing empirical software engineering"},
+    {"id":"artificial-intelligence","query":"artificial intelligence reasoning knowledge representation agents"},
+    {"id":"data-science","query":"data science statistical learning data mining"},
+    {"id":"optimization","query":"mathematical optimization metaheuristics operations research"},
+    {"id":"applied-mathematics","query":"applied mathematics differential equations numerical analysis"},
+    {"id":"interdisciplinary-modeling","query":"interdisciplinary modeling computational science engineering applications"}
+  ]
+}
