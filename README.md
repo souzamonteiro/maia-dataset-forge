@@ -244,3 +244,110 @@ not a process-wide CPU affinity limit. ROCm/Vulkan settings are not changed.
 Same-model acceptance is provisional: manually review evidence and answers before
 choosing this strategy. English batch sampling differs from the multilingual old
 benchmark, so throughput figures are not a controlled quality comparison.
+
+### Revisão do corpus e novo piloto de qualidade
+
+Execute `node src/cli.js review-corpus` antes do novo piloto. O comando preserva
+PDFs, textos e benchmarks anteriores; gera `data/catalog/corpus-audit.json`,
+`data/catalog/papers-reviewed.json` e extrações separadas em `data/text/reviewed`.
+A identidade é conferida pela presença do título normalizado nas duas primeiras
+páginas. Divergências ficam em quarentena: não renomeie o artigo apenas para
+fazer o PDF passar. Confira título, DOI, licença e URL na origem e obtenha o PDF
+correto antes de repetir a revisão. Correspondência de título não certifica
+licença nem qualidade integral da extração.
+
+A nova extração usa a ordem de leitura do pdftotext, filtra capas conhecidas,
+linhas repetidas, parágrafos danificados e referências. Esses filtros são
+heurísticos; confira os parágrafos selecionados em `state.json`, especialmente
+fórmulas e tabelas. O texto original e a extração sem filtros são preservados.
+
+Piloto isolado (não inicia a produção):
+
+```sh
+node src/cli.js batch-pilot --out data/benchmarks/batch-reviewed-single
+```
+
+Geração: Qwen 7B; validação: Qwen 14B; quatro threads, modelos sequenciais,
+espera até 60 °C antes de cada inferência. O validador recebe somente a evidência
+citada por candidato e as perguntas aprovadas, verifica suporte de todas as
+alegações, comparações numéricas e duplicação semântica. Citações devem ser
+literais, mas isso sozinho não comprova que a resposta seja correta. A
+verificação semântica continua probabilística e exige revisão humana da amostra.
+São até três rodadas para completar dez pares, preservando os aprovados.
+
+`node scripts/batch-ten.js` usa um diretório novo e exige dez artigos com
+identidade compatível. Use `npm run prepare:reviewed` para completar os dez artigos: o script busca
+substitutos no OpenAlex, aceita apenas licenças configuradas, verifica o PDF e
+a presença do título antes de incluí-lo. Reutiliza os artigos elegíveis e salva
+os novos em `data/catalog/papers-supplement.json`, sem alterar o catálogo
+original. Downloads e falhas ficam registrados em
+`data/logs/prepare-reviewed.jsonl`; uma nova execução reaproveita o progresso.
+O comando `review-corpus` também incorpora esse catálogo suplementar.
+A classificação temática fornecida pela busca ainda exige revisão editorial. O fluxo legado `pipeline` não incorpora esta revisão;
+não o utilize para escalar o corpus antes da aprovação deste piloto.
+
+### Corpus de 1.000 artigos (auditoria ampliada)
+
+`npm run corpus:audit` audita os dez artigos do catálogo revisado sem rede nem
+inferência. Salva checkpoints em `data/corpus/state.json`, observações por campo
+em `audit.json`, contadores por tema em `summary.json` e uma tabela em `report.md`.
+PDFs originais são preservados, e cópias das extrações ficam em `data/corpus/text`.
+Os resultados são reutilizados somente quando metadados e hash do PDF coincidem.
+
+A auditoria distingue título/DOI/nomes encontrados no PDF de confirmação editorial:
+um ano encontrado pode ser o de uma referência, e a licença pode ter escopo
+específico. Autores abreviados, versões de preprint, tabelas e adequação temática
+exigem revisão. Por isso os dez casos iniciais permanecem pendentes; não são dez
+aprovações de produção. Este fluxo não altera os resultados históricos do piloto.
+
+Registre decisões verificadas em `data/corpus/decisions.json`, objeto por ID:
+`{"ID":{"inputHash":"hash de state.json","status":"approved","reviewer":"nome",
+"evidence":{"title":"fonte e resultado","doi":"fonte e resultado",
+"authors":"fonte e resultado","year":"fonte e resultado",
+"license":"fonte e resultado","extraction":"inspeção e resultado",
+"topic":"justificativa temática"}}}`. Cada evidência deve ser uma descrição
+com pelo menos dez caracteres, com URL/página quando aplicável. Esse registro
+é uma declaração de revisão, não uma checagem automática da veracidade da fonte.
+Para reprovar, use `status: "quarantined"` e `reason`. Mudanças nos metadados ou
+PDF invalidam decisões antigas. Execute a auditoria novamente para aplicá-las.
+
+`npm run corpus:collect -- --max-pages 10` busca substitutos e novos artigos,
+sequencialmente, visando 100 aprovados por tema. A coleta fica bloqueada enquanto
+a amostra inicial tem pendências. Resultados de busca são persistidos por página;
+downloads existentes são reutilizados; duplicatas por DOI/PDF são excluídas.
+Cada nova página com pendências pausa a coleta para revisão; pendentes não contam
+para a meta. Falhas de download são registradas e podem ser tentadas novamente.
+O limite de páginas é um limite de busca, não garantia de mil aprovações.
+Quando todos os temas atingem a meta, grava um manifesto identificado por hash.
+
+Somente uma execução pode escrever no corpus. Se houver encerramento abrupto,
+confira o PID em `data/corpus/running.lock` e remova o arquivo apenas depois de
+confirmar que o processo terminou. Nenhum desses comandos gera perguntas.
+
+#### Resultado da revisão documental da amostra — 09/09/2026
+
+As dez pendências foram decididas: sete artigos aprovados para os trechos de
+prosa selecionados e três excluídos da amostra. O catálogo editorial corrigido
+é `data/corpus/papers-editorial.json`; somente os aprovados são exportados para
+`data/corpus/papers-approved.json`. O comando `corpus:audit` prioriza o catálogo
+editorial quando ele existe. Catálogos e benchmarks anteriores ficam preservados.
+
+Os snapshots do Crossref, depositados pelas editoras, estão em
+`data/corpus/editorial/*.crossref.json`. As correções preservam metadados anteriores,
+separam datas online e do volume, conservam as listas completas de contribuintes
+e registram a URL/versionamento da licença do artigo. A classificação temática
+foi revisada pelo conteúdo, não pelo termo usado na busca.
+
+Aprovação da extração tem escopo explícito: somente seis trechos literais por
+artigo, conferidos e rastreáveis aos offsets/hash em `*.spans.json`. Os PDFs e
+extrações completas permanecem disponíveis para o MaiaRAG, mas a extração integral
+não foi certificada. A versão editorial não garante dez perguntas boas por artigo.
+Para testar os aprovados, use `batch-pilot --catalog data/corpus/papers-approved.json`
+e um diretório de saída novo; não reutilize a bateria antiga como corpus aprovado.
+
+Transformação digital e doenças cardiovasculares foram excluídos por inadequação
+temática nesta amostra. O manuscrito de algoritmos quânticos variacionais foi
+excluído porque a licença permitida não foi comprovada. Excluir não significa
+apagar arquivos nem afirmar que o artigo seja incorreto. Faltam substitutos nos
+temas artificial-intelligence, applied-mathematics e interdisciplinary-modeling.
+As decisões e justificativas estão em `data/corpus/decisions.json`.

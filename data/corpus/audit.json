@@ -1,0 +1,4546 @@
+[
+  {
+    "id": "W2781738013",
+    "version": 1,
+    "title": "Quantum Computing in the NISQ era and beyond",
+    "topic": "computational-modeling",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "pending",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "pending",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "06fd0388985b6b9903ba585b07fb145b9ffe43a53f4e723f85e43fab93843d3b",
+      "catalogDoi": "10.22331/q-2018-08-06-79",
+      "observedDois": [],
+      "authors": [
+        {
+          "name": "John Preskill",
+          "found": true
+        }
+      ],
+      "catalogYear": 2018,
+      "catalogLicense": "cc-by",
+      "rawChars": 68153,
+      "usableChars": 2950,
+      "retainedFraction": 0.04328496177717782
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "023dd9062f632b82ed80f44d43ac4410df1218f848ad1b20387ce6e23c68dad3",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W2781738013.crossref.json; https://api.crossref.org/works/10.22331/q-2018-08-06-79.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.22331/q-2018-08-06-79 agrees with PDF identity. Quantum landing page https://quantum-journal.org/papers/q-2018-08-06-79/ explicitly links this PDF/arXiv v3 to this DOI.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 1 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W2781738013.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2018 from published-online; preserve separate online and print dates {'published-online': [2018, 8, 6]}. Confirmed against article masthead and https://api.crossref.org/works/10.22331/q-2018-08-06-79; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Quantum author policy https://quantum-journal.org/instructions/authors/ and linked final arXiv version establish CC-BY 4.0.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W2781738013.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W2781738013.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Reclassified from machine-learning to computational-modeling: quantum simulation, computational speedup and physical limits; all statements anchored to the 2018 paper."
+      }
+    }
+  },
+  {
+    "id": "W2978346165",
+    "version": 1,
+    "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+    "topic": "software-engineering",
+    "status": "quarantined",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "15a6befec266de6a84c2d386b76ae54f07ebd23c1d72431632e8602401680733",
+      "catalogDoi": "10.1016/j.jbusres.2019.09.022",
+      "observedDois": [
+        "10.1016/j.jbusres.2019.09.022"
+      ],
+      "authors": [
+        {
+          "name": "Peter C. Verhoef",
+          "found": true
+        },
+        {
+          "name": "Thijs Broekhuizen",
+          "found": true
+        },
+        {
+          "name": "Yakov Bart",
+          "found": true
+        },
+        {
+          "name": "Abhi Bhattacharya",
+          "found": true
+        },
+        {
+          "name": "John Qi Dong",
+          "found": true
+        },
+        {
+          "name": "Nicolai Fabian",
+          "found": true
+        },
+        {
+          "name": "Michael Haenlein",
+          "found": true
+        }
+      ],
+      "catalogYear": 2021,
+      "catalogLicense": "cc-by",
+      "rawChars": 92628,
+      "usableChars": 37252,
+      "retainedFraction": 0.40216781102906246
+    },
+    "reasons": [
+      "Excluded from this corpus sample: business strategy and digital transformation research agenda does not establish empirical software engineering or computational modeling content. Bibliographic corrections retained (volume year 2021, not online year 2019)."
+    ],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "07ee5803c3e0fe116cc5a42fc8aafe963152aba3164111d593f8d8575f37fe7c",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "quarantined",
+      "reason": "Excluded from this corpus sample: business strategy and digital transformation research agenda does not establish empirical software engineering or computational modeling content. Bibliographic corrections retained (volume year 2021, not online year 2019)."
+    }
+  },
+  {
+    "id": "W3003257820",
+    "version": 1,
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "topic": "scientific-computing",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "pending",
+      "year": "observed",
+      "license": "pending",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "941bfc3edcf91c40e96c028b4f4c46f13361727a30e7767c935ba0d509318131",
+      "catalogDoi": "10.1038/s41592-019-0686-2",
+      "observedDois": [
+        "10.1038/s41592-019-0686-2"
+      ],
+      "authors": [
+        {
+          "name": "Pauli Virtanen",
+          "found": true
+        },
+        {
+          "name": "Ralf Gommers",
+          "found": true
+        },
+        {
+          "name": "Travis E. Oliphant",
+          "found": true
+        },
+        {
+          "name": "Matt Haberland",
+          "found": true
+        },
+        {
+          "name": "Tyler Reddy",
+          "found": true
+        },
+        {
+          "name": "David Cournapeau",
+          "found": true
+        },
+        {
+          "name": "Evgeni Burovski",
+          "found": true
+        },
+        {
+          "name": "Pearu Peterson",
+          "found": true
+        },
+        {
+          "name": "Warren Weckesser",
+          "found": true
+        },
+        {
+          "name": "Jonathan Bright",
+          "found": true
+        },
+        {
+          "name": "Stéfan J. van der Walt",
+          "found": true
+        },
+        {
+          "name": "Matthew Brett",
+          "found": true
+        },
+        {
+          "name": "Joshua Wilson",
+          "found": true
+        },
+        {
+          "name": "K. Jarrod Millman",
+          "found": true
+        },
+        {
+          "name": "Nikolay Mayorov",
+          "found": true
+        },
+        {
+          "name": "Andrew R. J. Nelson",
+          "found": true
+        },
+        {
+          "name": "Eric Jones",
+          "found": true
+        },
+        {
+          "name": "Robert Kern",
+          "found": true
+        },
+        {
+          "name": "Eric Larson",
+          "found": true
+        },
+        {
+          "name": "C J Carey",
+          "found": true
+        },
+        {
+          "name": "İlhan Polat",
+          "found": true
+        },
+        {
+          "name": "Yu Feng",
+          "found": true
+        },
+        {
+          "name": "Eric W. Moore",
+          "found": true
+        },
+        {
+          "name": "Jake VanderPlas",
+          "found": true
+        },
+        {
+          "name": "Denis Laxalde",
+          "found": true
+        },
+        {
+          "name": "Josef Perktold",
+          "found": true
+        },
+        {
+          "name": "Robert Cimrman",
+          "found": true
+        },
+        {
+          "name": "Ian Henriksen",
+          "found": true
+        },
+        {
+          "name": "E. A. Quintero",
+          "found": true
+        },
+        {
+          "name": "Charles R. Harris",
+          "found": true
+        },
+        {
+          "name": "Anne M. Archibald",
+          "found": true
+        },
+        {
+          "name": "Antônio H. Ribeiro",
+          "found": true
+        },
+        {
+          "name": "Fabian Pedregosa",
+          "found": true
+        },
+        {
+          "name": "Paul van Mulbregt",
+          "found": true
+        },
+        {
+          "name": "SciPy 1.0 Contributors",
+          "found": true
+        },
+        {
+          "name": "Aditya Vijaykumar",
+          "found": false
+        },
+        {
+          "name": "Alessandro Pietro Bardelli",
+          "found": false
+        },
+        {
+          "name": "Alex Rothberg",
+          "found": false
+        },
+        {
+          "name": "Andreas Hilboll",
+          "found": false
+        },
+        {
+          "name": "Andreas Kloeckner",
+          "found": false
+        },
+        {
+          "name": "Anthony Scopatz",
+          "found": false
+        },
+        {
+          "name": "Antony Lee",
+          "found": false
+        },
+        {
+          "name": "Ariel Rokem",
+          "found": false
+        },
+        {
+          "name": "C. Nathan Woods",
+          "found": false
+        },
+        {
+          "name": "Chad Fulton",
+          "found": false
+        },
+        {
+          "name": "Charles Masson",
+          "found": false
+        },
+        {
+          "name": "Christian Häggström",
+          "found": false
+        },
+        {
+          "name": "Clark Fitzgerald",
+          "found": false
+        },
+        {
+          "name": "David A. Nicholson",
+          "found": false
+        },
+        {
+          "name": "David R. Hagen",
+          "found": false
+        },
+        {
+          "name": "Dmitrii V. Pasechnik",
+          "found": false
+        },
+        {
+          "name": "Emanuele Olivetti",
+          "found": false
+        },
+        {
+          "name": "Eric Martin",
+          "found": false
+        },
+        {
+          "name": "Eric Wieser",
+          "found": false
+        },
+        {
+          "name": "Fabrice Silva",
+          "found": false
+        },
+        {
+          "name": "Felix Lenders",
+          "found": false
+        },
+        {
+          "name": "Florian Wilhelm",
+          "found": false
+        },
+        {
+          "name": "G. Young",
+          "found": false
+        },
+        {
+          "name": "Gavin A. Price",
+          "found": false
+        },
+        {
+          "name": "Gert-Ludwig Ingold",
+          "found": false
+        },
+        {
+          "name": "Gregory E. Allen",
+          "found": false
+        },
+        {
+          "name": "Gregory R. Lee",
+          "found": false
+        },
+        {
+          "name": "Hervé Audren",
+          "found": false
+        },
+        {
+          "name": "Irvin Probst",
+          "found": false
+        },
+        {
+          "name": "Jörg P. Dietrich",
+          "found": false
+        },
+        {
+          "name": "Jacob Silterra",
+          "found": false
+        },
+        {
+          "name": "James T Webber",
+          "found": false
+        },
+        {
+          "name": "Janko Slavič",
+          "found": false
+        },
+        {
+          "name": "Joel Nothman",
+          "found": false
+        },
+        {
+          "name": "Johannes Buchner",
+          "found": false
+        },
+        {
+          "name": "Johannes Kulick",
+          "found": false
+        },
+        {
+          "name": "Johannes L. Schönberger",
+          "found": false
+        },
+        {
+          "name": "José Vinícius de Miranda Cardoso",
+          "found": false
+        },
+        {
+          "name": "Joscha Reimer",
+          "found": false
+        },
+        {
+          "name": "Joseph Harrington",
+          "found": false
+        },
+        {
+          "name": "Juan Luis Cano Rodríguez",
+          "found": false
+        },
+        {
+          "name": "Juan Nunez-Iglesias",
+          "found": false
+        },
+        {
+          "name": "Justin Kuczynski",
+          "found": false
+        },
+        {
+          "name": "Kevin Tritz",
+          "found": false
+        },
+        {
+          "name": "Martin Thoma",
+          "found": false
+        },
+        {
+          "name": "Matthew Newville",
+          "found": false
+        },
+        {
+          "name": "Matthias Kümmerer",
+          "found": false
+        },
+        {
+          "name": "Maximilian Bolingbroke",
+          "found": false
+        },
+        {
+          "name": "Michael Tartre",
+          "found": false
+        },
+        {
+          "name": "Mikhail Pak",
+          "found": false
+        },
+        {
+          "name": "Nathaniel J. Smith",
+          "found": false
+        },
+        {
+          "name": "Nikolai Nowaczyk",
+          "found": false
+        },
+        {
+          "name": "Nikolay Shebanov",
+          "found": false
+        },
+        {
+          "name": "Oleksandr Pavlyk",
+          "found": false
+        },
+        {
+          "name": "Per A. Brodtkorb",
+          "found": false
+        },
+        {
+          "name": "Perry Lee",
+          "found": false
+        },
+        {
+          "name": "Robert T. McGibbon",
+          "found": false
+        },
+        {
+          "name": "Roman Feldbauer",
+          "found": false
+        },
+        {
+          "name": "Sam Lewis",
+          "found": false
+        },
+        {
+          "name": "Sam Tygier",
+          "found": false
+        },
+        {
+          "name": "Scott Sievert",
+          "found": false
+        },
+        {
+          "name": "Sebastiano Vigna",
+          "found": false
+        },
+        {
+          "name": "Stefan Peterson",
+          "found": false
+        },
+        {
+          "name": "Surhud More",
+          "found": false
+        },
+        {
+          "name": "Tadeusz Pudlik",
+          "found": false
+        },
+        {
+          "name": "Takuya Oshima",
+          "found": false
+        },
+        {
+          "name": "Thomas J. Pingel",
+          "found": false
+        },
+        {
+          "name": "Thomas P. Robitaille",
+          "found": false
+        },
+        {
+          "name": "Thomas Spura",
+          "found": false
+        },
+        {
+          "name": "Thouis R. Jones",
+          "found": false
+        },
+        {
+          "name": "Tim Cera",
+          "found": false
+        },
+        {
+          "name": "Tim Leslie",
+          "found": false
+        },
+        {
+          "name": "Tiziano Zito",
+          "found": false
+        },
+        {
+          "name": "Tom Krauss",
+          "found": false
+        },
+        {
+          "name": "Utkarsh Upadhyay",
+          "found": false
+        },
+        {
+          "name": "Yaroslav O. Halchenko",
+          "found": false
+        },
+        {
+          "name": "Yoshiki Vázquez-Baeza",
+          "found": false
+        }
+      ],
+      "catalogYear": 2020,
+      "catalogLicense": "cc-by",
+      "rawChars": 97829,
+      "usableChars": 3919,
+      "retainedFraction": 0.04005969600016355
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "6b38d2f7565ef1ef0885e09837c20a7b452aebfbd2f90a1751892b0d49db83cb",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3003257820.crossref.json; https://api.crossref.org/works/10.1038/s41592-019-0686-2.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.1038/s41592-019-0686-2 agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 112 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3003257820.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2020 from published-print; preserve separate online and print dates {'published-online': [2020, 2, 3], 'published-print': [2020, 3, 2]}. Confirmed against article masthead and https://api.crossref.org/works/10.1038/s41592-019-0686-2; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W3003257820.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3003257820.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Scientific-computing: numerical algorithms, sparse matrices, scientific library architecture and implementation."
+      }
+    }
+  },
+  {
+    "id": "W3182706339",
+    "version": 1,
+    "title": "The coefficient of determination R-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation",
+    "topic": "data-science",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "pending",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "ceb606646a05ef8c16388e9bec170aef9ac74f39086d6c5d4193ba8b54afa3d4",
+      "catalogDoi": "10.7717/peerj-cs.623",
+      "observedDois": [
+        "10.7717/peerj-cs.623"
+      ],
+      "authors": [
+        {
+          "name": "Davide Chicco",
+          "found": true
+        },
+        {
+          "name": "Matthijs J. Warrens",
+          "found": true
+        },
+        {
+          "name": "Giuseppe Jurman",
+          "found": true
+        }
+      ],
+      "catalogYear": 2021,
+      "catalogLicense": "cc-by",
+      "rawChars": 70954,
+      "usableChars": 2956,
+      "retainedFraction": 0.041660794317445106
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "a8a97596e3bf30a709ab059262d3cff93d607f834f33d5e4b3edaa39f1638fcb",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3182706339.crossref.json; https://api.crossref.org/works/10.7717/peerj-cs.623.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.7717/peerj-cs.623 agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 3 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3182706339.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2021 from published-online; preserve separate online and print dates {'published-online': [2021, 7, 5]}. Confirmed against article masthead and https://api.crossref.org/works/10.7717/peerj-cs.623; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W3182706339.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3182706339.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Reclassified to data-science: regression evaluation metrics and experimental comparison; article-specific claims are not universal statistical rules."
+      }
+    }
+  },
+  {
+    "id": "W3111162498",
+    "version": 1,
+    "title": "Variational quantum algorithms",
+    "topic": "applied-mathematics",
+    "status": "quarantined",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "pending",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "fb2f8183fd01378fa7553ba14853fe03968286ba61caa1401dba809737ca1c6e",
+      "catalogDoi": "10.1038/s42254-021-00348-9",
+      "observedDois": [
+        "10.1038/s42254-021-00348-9"
+      ],
+      "authors": [
+        {
+          "name": "M. Cerezo",
+          "found": true
+        },
+        {
+          "name": "Andrew Arrasmith",
+          "found": true
+        },
+        {
+          "name": "Ryan Babbush",
+          "found": true
+        },
+        {
+          "name": "Simon C. Benjamin",
+          "found": true
+        },
+        {
+          "name": "Suguru Endo",
+          "found": true
+        },
+        {
+          "name": "Keisuke Fujii",
+          "found": true
+        },
+        {
+          "name": "Jarrod R. McClean",
+          "found": true
+        },
+        {
+          "name": "Kosuke Mitarai",
+          "found": true
+        },
+        {
+          "name": "Xiao Yuan",
+          "found": true
+        },
+        {
+          "name": "Lukasz Cincio",
+          "found": true
+        },
+        {
+          "name": "Patrick J. Coles",
+          "found": true
+        }
+      ],
+      "catalogYear": 2021,
+      "catalogLicense": null,
+      "rawChars": 173024,
+      "usableChars": 108100,
+      "retainedFraction": 0.6247688181986314
+    },
+    "reasons": [
+      "Excluded: allowed CC-BY/CC0/public-domain license not established for downloaded LANL accepted manuscript. PDF grants US Government-purpose rights; Crossref lists Springer TDM terms, not CC-BY. Open access to a file is insufficient for configured license eligibility."
+    ],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "a55c78fde4ea676060961ccf07767b10fd602ea258d54e45b379ae24ccdab4f0",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "quarantined",
+      "reason": "Excluded: allowed CC-BY/CC0/public-domain license not established for downloaded LANL accepted manuscript. PDF grants US Government-purpose rights; Crossref lists Springer TDM terms, not CC-BY. Open access to a file is insufficient for configured license eligibility."
+    }
+  },
+  {
+    "id": "W3021613070",
+    "version": 1,
+    "title": "Pymoo: Multi-Objective Optimization in Python",
+    "topic": "optimization",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "968d1829e6a0c157548a2b963ad08a318b78313104d417b590885db64ebc83be",
+      "catalogDoi": "10.1109/access.2020.2990567",
+      "observedDois": [
+        "10.1109/access.2020.2990567"
+      ],
+      "authors": [
+        {
+          "name": "Julian Blank",
+          "found": true
+        },
+        {
+          "name": "Kalyanmoy Deb",
+          "found": true
+        }
+      ],
+      "catalogYear": 2020,
+      "catalogLicense": "cc-by",
+      "rawChars": 61712,
+      "usableChars": 2759,
+      "retainedFraction": 0.044707674358309565
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "eb3503ce30870d86c112b325375b23bc1d355c9bf2813991c69550cce59525d1",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3021613070.crossref.json; https://api.crossref.org/works/10.1109/access.2020.2990567.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.1109/access.2020.2990567 agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 2 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3021613070.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2020 from published-print; preserve separate online and print dates {'published-print': [2020]}. Confirmed against article masthead and https://api.crossref.org/works/10.1109/access.2020.2990567; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/legalcode; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W3021613070.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3021613070.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Optimization: multi-objective problem formulation, reproducibility and optimization framework design."
+      }
+    }
+  },
+  {
+    "id": "W2888532099",
+    "version": 1,
+    "title": "The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package",
+    "topic": "software-engineering",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "a45e6487679b3e8cc3f8e801ba238b74916f2396dd531740224f6adfeb9cbabf",
+      "catalogDoi": "10.3847/1538-3881/aabc4f",
+      "observedDois": [
+        "10.3847/1538-3881/aabc4f⟩",
+        "10.3847/1538-3881/aabc4f"
+      ],
+      "authors": [
+        {
+          "name": "The Astropy Collaboration",
+          "found": true
+        },
+        {
+          "name": "A. M. Price-Whelan",
+          "found": true
+        },
+        {
+          "name": "B. M. Sipőcz",
+          "found": true
+        },
+        {
+          "name": "H. M. Günther",
+          "found": true
+        },
+        {
+          "name": "P. L. Lim",
+          "found": true
+        },
+        {
+          "name": "S. M. Crawford",
+          "found": true
+        },
+        {
+          "name": "S. Conseil",
+          "found": true
+        },
+        {
+          "name": "D. L. Shupe",
+          "found": true
+        },
+        {
+          "name": "M. W. Craig",
+          "found": true
+        },
+        {
+          "name": "N. Dencheva",
+          "found": true
+        },
+        {
+          "name": "A. Ginsburg",
+          "found": true
+        },
+        {
+          "name": "J. T. VanderPlas",
+          "found": true
+        },
+        {
+          "name": "L. D. Bradley",
+          "found": true
+        },
+        {
+          "name": "D. Pérez-Suárez",
+          "found": true
+        },
+        {
+          "name": "M. de Val-Borro",
+          "found": true
+        },
+        {
+          "name": "(Primary Paper Contributors)",
+          "found": true
+        },
+        {
+          "name": "T. L. Aldcroft",
+          "found": true
+        },
+        {
+          "name": "K. L. Cruz",
+          "found": true
+        },
+        {
+          "name": "T. P. Robitaille",
+          "found": true
+        },
+        {
+          "name": "E. J. Tollerud",
+          "found": true
+        },
+        {
+          "name": "(Astropy Coordination Committee)",
+          "found": true
+        },
+        {
+          "name": "C. Ardelean",
+          "found": true
+        },
+        {
+          "name": "T. Babej",
+          "found": true
+        },
+        {
+          "name": "Y. P. Bach",
+          "found": true
+        },
+        {
+          "name": "M. Bachetti",
+          "found": true
+        },
+        {
+          "name": "A. V. Bakanov",
+          "found": true
+        },
+        {
+          "name": "S. P. Bamford",
+          "found": true
+        },
+        {
+          "name": "G. Barentsen",
+          "found": true
+        },
+        {
+          "name": "P. Barmby",
+          "found": true
+        },
+        {
+          "name": "A. Baumbach",
+          "found": true
+        },
+        {
+          "name": "K. L. Berry",
+          "found": true
+        },
+        {
+          "name": "F. Biscani",
+          "found": true
+        },
+        {
+          "name": "M. Boquien",
+          "found": true
+        },
+        {
+          "name": "K. A. Bostroem",
+          "found": true
+        },
+        {
+          "name": "L. G. Bouma",
+          "found": true
+        },
+        {
+          "name": "G. B. Brammer",
+          "found": true
+        },
+        {
+          "name": "E. M. Bray",
+          "found": true
+        },
+        {
+          "name": "H. Breytenbach",
+          "found": true
+        },
+        {
+          "name": "H. Buddelmeijer",
+          "found": true
+        },
+        {
+          "name": "D. J. Burke",
+          "found": true
+        },
+        {
+          "name": "G. Calderone",
+          "found": true
+        },
+        {
+          "name": "J. L. Cano Rodríguez",
+          "found": true
+        },
+        {
+          "name": "M. Cara",
+          "found": true
+        },
+        {
+          "name": "J. V. M. Cardoso",
+          "found": true
+        },
+        {
+          "name": "S. Cheedella",
+          "found": true
+        },
+        {
+          "name": "Y. Copin",
+          "found": true
+        },
+        {
+          "name": "L. Corrales",
+          "found": true
+        },
+        {
+          "name": "D. Crichton",
+          "found": true
+        },
+        {
+          "name": "D. D’Avella",
+          "found": true
+        },
+        {
+          "name": "C. Deil",
+          "found": true
+        },
+        {
+          "name": "É. Depagne",
+          "found": true
+        },
+        {
+          "name": "J. P. Dietrich",
+          "found": true
+        },
+        {
+          "name": "A. Donath",
+          "found": true
+        },
+        {
+          "name": "M. Droettboom",
+          "found": true
+        },
+        {
+          "name": "N. Earl",
+          "found": true
+        },
+        {
+          "name": "T. Erben",
+          "found": true
+        },
+        {
+          "name": "S. Fabbro",
+          "found": true
+        },
+        {
+          "name": "L. A. Ferreira",
+          "found": true
+        },
+        {
+          "name": "T. Finethy",
+          "found": true
+        },
+        {
+          "name": "R. T. Fox",
+          "found": true
+        },
+        {
+          "name": "L. H. Garrison",
+          "found": true
+        },
+        {
+          "name": "S. L. J. Gibbons",
+          "found": true
+        },
+        {
+          "name": "D. A. Goldstein",
+          "found": true
+        },
+        {
+          "name": "R. Gommers",
+          "found": true
+        },
+        {
+          "name": "J. P. Greco",
+          "found": true
+        },
+        {
+          "name": "P. Greenfield",
+          "found": true
+        },
+        {
+          "name": "A. M. Groener",
+          "found": true
+        },
+        {
+          "name": "F. Grollier",
+          "found": true
+        },
+        {
+          "name": "A. Hagen",
+          "found": true
+        },
+        {
+          "name": "P. Hirst",
+          "found": true
+        },
+        {
+          "name": "D. Homeier",
+          "found": true
+        },
+        {
+          "name": "A. J. Horton",
+          "found": true
+        },
+        {
+          "name": "G. Hosseinzadeh",
+          "found": true
+        },
+        {
+          "name": "L. Hu",
+          "found": true
+        },
+        {
+          "name": "J. S. Hunkeler",
+          "found": true
+        },
+        {
+          "name": "Ž. Ivezić",
+          "found": true
+        },
+        {
+          "name": "A. Jain",
+          "found": true
+        },
+        {
+          "name": "T. Jenness",
+          "found": true
+        },
+        {
+          "name": "G. Kanarek",
+          "found": true
+        },
+        {
+          "name": "S. Kendrew",
+          "found": true
+        },
+        {
+          "name": "N. S. Kern",
+          "found": true
+        },
+        {
+          "name": "W. E. Kerzendorf",
+          "found": true
+        },
+        {
+          "name": "A. Khvalko",
+          "found": true
+        },
+        {
+          "name": "J. King",
+          "found": true
+        },
+        {
+          "name": "D. Kirkby",
+          "found": true
+        },
+        {
+          "name": "A. M. Kulkarni",
+          "found": true
+        },
+        {
+          "name": "A. Kumar",
+          "found": true
+        },
+        {
+          "name": "A. Lee",
+          "found": true
+        },
+        {
+          "name": "D. Lenz",
+          "found": true
+        },
+        {
+          "name": "S. P. Littlefair",
+          "found": true
+        },
+        {
+          "name": "Z. Ma",
+          "found": true
+        },
+        {
+          "name": "D. M. Macleod",
+          "found": true
+        },
+        {
+          "name": "M. Mastropietro",
+          "found": true
+        },
+        {
+          "name": "C. McCully",
+          "found": true
+        },
+        {
+          "name": "S. Montagnac",
+          "found": true
+        },
+        {
+          "name": "B. M. Morris",
+          "found": true
+        },
+        {
+          "name": "M. Mueller",
+          "found": true
+        },
+        {
+          "name": "S. J. Mumford",
+          "found": true
+        },
+        {
+          "name": "D. Muna",
+          "found": true
+        },
+        {
+          "name": "N. A. Murphy",
+          "found": true
+        },
+        {
+          "name": "S. Nelson",
+          "found": true
+        },
+        {
+          "name": "G. H. Nguyen",
+          "found": true
+        },
+        {
+          "name": "J. P. Ninan",
+          "found": true
+        },
+        {
+          "name": "M. Nöthe",
+          "found": true
+        },
+        {
+          "name": "S. Ogaz",
+          "found": true
+        },
+        {
+          "name": "S. Oh",
+          "found": true
+        },
+        {
+          "name": "J. K. Parejko",
+          "found": true
+        },
+        {
+          "name": "N. Parley",
+          "found": true
+        },
+        {
+          "name": "S. Pascual",
+          "found": true
+        },
+        {
+          "name": "R. Patil",
+          "found": true
+        },
+        {
+          "name": "A. A. Patil",
+          "found": true
+        },
+        {
+          "name": "A. L. Plunkett",
+          "found": true
+        },
+        {
+          "name": "J. X. Prochaska",
+          "found": true
+        },
+        {
+          "name": "T. Rastogi",
+          "found": true
+        },
+        {
+          "name": "V. Reddy Janga",
+          "found": true
+        },
+        {
+          "name": "J. Sabater",
+          "found": true
+        },
+        {
+          "name": "P. Sakurikar",
+          "found": true
+        },
+        {
+          "name": "M. Seifert",
+          "found": true
+        },
+        {
+          "name": "L. E. Sherbert",
+          "found": true
+        },
+        {
+          "name": "H. Sherwood-Taylor",
+          "found": true
+        },
+        {
+          "name": "A. Y. Shih",
+          "found": true
+        },
+        {
+          "name": "J. Sick",
+          "found": true
+        },
+        {
+          "name": "M. T. Silbiger",
+          "found": true
+        },
+        {
+          "name": "S. Singanamalla",
+          "found": true
+        },
+        {
+          "name": "L. P. Singer",
+          "found": true
+        },
+        {
+          "name": "P. H. Sladen",
+          "found": true
+        },
+        {
+          "name": "K. A. Sooley",
+          "found": true
+        },
+        {
+          "name": "S. Sornarajah",
+          "found": true
+        },
+        {
+          "name": "O. Streicher",
+          "found": true
+        },
+        {
+          "name": "P. Teuben",
+          "found": true
+        },
+        {
+          "name": "S. W. Thomas",
+          "found": true
+        },
+        {
+          "name": "G. R. Tremblay",
+          "found": true
+        },
+        {
+          "name": "J. E. H. Turner",
+          "found": true
+        },
+        {
+          "name": "V. Terrón",
+          "found": true
+        },
+        {
+          "name": "M. H. van Kerkwijk",
+          "found": true
+        },
+        {
+          "name": "A. de la Vega",
+          "found": true
+        },
+        {
+          "name": "L. L. Watkins",
+          "found": true
+        },
+        {
+          "name": "B. A. Weaver",
+          "found": true
+        },
+        {
+          "name": "J. B. Whitmore",
+          "found": true
+        },
+        {
+          "name": "J. Woillez",
+          "found": true
+        },
+        {
+          "name": "V. Zabalza",
+          "found": true
+        },
+        {
+          "name": "(Astropy Contributors)",
+          "found": true
+        }
+      ],
+      "catalogYear": 2018,
+      "catalogLicense": "cc-by",
+      "rawChars": 100755,
+      "usableChars": 2311,
+      "retainedFraction": 0.022936826956478588
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "3e4b3f72def55f7e62914bce9ddb541c7f72bbb31d55ab96feef8dba1fc49208",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W2888532099.crossref.json; https://api.crossref.org/works/10.3847/1538-3881/aabc4f.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.3847/1538-3881/aabc4f agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 142 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W2888532099.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2018 from published-print; preserve separate online and print dates {'published-online': [2018, 8, 24], 'published-print': [2018, 9, 1]}. Confirmed against article masthead and https://api.crossref.org/works/10.3847/1538-3881/aabc4f; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: http://creativecommons.org/licenses/by/3.0/; Crossref non-TDM entry and article license statement checked. For Astropy the article says CC-BY 3.0; repository cover CC-BY 4.0 is not substituted for the article license.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W2888532099.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W2888532099.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Reclassified to software-engineering: coordination, modular packages, testing, interoperability and API unit checking in scientific software."
+      }
+    }
+  },
+  {
+    "id": "W3113178943",
+    "version": 1,
+    "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+    "topic": "complex-systems",
+    "status": "quarantined",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "pending",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "cfd18d677f817996e9ae1cb3622eea0e81fe5622ad570ae0ff3a331050eb6012",
+      "catalogDoi": "10.1016/j.jacc.2020.11.010",
+      "observedDois": [
+        "10.1016/j.jacc.2020.11.010"
+      ],
+      "authors": [
+        {
+          "name": "Gregory A. Roth",
+          "found": true
+        },
+        {
+          "name": "George A. Mensah",
+          "found": true
+        },
+        {
+          "name": "Catherine O. Johnson",
+          "found": true
+        },
+        {
+          "name": "Giovanni Addolorato",
+          "found": true
+        },
+        {
+          "name": "Enrico Ammirati",
+          "found": true
+        },
+        {
+          "name": "Larry M. Baddour",
+          "found": true
+        },
+        {
+          "name": "Noël C. Barengo",
+          "found": true
+        },
+        {
+          "name": "Andrea Z. Beaton",
+          "found": true
+        },
+        {
+          "name": "Emelia J. Benjamin",
+          "found": true
+        },
+        {
+          "name": "Catherine P. Benziger",
+          "found": true
+        },
+        {
+          "name": "Aimé Bonny",
+          "found": true
+        },
+        {
+          "name": "Michael Brauer",
+          "found": true
+        },
+        {
+          "name": "Marianne Brodmann",
+          "found": true
+        },
+        {
+          "name": "Thomas J. Cahill",
+          "found": true
+        },
+        {
+          "name": "Jonathan Carapetis",
+          "found": true
+        },
+        {
+          "name": "Alberico L. Catapano",
+          "found": true
+        },
+        {
+          "name": "Sumeet S. Chugh",
+          "found": true
+        },
+        {
+          "name": "Leslie T. Cooper",
+          "found": true
+        },
+        {
+          "name": "Josef Coresh",
+          "found": true
+        },
+        {
+          "name": "Michael Criqui",
+          "found": true
+        },
+        {
+          "name": "Nicole DeCleene",
+          "found": true
+        },
+        {
+          "name": "Kim A. Eagle",
+          "found": true
+        },
+        {
+          "name": "Sophia Emmons-Bell",
+          "found": true
+        },
+        {
+          "name": "Valery L. Feigin",
+          "found": true
+        },
+        {
+          "name": "Joaquim Fernández-Solà",
+          "found": true
+        },
+        {
+          "name": "Gerry Fowkes",
+          "found": true
+        },
+        {
+          "name": "Emmanuela Gakidou",
+          "found": true
+        },
+        {
+          "name": "Scott M. Grundy",
+          "found": true
+        },
+        {
+          "name": "Feng J. He",
+          "found": true
+        },
+        {
+          "name": "George Howard",
+          "found": true
+        },
+        {
+          "name": "Frank Hu",
+          "found": true
+        },
+        {
+          "name": "Lesley Inker",
+          "found": true
+        },
+        {
+          "name": "Ganesan Karthikeyan",
+          "found": true
+        },
+        {
+          "name": "Nicholas Kassebaum",
+          "found": true
+        },
+        {
+          "name": "Walter Koroshetz",
+          "found": true
+        },
+        {
+          "name": "Carl Lavie",
+          "found": true
+        },
+        {
+          "name": "Donald Lloyd-Jones",
+          "found": true
+        },
+        {
+          "name": "Hong S. Lu",
+          "found": true
+        },
+        {
+          "name": "Antonio Mirijello",
+          "found": true
+        },
+        {
+          "name": "Awoke Misganaw Temesgen",
+          "found": true
+        },
+        {
+          "name": "Ali Mokdad",
+          "found": true
+        },
+        {
+          "name": "Andrew E. Moran",
+          "found": true
+        },
+        {
+          "name": "Paul Muntner",
+          "found": true
+        },
+        {
+          "name": "Jagat Narula",
+          "found": true
+        },
+        {
+          "name": "Bruce Neal",
+          "found": true
+        },
+        {
+          "name": "Mpiko Ntsekhe",
+          "found": true
+        },
+        {
+          "name": "Glaucia Moraes de Oliveira",
+          "found": true
+        },
+        {
+          "name": "Catherine Otto",
+          "found": true
+        },
+        {
+          "name": "Mayowa Owolabi",
+          "found": true
+        },
+        {
+          "name": "Michael Pratt",
+          "found": true
+        },
+        {
+          "name": "Sanjay Rajagopalan",
+          "found": true
+        },
+        {
+          "name": "Marissa Reitsma",
+          "found": true
+        },
+        {
+          "name": "Antonio Luiz P. Ribeiro",
+          "found": true
+        },
+        {
+          "name": "Nancy Rigotti",
+          "found": true
+        },
+        {
+          "name": "Anthony Rodgers",
+          "found": true
+        },
+        {
+          "name": "Craig Sable",
+          "found": true
+        },
+        {
+          "name": "Saate Shakil",
+          "found": true
+        },
+        {
+          "name": "Karen Sliwa-Hahnle",
+          "found": true
+        },
+        {
+          "name": "Benjamin Stark",
+          "found": true
+        },
+        {
+          "name": "Johan Sundström",
+          "found": true
+        },
+        {
+          "name": "Patrick Timpel",
+          "found": true
+        },
+        {
+          "name": "Imad M. Tleyjeh",
+          "found": true
+        },
+        {
+          "name": "Marco Valgimigli",
+          "found": true
+        },
+        {
+          "name": "Theo Vos",
+          "found": true
+        },
+        {
+          "name": "Paul K. Whelton",
+          "found": true
+        },
+        {
+          "name": "Magdi Yacoub",
+          "found": true
+        },
+        {
+          "name": "Liesl Zuhlke",
+          "found": true
+        },
+        {
+          "name": "Christopher Murray",
+          "found": true
+        },
+        {
+          "name": "Valentin Fuster",
+          "found": true
+        },
+        {
+          "name": "Gregory A. Roth",
+          "found": true
+        },
+        {
+          "name": "George A. Mensah",
+          "found": true
+        },
+        {
+          "name": "Catherine O. Johnson",
+          "found": true
+        },
+        {
+          "name": "Giovanni Addolorato",
+          "found": true
+        },
+        {
+          "name": "Enrico Ammirati",
+          "found": true
+        },
+        {
+          "name": "Larry M. Baddour",
+          "found": true
+        },
+        {
+          "name": "Noel C. Barengo",
+          "found": true
+        },
+        {
+          "name": "Andrea Beaton",
+          "found": false
+        },
+        {
+          "name": "Emelia J. Benjamin",
+          "found": true
+        },
+        {
+          "name": "Catherine P. Benziger",
+          "found": true
+        },
+        {
+          "name": "Aime Bonny",
+          "found": true
+        },
+        {
+          "name": "Michael Brauer",
+          "found": true
+        },
+        {
+          "name": "Marianne Brodmann",
+          "found": true
+        },
+        {
+          "name": "Thomas J. Cahill",
+          "found": true
+        },
+        {
+          "name": "Jonathan R. Carapetis",
+          "found": false
+        },
+        {
+          "name": "Alberico L. Catapano",
+          "found": true
+        },
+        {
+          "name": "Sumeet Chugh",
+          "found": false
+        },
+        {
+          "name": "Leslie T. Cooper",
+          "found": true
+        },
+        {
+          "name": "Josef Coresh",
+          "found": true
+        },
+        {
+          "name": "Michael H. Criqui",
+          "found": false
+        },
+        {
+          "name": "Nicole K. DeCleene",
+          "found": false
+        },
+        {
+          "name": "Kim A. Eagle",
+          "found": true
+        },
+        {
+          "name": "Sophia Emmons-Bell",
+          "found": true
+        },
+        {
+          "name": "Valery L. Feigin",
+          "found": true
+        },
+        {
+          "name": "Joaquim Fernández-Sola",
+          "found": true
+        },
+        {
+          "name": "F. Gerry R. Fowkes",
+          "found": false
+        },
+        {
+          "name": "Emmanuela Gakidou",
+          "found": true
+        },
+        {
+          "name": "Scott M. Grundy",
+          "found": true
+        },
+        {
+          "name": "Feng J. He",
+          "found": true
+        },
+        {
+          "name": "George Howard",
+          "found": true
+        },
+        {
+          "name": "Frank Hu",
+          "found": true
+        },
+        {
+          "name": "Lesley Inker",
+          "found": true
+        },
+        {
+          "name": "Ganesan Karthikeyan",
+          "found": true
+        },
+        {
+          "name": "Nicholas J. Kassebaum",
+          "found": false
+        },
+        {
+          "name": "Walter J. Koroshetz",
+          "found": false
+        },
+        {
+          "name": "Carl Lavie",
+          "found": true
+        },
+        {
+          "name": "Donald Lloyd-Jones",
+          "found": true
+        },
+        {
+          "name": "Hong S. Lu",
+          "found": true
+        },
+        {
+          "name": "Antonio Mirijello",
+          "found": true
+        },
+        {
+          "name": "Awoke T. Misganaw",
+          "found": false
+        },
+        {
+          "name": "Ali H. Mokdad",
+          "found": false
+        },
+        {
+          "name": "Andrew E. Moran",
+          "found": true
+        },
+        {
+          "name": "Paul Muntner",
+          "found": true
+        },
+        {
+          "name": "Jagat Narula",
+          "found": true
+        },
+        {
+          "name": "Bruce Neal",
+          "found": true
+        },
+        {
+          "name": "Mpiko Ntsekhe",
+          "found": true
+        },
+        {
+          "name": "Gláucia M.M. Oliveira",
+          "found": false
+        },
+        {
+          "name": "Catherine M. Otto",
+          "found": false
+        },
+        {
+          "name": "Mayowa O. Owolabi",
+          "found": false
+        },
+        {
+          "name": "Michael Pratt",
+          "found": true
+        },
+        {
+          "name": "Sanjay Rajagopalan",
+          "found": true
+        },
+        {
+          "name": "Marissa B. Reitsma",
+          "found": false
+        },
+        {
+          "name": "Antonio Luiz P. Ribeiro",
+          "found": true
+        },
+        {
+          "name": "Nancy A. Rigotti",
+          "found": false
+        },
+        {
+          "name": "Anthony Rodgers",
+          "found": true
+        },
+        {
+          "name": "Craig A. Sable",
+          "found": false
+        },
+        {
+          "name": "Saate S. Shakil",
+          "found": false
+        },
+        {
+          "name": "Karen Sliwa",
+          "found": true
+        },
+        {
+          "name": "Benjamin A. Stark",
+          "found": false
+        },
+        {
+          "name": "Johan Sundström",
+          "found": true
+        },
+        {
+          "name": "Patrick Timpel",
+          "found": true
+        },
+        {
+          "name": "Imad I. Tleyjeh",
+          "found": false
+        },
+        {
+          "name": "Marco Valgimigli",
+          "found": true
+        },
+        {
+          "name": "Theo Vos",
+          "found": true
+        },
+        {
+          "name": "Paul K. Whelton",
+          "found": true
+        },
+        {
+          "name": "Magdi Yacoub",
+          "found": true
+        },
+        {
+          "name": "Liesl J. Zuhlke",
+          "found": false
+        },
+        {
+          "name": "Mohsen Abbasi-Kangevari",
+          "found": false
+        },
+        {
+          "name": "Alireza Abdi",
+          "found": false
+        },
+        {
+          "name": "Aidin Abedi",
+          "found": false
+        },
+        {
+          "name": "Victor Aboyans",
+          "found": false
+        },
+        {
+          "name": "Woldu A. Abrha",
+          "found": false
+        },
+        {
+          "name": "Eman Abu-Gharbieh",
+          "found": false
+        },
+        {
+          "name": "Abdelrahman I. Abushouk",
+          "found": false
+        },
+        {
+          "name": "Dilaram Acharya",
+          "found": false
+        },
+        {
+          "name": "Tim Adair",
+          "found": false
+        },
+        {
+          "name": "Oladimeji M. Adebayo",
+          "found": false
+        },
+        {
+          "name": "Zanfina Ademi",
+          "found": false
+        },
+        {
+          "name": "Shailesh M. Advani",
+          "found": false
+        },
+        {
+          "name": "Khashayar Afshari",
+          "found": false
+        },
+        {
+          "name": "Ashkan Afshin",
+          "found": false
+        },
+        {
+          "name": "Gina Agarwal",
+          "found": false
+        },
+        {
+          "name": "Pradyumna Agasthi",
+          "found": false
+        },
+        {
+          "name": "Sohail Ahmad",
+          "found": false
+        },
+        {
+          "name": "Sepideh Ahmadi",
+          "found": false
+        },
+        {
+          "name": "Muktar B. Ahmed",
+          "found": false
+        },
+        {
+          "name": "Budi Aji",
+          "found": false
+        },
+        {
+          "name": "Yonas Akalu",
+          "found": false
+        },
+        {
+          "name": "Wuraola Akande-Sholabi",
+          "found": false
+        },
+        {
+          "name": "Addis Aklilu",
+          "found": false
+        },
+        {
+          "name": "Chisom J. Akunna",
+          "found": false
+        },
+        {
+          "name": "Fares Alahdab",
+          "found": false
+        },
+        {
+          "name": "Ayman Al-Eyadhy",
+          "found": false
+        },
+        {
+          "name": "Khalid F. Alhabib",
+          "found": false
+        },
+        {
+          "name": "Sheikh M. Alif",
+          "found": false
+        },
+        {
+          "name": "Vahid Alipour",
+          "found": false
+        },
+        {
+          "name": "Syed M. Aljunid",
+          "found": false
+        },
+        {
+          "name": "François Alla",
+          "found": false
+        },
+        {
+          "name": "Amir Almasi-Hashiani",
+          "found": false
+        },
+        {
+          "name": "Sami Almustanyir",
+          "found": false
+        },
+        {
+          "name": "Rajaa M. Al-Raddadi",
+          "found": false
+        },
+        {
+          "name": "Adeladza K. Amegah",
+          "found": false
+        },
+        {
+          "name": "Saeed Amini",
+          "found": false
+        },
+        {
+          "name": "Arya Aminorroaya",
+          "found": false
+        },
+        {
+          "name": "Hubert Amu",
+          "found": false
+        },
+        {
+          "name": "Dickson A. Amugsi",
+          "found": false
+        },
+        {
+          "name": "Robert Ancuceanu",
+          "found": false
+        },
+        {
+          "name": "Deanna Anderlini",
+          "found": false
+        },
+        {
+          "name": "Tudorel Andrei",
+          "found": false
+        },
+        {
+          "name": "Catalina Liliana Andrei",
+          "found": false
+        },
+        {
+          "name": "Alireza Ansari-Moghaddam",
+          "found": false
+        },
+        {
+          "name": "Zelalem A. Anteneh",
+          "found": false
+        },
+        {
+          "name": "Ippazio Cosimo Antonazzo",
+          "found": false
+        },
+        {
+          "name": "Benny Antony",
+          "found": false
+        },
+        {
+          "name": "Razique Anwer",
+          "found": false
+        },
+        {
+          "name": "Lambert T. Appiah",
+          "found": false
+        },
+        {
+          "name": "Jalal Arabloo",
+          "found": false
+        },
+        {
+          "name": "Johan Ärnlöv",
+          "found": false
+        },
+        {
+          "name": "Kurnia D. Artanti",
+          "found": false
+        },
+        {
+          "name": "Zerihun Ataro",
+          "found": false
+        },
+        {
+          "name": "Marcel Ausloos",
+          "found": false
+        },
+        {
+          "name": "Leticia Avila-Burgos",
+          "found": false
+        },
+        {
+          "name": "Asma T. Awan",
+          "found": false
+        },
+        {
+          "name": "Mamaru A. Awoke",
+          "found": false
+        },
+        {
+          "name": "Henok T. Ayele",
+          "found": false
+        },
+        {
+          "name": "Muluken A. Ayza",
+          "found": false
+        },
+        {
+          "name": "Samad Azari",
+          "found": false
+        },
+        {
+          "name": "Darshan B. B",
+          "found": false
+        },
+        {
+          "name": "Nafiseh Baheiraei",
+          "found": false
+        },
+        {
+          "name": "Atif A. Baig",
+          "found": false
+        },
+        {
+          "name": "Ahad Bakhtiari",
+          "found": false
+        },
+        {
+          "name": "Maciej Banach",
+          "found": false
+        },
+        {
+          "name": "Palash C. Banik",
+          "found": false
+        },
+        {
+          "name": "Emerson A. Baptista",
+          "found": false
+        },
+        {
+          "name": "Miguel A. Barboza",
+          "found": false
+        },
+        {
+          "name": "Lingkan Barua",
+          "found": false
+        },
+        {
+          "name": "Sanjay Basu",
+          "found": false
+        },
+        {
+          "name": "Neeraj Bedi",
+          "found": false
+        },
+        {
+          "name": "Yannick Béjot",
+          "found": false
+        },
+        {
+          "name": "Derrick A. Bennett",
+          "found": false
+        },
+        {
+          "name": "Isabela M. Bensenor",
+          "found": false
+        },
+        {
+          "name": "Adam E. Berman",
+          "found": false
+        },
+        {
+          "name": "Yihienew M. Bezabih",
+          "found": false
+        },
+        {
+          "name": "Akshaya S. Bhagavathula",
+          "found": false
+        },
+        {
+          "name": "Sonu Bhaskar",
+          "found": false
+        },
+        {
+          "name": "Krittika Bhattacharyya",
+          "found": false
+        },
+        {
+          "name": "Ali Bijani",
+          "found": false
+        },
+        {
+          "name": "Boris Bikbov",
+          "found": false
+        },
+        {
+          "name": "Mulugeta M. Birhanu",
+          "found": false
+        },
+        {
+          "name": "Archith Boloor",
+          "found": false
+        },
+        {
+          "name": "Luisa C. Brant",
+          "found": false
+        },
+        {
+          "name": "Hermann Brenner",
+          "found": false
+        },
+        {
+          "name": "Nikolay I. Briko",
+          "found": false
+        },
+        {
+          "name": "Zahid A. Butt",
+          "found": false
+        },
+        {
+          "name": "Florentino Luciano Caetano dos Santos",
+          "found": false
+        },
+        {
+          "name": "Leah E. Cahill",
+          "found": false
+        },
+        {
+          "name": "Lucero Cahuana-Hurtado",
+          "found": false
+        },
+        {
+          "name": "Luis A. Cámera",
+          "found": false
+        },
+        {
+          "name": "Ismael R. Campos-Nonato",
+          "found": false
+        },
+        {
+          "name": "Carlos Cantu-Brito",
+          "found": false
+        },
+        {
+          "name": "Josip Car",
+          "found": false
+        },
+        {
+          "name": "Juan J. Carrero",
+          "found": false
+        },
+        {
+          "name": "Felix Carvalho",
+          "found": false
+        },
+        {
+          "name": "Carlos A. Castañeda-Orjuela",
+          "found": false
+        },
+        {
+          "name": "Ferrán Catalá-López",
+          "found": false
+        },
+        {
+          "name": "Ester Cerin",
+          "found": false
+        },
+        {
+          "name": "Jaykaran Charan",
+          "found": false
+        },
+        {
+          "name": "Vijay Kumar Chattu",
+          "found": false
+        },
+        {
+          "name": "Simiao Chen",
+          "found": false
+        },
+        {
+          "name": "Ken L. Chin",
+          "found": false
+        },
+        {
+          "name": "Jee-Young J. Choi",
+          "found": false
+        },
+        {
+          "name": "Dinh-Toi Chu",
+          "found": false
+        },
+        {
+          "name": "Sheng-Chia Chung",
+          "found": false
+        },
+        {
+          "name": "Massimo Cirillo",
+          "found": false
+        },
+        {
+          "name": "Sean Coffey",
+          "found": false
+        },
+        {
+          "name": "Sara Conti",
+          "found": false
+        },
+        {
+          "name": "Vera M. Costa",
+          "found": false
+        },
+        {
+          "name": "David K. Cundiff",
+          "found": false
+        },
+        {
+          "name": "Omid Dadras",
+          "found": false
+        },
+        {
+          "name": "Baye Dagnew",
+          "found": false
+        },
+        {
+          "name": "Xiaochen Dai",
+          "found": false
+        },
+        {
+          "name": "Albertino A.M. Damasceno",
+          "found": false
+        },
+        {
+          "name": "Lalit Dandona",
+          "found": false
+        },
+        {
+          "name": "Rakhi Dandona",
+          "found": false
+        },
+        {
+          "name": "Kairat Davletov",
+          "found": false
+        },
+        {
+          "name": "Vanessa De la Cruz-Góngora",
+          "found": false
+        },
+        {
+          "name": "Fernando P. De la Hoz",
+          "found": false
+        },
+        {
+          "name": "Jan-Walter De Neve",
+          "found": false
+        },
+        {
+          "name": "Edgar Denova-Gutiérrez",
+          "found": false
+        },
+        {
+          "name": "Meseret Derbew Molla",
+          "found": false
+        },
+        {
+          "name": "Behailu T. Derseh",
+          "found": false
+        },
+        {
+          "name": "Rupak Desai",
+          "found": false
+        },
+        {
+          "name": "Günther Deuschl",
+          "found": false
+        },
+        {
+          "name": "Samath D. Dharmaratne",
+          "found": false
+        },
+        {
+          "name": "Meghnath Dhimal",
+          "found": false
+        },
+        {
+          "name": "Raja Ram Dhungana",
+          "found": false
+        },
+        {
+          "name": "Mostafa Dianatinasab",
+          "found": false
+        },
+        {
+          "name": "Daniel Diaz",
+          "found": false
+        },
+        {
+          "name": "Shirin Djalalinia",
+          "found": false
+        },
+        {
+          "name": "Klara Dokova",
+          "found": false
+        },
+        {
+          "name": "Abdel Douiri",
+          "found": false
+        },
+        {
+          "name": "Bruce B. Duncan",
+          "found": false
+        },
+        {
+          "name": "Andre R. Duraes",
+          "found": false
+        },
+        {
+          "name": "Arielle W. Eagan",
+          "found": false
+        },
+        {
+          "name": "Sanam Ebtehaj",
+          "found": false
+        },
+        {
+          "name": "Aziz Eftekhari",
+          "found": false
+        },
+        {
+          "name": "Sahar Eftekharzadeh",
+          "found": false
+        },
+        {
+          "name": "Michael Ekholuenetale",
+          "found": false
+        },
+        {
+          "name": "Nevine El Nahas",
+          "found": false
+        },
+        {
+          "name": "Islam Y. Elgendy",
+          "found": false
+        },
+        {
+          "name": "Muhammed Elhadi",
+          "found": false
+        },
+        {
+          "name": "Shaimaa I. El-Jaafary",
+          "found": false
+        },
+        {
+          "name": "Sadaf Esteghamati",
+          "found": false
+        },
+        {
+          "name": "Atkilt E. Etisso",
+          "found": false
+        },
+        {
+          "name": "Oghenowede Eyawo",
+          "found": false
+        },
+        {
+          "name": "Ibtihal Fadhil",
+          "found": false
+        },
+        {
+          "name": "Emerito Jose A. Faraon",
+          "found": false
+        },
+        {
+          "name": "Pawan S. Faris",
+          "found": false
+        },
+        {
+          "name": "Medhat Farwati",
+          "found": false
+        },
+        {
+          "name": "Farshad Farzadfar",
+          "found": false
+        },
+        {
+          "name": "Eduarda Fernandes",
+          "found": false
+        },
+        {
+          "name": "Carlota Fernandez Prendes",
+          "found": false
+        },
+        {
+          "name": "Pietro Ferrara",
+          "found": false
+        },
+        {
+          "name": "Irina Filip",
+          "found": false
+        },
+        {
+          "name": "Florian Fischer",
+          "found": false
+        },
+        {
+          "name": "David Flood",
+          "found": false
+        },
+        {
+          "name": "Takeshi Fukumoto",
+          "found": false
+        },
+        {
+          "name": "Mohamed M. Gad",
+          "found": false
+        },
+        {
+          "name": "Shilpa Gaidhane",
+          "found": false
+        },
+        {
+          "name": "Morsaleh Ganji",
+          "found": false
+        },
+        {
+          "name": "Jalaj Garg",
+          "found": false
+        },
+        {
+          "name": "Abadi K. Gebre",
+          "found": false
+        },
+        {
+          "name": "Birhan G. Gebregiorgis",
+          "found": false
+        },
+        {
+          "name": "Kidane Z. Gebregzabiher",
+          "found": false
+        },
+        {
+          "name": "Gebreamlak G. Gebremeskel",
+          "found": false
+        },
+        {
+          "name": "Lemma Getacher",
+          "found": false
+        },
+        {
+          "name": "Abera Getachew Obsa",
+          "found": false
+        },
+        {
+          "name": "Alireza Ghajar",
+          "found": false
+        },
+        {
+          "name": "Ahmad Ghashghaee",
+          "found": false
+        },
+        {
+          "name": "Nermin Ghith",
+          "found": false
+        },
+        {
+          "name": "Simona Giampaoli",
+          "found": false
+        },
+        {
+          "name": "Syed Amir Gilani",
+          "found": false
+        },
+        {
+          "name": "Paramjit S. Gill",
+          "found": false
+        },
+        {
+          "name": "Richard F. Gillum",
+          "found": false
+        },
+        {
+          "name": "Ekaterina V. Glushkova",
+          "found": false
+        },
+        {
+          "name": "Elena V. Gnedovskaya",
+          "found": false
+        },
+        {
+          "name": "Mahaveer Golechha",
+          "found": false
+        },
+        {
+          "name": "Kebebe B. Gonfa",
+          "found": false
+        },
+        {
+          "name": "Amir Hossein Goudarzian",
+          "found": false
+        },
+        {
+          "name": "Alessandra C. Goulart",
+          "found": false
+        },
+        {
+          "name": "Jenny S. Guadamuz",
+          "found": false
+        },
+        {
+          "name": "Avirup Guha",
+          "found": false
+        },
+        {
+          "name": "Yuming Guo",
+          "found": false
+        },
+        {
+          "name": "Rajeev Gupta",
+          "found": false
+        },
+        {
+          "name": "Vladimir Hachinski",
+          "found": false
+        },
+        {
+          "name": "Nima Hafezi-Nejad",
+          "found": false
+        },
+        {
+          "name": "Teklehaimanot G. Haile",
+          "found": false
+        },
+        {
+          "name": "Randah R. Hamadeh",
+          "found": false
+        },
+        {
+          "name": "Samer Hamidi",
+          "found": false
+        },
+        {
+          "name": "Graeme J. Hankey",
+          "found": false
+        },
+        {
+          "name": "Arief Hargono",
+          "found": false
+        },
+        {
+          "name": "Risky K. Hartono",
+          "found": false
+        },
+        {
+          "name": "Maryam Hashemian",
+          "found": false
+        },
+        {
+          "name": "Abdiwahab Hashi",
+          "found": false
+        },
+        {
+          "name": "Shoaib Hassan",
+          "found": false
+        },
+        {
+          "name": "Hamid Y. Hassen",
+          "found": false
+        },
+        {
+          "name": "Rasmus J. Havmoeller",
+          "found": false
+        },
+        {
+          "name": "Simon I. Hay",
+          "found": false
+        },
+        {
+          "name": "Khezar Hayat",
+          "found": false
+        },
+        {
+          "name": "Golnaz Heidari",
+          "found": false
+        },
+        {
+          "name": "Claudiu Herteliu",
+          "found": false
+        },
+        {
+          "name": "Ramesh Holla",
+          "found": false
+        },
+        {
+          "name": "Mostafa Hosseini",
+          "found": false
+        },
+        {
+          "name": "Mehdi Hosseinzadeh",
+          "found": false
+        },
+        {
+          "name": "Mihaela Hostiuc",
+          "found": false
+        },
+        {
+          "name": "Sorin Hostiuc",
+          "found": false
+        },
+        {
+          "name": "Mowafa Househ",
+          "found": false
+        },
+        {
+          "name": "Junjie Huang",
+          "found": false
+        },
+        {
+          "name": "Ayesha Humayun",
+          "found": false
+        },
+        {
+          "name": "Ivo Iavicoli",
+          "found": false
+        },
+        {
+          "name": "Charles U. Ibeneme",
+          "found": false
+        },
+        {
+          "name": "Segun E. Ibitoye",
+          "found": false
+        },
+        {
+          "name": "Olayinka S. Ilesanmi",
+          "found": false
+        },
+        {
+          "name": "Irena M. Ilic",
+          "found": false
+        },
+        {
+          "name": "Milena D. Ilic",
+          "found": false
+        },
+        {
+          "name": "Usman Iqbal",
+          "found": false
+        },
+        {
+          "name": "Seyed Sina N. Irvani",
+          "found": false
+        },
+        {
+          "name": "Sheikh Mohammed Shariful Islam",
+          "found": false
+        },
+        {
+          "name": "Rakibul M. Islam",
+          "found": false
+        },
+        {
+          "name": "Hiroyasu Iso",
+          "found": false
+        },
+        {
+          "name": "Masao Iwagami",
+          "found": false
+        },
+        {
+          "name": "Vardhmaan Jain",
+          "found": false
+        },
+        {
+          "name": "Tahereh Javaheri",
+          "found": false
+        },
+        {
+          "name": "Sathish Kumar Jayapal",
+          "found": false
+        },
+        {
+          "name": "Shubha Jayaram",
+          "found": false
+        },
+        {
+          "name": "Ranil Jayawardena",
+          "found": false
+        },
+        {
+          "name": "Panniyammakal Jeemon",
+          "found": false
+        },
+        {
+          "name": "Ravi P. Jha",
+          "found": false
+        },
+        {
+          "name": "Jost B. Jonas",
+          "found": false
+        },
+        {
+          "name": "Jitendra Jonnagaddala",
+          "found": false
+        },
+        {
+          "name": "Farahnaz Joukar",
+          "found": false
+        },
+        {
+          "name": "Jacek J. Jozwiak",
+          "found": false
+        },
+        {
+          "name": "Mikk Jürisson",
+          "found": false
+        },
+        {
+          "name": "Ali Kabir",
+          "found": false
+        },
+        {
+          "name": "Tanvir Kahlon",
+          "found": false
+        },
+        {
+          "name": "Rizwan Kalani",
+          "found": false
+        },
+        {
+          "name": "Rohollah Kalhor",
+          "found": false
+        },
+        {
+          "name": "Ashwin Kamath",
+          "found": false
+        },
+        {
+          "name": "Ibrahim Kamel",
+          "found": false
+        },
+        {
+          "name": "Himal Kandel",
+          "found": false
+        },
+        {
+          "name": "Amit Kandel",
+          "found": false
+        },
+        {
+          "name": "André Karch",
+          "found": false
+        },
+        {
+          "name": "Ayele Semachew Kasa",
+          "found": false
+        },
+        {
+          "name": "Patrick D.M.C. Katoto",
+          "found": false
+        },
+        {
+          "name": "Gbenga A. Kayode",
+          "found": false
+        },
+        {
+          "name": "Yousef S. Khader",
+          "found": false
+        },
+        {
+          "name": "Mohammad Khammarnia",
+          "found": false
+        },
+        {
+          "name": "Muhammad S. Khan",
+          "found": false
+        },
+        {
+          "name": "Md Nuruzzaman Khan",
+          "found": false
+        },
+        {
+          "name": "Maseer Khan",
+          "found": false
+        },
+        {
+          "name": "Ejaz A. Khan",
+          "found": false
+        },
+        {
+          "name": "Khaled Khatab",
+          "found": false
+        },
+        {
+          "name": "Gulam M.A. Kibria",
+          "found": false
+        },
+        {
+          "name": "Yun Jin Kim",
+          "found": false
+        },
+        {
+          "name": "Gyu Ri Kim",
+          "found": false
+        },
+        {
+          "name": "Ruth W. Kimokoti",
+          "found": false
+        },
+        {
+          "name": "Sezer Kisa",
+          "found": false
+        },
+        {
+          "name": "Adnan Kisa",
+          "found": false
+        },
+        {
+          "name": "Mika Kivimäki",
+          "found": false
+        },
+        {
+          "name": "Dhaval Kolte",
+          "found": false
+        },
+        {
+          "name": "Ali Koolivand",
+          "found": false
+        },
+        {
+          "name": "Vladimir A. Korshunov",
+          "found": false
+        },
+        {
+          "name": "Sindhura Lakshmi Koulmane Laxminarayana",
+          "found": false
+        },
+        {
+          "name": "Ai Koyanagi",
+          "found": false
+        },
+        {
+          "name": "Kewal Krishan",
+          "found": false
+        },
+        {
+          "name": "Vijay Krishnamoorthy",
+          "found": false
+        },
+        {
+          "name": "Barthelemy Kuate Defo",
+          "found": false
+        },
+        {
+          "name": "Burcu Kucuk Bicer",
+          "found": false
+        },
+        {
+          "name": "Vaman Kulkarni",
+          "found": false
+        },
+        {
+          "name": "G. Anil Kumar",
+          "found": false
+        },
+        {
+          "name": "Nithin Kumar",
+          "found": false
+        },
+        {
+          "name": "Om P. Kurmi",
+          "found": false
+        },
+        {
+          "name": "Dian Kusuma",
+          "found": false
+        },
+        {
+          "name": "Gene F. Kwan",
+          "found": false
+        },
+        {
+          "name": "Carlo La Vecchia",
+          "found": false
+        },
+        {
+          "name": "Ben Lacey",
+          "found": false
+        },
+        {
+          "name": "Tea Lallukka",
+          "found": false
+        },
+        {
+          "name": "Qing Lan",
+          "found": false
+        },
+        {
+          "name": "Savita Lasrado",
+          "found": false
+        },
+        {
+          "name": "Zohra S. Lassi",
+          "found": false
+        },
+        {
+          "name": "Paolo Lauriola",
+          "found": false
+        },
+        {
+          "name": "Wayne R. Lawrence",
+          "found": false
+        },
+        {
+          "name": "Avula Laxmaiah",
+          "found": false
+        },
+        {
+          "name": "Kate E. LeGrand",
+          "found": false
+        },
+        {
+          "name": "Ming-Chieh Li",
+          "found": false
+        },
+        {
+          "name": "Bingyu Li",
+          "found": false
+        },
+        {
+          "name": "Shanshan Li",
+          "found": false
+        },
+        {
+          "name": "Stephen S. Lim",
+          "found": false
+        },
+        {
+          "name": "Lee-Ling Lim",
+          "found": false
+        },
+        {
+          "name": "Hualiang Lin",
+          "found": false
+        },
+        {
+          "name": "Ziqiang Lin",
+          "found": false
+        },
+        {
+          "name": "Ro-Ting Lin",
+          "found": false
+        },
+        {
+          "name": "Xuefeng Liu",
+          "found": false
+        },
+        {
+          "name": "Alan D. Lopez",
+          "found": false
+        },
+        {
+          "name": "Stefan Lorkowski",
+          "found": false
+        },
+        {
+          "name": "Paulo A. Lotufo",
+          "found": false
+        },
+        {
+          "name": "Alessandra Lugo",
+          "found": false
+        },
+        {
+          "name": "Nirmal K. M",
+          "found": false
+        },
+        {
+          "name": "Fabiana Madotto",
+          "found": false
+        },
+        {
+          "name": "Morteza Mahmoudi",
+          "found": false
+        },
+        {
+          "name": "Azeem Majeed",
+          "found": false
+        },
+        {
+          "name": "Reza Malekzadeh",
+          "found": false
+        },
+        {
+          "name": "Ahmad A. Malik",
+          "found": false
+        },
+        {
+          "name": "Abdullah A. Mamun",
+          "found": false
+        },
+        {
+          "name": "Navid Manafi",
+          "found": false
+        },
+        {
+          "name": "Mohammad Ali Mansournia",
+          "found": false
+        },
+        {
+          "name": "Lorenzo G. Mantovani",
+          "found": false
+        },
+        {
+          "name": "Santi Martini",
+          "found": false
+        },
+        {
+          "name": "Manu R. Mathur",
+          "found": false
+        },
+        {
+          "name": "Giampiero Mazzaglia",
+          "found": false
+        },
+        {
+          "name": "Suresh Mehata",
+          "found": false
+        },
+        {
+          "name": "Man Mohan Mehndiratta",
+          "found": false
+        },
+        {
+          "name": "Toni Meier",
+          "found": false
+        },
+        {
+          "name": "Ritesh G. Menezes",
+          "found": false
+        },
+        {
+          "name": "Atte Meretoja",
+          "found": false
+        },
+        {
+          "name": "Tomislav Mestrovic",
+          "found": false
+        },
+        {
+          "name": "Bartosz Miazgowski",
+          "found": false
+        },
+        {
+          "name": "Tomasz Miazgowski",
+          "found": false
+        },
+        {
+          "name": "Irmina Maria Michalek",
+          "found": false
+        },
+        {
+          "name": "Ted R. Miller",
+          "found": false
+        },
+        {
+          "name": "Erkin M. Mirrakhimov",
+          "found": false
+        },
+        {
+          "name": "Hamed Mirzaei",
+          "found": false
+        },
+        {
+          "name": "Babak Moazen",
+          "found": false
+        },
+        {
+          "name": "Masoud Moghadaszadeh",
+          "found": false
+        },
+        {
+          "name": "Yousef Mohammad",
+          "found": false
+        },
+        {
+          "name": "Dara K. Mohammad",
+          "found": false
+        },
+        {
+          "name": "Shafiu Mohammed",
+          "found": false
+        },
+        {
+          "name": "Mohammed A. Mohammed",
+          "found": false
+        },
+        {
+          "name": "Yaser Mokhayeri",
+          "found": false
+        },
+        {
+          "name": "Mariam Molokhia",
+          "found": false
+        },
+        {
+          "name": "Ahmed A. Montasir",
+          "found": false
+        },
+        {
+          "name": "Ghobad Moradi",
+          "found": false
+        },
+        {
+          "name": "Rahmatollah Moradzadeh",
+          "found": false
+        },
+        {
+          "name": "Paula Moraga",
+          "found": false
+        },
+        {
+          "name": "Lidia Morawska",
+          "found": false
+        },
+        {
+          "name": "Ilais Moreno Velásquez",
+          "found": false
+        },
+        {
+          "name": "Jakub Morze",
+          "found": false
+        },
+        {
+          "name": "Sumaira Mubarik",
+          "found": false
+        },
+        {
+          "name": "Walter Muruet",
+          "found": false
+        },
+        {
+          "name": "Kamarul Imran Musa",
+          "found": false
+        },
+        {
+          "name": "Ahamarshan J. Nagarajan",
+          "found": false
+        },
+        {
+          "name": "Mahdi Nalini",
+          "found": false
+        },
+        {
+          "name": "Vinay Nangia",
+          "found": false
+        },
+        {
+          "name": "Atta Abbas Naqvi",
+          "found": false
+        },
+        {
+          "name": "Sreenivas Narasimha Swamy",
+          "found": false
+        },
+        {
+          "name": "Bruno R. Nascimento",
+          "found": false
+        },
+        {
+          "name": "Vinod C. Nayak",
+          "found": false
+        },
+        {
+          "name": "Javad Nazari",
+          "found": false
+        },
+        {
+          "name": "Milad Nazarzadeh",
+          "found": false
+        },
+        {
+          "name": "Ruxandra I. Negoi",
+          "found": false
+        },
+        {
+          "name": "Sandhya Neupane Kandel",
+          "found": false
+        },
+        {
+          "name": "Huong L.T. Nguyen",
+          "found": false
+        },
+        {
+          "name": "Molly R. Nixon",
+          "found": false
+        },
+        {
+          "name": "Bo Norrving",
+          "found": false
+        },
+        {
+          "name": "Jean Jacques Noubiap",
+          "found": false
+        },
+        {
+          "name": "Brice E. Nouthe",
+          "found": false
+        },
+        {
+          "name": "Christoph Nowak",
+          "found": false
+        },
+        {
+          "name": "Oluwakemi O. Odukoya",
+          "found": false
+        },
+        {
+          "name": "Felix A. Ogbo",
+          "found": false
+        },
+        {
+          "name": "Andrew T. Olagunju",
+          "found": false
+        },
+        {
+          "name": "Hans Orru",
+          "found": false
+        },
+        {
+          "name": "Alberto Ortiz",
+          "found": false
+        },
+        {
+          "name": "Samuel M. Ostroff",
+          "found": false
+        },
+        {
+          "name": "Jagadish Rao Padubidri",
+          "found": false
+        },
+        {
+          "name": "Raffaele Palladino",
+          "found": false
+        },
+        {
+          "name": "Adrian Pana",
+          "found": false
+        },
+        {
+          "name": "Songhomitra Panda-Jonas",
+          "found": false
+        },
+        {
+          "name": "Utsav Parekh",
+          "found": false
+        },
+        {
+          "name": "Eun-Cheol Park",
+          "found": false
+        },
+        {
+          "name": "Mojtaba Parvizi",
+          "found": false
+        },
+        {
+          "name": "Fatemeh Pashazadeh Kan",
+          "found": false
+        },
+        {
+          "name": "Urvish K. Patel",
+          "found": false
+        },
+        {
+          "name": "Mona Pathak",
+          "found": false
+        },
+        {
+          "name": "Rajan Paudel",
+          "found": false
+        },
+        {
+          "name": "Veincent Christian F. Pepito",
+          "found": false
+        },
+        {
+          "name": "Arokiasamy Perianayagam",
+          "found": false
+        },
+        {
+          "name": "Norberto Perico",
+          "found": false
+        },
+        {
+          "name": "Hai Q. Pham",
+          "found": false
+        },
+        {
+          "name": "Thomas Pilgrim",
+          "found": false
+        },
+        {
+          "name": "Michael A. Piradov",
+          "found": false
+        },
+        {
+          "name": "Farhad Pishgar",
+          "found": false
+        },
+        {
+          "name": "Vivek Podder",
+          "found": false
+        },
+        {
+          "name": "Roman V. Polibin",
+          "found": false
+        },
+        {
+          "name": "Akram Pourshams",
+          "found": false
+        },
+        {
+          "name": "Dimas R.A. Pribadi",
+          "found": false
+        },
+        {
+          "name": "Navid Rabiee",
+          "found": false
+        },
+        {
+          "name": "Mohammad Rabiee",
+          "found": false
+        },
+        {
+          "name": "Amir Radfar",
+          "found": false
+        },
+        {
+          "name": "Alireza Rafiei",
+          "found": false
+        },
+        {
+          "name": "Fakher Rahim",
+          "found": false
+        },
+        {
+          "name": "Vafa Rahimi-Movaghar",
+          "found": false
+        },
+        {
+          "name": "Mohammad Hifz Ur Rahman",
+          "found": false
+        },
+        {
+          "name": "Muhammad Aziz Rahman",
+          "found": false
+        },
+        {
+          "name": "Amir Masoud Rahmani",
+          "found": false
+        },
+        {
+          "name": "Ivo Rakovac",
+          "found": false
+        },
+        {
+          "name": "Pradhum Ram",
+          "found": false
+        },
+        {
+          "name": "Sudha Ramalingam",
+          "found": false
+        },
+        {
+          "name": "Juwel Rana",
+          "found": false
+        },
+        {
+          "name": "Priyanga Ranasinghe",
+          "found": false
+        },
+        {
+          "name": "Sowmya J. Rao",
+          "found": false
+        },
+        {
+          "name": "Priya Rathi",
+          "found": false
+        },
+        {
+          "name": "Lal Rawal",
+          "found": false
+        },
+        {
+          "name": "Wasiq F. Rawasia",
+          "found": false
+        },
+        {
+          "name": "Reza Rawassizadeh",
+          "found": false
+        },
+        {
+          "name": "Giuseppe Remuzzi",
+          "found": false
+        },
+        {
+          "name": "Andre M.N. Renzaho",
+          "found": false
+        },
+        {
+          "name": "Aziz Rezapour",
+          "found": false
+        },
+        {
+          "name": "Seyed Mohammad Riahi",
+          "found": false
+        },
+        {
+          "name": "Ross L. Roberts-Thomson",
+          "found": false
+        },
+        {
+          "name": "Leonardo Roever",
+          "found": false
+        },
+        {
+          "name": "Peter Rohloff",
+          "found": false
+        },
+        {
+          "name": "Michele Romoli",
+          "found": false
+        },
+        {
+          "name": "Gholamreza Roshandel",
+          "found": false
+        },
+        {
+          "name": "Godfrey M. Rwegerera",
+          "found": false
+        },
+        {
+          "name": "Seyedmohammad Saadatagah",
+          "found": false
+        },
+        {
+          "name": "Maha M. Saber-Ayad",
+          "found": false
+        },
+        {
+          "name": "Siamak Sabour",
+          "found": false
+        },
+        {
+          "name": "Simona Sacco",
+          "found": false
+        },
+        {
+          "name": "Masoumeh Sadeghi",
+          "found": false
+        },
+        {
+          "name": "Sahar Saeedi Moghaddam",
+          "found": false
+        },
+        {
+          "name": "Saeed Safari",
+          "found": false
+        },
+        {
+          "name": "Amirhossein Sahebkar",
+          "found": false
+        },
+        {
+          "name": "Sana Salehi",
+          "found": false
+        },
+        {
+          "name": "Hamideh Salimzadeh",
+          "found": false
+        },
+        {
+          "name": "Mehrnoosh Samaei",
+          "found": false
+        },
+        {
+          "name": "Abdallah M. Samy",
+          "found": false
+        },
+        {
+          "name": "Itamar S. Santos",
+          "found": false
+        },
+        {
+          "name": "Milena M. Santric-Milicevic",
+          "found": false
+        },
+        {
+          "name": "Nizal Sarrafzadegan",
+          "found": false
+        },
+        {
+          "name": "Arash Sarveazad",
+          "found": false
+        },
+        {
+          "name": "Thirunavukkarasu Sathish",
+          "found": false
+        },
+        {
+          "name": "Monika Sawhney",
+          "found": false
+        },
+        {
+          "name": "Mete Saylan",
+          "found": false
+        },
+        {
+          "name": "Maria I. Schmidt",
+          "found": false
+        },
+        {
+          "name": "Aletta E. Schutte",
+          "found": false
+        },
+        {
+          "name": "Subramanian Senthilkumaran",
+          "found": false
+        },
+        {
+          "name": "Sadaf G. Sepanlou",
+          "found": false
+        },
+        {
+          "name": "Feng Sha",
+          "found": false
+        },
+        {
+          "name": "Saeed Shahabi",
+          "found": false
+        },
+        {
+          "name": "Izza Shahid",
+          "found": false
+        },
+        {
+          "name": "Masood A. Shaikh",
+          "found": false
+        },
+        {
+          "name": "Mahdi Shamali",
+          "found": false
+        },
+        {
+          "name": "Morteza Shamsizadeh",
+          "found": false
+        },
+        {
+          "name": "Md Shajedur Rahman Shawon",
+          "found": false
+        },
+        {
+          "name": "Aziz Sheikh",
+          "found": false
+        },
+        {
+          "name": "Mika Shigematsu",
+          "found": false
+        },
+        {
+          "name": "Min-Jeong Shin",
+          "found": false
+        },
+        {
+          "name": "Jae Il Shin",
+          "found": false
+        },
+        {
+          "name": "Rahman Shiri",
+          "found": false
+        },
+        {
+          "name": "Ivy Shiue",
+          "found": false
+        },
+        {
+          "name": "Kerem Shuval",
+          "found": false
+        },
+        {
+          "name": "Soraya Siabani",
+          "found": false
+        },
+        {
+          "name": "Tariq J. Siddiqi",
+          "found": false
+        },
+        {
+          "name": "Diego A.S. Silva",
+          "found": false
+        },
+        {
+          "name": "Jasvinder A. Singh",
+          "found": false
+        },
+        {
+          "name": "Ambrish Singh Mtech",
+          "found": false
+        },
+        {
+          "name": "Valentin Y. Skryabin",
+          "found": false
+        },
+        {
+          "name": "Anna A. Skryabina",
+          "found": false
+        },
+        {
+          "name": "Amin Soheili",
+          "found": false
+        },
+        {
+          "name": "Emma E. Spurlock",
+          "found": false
+        },
+        {
+          "name": "Leo Stockfelt",
+          "found": false
+        },
+        {
+          "name": "Stefan Stortecky",
+          "found": false
+        },
+        {
+          "name": "Saverio Stranges",
+          "found": false
+        },
+        {
+          "name": "Rizwan Suliankatchi Abdulkader",
+          "found": false
+        },
+        {
+          "name": "Hooman Tadbiri",
+          "found": false
+        },
+        {
+          "name": "Eyayou G. Tadesse",
+          "found": false
+        },
+        {
+          "name": "Degena B. Tadesse",
+          "found": false
+        },
+        {
+          "name": "Masih Tajdini",
+          "found": false
+        },
+        {
+          "name": "Md Tariqujjaman",
+          "found": false
+        },
+        {
+          "name": "Berhane F. Teklehaimanot",
+          "found": false
+        },
+        {
+          "name": "Mohamad-Hani Temsah",
+          "found": false
+        },
+        {
+          "name": "Ayenew K. Tesema",
+          "found": false
+        },
+        {
+          "name": "Bhaskar Thakur",
+          "found": false
+        },
+        {
+          "name": "Kavumpurathu R. Thankappan",
+          "found": false
+        },
+        {
+          "name": "Rekha Thapar",
+          "found": false
+        },
+        {
+          "name": "Amanda G. Thrift",
+          "found": false
+        },
+        {
+          "name": "Binod Timalsina",
+          "found": false
+        },
+        {
+          "name": "Marcello Tonelli",
+          "found": false
+        },
+        {
+          "name": "Mathilde Touvier",
+          "found": false
+        },
+        {
+          "name": "Marcos R. Tovani-Palone",
+          "found": false
+        },
+        {
+          "name": "Avnish Tripathi",
+          "found": false
+        },
+        {
+          "name": "Jaya P. Tripathy",
+          "found": false
+        },
+        {
+          "name": "Thomas C. Truelsen",
+          "found": false
+        },
+        {
+          "name": "Guesh M. Tsegay",
+          "found": false
+        },
+        {
+          "name": "Gebiyaw W. Tsegaye",
+          "found": false
+        },
+        {
+          "name": "Nikolaos Tsilimparis",
+          "found": false
+        },
+        {
+          "name": "Biruk S. Tusa",
+          "found": false
+        },
+        {
+          "name": "Stefanos Tyrovolas",
+          "found": false
+        },
+        {
+          "name": "Krishna Kishore Umapathi",
+          "found": false
+        },
+        {
+          "name": "Brigid Unim",
+          "found": false
+        },
+        {
+          "name": "Bhaskaran Unnikrishnan",
+          "found": false
+        },
+        {
+          "name": "Muhammad S. Usman",
+          "found": false
+        },
+        {
+          "name": "Muthiah Vaduganathan",
+          "found": false
+        },
+        {
+          "name": "Pascual R. Valdez",
+          "found": false
+        },
+        {
+          "name": "Tommi J. Vasankari",
+          "found": false
+        },
+        {
+          "name": "Diana Z. Velazquez",
+          "found": false
+        },
+        {
+          "name": "Narayanaswamy Venketasubramanian",
+          "found": false
+        },
+        {
+          "name": "Giang T. Vu",
+          "found": false
+        },
+        {
+          "name": "Isidora S. Vujcic",
+          "found": false
+        },
+        {
+          "name": "Yasir Waheed",
+          "found": false
+        },
+        {
+          "name": "Yanzhong Wang",
+          "found": false
+        },
+        {
+          "name": "Fang Wang",
+          "found": false
+        },
+        {
+          "name": "Jingkai Wei",
+          "found": false
+        },
+        {
+          "name": "Robert G. Weintraub",
+          "found": false
+        },
+        {
+          "name": "Abrha H. Weldemariam",
+          "found": false
+        },
+        {
+          "name": "Ronny Westerman",
+          "found": false
+        },
+        {
+          "name": "Andrea S. Winkler",
+          "found": false
+        },
+        {
+          "name": "Charles S. Wiysonge",
+          "found": false
+        },
+        {
+          "name": "Charles D.A. Wolfe",
+          "found": false
+        },
+        {
+          "name": "Befikadu Legesse Wubishet",
+          "found": false
+        },
+        {
+          "name": "Gelin Xu",
+          "found": false
+        },
+        {
+          "name": "Ali Yadollahpour",
+          "found": false
+        },
+        {
+          "name": "Kazumasa Yamagishi",
+          "found": false
+        },
+        {
+          "name": "Lijing L. Yan",
+          "found": false
+        },
+        {
+          "name": "Srikanth Yandrapalli",
+          "found": false
+        },
+        {
+          "name": "Yuichiro Yano",
+          "found": false
+        },
+        {
+          "name": "Hiroshi Yatsuya",
+          "found": false
+        },
+        {
+          "name": "Tomas Y. Yeheyis",
+          "found": false
+        },
+        {
+          "name": "Yigizie Yeshaw",
+          "found": false
+        },
+        {
+          "name": "Christopher S. Yilgwan",
+          "found": false
+        },
+        {
+          "name": "Naohiro Yonemoto",
+          "found": false
+        },
+        {
+          "name": "Chuanhua Yu",
+          "found": false
+        },
+        {
+          "name": "Hasan Yusefzadeh",
+          "found": false
+        },
+        {
+          "name": "Geevar Zachariah",
+          "found": false
+        },
+        {
+          "name": "Sojib Bin Zaman",
+          "found": false
+        },
+        {
+          "name": "Muhammed S. Zaman",
+          "found": false
+        },
+        {
+          "name": "Maryam Zamanian",
+          "found": false
+        },
+        {
+          "name": "Ramin Zand",
+          "found": false
+        },
+        {
+          "name": "Alireza Zandifar",
+          "found": false
+        },
+        {
+          "name": "Afshin Zarghi",
+          "found": false
+        },
+        {
+          "name": "Mikhail S. Zastrozhin",
+          "found": false
+        },
+        {
+          "name": "Anasthasia Zastrozhina",
+          "found": false
+        },
+        {
+          "name": "Zhi-Jiang Zhang",
+          "found": false
+        },
+        {
+          "name": "Yunquan Zhang",
+          "found": false
+        },
+        {
+          "name": "Wangjian Zhang",
+          "found": false
+        },
+        {
+          "name": "Chenwen Zhong",
+          "found": false
+        },
+        {
+          "name": "Zhiyong Zou",
+          "found": false
+        },
+        {
+          "name": "Yves Miel H. Zuniga",
+          "found": false
+        },
+        {
+          "name": "Christopher J.L. Murray",
+          "found": false
+        },
+        {
+          "name": "Valentin Fuster",
+          "found": true
+        }
+      ],
+      "catalogYear": 2020,
+      "catalogLicense": "cc-by",
+      "rawChars": 136569,
+      "usableChars": 13506,
+      "retainedFraction": 0.09889506403356545
+    },
+    "reasons": [
+      "Excluded from this corpus sample: cardiovascular disease burden review, not network-science/agent-based modeling methods. Former complex-systems assignment was search provenance, not topic validation; all 679 Crossref contributor entries preserved."
+    ],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "429ef3af3525e5cd41eb4b62e9d52ee7df3f5f8febe6017ad2854374e5cd407a",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "quarantined",
+      "reason": "Excluded from this corpus sample: cardiovascular disease burden review, not network-science/agent-based modeling methods. Former complex-systems assignment was search provenance, not topic validation; all 679 Crossref contributor entries preserved."
+    }
+  },
+  {
+    "id": "W3140854437",
+    "version": 1,
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "topic": "machine-learning",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "28b985f24b383296d17700035a383b69a6a3fc86ffe38dc3b3bc3d3f45018297",
+      "catalogDoi": "10.1186/s40537-021-00444-8",
+      "observedDois": [
+        "10.1186/s40537-021-00444-8"
+      ],
+      "authors": [
+        {
+          "name": "Laith Alzubaidi",
+          "found": true
+        },
+        {
+          "name": "Jinglan Zhang",
+          "found": true
+        },
+        {
+          "name": "Amjad J. Humaidi",
+          "found": true
+        },
+        {
+          "name": "Ayad Al-Dujaili",
+          "found": true
+        },
+        {
+          "name": "Ye Duan",
+          "found": true
+        },
+        {
+          "name": "Omran Al-Shamma",
+          "found": true
+        },
+        {
+          "name": "J. Santamaría",
+          "found": true
+        },
+        {
+          "name": "Mohammed A. Fadhel",
+          "found": true
+        },
+        {
+          "name": "Muthana Al-Amidie",
+          "found": true
+        },
+        {
+          "name": "Laith Farhan",
+          "found": true
+        }
+      ],
+      "catalogYear": 2021,
+      "catalogLicense": "cc-by",
+      "rawChars": 236834,
+      "usableChars": 2252,
+      "retainedFraction": 0.009508769855679505
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "b231661e4f4648a9c8dc81caa321c87169cbfd32c3cb61a7278f4415d7858d3e",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3140854437.crossref.json; https://api.crossref.org/works/10.1186/s40537-021-00444-8.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.1186/s40537-021-00444-8 agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 10 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3140854437.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2021 from published-online; preserve separate online and print dates {'published-online': [2021, 3, 31]}. Confirmed against article masthead and https://api.crossref.org/works/10.1186/s40537-021-00444-8; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W3140854437.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3140854437.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Reclassified to machine-learning: neural network architecture and supervised/unsupervised learning methods."
+      }
+    }
+  },
+  {
+    "id": "W4308834893",
+    "version": 1,
+    "title": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
+    "topic": "complex-systems",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "41cd1b6608eaea38513cb9f9c0d0c6fe4821968e31cb95fc5985e16b713a5fb9",
+      "catalogDoi": "10.1093/nar/gkac1000",
+      "observedDois": [
+        "10.1093/nar/gkac1000"
+      ],
+      "authors": [
+        {
+          "name": "Damian Szklarczyk",
+          "found": true
+        },
+        {
+          "name": "Rebecca Kirsch",
+          "found": true
+        },
+        {
+          "name": "Mikaela Koutrouli",
+          "found": true
+        },
+        {
+          "name": "Katerina Nastou",
+          "found": true
+        },
+        {
+          "name": "Farrokh Mehryary",
+          "found": true
+        },
+        {
+          "name": "Radja Hachilif",
+          "found": true
+        },
+        {
+          "name": "Annika L Gable",
+          "found": true
+        },
+        {
+          "name": "Tao Fang",
+          "found": true
+        },
+        {
+          "name": "Nadezhda T Doncheva",
+          "found": true
+        },
+        {
+          "name": "Sampo Pyysalo",
+          "found": true
+        },
+        {
+          "name": "Peer Bork",
+          "found": true
+        },
+        {
+          "name": "Lars J Jensen",
+          "found": true
+        },
+        {
+          "name": "Christian von Mering",
+          "found": true
+        }
+      ],
+      "catalogYear": 2023,
+      "catalogLicense": "cc-by",
+      "rawChars": 45926,
+      "usableChars": 3632,
+      "retainedFraction": 0.07908374341331707
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "f23e7456fb8de61c0b57dedac440b763dc9f18090ea548850d4b85a24384d938",
+      "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W4308834893.crossref.json; https://api.crossref.org/works/10.1093/nar/gkac1000.",
+        "doi": "Publisher deposit https://api.crossref.org/works/10.1093/nar/gkac1000 agrees with PDF identity. DOI present in article header or repository cover.",
+        "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 13 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W4308834893.crossref.json; initials and consortium members need not all appear on page one.",
+        "year": "Use 2023 from published-print; preserve separate online and print dates {'published-online': [2022, 11, 12], 'published-print': [2023, 1, 6]}. Confirmed against article masthead and https://api.crossref.org/works/10.1093/nar/gkac1000; deposit/download dates are not publication dates.",
+        "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+        "extraction": "Read all six curated prose spans in data/corpus/editorial/W4308834893.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W4308834893.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+        "topic": "Reclassified to complex-systems: protein interaction networks, cross-species network transfer and edge-confidence scoring."
+      }
+    }
+  },
+  {
+    "id": "W2958089299",
+    "version": 1,
+    "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+    "topic": "artificial-intelligence",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "f94376434b69a6f57304513b727982778c47b37e1b48c3798e282345171aec9e",
+      "catalogDoi": "10.1109/tnnls.2020.3027314",
+      "observedDois": [
+        "10.1109/tnnls.2020.3027314"
+      ],
+      "authors": [
+        {
+          "name": "Erico Tjoa",
+          "found": true
+        },
+        {
+          "name": "Cuntai Guan",
+          "found": true
+        }
+      ],
+      "catalogYear": 2021,
+      "catalogLicense": "cc-by",
+      "rawChars": 130989,
+      "usableChars": 3479,
+      "retainedFraction": 0.026559482093916283
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "cd762b3e31684ebb1cf78fe8c9c12fbce4b4fcbf0d28ed74aa0c0a27fdf1c667",
+      "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Article title checked on first PDF page at https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1109/tnnls.2020.3027314.",
+        "doi": "10.1109/tnnls.2020.3027314 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W2958089299.crossref.json.",
+        "authors": "All 2 byline authors checked against first PDF page and full Crossref author list: Erico Tjoa, Cuntai Guan",
+        "year": "Volume year 2021 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-print': [2021, 11]}. Online publication dates are not silently used as volume dates.",
+        "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf. Crossref also records the CC-BY 4.0 license for the version of record.",
+        "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W2958089299.spans.json. Approval covers only data/corpus/editorial/W2958089299.curated.txt.gz; whole-paper extraction is not certified.",
+        "topic": "AI interpretability frameworks, accountability, explanation evaluation and neural-symbolic knowledge extraction; selected passages address methods, not clinical recommendations."
+      }
+    }
+  },
+  {
+    "id": "W2811395263",
+    "version": 1,
+    "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+    "topic": "applied-mathematics",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "pending",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "d297f6acbdf03ffa61a6dea45359373b2075d178b65147b07b8a94f337a84d43",
+      "catalogDoi": "10.1137/16m1082469",
+      "observedDois": [
+        "10.1137/16m1082469"
+      ],
+      "authors": [
+        {
+          "name": "Benjamin Peherstorfer",
+          "found": true
+        },
+        {
+          "name": "Karen Willcox",
+          "found": true
+        },
+        {
+          "name": "Max Gunzburger",
+          "found": true
+        }
+      ],
+      "catalogYear": 2018,
+      "catalogLicense": "cc-by",
+      "rawChars": 160150,
+      "usableChars": 2950,
+      "retainedFraction": 0.018420231033406183
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "cf0604440a7030bbe6735bf9b1ff2312f1a20e6575dcc23eb82f8b300f71ebf7",
+      "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Article title checked on first PDF page at https://www.osti.gov/servlets/purl/1500214; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1137/16m1082469.",
+        "doi": "10.1137/16m1082469 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W2811395263.crossref.json.",
+        "authors": "All 3 byline authors checked against first PDF page and full Crossref author list: Benjamin Peherstorfer, Karen Willcox, Max Gunzburger",
+        "year": "Volume year 2018 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-online': [2018, 8, 8], 'published-print': [2018, 1]}. Online publication dates are not silently used as volume dates.",
+        "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://www.osti.gov/servlets/purl/1500214. SIAM PDF explicitly states redistribution subject to CCBY and Creative Commons 4.0; Crossref lacks license metadata, so PDF evidence is authoritative here.",
+        "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W2811395263.spans.json. Approval covers only data/corpus/editorial/W2811395263.curated.txt.gz; whole-paper extraction is not certified.",
+        "topic": "Applied mathematics: error/cost tradeoffs, multifidelity and multilevel numerical methods, uncertainty propagation, statistical inference and optimization."
+      }
+    }
+  },
+  {
+    "id": "W3003667836",
+    "version": 1,
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "topic": "interdisciplinary-modeling",
+    "status": "approved",
+    "checks": {
+      "title": "confirmed",
+      "doi": "confirmed",
+      "authors": "confirmed",
+      "year": "observed",
+      "license": "observed",
+      "extraction": "screened",
+      "editorialVerification": "pending"
+    },
+    "evidence": {
+      "pdfSha256": "6fbda8c7fe391e9795da93a9f3d494dfa5e4a058f5ba84d340ec94929c552e7e",
+      "catalogDoi": "10.1109/access.2020.2970143",
+      "observedDois": [
+        "10.1109/access.2020.2970143"
+      ],
+      "authors": [
+        {
+          "name": "Adil Rasheed",
+          "found": true
+        },
+        {
+          "name": "Omer San",
+          "found": true
+        },
+        {
+          "name": "Trond Kvamsdal",
+          "found": true
+        }
+      ],
+      "catalogYear": 2020,
+      "catalogLicense": "cc-by",
+      "rawChars": 222863,
+      "usableChars": 3173,
+      "retainedFraction": 0.014237446323526113
+    },
+    "reasons": [],
+    "note": "Observed dates/license statements require scope and publication-version review. Title matching alone is not approval.",
+    "review": {
+      "inputHash": "e6546df76c2af96aefc8415c54e0813e9834bc962164335848d965a59478f64c",
+      "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+      "reviewedAt": "2026-09-09",
+      "status": "approved",
+      "evidence": {
+        "title": "Article title checked on first PDF page at https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1109/access.2020.2970143.",
+        "doi": "10.1109/access.2020.2970143 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W3003667836.crossref.json.",
+        "authors": "All 3 byline authors checked against first PDF page and full Crossref author list: Adil Rasheed, Omer San, Trond Kvamsdal",
+        "year": "Volume year 2020 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-print': [2020]}. Online publication dates are not silently used as volume dates.",
+        "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf. Crossref also records the CC-BY 4.0 license for the version of record.",
+        "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W3003667836.spans.json. Approval covers only data/corpus/editorial/W3003667836.curated.txt.gz; whole-paper extraction is not certified.",
+        "topic": "Interdisciplinary computational modeling: physical simulators, 3D representations, data quality and hardware-in-the-loop in digital twins."
+      }
+    }
+  }
+]

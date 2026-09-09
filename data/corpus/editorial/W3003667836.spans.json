@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W3003667836-6fbda8c7fe39.txt.gz",
+  "sourceTextSha256": "64c0db9df072d8d3eb2cf1ff238b6c60ccbc13a2520f3a4e594b64d922bd685a",
+  "spans": [
+    {
+      "start": 405,
+      "end": 930,
+      "text": "ABSTRACT Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications."
+    },
+    {
+      "start": 27547,
+      "end": 28030,
+      "text": "It is quiet evident from the preceding section on common challenges that we need to develop technologies that will address those challenges. In this section we attempt to cover the enabling technologies under five major categories: physics-based modeling, data-driven modeling, big data cybernetics, infrastructure and platforms, and humanmachine interface. The section is structured in way to address the challenges using various enabling technologies (see Table 1 for an overview)."
+    },
+    {
+      "start": 29915,
+      "end": 30500,
+      "text": "The first step towards numerical modeling is 3D modeling. It is the process of developing a mathematical representation of any surface of an object. In most of the digital twins, 3D models are the starting point. The 3D models can either be constructed by a 3D scan of the object or through specialized software using equations and finally represented in terms of curves and surfaces. Almost all 3D models can be categorized into solid or shell models. In the context of digital twin, the 3D model goes as input to the physical simulators and hence its quality is of utmost importance."
+    },
+    {
+      "start": 35377,
+      "end": 35997,
+      "text": "While physics based models are the workhorse at the design phase, with the abundant supply of data in a digital twin context, opensource cutting edge and easy-to-use libraries (tensorflow, torch, openAI), cheap computational infrastructure (CPU, GPU and TPU) and high quality, readily available training resources, data-driven modeling is becoming very popular. Compared to the physics based modeling approach, as illustrated in Fig. 3, this approach is based on the assumption that since data is a manifestation of both known and unknown physics, by developing a data-driven model, one can account for the full physics."
+    },
+    {
+      "start": 37137,
+      "end": 37704,
+      "text": "With huge amount of data comes the problem of quality, management and ownership resolution of the data. For a correct working of digital twin there will be a need to improve the quality of data and compress them on the fly. Algorithms are required for automatic outlier detection and filling of missing data. At the moment very simplistic models like Principal Component and multidimensional interpolation techniques are utilized to fix these issues. However, more advanced methods like Restricted Boltzman Machine and Generative Adversarial Networks can be employed."
+    },
+    {
+      "start": 52286,
+      "end": 52669,
+      "text": "Hardware-in-the-loop (HIL) simulation approach, a wellestablished concept of using a physical object during system development phase in control engineering [316]–[318], can be also considered as a promising approach towards near real-time predictions within digital twin platforms (e.g., see also software-in-the-loop (SIL) simulation studies for early design processes [319]–[321])."
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T15:38:43Z",
+      "timestamp": 1788968323291,
+      "version": "build-2803163510"
+    },
+    "reference-count": 169,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2021-11-01T00:00:00Z",
+          "timestamp": 1635724800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2021-11-01T00:00:00Z",
+          "timestamp": 1635724800000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Health-AI"
+      },
+      {
+        "name": "DAMO Academy"
+      },
+      {
+        "name": "Alibaba Group Holding Ltd."
+      },
+      {
+        "name": "Alibaba-NTU Talent Program"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Neural Netw. Learning Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1109/tnnls.2020.3027314",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2020-10-21T13:22:13Z",
+      "timestamp": 1603286533000
+    },
+    "page": "4793-4813",
+    "source": "Crossref",
+    "is-referenced-by-count": 2053,
+    "title": [
+      "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI"
+    ],
+    "prefix": "10.1109",
+    "volume": "32",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1599-1594",
+        "authenticated-orcid": false,
+        "given": "Erico",
+        "family": "Tjoa",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0872-3276",
+        "authenticated-orcid": false,
+        "given": "Cuntai",
+        "family": "Guan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref168",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3375627.3375833"
+      },
+      {
+        "key": "ref169",
+        "first-page": "1",
+        "article-title": "Detecting cancer metastases on gigapixel pathology images",
+        "volume": "abs 1703 2442",
+        "author": "liu",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref39",
+        "article-title": "The building blocks of interpretability",
+        "author": "olah",
+        "year": "2020"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23915/distill.00007"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Toward trustworthy AI development: Mechanisms for supporting verifiable claims",
+        "author": "brundage",
+        "year": "2020"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hbm.24886"
+      },
+      {
+        "key": "ref31",
+        "year": "2016",
+        "journal-title": "Can We Open the Black Box of AI?"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2019.2944672"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2858759"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.354"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3290605.3300831"
+      },
+      {
+        "key": "ref34",
+        "year": "2019",
+        "journal-title": "Ethics guidelines for trustworthy ai"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-98131-4_5"
+      },
+      {
+        "key": "ref27",
+        "first-page": "1",
+        "article-title": "Explainable artificial intelligence: Understanding, visualizing and interpreting deep learning models",
+        "volume": "abs 1708 8296",
+        "author": "samek",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-22871-2_67"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/widm.1312"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-019-04051-w"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1",
+        "article-title": "Outlining the design space of explainable intelligent systems for medical diagnosis",
+        "volume": "abs 1902 6019",
+        "author": "xie",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCI.2018.2881645"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-018-0300-7"
+      },
+      {
+        "key": "ref101",
+        "first-page": "1",
+        "article-title": "Understanding intermediate layers using linear classifier probes",
+        "author": "alain",
+        "year": "2018",
+        "journal-title": "arXiv 1610 01644"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsp.2017.10.011"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00931-1_62"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.crad.2018.12.015"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2017.7952445"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2020.3020738"
+      },
+      {
+        "key": "ref154",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MLSP.2017.8168133"
+      },
+      {
+        "key": "ref153",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-02628-8_12"
+      },
+      {
+        "key": "ref156",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBE.2019.00152"
+      },
+      {
+        "key": "ref155",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-02628-8_13"
+      },
+      {
+        "key": "ref150",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/svn-2017-000101"
+      },
+      {
+        "key": "ref152",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781315116334"
+      },
+      {
+        "key": "ref151",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-94-6-802"
+      },
+      {
+        "key": "ref146",
+        "first-page": "1394",
+        "article-title": "Inferring robot task plans from human team meetings: A generative modeling approach with logic-based prior",
+        "author": "kim",
+        "year": "2013",
+        "journal-title": "Proc 27th AAAI Conf Artif Intell"
+      },
+      {
+        "key": "ref147",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2675133.2675214"
+      },
+      {
+        "key": "ref148",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awy210"
+      },
+      {
+        "key": "ref149",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2016.11.009"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00399"
+      },
+      {
+        "key": "ref58",
+        "first-page": "1",
+        "article-title": "Visualizing deep neural network decisions: Prediction difference analysis",
+        "volume": "abs 1702 4595",
+        "author": "zintgraf",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref57",
+        "first-page": "1",
+        "article-title": "Learning important features through propagating activation differences",
+        "volume": "abs 1704 2685",
+        "author": "shrikumar",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref56",
+        "first-page": "9277",
+        "article-title": "Towards automatic concept-based explanations",
+        "author": "ghorbani",
+        "year": "2019",
+        "journal-title": "Advances in Neural IInformation Processing Systems"
+      },
+      {
+        "key": "ref55",
+        "year": "2016",
+        "journal-title": "Deep Taylor Decomposition of Neural Networks"
+      },
+      {
+        "key": "ref54",
+        "year": "2018",
+        "journal-title": "Machine Learning and AI for the Sciences&#x2014;Towards Interpretability"
+      },
+      {
+        "key": "ref53",
+        "first-page": "1",
+        "article-title": "Interpreting the predictions of complex ML models by layer-wise relevance propagation",
+        "author": "samek",
+        "year": "2016",
+        "journal-title": "arXiv 1611 08191"
+      },
+      {
+        "key": "ref52",
+        "first-page": "1",
+        "article-title": "Explaining motion relevance for activity recognition in video deep learning models",
+        "author": "hiley",
+        "year": "2020",
+        "journal-title": "arXiv 2003 14285"
+      },
+      {
+        "key": "ref40",
+        "first-page": "4765",
+        "article-title": "A unified approach to interpreting model predictions",
+        "author": "lundberg",
+        "year": "2017",
+        "journal-title": "Advances in Neural IInformation Processing Systems"
+      },
+      {
+        "key": "ref167",
+        "first-page": "13589",
+        "article-title": "Explanations can be manipulated and geometry is to blame",
+        "author": "dombrowski",
+        "year": "2019",
+        "journal-title": "Advances in Neural IInformation Processing Systems"
+      },
+      {
+        "key": "ref166",
+        "article-title": "VQA-Med: Overview of the medical visual question answering task at ImageCLEF 2019",
+        "author": "ben abacha",
+        "year": "2019",
+        "journal-title": "Proc CLEF Working Notes CEUR Workshop"
+      },
+      {
+        "key": "ref165",
+        "article-title": "Overview of the ImageCLEF 2018 medical domain visual question answering task",
+        "author": "hasan",
+        "year": "2018",
+        "journal-title": "Proc CLEF Working Notes CEUR Workshop"
+      },
+      {
+        "key": "ref164",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hast.973"
+      },
+      {
+        "key": "ref163",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2020.00100"
+      },
+      {
+        "key": "ref162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2019190613"
+      },
+      {
+        "key": "ref161",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM.2018.8621359"
+      },
+      {
+        "key": "ref160",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_6"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nicl.2017.06.016"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1071-5819(03)00038-7"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.3301590"
+      },
+      {
+        "key": "ref5",
+        "first-page": "6",
+        "article-title": "3D U-Net: Learning dense volumetric segmentation from sparse annotation",
+        "volume": "abs 1606 6650",
+        "author": "çiçek",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref159",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5128003"
+      },
+      {
+        "key": "ref8",
+        "first-page": "7",
+        "article-title": "Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs",
+        "volume": "abs 1606 915",
+        "author": "chen",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref49",
+        "first-page": "1",
+        "article-title": "&#x2018;What is relevant in a text document?&#x2019;: An interpretable machine learning approach",
+        "volume": "abs 1612 7843",
+        "author": "arras",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "ref157",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2018.10.016"
+      },
+      {
+        "key": "ref158",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_1"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1426-2"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2016.2599820"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0130140"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnins.2019.01321"
+      },
+      {
+        "key": "ref47",
+        "first-page": "3",
+        "article-title": "Interpreting and explaining deep neural networks for classification of audio signals",
+        "volume": "abs 1807 3418",
+        "author": "becker",
+        "year": "2018",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.319"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/W18-5408"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_55"
+      },
+      {
+        "key": "ref43",
+        "first-page": "1",
+        "article-title": "Grad-CAM: Why did you say that? Visual explanations from deep networks via gradient-based localization",
+        "volume": "abs 1610 2391",
+        "author": "selvaraju",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D17-1042"
+      },
+      {
+        "key": "ref126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.371"
+      },
+      {
+        "key": "ref125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_73"
+      },
+      {
+        "key": "ref124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_52"
+      },
+      {
+        "key": "ref73",
+        "first-page": "2",
+        "article-title": "Understanding deep image representations by inverting them",
+        "volume": "abs 1412 35",
+        "author": "mahendran",
+        "year": "2014",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref72",
+        "first-page": "2",
+        "article-title": "Visualizing and understanding convolutional networks",
+        "volume": "abs 1311 2901",
+        "author": "zeiler",
+        "year": "2013",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref129",
+        "first-page": "1885",
+        "article-title": "Understanding black-box predictions via influence functions",
+        "volume": "70",
+        "author": "koh",
+        "year": "2017",
+        "journal-title": "Proc 34th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref71",
+        "first-page": "267",
+        "author": "kindermans",
+        "year": "2019",
+        "journal-title": "The (Un)reliability of Saliency Methods"
+      },
+      {
+        "key": "ref128",
+        "first-page": "1803",
+        "article-title": "How to explain individual classification decisions",
+        "volume": "11",
+        "author": "baehrens",
+        "year": "2010",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_3"
+      },
+      {
+        "key": "ref76",
+        "article-title": "Visualizing higher-layer features of a deep network",
+        "author": "erhan",
+        "year": "2009"
+      },
+      {
+        "key": "ref130",
+        "first-page": "9311",
+        "article-title": "Representer point selection for explaining deep neural networks",
+        "author": "yeh",
+        "year": "2018",
+        "journal-title": "Proc 32nd Int Conf Neural Inf Process Syst"
+      },
+      {
+        "key": "ref77",
+        "first-page": "3",
+        "article-title": "Multifaceted feature visualization: Uncovering the different types of features learned by each neuron in deep neural networks",
+        "volume": "abs 1602 3616",
+        "author": "nguyen",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref74",
+        "first-page": "2",
+        "article-title": "Inverting convolutional networks with convolutional networks",
+        "volume": "abs 1506 2753",
+        "author": "dosovitskiy",
+        "year": "2015",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref75",
+        "first-page": "1",
+        "article-title": "Striving for simplicity: The all convolutional net",
+        "volume": "abs 1412 6806",
+        "author": "springenberg",
+        "year": "2015",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_4"
+      },
+      {
+        "key": "ref134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_67"
+      },
+      {
+        "key": "ref131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_4"
+      },
+      {
+        "key": "ref78",
+        "first-page": "4",
+        "article-title": "Understanding neural networks through deep visualization",
+        "volume": "abs 1506 6579",
+        "author": "yosinski",
+        "year": "2015",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0271678X18797343"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "ref136",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2018.08.038"
+      },
+      {
+        "key": "ref135",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2017.07.020"
+      },
+      {
+        "key": "ref138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1755-8794-7-S2-S1"
+      },
+      {
+        "key": "ref137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219720017500172"
+      },
+      {
+        "key": "ref60",
+        "first-page": "1",
+        "article-title": "Learning how to explain neural networks: Patternnet and patternattribution",
+        "author": "kindermans",
+        "year": "2018",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref139",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-02628-8_11"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/W17-5221"
+      },
+      {
+        "key": "ref61",
+        "first-page": "1",
+        "article-title": "Smoothgrad: Removing noise by adding noise",
+        "volume": "abs 1706 3825",
+        "author": "smilkov",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref63",
+        "first-page": "1",
+        "article-title": "Visualizing and understanding recurrent networks",
+        "author": "karpathy",
+        "year": "2015",
+        "journal-title": "arXiv 1506 02078"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_56"
+      },
+      {
+        "key": "ref140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-02628-8_14"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_29"
+      },
+      {
+        "key": "ref141",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_2"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00931-1_24"
+      },
+      {
+        "key": "ref142",
+        "first-page": "3",
+        "article-title": "Interpretable neural networks for predicting mortality risk using multi-modal electronic health records",
+        "volume": "abs 1901 8125",
+        "author": "cerna",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00931-1_69"
+      },
+      {
+        "key": "ref143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2019.01.001"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-10212-1"
+      },
+      {
+        "key": "ref144",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-55524-9_22"
+      },
+      {
+        "key": "ref2",
+        "first-page": "234",
+        "article-title": "U-Net: Convolutional networks for biomedical image segmentation",
+        "volume": "abs 1505 4597",
+        "author": "ronneberger",
+        "year": "2015",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.2549298"
+      },
+      {
+        "key": "ref145",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-55524-9_21"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5853/jos.2017.02054"
+      },
+      {
+        "key": "ref109",
+        "first-page": "311",
+        "author": "schütt",
+        "year": "2019",
+        "journal-title": "Quantum-Chemical Insights from Interpretable Atomistic Neural Networks"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33013681"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms13890"
+      },
+      {
+        "key": "ref94",
+        "first-page": "3319",
+        "article-title": "Axiomatic attribution for deep networks",
+        "volume": "70",
+        "author": "sundararajan",
+        "year": "2017",
+        "journal-title": "Proc 34th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2013.10.067"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-33850-3_5"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00928-1_53"
+      },
+      {
+        "key": "ref92",
+        "article-title": "Neural machine translation by jointly learning to align and translate",
+        "author": "bahdanau",
+        "year": "2014",
+        "journal-title": "arXiv 1409 0473"
+      },
+      {
+        "key": "ref105",
+        "first-page": "3",
+        "article-title": "Attention-based prototypical learning towards interpretable, confident and robust deep neural networks",
+        "volume": "abs 1902 6292",
+        "author": "arik",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_34"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487575.2487579"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.121"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2339530.2339556"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177013604"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-21920-8_15"
+      },
+      {
+        "key": "ref112",
+        "first-page": "2",
+        "article-title": "Interpretable dynamics models for data-efficient reinforcement learning",
+        "volume": "abs 1907 4902",
+        "author": "kaiser",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SPAWC.2019.8815428"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ITW.2015.7133169"
+      },
+      {
+        "key": "ref99",
+        "first-page": "4",
+        "article-title": "Opening the black box of deep neural networks via information",
+        "volume": "abs 1703 810",
+        "author": "shwartz-ziv",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref96",
+        "first-page": "2673",
+        "article-title": "Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (TCAV)",
+        "volume": "80",
+        "author": "kim",
+        "year": "2018",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref97",
+        "first-page": "6078",
+        "article-title": "SVCCA: Singular vector canonical correlation analysis for deep learning dynamics and interpretability",
+        "author": "raghu",
+        "year": "2017",
+        "journal-title": "Proc 31st Int Conf Neural Inf Process Syst"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Towards a rigorous science of interpretable machine learning",
+        "author": "doshi-velez",
+        "year": "2017",
+        "journal-title": "arXiv 1702 08608"
+      },
+      {
+        "key": "ref11",
+        "first-page": "1",
+        "article-title": "What clinicians want: Contextualizing explainable machine learning for clinical end use",
+        "volume": "abs 1905 5134",
+        "author": "tonekaboni",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/358916.358995"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08987-4"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1",
+        "article-title": "The Mythos of model interpretability",
+        "volume": "abs 1606 3490",
+        "author": "lipton",
+        "year": "2016",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2019.8803129"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/MIPRO.2018.8400040"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2783258.2788613"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.244"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DSAA.2018.00018"
+      },
+      {
+        "key": "ref81",
+        "first-page": "1",
+        "article-title": "Under the hood of neural networks: Characterizing learned representations by functional neuron populations and network ablations",
+        "author": "meyes",
+        "year": "2020",
+        "journal-title": "arXiv 2004 01254"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "key": "ref84",
+        "first-page": "4",
+        "article-title": "An evaluation of the human-interpretability of explanation",
+        "volume": "abs 1902 6",
+        "author": "lage",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref119",
+        "first-page": "5",
+        "article-title": "Understanding the (un)interpretability of natural image distributions using generative models",
+        "volume": "abs 1901 1499",
+        "author": "krusinga",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nbd.2014.11.025"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/15-AOAS848"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2018.08.010"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/0899766042321814"
+      },
+      {
+        "key": "ref116",
+        "first-page": "214",
+        "article-title": "Wasserstein generative adversarial networks",
+        "volume": "70",
+        "author": "arjovsky",
+        "year": "2017",
+        "journal-title": "Proc 34th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref80",
+        "first-page": "3",
+        "article-title": "Ablation studies in artificial neural networks",
+        "volume": "abs 1901 8644",
+        "author": "meyes",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref115",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "author": "goodfellow",
+        "year": "2014",
+        "journal-title": "Advances in Neural Information Processing Systems 27"
+      },
+      {
+        "key": "ref120",
+        "author": "karpathy",
+        "year": "2014",
+        "journal-title": "t-sne visualization of cnn codes"
+      },
+      {
+        "key": "ref89",
+        "first-page": "289",
+        "article-title": "Hierarchical question-image co-attention for visual question answering",
+        "author": "lu",
+        "year": "2016",
+        "journal-title": "Proc 30th Int Conf Neural Inf Process Syst"
+      },
+      {
+        "key": "ref121",
+        "author": "carter",
+        "year": "2019",
+        "journal-title": "Exploring Neural Networks With Activation Atlases"
+      },
+      {
+        "key": "ref122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201901111"
+      },
+      {
+        "key": "ref123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3330921"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3306618.3314229"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D16-1011"
+      },
+      {
+        "key": "ref87",
+        "first-page": "2",
+        "article-title": "Neural network interpretation via fine grained textual summarization",
+        "volume": "abs 1805 8969",
+        "author": "guo",
+        "year": "2018",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-016-0966-6"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5962385/9591206/09233366.pdf?arnumber=9233366",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2022-02-21T16:51:30Z",
+      "timestamp": 1645462290000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9233366/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "references-count": 169,
+    "journal-issue": {
+      "issue": "11"
+    },
+    "URL": "https://doi.org/10.1109/tnnls.2020.3027314",
+    "relation": {},
+    "ISSN": [
+      "2162-237X",
+      "2162-2388"
+    ],
+    "issn-type": [
+      {
+        "value": "2162-237X",
+        "type": "print"
+      },
+      {
+        "value": "2162-2388",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    }
+  }
+}

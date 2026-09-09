@@ -1,0 +1,2671 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T03:48:03Z",
+      "timestamp": 1788925683577,
+      "version": "build-2803163510"
+    },
+    "reference-count": 85,
+    "publisher": "American Astronomical Society",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2018-08-24T00:00:00Z",
+          "timestamp": 1535068800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/3.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2018-08-24T00:00:00Z",
+          "timestamp": 1535068800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "AJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    The Astropy Project supports and fosters the development of open-source and openly developed\n                    <jats:monospace>Python</jats:monospace>\n                    packages that provide commonly needed functionality to the astronomical community. A key element of the Astropy Project is the core package\n                    <jats:monospace>astropy</jats:monospace>\n                    , which serves as the foundation for more specialized projects and packages. In this article, we provide an overview of the organization of the Astropy project and summarize key features in the core package, as of the recent major release, version 2.0. We then describe the project infrastructure designed to facilitate and support development for a broader ecosystem of interoperable packages. We conclude with a future outlook of planned new features and directions for the broader Astropy Project.\n                  </jats:p>",
+    "DOI": "10.3847/1538-3881/aabc4f",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2018-08-23T11:13:36Z",
+      "timestamp": 1535022816000
+    },
+    "page": "123",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7338,
+    "title": [
+      "The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package\n                    <sup>*</sup>"
+    ],
+    "prefix": "10.3847",
+    "volume": "156",
+    "author": [
+      {
+        "name": "The Astropy Collaboration",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0872-7098",
+        "authenticated-orcid": false,
+        "given": "A. M.",
+        "family": "Price-Whelan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B. M.",
+        "family": "Sipőcz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H. M.",
+        "family": "Günther",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. L.",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8969-5229",
+        "authenticated-orcid": false,
+        "given": "S. M.",
+        "family": "Crawford",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Conseil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. L.",
+        "family": "Shupe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. W.",
+        "family": "Craig",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Dencheva",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6431-9633",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Ginsburg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9623-3401",
+        "authenticated-orcid": false,
+        "given": "J. T.",
+        "family": "VanderPlas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7908-9284",
+        "authenticated-orcid": false,
+        "given": "L. D.",
+        "family": "Bradley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Pérez-Suárez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0455-9384",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "de Val-Borro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "(Primary Paper Contributors)",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T. L.",
+        "family": "Aldcroft",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1821-0650",
+        "authenticated-orcid": false,
+        "given": "K. L.",
+        "family": "Cruz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8642-1329",
+        "authenticated-orcid": false,
+        "given": "T. P.",
+        "family": "Robitaille",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9599-310X",
+        "authenticated-orcid": false,
+        "given": "E. J.",
+        "family": "Tollerud",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "(Astropy Coordination Committee)",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Ardelean",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Babej",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y. P.",
+        "family": "Bach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4576-9337",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Bachetti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. V.",
+        "family": "Bakanov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. P.",
+        "family": "Bamford",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Barentsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2767-0090",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Barmby",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Baumbach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. L.",
+        "family": "Berry",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Biscani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Boquien",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. A.",
+        "family": "Bostroem",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L. G.",
+        "family": "Bouma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2680-005X",
+        "authenticated-orcid": false,
+        "given": "G. B.",
+        "family": "Brammer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E. M.",
+        "family": "Bray",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Breytenbach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Buddelmeijer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. J.",
+        "family": "Burke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Calderone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. L. Cano",
+        "family": "Rodríguez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Cara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. V. M.",
+        "family": "Cardoso",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Cheedella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y.",
+        "family": "Copin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Corrales",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Crichton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "D’Avella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Deil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "É.",
+        "family": "Depagne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. P.",
+        "family": "Dietrich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Donath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Droettboom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Earl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Erben",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Fabbro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L. A.",
+        "family": "Ferreira",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Finethy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. T.",
+        "family": "Fox",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9853-5673",
+        "authenticated-orcid": false,
+        "given": "L. H.",
+        "family": "Garrison",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. L. J.",
+        "family": "Gibbons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. A.",
+        "family": "Goldstein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Gommers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. P.",
+        "family": "Greco",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Greenfield",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. M.",
+        "family": "Groener",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Grollier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Hagen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Hirst",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8546-9128",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Homeier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. J.",
+        "family": "Horton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0832-2974",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Hosseinzadeh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. S.",
+        "family": "Hunkeler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ž.",
+        "family": "Ivezić",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Jain",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5982-167X",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Jenness",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Kanarek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7612-0469",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Kendrew",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8211-1892",
+        "authenticated-orcid": false,
+        "given": "N. S.",
+        "family": "Kern",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W. E.",
+        "family": "Kerzendorf",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Khvalko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Kirkby",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. M.",
+        "family": "Kulkarni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Lenz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. P.",
+        "family": "Littlefair",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Z.",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. M.",
+        "family": "Macleod",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Mastropietro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5807-7893",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "McCully",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Montagnac",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2528-3409",
+        "authenticated-orcid": false,
+        "given": "B. M.",
+        "family": "Morris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Mueller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. J.",
+        "family": "Mumford",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Muna",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N. A.",
+        "family": "Murphy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Nelson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. H.",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. P.",
+        "family": "Ninan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Nöthe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Ogaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Oh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. K.",
+        "family": "Parejko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Parley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9351-6051",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Pascual",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Patil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. A.",
+        "family": "Patil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9912-5705",
+        "authenticated-orcid": false,
+        "given": "A. L.",
+        "family": "Plunkett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7738-6875",
+        "authenticated-orcid": false,
+        "given": "J. X.",
+        "family": "Prochaska",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Rastogi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V. Reddy",
+        "family": "Janga",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Sabater",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Sakurikar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Seifert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L. E.",
+        "family": "Sherbert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Sherwood-Taylor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. Y.",
+        "family": "Shih",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Sick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. T.",
+        "family": "Silbiger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Singanamalla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9898-5597",
+        "authenticated-orcid": false,
+        "given": "L. P.",
+        "family": "Singer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. H.",
+        "family": "Sladen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. A.",
+        "family": "Sooley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Sornarajah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "O.",
+        "family": "Streicher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1774-3436",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Teuben",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. W.",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5445-5401",
+        "authenticated-orcid": false,
+        "given": "G. R.",
+        "family": "Tremblay",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. E. H.",
+        "family": "Turner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Terrón",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. H. van",
+        "family": "Kerkwijk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6219-5558",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "de la Vega",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1343-134X",
+        "authenticated-orcid": false,
+        "given": "L. L.",
+        "family": "Watkins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B. A.",
+        "family": "Weaver",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. B.",
+        "family": "Whitmore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2958-4738",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Woillez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Zabalza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "(Astropy Contributors)",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ajaabc4fbib1",
+        "doi-asserted-by": "publisher",
+        "author": "Aldcroft",
+        "year": "2015",
+        "DOI": "10.5281/zenodo.1043901"
+      },
+      {
+        "key": "ajaabc4fbib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201322068",
+        "volume": "558",
+        "author": "Astropy Collaboration",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajaabc4fbib3",
+        "author": "Bachetti",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "431",
+        "DOI": "10.1007/978-1-4612-3880-5_41",
+        "author": "Banse",
+        "year": "1988"
+      },
+      {
+        "key": "ajaabc4fbib5",
+        "doi-asserted-by": "publisher",
+        "author": "Barbary",
+        "year": "2014",
+        "DOI": "10.5281/zenodo.11938"
+      },
+      {
+        "key": "ajaabc4fbib6",
+        "first-page": "483",
+        "author": "Barrett",
+        "year": "1999"
+      },
+      {
+        "key": "ajaabc4fbib7",
+        "first-page": "344.14",
+        "volume": "43",
+        "author": "Barron",
+        "year": "2011",
+        "journal-title": "BAAS"
+      },
+      {
+        "key": "ajaabc4fbib8",
+        "doi-asserted-by": "publisher",
+        "author": "Beaumont",
+        "year": "2014",
+        "DOI": "10.5281/zenodo.13866"
+      },
+      {
+        "key": "ajaabc4fbib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "679",
+        "DOI": "10.1088/0004-637X/720/1/679",
+        "volume": "720",
+        "author": "Beerer",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajaabc4fbib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.1086/115487",
+        "volume": "100",
+        "author": "Beers",
+        "year": "1990",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajaabc4fbib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1109/MCSE.2010.118",
+        "volume": "13",
+        "author": "Behnel",
+        "year": "2011",
+        "journal-title": "CSE"
+      },
+      {
+        "key": "ajaabc4fbib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "33",
+        "DOI": "10.1016/j.ascom.2016.02.003",
+        "volume": "15",
+        "author": "Berry",
+        "year": "2016",
+        "journal-title": "A&C"
+      },
+      {
+        "key": "ajaabc4fbib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1088/0067-0049/216/2/29",
+        "volume": "216",
+        "author": "Bovy",
+        "year": "2015",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "ajaabc4fbib14",
+        "doi-asserted-by": "publisher",
+        "author": "Bradley",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1039309"
+      },
+      {
+        "key": "ajaabc4fbib15",
+        "first-page": "309",
+        "author": "Bretthorst",
+        "year": "2003"
+      },
+      {
+        "key": "ajaabc4fbib16",
+        "author": "Craig",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib17",
+        "doi-asserted-by": "publisher",
+        "author": "Crawford",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1117943"
+      },
+      {
+        "key": "ajaabc4fbib18",
+        "doi-asserted-by": "publisher",
+        "author": "Cruz",
+        "year": "2015",
+        "DOI": "10.5281/zenodo.1043913"
+      },
+      {
+        "key": "ajaabc4fbib19",
+        "first-page": "391",
+        "author": "Currie",
+        "year": "2014"
+      },
+      {
+        "key": "ajaabc4fbib20",
+        "author": "Deil",
+        "year": "2017"
+      },
+      {
+        "key": "ajaabc4fbib21",
+        "doi-asserted-by": "publisher",
+        "author": "Dencheva",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1041790"
+      },
+      {
+        "key": "ajaabc4fbib22",
+        "first-page": "485",
+        "volume": "23",
+        "author": "Disney",
+        "year": "1982",
+        "journal-title": "QJRAS"
+      },
+      {
+        "key": "ajaabc4fbib23",
+        "first-page": "543",
+        "author": "Doe",
+        "year": "2007"
+      },
+      {
+        "key": "ajaabc4fbib24",
+        "doi-asserted-by": "publisher",
+        "author": "ejeschke",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1040969"
+      },
+      {
+        "key": "ajaabc4fbib25",
+        "doi-asserted-by": "publisher",
+        "author": "Ford",
+        "year": "2016",
+        "DOI": "10.5281/zenodo.51370"
+      },
+      {
+        "key": "ajaabc4fbib26",
+        "author": "Ginsburg",
+        "year": "2011"
+      },
+      {
+        "key": "ajaabc4fbib27",
+        "doi-asserted-by": "publisher",
+        "author": "Ginsburg",
+        "year": "2017a",
+        "DOI": "10.5281/zenodo.1013994"
+      },
+      {
+        "key": "ajaabc4fbib28",
+        "doi-asserted-by": "publisher",
+        "author": "Ginsburg",
+        "year": "2017b",
+        "DOI": "10.5281/zenodo.826911"
+      },
+      {
+        "key": "ajaabc4fbib29",
+        "author": "Graham",
+        "year": "2014"
+      },
+      {
+        "key": "ajaabc4fbib30",
+        "doi-asserted-by": "publisher",
+        "author": "Greenfield",
+        "year": "2013",
+        "DOI": "10.5281/zenodo.1043886"
+      },
+      {
+        "key": "ajaabc4fbib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.3847/1538-3881/aa943b",
+        "volume": "154",
+        "author": "Günther",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajaabc4fbib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "190",
+        "DOI": "10.3847/1538-3881/aa859f",
+        "volume": "154",
+        "author": "Hearin",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajaabc4fbib33",
+        "author": "hips developers",
+        "year": "2018"
+      },
+      {
+        "key": "ajaabc4fbib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "11404",
+        "DOI": "10.4249/scholarpedia.11404",
+        "volume": "6",
+        "author": "Hohenkerk",
+        "year": "2011",
+        "journal-title": "SchpJ"
+      },
+      {
+        "key": "ajaabc4fbib35",
+        "first-page": "90",
+        "volume": "9",
+        "author": "Hunter",
+        "year": "2007",
+        "journal-title": "CS&E"
+      },
+      {
+        "key": "ajaabc4fbib36",
+        "author": "Huppenkothen",
+        "year": "2016"
+      },
+      {
+        "key": "ajaabc4fbib37",
+        "doi-asserted-by": "publisher",
+        "author": "Ivezić",
+        "year": "2014",
+        "DOI": "10.23943/princeton/9780691151687.001.0001"
+      },
+      {
+        "key": "ajaabc4fbib38",
+        "doi-asserted-by": "publisher",
+        "author": "Jammalamadaka",
+        "year": "2001",
+        "DOI": "10.1142/4031"
+      },
+      {
+        "key": "ajaabc4fbib39",
+        "first-page": "307",
+        "author": "Jenness",
+        "year": "2013"
+      },
+      {
+        "key": "ajaabc4fbib40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.2231313",
+        "volume": "9913",
+        "author": "Jenness",
+        "year": "2016",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "ajaabc4fbib41",
+        "author": "Jones",
+        "year": "2001"
+      },
+      {
+        "key": "ajaabc4fbib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "515",
+        "DOI": "10.1109/CVPR.1993.341081",
+        "author": "Knutsson",
+        "year": "1993"
+      },
+      {
+        "key": "ajaabc4fbib43",
+        "author": "Lim",
+        "year": "2016"
+      },
+      {
+        "key": "ajaabc4fbib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "447",
+        "DOI": "10.1007/BF00648343",
+        "volume": "39",
+        "author": "Lomb",
+        "year": "1976",
+        "journal-title": "Ap&SS"
+      },
+      {
+        "key": "ajaabc4fbib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "133",
+        "DOI": "10.1086/382245",
+        "volume": "116",
+        "author": "Lupton",
+        "year": "2004",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "ajaabc4fbib46",
+        "author": "Mamajek",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib47",
+        "first-page": "51",
+        "author": "McKinney",
+        "year": "2010"
+      },
+      {
+        "key": "ajaabc4fbib48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.88.035009",
+        "volume": "88",
+        "author": "Mohr",
+        "year": "2016",
+        "journal-title": "RvMP"
+      },
+      {
+        "key": "ajaabc4fbib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.3847/1538-3881/aaa47e",
+        "volume": "155",
+        "author": "Morris",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajaabc4fbib50",
+        "author": "Muna",
+        "year": "2016"
+      },
+      {
+        "key": "ajaabc4fbib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "496",
+        "DOI": "10.1088/0004-637X/695/1/496",
+        "volume": "695",
+        "author": "Palmer",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajaabc4fbib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "A42",
+        "DOI": "10.1051/0004-6361/201015362",
+        "volume": "524",
+        "author": "Pence",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajaabc4fbib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "A13",
+        "DOI": "10.1051/0004-6361/201525830",
+        "volume": "594",
+        "author": "Planck Collaboration",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajaabc4fbib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "277",
+        "DOI": "10.1086/167197",
+        "volume": "338",
+        "author": "Press",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajaabc4fbib55",
+        "doi-asserted-by": "publisher",
+        "author": "Price-Whelan",
+        "year": "2018",
+        "DOI": "10.5281/zenodo.1211397"
+      },
+      {
+        "key": "ajaabc4fbib56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.00388",
+        "volume": "2",
+        "author": "Price-Whelan",
+        "year": "2017",
+        "journal-title": "JOSS"
+      },
+      {
+        "key": "ajaabc4fbib57",
+        "doi-asserted-by": "publisher",
+        "author": "Prochaska",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1036773"
+      },
+      {
+        "key": "ajaabc4fbib58",
+        "author": "pyregions developers",
+        "year": "2018"
+      },
+      {
+        "key": "ajaabc4fbib60",
+        "author": "Rhodes",
+        "year": "2011"
+      },
+      {
+        "key": "ajaabc4fbib61",
+        "doi-asserted-by": "publisher",
+        "author": "Robitaille",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1038587"
+      },
+      {
+        "key": "ajaabc4fbib62",
+        "doi-asserted-by": "publisher",
+        "author": "Robitaille",
+        "year": "2018",
+        "DOI": "10.5281/zenodo.1162674"
+      },
+      {
+        "key": "ajaabc4fbib63",
+        "author": "Robitaille",
+        "year": "2012"
+      },
+      {
+        "key": "ajaabc4fbib64",
+        "doi-asserted-by": "publisher",
+        "author": "Rodríguez",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1058988"
+      },
+      {
+        "key": "ajaabc4fbib65",
+        "doi-asserted-by": "publisher",
+        "first-page": "835",
+        "DOI": "10.1086/160554",
+        "volume": "263",
+        "author": "Scargle",
+        "year": "1982",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajaabc4fbib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1088/0004-637X/764/2/167",
+        "volume": "764",
+        "author": "Scargle",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajaabc4fbib67",
+        "author": "Seabold",
+        "year": "2010"
+      },
+      {
+        "key": "ajaabc4fbib68",
+        "doi-asserted-by": "publisher",
+        "author": "Sosey",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1042809"
+      },
+      {
+        "key": "ajaabc4fbib69",
+        "author": "specutils developers",
+        "year": "2018"
+      },
+      {
+        "key": "ajaabc4fbib70",
+        "first-page": "853",
+        "author": "Streicher",
+        "year": "2012"
+      },
+      {
+        "key": "ajaabc4fbib71",
+        "doi-asserted-by": "publisher",
+        "author": "Suutarinen",
+        "year": "2015",
+        "DOI": "10.5281/zenodo.35536"
+      },
+      {
+        "key": "ajaabc4fbib72",
+        "author": "Terlouw",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib73",
+        "first-page": "173",
+        "author": "Tody",
+        "year": "1993"
+      },
+      {
+        "key": "ajaabc4fbib74",
+        "doi-asserted-by": "publisher",
+        "author": "Tollerud",
+        "year": "2013",
+        "DOI": "10.5281/zenodo.1043888"
+      },
+      {
+        "key": "ajaabc4fbib75",
+        "doi-asserted-by": "publisher",
+        "author": "Tollerud",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1021149"
+      },
+      {
+        "key": "ajaabc4fbib76",
+        "doi-asserted-by": "publisher",
+        "author": "Tollerud",
+        "year": "2014",
+        "DOI": "10.5281/zenodo.1043897"
+      },
+      {
+        "key": "ajaabc4fbib77",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1088/0067-0049/192/1/9",
+        "volume": "192",
+        "author": "Turk",
+        "year": "2011",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "ajaabc4fbib78",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1109/MCSE.2011.37",
+        "volume": "13",
+        "author": "Van der Walt",
+        "year": "2011",
+        "journal-title": "CSE"
+      },
+      {
+        "key": "ajaabc4fbib79",
+        "doi-asserted-by": "publisher",
+        "first-page": "1420",
+        "DOI": "10.1086/323894",
+        "volume": "113",
+        "author": "van Dokkum",
+        "year": "2001",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "ajaabc4fbib80",
+        "author": "VanderPlas",
+        "year": "2018"
+      },
+      {
+        "key": "ajaabc4fbib81",
+        "first-page": "47",
+        "author": "VanderPlas",
+        "year": "2012"
+      },
+      {
+        "key": "ajaabc4fbib83",
+        "author": "VanderPlas",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib84",
+        "first-page": "481",
+        "author": "Wallace",
+        "year": "1994"
+      },
+      {
+        "key": "ajaabc4fbib85",
+        "doi-asserted-by": "publisher",
+        "author": "Weaver",
+        "year": "2017",
+        "DOI": "10.5281/zenodo.1095151"
+      },
+      {
+        "key": "ajaabc4fbib86",
+        "first-page": "922",
+        "author": "Zabalza",
+        "year": "2015"
+      },
+      {
+        "key": "ajaabc4fbib87",
+        "doi-asserted-by": "publisher",
+        "first-page": "577",
+        "DOI": "10.1051/0004-6361:200811296",
+        "volume": "496",
+        "author": "Zechmeister",
+        "year": "2009",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "The Astronomical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2024-01-09T15:50:02Z",
+      "timestamp": 1704815402000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            24
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-3881/aabc4f",
+    "relation": {},
+    "ISSN": [
+      "0004-6256",
+      "1538-3881"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6256",
+        "type": "print"
+      },
+      {
+        "value": "1538-3881",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package\n                      *",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astronomical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "© 2018. The American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2018-01-08",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2018-03-29",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2018-08-24",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  }
+}

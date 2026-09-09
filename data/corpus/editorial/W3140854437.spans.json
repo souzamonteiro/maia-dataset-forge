@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W3140854437-28b985f24b38.txt.gz",
+  "sourceTextSha256": "768ce17a0e8f9fba6006993b30c8a368b1cdc32e9b32eab7a08e93c445fbdf8f",
+  "spans": [
+    {
+      "start": 13278,
+      "end": 13575,
+      "text": "This technique makes it possible to implement the learning process in the absence of available labeled data (i.e. no labels are required). Here, the agent learns the significant features or interior representation required to discover the unidentified structure or relationships in the input data."
+    },
+    {
+      "start": 13576,
+      "end": 13944,
+      "text": "Techniques of generative networks, dimensionality reduction and clustering are frequently counted within the category of unsupervised learning. Several members of the DL family have performed well on non-linear dimensionality reduction and clustering tasks; these include restricted Boltzmann machines, auto-encoders and GANs as the most recently developed techniques."
+    },
+    {
+      "start": 19030,
+      "end": 19554,
+      "text": "RNNs are a commonly employed and familiar algorithm in the discipline of DL [63– 65]. RNN is mainly applied in the area of speech processing and NLP contexts [66, 67]. Unlike conventional networks, RNN uses sequential data in the network. Since the embedded structure in the sequence of the data delivers valuable information, this feature is fundamental to a range of different applications. For instance, it is important to understand the context of the sentence in order to determine the meaning of a specific word in it."
+    },
+    {
+      "start": 24491,
+      "end": 25001,
+      "text": "The benefits of using CNNs over other traditional neural networks in the computer vision environment are listed as follows: 1. The main reason to consider CNN is the weight sharing feature, which reduces the number of trainable network parameters and in turn helps the network to enhance generalization and to avoid overfitting. 2. Concurrently learning the feature extraction layers and the classification layer causes the model output to be both highly organized and highly reliant on the extracted features."
+    },
+    {
+      "start": 30492,
+      "end": 30855,
+      "text": "Non-linear activation layers are employed after all layers with weights (so-called learnable layers, such as FC layers and convolutional layers) in CNN architecture. This non-linear performance of the activation layers means that the mapping of input to output will be non-linear; moreover, these layers give the CNN the ability to learn extra-complicated things."
+    },
+    {
+      "start": 30856,
+      "end": 31036,
+      "text": "The activation function must also have the ability to differentiate, which is an extremely significant feature, as it allows error back-propagation to be used to train the network."
+    }
+  ]
+}

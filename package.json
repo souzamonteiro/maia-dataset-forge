@@ -22,6 +22,9 @@
     "benchmark": "node src/cli.js benchmark",
     "prepare-benchmark": "node src/cli.js prepare-benchmark",
     "benchmark:cost": "node src/cli.js benchmark-cost",
-    "batch:pilot": "node src/cli.js batch-pilot"
+    "batch:pilot": "node src/cli.js batch-pilot",
+    "prepare:reviewed": "node src/cli.js prepare-reviewed",
+    "corpus:audit": "node src/cli.js corpus",
+    "corpus:collect": "node src/cli.js corpus --collect"
   }
 }

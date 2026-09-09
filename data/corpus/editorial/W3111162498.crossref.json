@@ -1,0 +1,2482 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T18:49:25Z",
+      "timestamp": 1788979765764,
+      "version": "build-2803163510"
+    },
+    "reference-count": 251,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              12
+            ]
+          ],
+          "date-time": "2021-08-12T00:00:00Z",
+          "timestamp": 1628726400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              12
+            ]
+          ],
+          "date-time": "2021-08-12T00:00:00Z",
+          "timestamp": 1628726400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Rev Phys"
+    ],
+    "DOI": "10.1038/s42254-021-00348-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2021-08-12T08:05:13Z",
+      "timestamp": 1628755513000
+    },
+    "page": "625-644",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3237,
+    "title": [
+      "Variational quantum algorithms"
+    ],
+    "prefix": "10.1038",
+    "volume": "3",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Cerezo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Arrasmith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryan",
+        "family": "Babbush",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simon C.",
+        "family": "Benjamin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suguru",
+        "family": "Endo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keisuke",
+        "family": "Fujii",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2809-0509",
+        "authenticated-orcid": false,
+        "given": "Jarrod R.",
+        "family": "McClean",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kosuke",
+        "family": "Mitarai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0205-6545",
+        "authenticated-orcid": false,
+        "given": "Xiao",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lukasz",
+        "family": "Cincio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9879-8425",
+        "authenticated-orcid": false,
+        "given": "Patrick J.",
+        "family": "Coles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "348_CR1",
+        "unstructured": "Shor, P. W. Algorithms for quantum computation: discrete logarithms and factoring. In Proc. 35th Annual Symposium on Foundations of Computer Science, 124–134 (IEEE, 1994)."
+      },
+      {
+        "key": "348_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1073",
+        "DOI": "10.1126/science.273.5278.1073",
+        "volume": "273",
+        "author": "S Lloyd",
+        "year": "1996",
+        "unstructured": "Lloyd, S. Universal quantum simulators. Science 273, 1073–1078 (1996).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "348_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "150502",
+        "DOI": "10.1103/PhysRevLett.103.150502",
+        "volume": "103",
+        "author": "AW Harrow",
+        "year": "2009",
+        "unstructured": "Harrow, A. W., Hassidim, A. & Lloyd, S. Quantum algorithm for linear systems of equations. Phys. Rev. Lett. 103, 150502 (2009).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR4",
+        "unstructured": "IBM Makes Quantum Computing Available on IBM Cloud to Accelerate Innovation. Press release at https://www-03.ibm.com/press/us/en/pressrelease/49661.wss (2016)."
+      },
+      {
+        "key": "348_CR5",
+        "unstructured": "Adedoyin, A. et al. Quantum algorithm implementations for beginners. Preprint at https://arxiv.org/abs/1804.03719 (2018)."
+      },
+      {
+        "key": "348_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.22331/q-2018-08-06-79",
+        "volume": "2",
+        "author": "J Preskill",
+        "year": "2018",
+        "unstructured": "Preskill, J. Quantum computing in the NISQ era and beyond. Quantum 2, 79 (2018).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "505",
+        "DOI": "10.1038/s41586-019-1666-5",
+        "volume": "574",
+        "author": "F Arute",
+        "year": "2019",
+        "unstructured": "Arute, F. et al. Quantum supremacy using a programmable superconducting processor. Nature 574, 505–510 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1460",
+        "DOI": "10.1126/science.abe8770",
+        "volume": "370",
+        "author": "H-S Zhong",
+        "year": "2020",
+        "unstructured": "Zhong, H.-S. et al. Quantum computational advantage using photons. Science 370, 1460–1463 (2020).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "348_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bittel, L. & Kliesch, M. Training variational quantum algorithms is np-hard — even for logarithmically many qubits and free fermionic systems. Preprint at https://arxiv.org/abs/2101.07267 (2021).",
+        "DOI": "10.1103/PhysRevLett.127.120502"
+      },
+      {
+        "key": "348_CR10",
+        "unstructured": "Kingma, D. P. & Ba, J. Adam: a method for stochastic optimization. In Proc. 3rd International Conference on Learning Representations (ICLR) (ICLR, 2015)."
+      },
+      {
+        "key": "348_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "263",
+        "DOI": "10.22331/q-2020-05-11-263",
+        "volume": "4",
+        "author": "JM Kübler",
+        "year": "2020",
+        "unstructured": "Kübler, J. M., Arrasmith, A., Cincio, L. & Coles, P. J. An adaptive optimizer for measurement-frugal variational algorithms. Quantum 4, 263 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.22331/q-2020-08-31-314",
+        "volume": "4",
+        "author": "R Sweke",
+        "year": "2020",
+        "unstructured": "Sweke, R. et al. Stochastic gradient descent for hybrid quantum–classical optimization. Quantum 4, 314 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1038/s41534-019-0187-2",
+        "volume": "5",
+        "author": "S McArdle",
+        "year": "2019",
+        "unstructured": "McArdle, S. et al. Variational ansatz-based quantum simulation of imaginary time evolution. NPJ Quantum Inf. 5, 75 (2019).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.22331/q-2020-05-25-269",
+        "volume": "4",
+        "author": "J Stokes",
+        "year": "2020",
+        "unstructured": "Stokes, J., Izaac, J., Killoran, N. & Carleo, G. Quantum natural gradient. Quantum 4, 269 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR15",
+        "unstructured": "Koczor, B. & Benjamin, S. C. Quantum natural gradient generalised to non-unitary circuits. Preprint at https://arxiv.org/abs/1912.08660 (2019)."
+      },
+      {
+        "key": "348_CR16",
+        "unstructured": "Wilson, M. et al. Optimizing quantum heuristics with meta-learning. Preprint at https://arxiv.org/abs/1908.03185 (2019)."
+      },
+      {
+        "key": "348_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "332",
+        "DOI": "10.1109/9.119632",
+        "volume": "37",
+        "author": "JC Spall",
+        "year": "1992",
+        "unstructured": "Spall, J. C. Multivariate stochastic approximation using a simultaneous perturbation gradient approximation. IEEE Trans. Automat. Control 37, 332–341 (1992).",
+        "journal-title": "IEEE Trans. Automat. Control"
+      },
+      {
+        "key": "348_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "043158",
+        "DOI": "10.1103/PhysRevResearch.2.043158",
+        "volume": "2",
+        "author": "KM Nakanishi",
+        "year": "2020",
+        "unstructured": "Nakanishi, K. M., Fujii, K. & Todo, S. Sequential minimal optimization for quantum–classical hybrid algorithms. Phys. Rev. Res. 2, 043158 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR19",
+        "unstructured": "Parrish, R. M., Iosue, J. T., Ozaeta, A. & McMahon, P. L. A Jacobi diagonalization and Anderson acceleration algorithm for variational quantum algorithm parameter optimization. Preprint at https://arxiv.org/abs/1904.03206 (2019)."
+      },
+      {
+        "key": "348_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "025011",
+        "DOI": "10.1088/2058-9565/abdbc9",
+        "volume": "6",
+        "author": "P Huembeli",
+        "year": "2021",
+        "unstructured": "Huembeli, P. & Dauphin, A. Characterizing the loss landscape of variational quantum circuits. Quantum Sci. Technol. 6, 025011 (2021).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "140502",
+        "DOI": "10.1103/PhysRevLett.126.140502",
+        "volume": "126",
+        "author": "A Harrow",
+        "year": "2021",
+        "unstructured": "Harrow, A. & Napp, J. Low-depth gradient measurements can improve convergence in variational hybrid quantum–classical algorithms. Phys. Rev. Lett. 126, 140502 (2021).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "242",
+        "DOI": "10.1038/nature23879",
+        "volume": "549",
+        "author": "A Kandala",
+        "year": "2017",
+        "unstructured": "Kandala, A. et al. Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets. Nature 549, 242–246 (2017).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1038/s41534-019-0240-1",
+        "volume": "6",
+        "author": "BT Gard",
+        "year": "2020",
+        "unstructured": "Gard, B. T. et al. Efficient symmetry-preserving state preparation circuits for the variational quantum eigensolver algorithm. NPJ Quantum Inf. 6, 10 (2020).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR24",
+        "unstructured": "Otten, M., Cortes, C. L. & Gray, S. K. Noise-resilient quantum dynamics using symmetry-preserving ansatzes. Preprint at https://arxiv.org/abs/1910.06284 (2019)."
+      },
+      {
+        "key": "348_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "020337",
+        "DOI": "10.1103/PRXQuantum.2.020337",
+        "volume": "2",
+        "author": "NV Tkachenko",
+        "year": "2021",
+        "unstructured": "Tkachenko, N. V. et al. Correlation-informed permutation of qubits for reducing ansatz depth in VQE. PRX Quantum 2, 020337 (2021).",
+        "journal-title": "PRX Quantum"
+      },
+      {
+        "key": "348_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "355",
+        "DOI": "10.1038/s41586-019-1177-4",
+        "volume": "569",
+        "author": "C Kokail",
+        "year": "2019",
+        "unstructured": "Kokail, C. et al. Self-verifying variational quantum simulation of lattice models. Nature 569, 355–360 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "272",
+        "DOI": "10.22331/q-2020-05-28-272",
+        "volume": "4",
+        "author": "C Bravo-Prieto",
+        "year": "2020",
+        "unstructured": "Bravo-Prieto, C., Lumbreras-Zarapico, J., Tagliacozzo, L. & Latorre, J. I. Scaling of variational quantum circuit depth for condensed matter systems. Quantum 4, 272 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "3393",
+        "DOI": "10.1002/qua.21198",
+        "volume": "106",
+        "author": "AG Taube",
+        "year": "2006",
+        "unstructured": "Taube, A. G. & Bartlett, R. J. New perspectives on unitary coupled-cluster theory. Int. J. Quantum Chem. 106, 3393–3401 (2006).",
+        "journal-title": "Int. J. Quantum Chem."
+      },
+      {
+        "key": "348_CR29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms5213",
+        "volume": "5",
+        "author": "A Peruzzo",
+        "year": "2014",
+        "unstructured": "Peruzzo, A. et al. A variational eigenvalue solver on a photonic quantum processor. Nat. Commun. 5, 4213 (2014).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "210",
+        "DOI": "10.1006/aphy.2002.6254",
+        "volume": "298",
+        "author": "SB Bravyi",
+        "year": "2002",
+        "unstructured": "Bravyi, S. B. & Kitaev, A. Y. Fermionic quantum computation. Ann. Phys. 298, 210–226 (2002).",
+        "journal-title": "Ann. Phys."
+      },
+      {
+        "key": "348_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "311",
+        "DOI": "10.1021/acs.jctc.8b01004",
+        "volume": "15",
+        "author": "J Lee",
+        "year": "2019",
+        "unstructured": "Lee, J., Huggins, W. J., Head-Gordon, M. & Whaley, K. B. Generalized unitary coupled cluster wave functions for quantum computation. J. Chem. Theory Comput. 15, 311–324 (2019).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "348_CR32",
+        "unstructured": "Motta, M. et al. Low rank representations for quantum simulation of electronic structure. Preprint at https://arxiv.org/abs/1808.02625 (2018)."
+      },
+      {
+        "key": "348_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "944",
+        "DOI": "10.1021/acs.jctc.9b00963",
+        "volume": "16",
+        "author": "Y Matsuzawa",
+        "year": "2020",
+        "unstructured": "Matsuzawa, Y. & Kurashige, Y. Jastrow-type decomposition in quantum chemistry for low-depth quantum circuits. J. Chem. Theory Comput. 16, 944–952 (2020).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "348_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "110501",
+        "DOI": "10.1103/PhysRevLett.120.110501",
+        "volume": "120",
+        "author": "ID Kivlichan",
+        "year": "2018",
+        "unstructured": "Kivlichan, I. D. et al. Quantum simulation of electronic structure with linear depth and connectivity. Phys. Rev. Lett. 120, 110501 (2018).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "033033",
+        "DOI": "10.1103/PhysRevResearch.1.033033",
+        "volume": "1",
+        "author": "K Setia",
+        "year": "2019",
+        "unstructured": "Setia, K., Bravyi, S., Mezzacapo, A. & Whitfield, J. D. Superfast encodings for fermionic quantum simulation. Phys. Rev. Res. 1, 033033 (2019).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR36",
+        "unstructured": "Farhi, E., Goldstone, J. & Gutmann, S. A quantum approximate optimization algorithm. Preprint at https://arxiv.org/abs/1411.4028 (2014)."
+      },
+      {
+        "key": "348_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.3390/a12020034",
+        "volume": "12",
+        "author": "S Hadfield",
+        "year": "2019",
+        "unstructured": "Hadfield, S. et al. From the quantum approximate optimization algorithm to a quantum alternating operator ansatz. Algorithms 12, 34 (2019).",
+        "journal-title": "Algorithms"
+      },
+      {
+        "key": "348_CR38",
+        "unstructured": "Lloyd, S. Quantum approximate optimization is computationally universal. Preprint at https://arxiv.org/abs/1812.11075 (2018)."
+      },
+      {
+        "key": "348_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "291",
+        "DOI": "10.1007/s11128-020-02748-9",
+        "volume": "19",
+        "author": "ME Morales",
+        "year": "2020",
+        "unstructured": "Morales, M. E., Biamonte, J. & Zimborás, Z. On the universality of the quantum approximate optimization algorithm. Quantum Inf. Process. 19, 291 (2020).",
+        "journal-title": "Quantum Inf. Process."
+      },
+      {
+        "key": "348_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "012320",
+        "DOI": "10.1103/PhysRevA.101.012320",
+        "volume": "101",
+        "author": "Z Wang",
+        "year": "2020",
+        "unstructured": "Wang, Z., Rubin, N. C., Dominy, J. M. & Rieffel, E. G. XY mixers: analytical and numerical results for the quantum alternating operator ansatz. Phys. Rev. A 101, 012320 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "042303",
+        "DOI": "10.1103/PhysRevA.92.042303",
+        "volume": "92",
+        "author": "D Wecker",
+        "year": "2015",
+        "unstructured": "Wecker, D., Hastings, M. B. & Troyer, M. Progress towards practical quantum variational algorithms. Phys. Rev. A 92, 042303 (2015).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR42",
+        "first-page": "020319",
+        "volume": "1",
+        "author": "R Wiersema",
+        "year": "2020",
+        "unstructured": "Wiersema, R. et al. Exploring entanglement and optimization within the Hamiltonian variational ansatz. Phys. Rev. X Quantum 1, 020319 (2020).",
+        "journal-title": "Phys. Rev. X Quantum"
+      },
+      {
+        "key": "348_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "029",
+        "DOI": "10.21468/SciPostPhys.6.3.029",
+        "volume": "6",
+        "author": "WW Ho",
+        "year": "2019",
+        "unstructured": "Ho, W. W. & Hsieh, T. H. Efficient variational simulation of non-trivial quantum states. SciPost Phys. 6, 029 (2019).",
+        "journal-title": "SciPost Phys."
+      },
+      {
+        "key": "348_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "3007",
+        "DOI": "10.1038/s41467-019-10988-2",
+        "volume": "10",
+        "author": "HR Grimsley",
+        "year": "2019",
+        "unstructured": "Grimsley, H. R., Economou, S. E., Barnes, E. & Mayhall, N. J. An adaptive variational algorithm for exact molecular simulations on a quantum computer. Nat. Commun. 10, 3007 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "020310",
+        "DOI": "10.1103/PRXQuantum.2.020310",
+        "volume": "2",
+        "author": "HL Tang",
+        "year": "2021",
+        "unstructured": "Tang, H. L. et al. qubit-ADAPT-VQE: an adaptive algorithm for constructing hardware-efficient ansatze on a quantum processor. PRX Quantum 2, 020310 (2021).",
+        "journal-title": "PRX Quantum"
+      },
+      {
+        "key": "348_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yordanov, Y. S., Armaos, V., Barnes, C. H. & Arvidsson-Shukur, D. R. Iterative qubit-excitation based variational quantum eigensolver. Preprint at https://arxiv.org/abs/2011.10540 (2020).",
+        "DOI": "10.21203/rs.3.rs-404173/v1"
+      },
+      {
+        "key": "348_CR47",
+        "unstructured": "Zhu, L. et al. An adaptive quantum approximate optimization algorithm for solving combinatorial problems on a quantum computer. Preprint at https://arxiv.org/abs/2005.10258 (2020)."
+      },
+      {
+        "key": "348_CR48",
+        "unstructured": "Rattew, A. G., Hu, S., Pistoia, M., Chen, R. & Wood, S. A domain-agnostic, noise-resistant, hardware-efficient evolutionary variational quantum eigensolver. Preprint at https://arxiv.org/abs/1910.09694 (2019)."
+      },
+      {
+        "key": "348_CR49",
+        "unstructured": "Chivilikhin, D. et al. MoG-VQE: multiobjective genetic variational quantum eigensolver. Preprint at https://arxiv.org/abs/2007.04424 (2020)."
+      },
+      {
+        "key": "348_CR50",
+        "first-page": "010324",
+        "volume": "2",
+        "author": "L Cincio",
+        "year": "2021",
+        "unstructured": "Cincio, L., Rudinger, K., Sarovar, M. & Coles, P. J. Machine learning of noise-resilient quantum circuits. Phys. Rev. X Quantum 2, 010324 (2021).",
+        "journal-title": "Phys. Rev. X Quantum"
+      },
+      {
+        "key": "348_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "113022",
+        "DOI": "10.1088/1367-2630/aae94a",
+        "volume": "20",
+        "author": "L Cincio",
+        "year": "2018",
+        "unstructured": "Cincio, L., Subaşı, Y., Sornborger, A. T. & Coles, P. J. Learning the quantum algorithm for state overlap. New J. Phys. 20, 113022 (2018).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR52",
+        "unstructured": "Du, Y., Huang, T., You, S., Hsieh, M.-H. & Tao, D. Quantum circuit architecture search: error mitigation and trainability enhancement for variational quantum solvers. Preprint at https://arxiv.org/abs/2010.10217 (2020)."
+      },
+      {
+        "key": "348_CR53",
+        "unstructured": "Zhang, S.-X., Hsieh, C.-Y., Zhang, S. & Yao, H. Differentiable quantum architecture search. Preprint at https://arxiv.org/abs/2010.08561 (2020)."
+      },
+      {
+        "key": "348_CR54",
+        "unstructured": "Bilkis, M., Cerezo, M., Verdon, G., Coles, P. J. & Cincio, L. A semi-agnostic ansatz with variable structure for quantum machine learning. Preprint at https://arxiv.org/abs/2103.06712 (2021)."
+      },
+      {
+        "key": "348_CR55",
+        "unstructured": "Rattew, A. G., Hu, S., Pistoia, M., Chen, R. & Wood, S. A domain-agnostic, noise-resistant, hardware-efficient evolutionary variational quantum eigensolver. Preprint at https://arxiv.org/abs/1910.09694 (2019)."
+      },
+      {
+        "key": "348_CR56",
+        "first-page": "021027",
+        "volume": "7",
+        "author": "Z-C Yang",
+        "year": "2017",
+        "unstructured": "Yang, Z.-C., Rahmani, A., Shabani, A., Neven, H. & Chamon, C. Optimizing variational quantum algorithms using Pontryagin’s minimum principle. Phys. Rev. X 7, 021027 (2017).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR57",
+        "first-page": "010101",
+        "volume": "2",
+        "author": "AB Magann",
+        "year": "2021",
+        "unstructured": "Magann, A. B. et al. From pulses to circuits and back again: a quantum optimal control perspective on variational quantum algorithms. Phys. Rev. X Quantum 2, 010101 (2021).",
+        "journal-title": "Phys. Rev. X Quantum"
+      },
+      {
+        "key": "348_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "023092",
+        "DOI": "10.1103/PhysRevResearch.3.023092",
+        "volume": "3",
+        "author": "A Choquette",
+        "year": "2021",
+        "unstructured": "Choquette, A. et al. Quantum-optimal-control-inspired ansatz for variational quantum algorithms. Phys. Rev. Res. 3, 023092 (2021).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "150503",
+        "DOI": "10.1103/PhysRevLett.118.150503",
+        "volume": "118",
+        "author": "J Li",
+        "year": "2017",
+        "unstructured": "Li, J., Yang, X., Peng, X. & Sun, C.-P. Hybrid quantum–classical approach to quantum optimal control. Phys. Rev. Lett. 118, 150503 (2017).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41534-017-0045-z",
+        "volume": "3",
+        "author": "D Lu",
+        "year": "2017",
+        "unstructured": "Lu, D. et al. Enhancing quantum control by bootstrapping a quantum processor of 12 qubits. NPJ Quantum Inf. 3, 45 (2017).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR61",
+        "first-page": "031007",
+        "volume": "6",
+        "author": "PJ O’Malley",
+        "year": "2016",
+        "unstructured": "O’Malley, P. J. et al. Scalable quantum simulation of molecular energies. Phys. Rev. X 6, 031007 (2016).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR62",
+        "first-page": "011004",
+        "volume": "10",
+        "author": "T Takeshita",
+        "year": "2020",
+        "unstructured": "Takeshita, T. et al. Increasing the representation accuracy of quantum simulations of chemistry without extra quantum resources. Phys. Rev. X 10, 011004 (2020).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "1229",
+        "DOI": "10.1137/S0097539700377025",
+        "volume": "31",
+        "author": "LG Valiant",
+        "year": "2002",
+        "unstructured": "Valiant, L. G. Quantum circuits that can be simulated classically in polynomial time. SIAM J. Comput. 31, 1229–1254 (2002).",
+        "journal-title": "SIAM J. Comput."
+      },
+      {
+        "key": "348_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "032325",
+        "DOI": "10.1103/PhysRevA.65.032325",
+        "volume": "65",
+        "author": "BM Terhal",
+        "year": "2002",
+        "unstructured": "Terhal, B. M. & DiVincenzo, D. P. Classical simulation of noninteracting-fermion quantum circuits. Phys. Rev. A 65, 032325 (2002).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR65",
+        "first-page": "3089",
+        "volume": "464",
+        "author": "R Jozsa",
+        "year": "2008",
+        "unstructured": "Jozsa, R. & Miyake, A. Matchgates and classical simulation of quantum circuits. Proc. Math. Phys. Eng. Sci. 464, 3089–3106 (2008).",
+        "journal-title": "Proc. Math. Phys. Eng. Sci."
+      },
+      {
+        "key": "348_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "033421",
+        "DOI": "10.1103/PhysRevResearch.2.033421",
+        "volume": "2",
+        "author": "W Mizukami",
+        "year": "2020",
+        "unstructured": "Mizukami, W. et al. Orbital optimized unitary coupled cluster theory for quantum computer. Phys. Rev. Res. 2, 033421 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "124107",
+        "DOI": "10.1063/1.5141835",
+        "volume": "152",
+        "author": "IO Sokolov",
+        "year": "2020",
+        "unstructured": "Sokolov, I. O. et al. Quantum orbital-optimized unitary coupled cluster methods in the strongly correlated regime: can quantum algorithms outperform their classical equivalents? J. Chem. Phys. 152, 124107 (2020).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "348_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "042308",
+        "DOI": "10.1103/PhysRevA.95.042308",
+        "volume": "95",
+        "author": "JR McClean",
+        "year": "2017",
+        "unstructured": "McClean, J. R., Kimchi-Schwartz, M. E., Carter, J. & de Jong, W. A. Hybrid quantum–classical hierarchy for mitigation of decoherence and determination of excited states. Phys. Rev. A 95, 042308 (2017).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "230401",
+        "DOI": "10.1103/PhysRevLett.122.230401",
+        "volume": "122",
+        "author": "RM Parrish",
+        "year": "2019",
+        "unstructured": "Parrish, R. M., Hohenstein, E. G., McMahon, P. L. & Martínez, T. J. Quantum computation of electronic transitions using a variational quantum eigensolver. Phys. Rev. Lett. 122, 230401 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR70",
+        "unstructured": "Parrish, R. M. & McMahon, P. L. Quantum filter diagonalization: quantum eigendecomposition without full quantum phase estimation. Preprint at https://arxiv.org/abs/1909.08925 (2019)."
+      },
+      {
+        "key": "348_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "073009",
+        "DOI": "10.1088/1367-2630/ab867b",
+        "volume": "22",
+        "author": "WJ Huggins",
+        "year": "2020",
+        "unstructured": "Huggins, W. J., Lee, J., Baek, U., O’Gorman, B. & Whaley, K. B. A non-orthogonal variational quantum eigensolver. New J. Phys. 22, 073009 (2020).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "2236",
+        "DOI": "10.1021/acs.jctc.9b01125",
+        "volume": "16",
+        "author": "NH Stair",
+        "year": "2020",
+        "unstructured": "Stair, N. H., Huang, R. & Evangelista, F. A. A multireference quantum Krylov algorithm for strongly correlated electrons. J. Chem. Theory Comput. 16, 2236–2245 (2020).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "348_CR73",
+        "unstructured": "Bharti, K. & Haug, T. Iterative quantum assisted eigensolver. Preprint at https://arxiv.org/abs/2010.05638 (2020)."
+      },
+      {
+        "key": "348_CR74",
+        "unstructured": "Bharti, K. & Haug, T. Quantum assisted simulator. Preprint at https://arxiv.org/abs/2011.06911 (2020)."
+      },
+      {
+        "key": "348_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "963",
+        "DOI": "10.1137/050644756",
+        "volume": "38",
+        "author": "IL Markov",
+        "year": "2008",
+        "unstructured": "Markov, I. L. & Shi, Y. Simulating quantum computation by contracting tensor networks. SIAM J. Comput. 38, 963–981 (2008).",
+        "journal-title": "SIAM J. Comput."
+      },
+      {
+        "key": "348_CR76",
+        "unstructured": "Kim, I. H. & Swingle, B. Robust entanglement renormalization on a noisy quantum computer. Preprint at https://arxiv.org/abs/1711.07500 (2017)."
+      },
+      {
+        "key": "348_CR77",
+        "unstructured": "Kim, I. H. Holographic quantum simulation. Preprint at https://arxiv.org/abs/1702.02093 (2017)."
+      },
+      {
+        "key": "348_CR78",
+        "doi-asserted-by": "publisher",
+        "first-page": "023025",
+        "DOI": "10.1103/PhysRevResearch.1.023025",
+        "volume": "1",
+        "author": "J-G Liu",
+        "year": "2019",
+        "unstructured": "Liu, J.-G., Zhang, Y.-H., Wan, Y. & Wang, L. Variational quantum eigensolver with fewer qubits. Phys. Rev. Res. 1, 023025 (2019).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR79",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1038/s41534-021-00420-3",
+        "volume": "7",
+        "author": "F Barratt",
+        "year": "2021",
+        "unstructured": "Barratt, F. et al. Parallel quantum simulation of large systems on small quantum computers. npj Quantum Inf. 7, 79 (2021).",
+        "journal-title": "npj Quantum Inf."
+      },
+      {
+        "key": "348_CR80",
+        "unstructured": "Yuan, X., Sun, J., Liu, J., Zhao, Q. & Zhou, Y. Quantum simulation with hybrid tensor networks. Preprint at https://arxiv.org/abs/2007.00958 (2020)."
+      },
+      {
+        "key": "348_CR81",
+        "unstructured": "Fujii, K., Mitarai, K., Mizukami, W. & Nakagawa, Y. O. Deep variational quantum eigensolver: a divide-and-conquer method for solving a larger problem with smaller size quantum computers. Preprint at https://arxiv.org/abs/2007.10917 (2020)."
+      },
+      {
+        "key": "348_CR82",
+        "doi-asserted-by": "publisher",
+        "first-page": "130501",
+        "DOI": "10.1103/PhysRevLett.123.130501",
+        "volume": "123",
+        "author": "G Mazzola",
+        "year": "2019",
+        "unstructured": "Mazzola, G., Ollitrault, P. J., Barkoutsos, P. K. & Tavernelli, I. Nonunitary operations for ground-state calculations in near-term quantum computers. Phys. Rev. Lett. 123, 130501 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR83",
+        "doi-asserted-by": "publisher",
+        "first-page": "032107",
+        "DOI": "10.1103/PhysRevA.100.032107",
+        "volume": "100",
+        "author": "J Martyn",
+        "year": "2019",
+        "unstructured": "Martyn, J. & Swingle, B. Product spectrum ansatz and the simplicity of thermal states. Phys. Rev. A 100, 032107 (2019).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR84",
+        "doi-asserted-by": "publisher",
+        "first-page": "043289",
+        "DOI": "10.1103/PhysRevResearch.2.043289",
+        "volume": "2",
+        "author": "N Yoshioka",
+        "year": "2020",
+        "unstructured": "Yoshioka, N., Nakagawa, Y. O., Mitarai, K. & Fujii, K. Variational quantum algorithm for nonequilibrium steady states. Phys. Rev. Res. 2, 043289 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR85",
+        "unstructured": "Verdon, G., Marks, J., Nanda, S., Leichenauer, S. & Hidary, J. Quantum Hamiltonian-based models and the variational quantum thermalizer algorithm. Preprint at https://arxiv.org/abs/1910.02071 (2019)."
+      },
+      {
+        "key": "348_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "025011",
+        "DOI": "10.1088/2632-2153/aba19d",
+        "volume": "2",
+        "author": "J Liu",
+        "year": "2021",
+        "unstructured": "Liu, J., Mao, L., Zhang, P. & Wang, L. Solving quantum statistical mechanics with variational autoregressive networks and quantum circuits. Mach. Learn. Sci. Technol. 2, 025011 (2021).",
+        "journal-title": "Mach. Learn. Sci. Technol."
+      },
+      {
+        "key": "348_CR87",
+        "doi-asserted-by": "publisher",
+        "first-page": "1900070",
+        "DOI": "10.1002/qute.201900070",
+        "volume": "2",
+        "author": "S Sim",
+        "year": "2019",
+        "unstructured": "Sim, S., Johnson, P. D. & Aspuru-Guzik, A. Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum–classical algorithms. Adv. Quantum Technol. 2, 1900070 (2019).",
+        "journal-title": "Adv. Quantum Technol."
+      },
+      {
+        "key": "348_CR88",
+        "doi-asserted-by": "publisher",
+        "first-page": "434",
+        "DOI": "10.22331/q-2021-04-19-434",
+        "volume": "5",
+        "author": "K Nakaji",
+        "year": "2021",
+        "unstructured": "Nakaji, K. & Yamamoto, N. Expressibility of the alternating layered ansatz for quantum computation. Quantum5, 434 (2021).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR89",
+        "doi-asserted-by": "publisher",
+        "first-page": "032430",
+        "DOI": "10.1103/PhysRevA.103.032430",
+        "volume": "103",
+        "author": "M Schuld",
+        "year": "2021",
+        "unstructured": "Schuld, M., Sweke, R. & Meyer, J. J. The effect of data encoding on the expressive power of variational quantum machine learning models. Phys. Rev. A 103, 032430 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR90",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1038/s43588-021-00084-1",
+        "volume": "1",
+        "author": "A Abbas",
+        "year": "2021",
+        "unstructured": "Abbas, A. et al. The power of quantum neural networks. Nat. Comput. Sci. 1, 403–409 (2021).",
+        "journal-title": "Nat. Comput. Sci."
+      },
+      {
+        "key": "348_CR91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Holmes, Z., Sharma, K., Cerezo, M. & Coles, P. J. Connecting ansatz expressibility to gradient magnitudes and barren plateaus. Preprint at https://arxiv.org/abs/2101.02138 (2021).",
+        "DOI": "10.1103/PRXQuantum.3.010313"
+      },
+      {
+        "key": "348_CR92",
+        "unstructured": "Guerreschi, G. G. & Smelyanskiy, M. Practical optimization for hybrid quantum–classical algorithms. Preprint at https://arxiv.org/abs/1701.01450 (2017)."
+      },
+      {
+        "key": "348_CR93",
+        "doi-asserted-by": "publisher",
+        "first-page": "032309",
+        "DOI": "10.1103/PhysRevA.98.032309",
+        "volume": "98",
+        "author": "K Mitarai",
+        "year": "2018",
+        "unstructured": "Mitarai, K., Negoro, M., Kitagawa, M. & Fujii, K. Quantum circuit learning. Phys. Rev. A 98, 032309 (2018).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR94",
+        "doi-asserted-by": "publisher",
+        "first-page": "032331",
+        "DOI": "10.1103/PhysRevA.99.032331",
+        "volume": "99",
+        "author": "M Schuld",
+        "year": "2019",
+        "unstructured": "Schuld, M., Bergholm, V., Gogolin, C., Izaac, J. & Killoran, N. Evaluating analytic gradients on quantum hardware. Phys. Rev. A 99, 032331 (2019).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR95",
+        "unstructured": "Bergholm, V. et al. Pennylane: Automatic differentiation of hybrid quantum–classical computations. Preprint at https://arxiv.org/abs/1811.04968 (2018)."
+      },
+      {
+        "key": "348_CR96",
+        "doi-asserted-by": "publisher",
+        "first-page": "012405",
+        "DOI": "10.1103/PhysRevA.103.012405",
+        "volume": "103",
+        "author": "A Mari",
+        "year": "2021",
+        "unstructured": "Mari, A., Bromley, T. R. & Killoran, N. Estimating the gradient and higher-order derivatives on quantum hardware. Phys. Rev. A 103, 012405 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR97",
+        "doi-asserted-by": "publisher",
+        "first-page": "035006",
+        "DOI": "10.1088/2058-9565/abf51a",
+        "volume": "6",
+        "author": "M Cerezo",
+        "year": "2021",
+        "unstructured": "Cerezo, M. & Coles, P. J. Impact of barren plateaus on the Hessian and higher order derivatives. Quantum Sci. Technol. 6, 035006 (2021).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR98",
+        "unstructured": "Koczor, B. & Benjamin, S. C. Quantum analytic descent. Preprint at https://arxiv.org/abs/2008.13774 (2020)."
+      },
+      {
+        "key": "348_CR99",
+        "first-page": "021050",
+        "volume": "7",
+        "author": "Y Li",
+        "year": "2017",
+        "unstructured": "Li, Y. & Benjamin, S. C. Efficient variational quantum simulator incorporating active error minimization. Phys. Rev. X 7, 021050 (2017).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR100",
+        "doi-asserted-by": "publisher",
+        "first-page": "191",
+        "DOI": "10.22331/q-2019-10-07-191",
+        "volume": "3",
+        "author": "X Yuan",
+        "year": "2019",
+        "unstructured": "Yuan, X., Endo, S., Zhao, Q., Li, Y. & Benjamin, S. C. Theory of variational quantum simulation. Quantum 3, 191 (2019).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR101",
+        "doi-asserted-by": "publisher",
+        "first-page": "010501",
+        "DOI": "10.1103/PhysRevLett.125.010501",
+        "volume": "125",
+        "author": "S Endo",
+        "year": "2020",
+        "unstructured": "Endo, S., Sun, J., Li, Y., Benjamin, S. C. & Yuan, X. Variational quantum simulation of general processes. Phys. Rev. Lett. 125, 010501 (2020).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR102",
+        "doi-asserted-by": "publisher",
+        "first-page": "013006",
+        "DOI": "10.1103/PhysRevResearch.1.013006",
+        "volume": "1",
+        "author": "K Mitarai",
+        "year": "2019",
+        "unstructured": "Mitarai, K. & Fujii, K. Methodology for replacing indirect measurements with direct measurements. Phys. Rev. Res. 1, 013006 (2019).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR103",
+        "doi-asserted-by": "publisher",
+        "first-page": "L030401",
+        "DOI": "10.1103/PhysRevA.103.L030401",
+        "volume": "103",
+        "author": "J Biamonte",
+        "year": "2021",
+        "unstructured": "Biamonte, J. Universal variational quantum computation. Phys. Rev. A 103, L030401 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR104",
+        "doi-asserted-by": "publisher",
+        "first-page": "5162",
+        "DOI": "10.1103/PhysRevLett.83.5162",
+        "volume": "83",
+        "author": "DS Abrams",
+        "year": "1999",
+        "unstructured": "Abrams, D. S. & Lloyd, S. Quantum algorithm providing exponential speed increase for finding eigenvalues and eigenvectors. Phys. Rev. Lett. 83, 5162–5165 (1999).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR105",
+        "doi-asserted-by": "publisher",
+        "first-page": "1704",
+        "DOI": "10.1126/science.1113479",
+        "volume": "309",
+        "author": "A Aspuru-Guzik",
+        "year": "2005",
+        "unstructured": "Aspuru-Guzik, A., Dutoi, A. D., Love, P. J. & Head-Gordon, M. Simulated quantum computation of molecular energies. Science 309, 1704–1707 (2005).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "348_CR106",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.22331/q-2019-07-01-156",
+        "volume": "3",
+        "author": "O Higgott",
+        "year": "2019",
+        "unstructured": "Higgott, O., Wang, D. & Brierley, S. Variational quantum computation of excited states. Quantum 3, 156 (2019).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR107",
+        "doi-asserted-by": "publisher",
+        "first-page": "167902",
+        "DOI": "10.1103/PhysRevLett.87.167902",
+        "volume": "87",
+        "author": "H Buhrman",
+        "year": "2001",
+        "unstructured": "Buhrman, H., Cleve, R., Watrous, J. & De Wolf, R. Quantum fingerprinting. Phys. Rev. Lett. 87, 167902 (2001).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR108",
+        "doi-asserted-by": "publisher",
+        "first-page": "062304",
+        "DOI": "10.1103/PhysRevA.99.062304",
+        "volume": "99",
+        "author": "T Jones",
+        "year": "2019",
+        "unstructured": "Jones, T., Endo, S., McArdle, S., Yuan, X. & Benjamin, S. C. Variational quantum algorithms for discovering Hamiltonian spectra. Phys. Rev. A 99, 062304 (2019).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR109",
+        "doi-asserted-by": "publisher",
+        "first-page": "033062",
+        "DOI": "10.1103/PhysRevResearch.1.033062",
+        "volume": "1",
+        "author": "KM Nakanishi",
+        "year": "2019",
+        "unstructured": "Nakanishi, K. M., Mitarai, K. & Fujii, K. Subspace-search variational quantum eigensolver for excited states. Phys. Rev. Res. 1, 033062 (2019).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR110",
+        "unstructured": "McClean, J. R. et al. Low depth mechanisms for quantum optimization. Preprint at https://arxiv.org/abs/2008.08615 (2020)."
+      },
+      {
+        "key": "348_CR111",
+        "unstructured": "Garcia-Saez, A. & Latorre, J. Addressing hard classical problems with adiabatically assisted variational quantum eigensolvers. Preprint at https://arxiv.org/abs/1806.02287 (2018)."
+      },
+      {
+        "key": "348_CR112",
+        "unstructured": "Cerezo, M., Sharma, K., Arrasmith, A. & Coles, P. J. Variational quantum state eigensolver. Preprint at https://arxiv.org/abs/2004.01372 (2020)."
+      },
+      {
+        "key": "348_CR113",
+        "doi-asserted-by": "publisher",
+        "first-page": "140504",
+        "DOI": "10.1103/PhysRevLett.122.140504",
+        "volume": "122",
+        "author": "D Wang",
+        "year": "2019",
+        "unstructured": "Wang, D., Higgott, O. & Brierley, S. Accelerated variational quantum eigensolver. Phys. Rev. Lett. 122, 140504 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR114",
+        "first-page": "010346",
+        "volume": "2",
+        "author": "G Wang",
+        "year": "2021",
+        "unstructured": "Wang, G., Koh, D. E., Johnson, P. D. & Cao, Y. Minimizing estimation runtime on noisy quantum computers. Phys. Rev. X Quantum 2, 010346 (2021).",
+        "journal-title": "Phys. Rev. X Quantum"
+      },
+      {
+        "key": "348_CR115",
+        "doi-asserted-by": "crossref",
+        "first-page": "010346",
+        "DOI": "10.1103/PRXQuantum.2.010346",
+        "volume": "2",
+        "author": "W Guoming",
+        "year": "2021",
+        "unstructured": "Guoming, W., Koh, D. E., Johnson, P. D. & Cao, Yudong. Bayesian inference with engineered likelihood functions for robust amplitude estimation. PRX Quantum 2, 010346 (2021).",
+        "journal-title": "PRX Quantum"
+      },
+      {
+        "key": "348_CR116",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nielsen, M. A. & Chuang, I. L. Quantum Computation and Quantum Information, 10th Anniversary Edition (Cambridge Univ. Press, 2011).",
+        "DOI": "10.1017/CBO9780511976667"
+      },
+      {
+        "key": "348_CR117",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1080/00268976400100041",
+        "volume": "8",
+        "author": "A McLachlan",
+        "year": "1964",
+        "unstructured": "McLachlan, A. A variational solution of the time-dependent Schrodinger equation. Mol. Phys. 8, 39–44 (1964).",
+        "journal-title": "Mol. Phys."
+      },
+      {
+        "key": "348_CR118",
+        "unstructured": "Yao, Y.-X. et al. Adaptive variational quantum dynamics simulations. Preprint at https://arxiv.org/abs/2011.00622 (2020)."
+      },
+      {
+        "key": "348_CR119",
+        "unstructured": "Zhang, Z.-J., Sun, J., Yuan, X. & Yung, M.-H. Low-depth hamiltonian simulation by adaptive product formula. Preprint at https://arxiv.org/abs/2011.05283 (2020)."
+      },
+      {
+        "key": "348_CR120",
+        "unstructured": "Heya, K., Nakanishi, K. M., Mitarai, K. & Fujii, K. Subspace variational quantum simulator. Preprint at https://arxiv.org/abs/1904.08566 (2019)."
+      },
+      {
+        "key": "348_CR121",
+        "doi-asserted-by": "publisher",
+        "first-page": "82",
+        "DOI": "10.1038/s41534-020-00302-0",
+        "volume": "6",
+        "author": "C Cirstoiu",
+        "year": "2020",
+        "unstructured": "Cirstoiu, C. et al. Variational fast forwarding for quantum simulation beyond the coherence time. NPJ Quantum Inf. 6, 82 (2020).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR122",
+        "unstructured": "Gibbs, J. et al. Long-time simulations with high fidelity on quantum hardware. Preprint at https://arxiv.org/abs/2102.04313 (2021)."
+      },
+      {
+        "key": "348_CR123",
+        "doi-asserted-by": "publisher",
+        "first-page": "140",
+        "DOI": "10.22331/q-2019-05-13-140",
+        "volume": "3",
+        "author": "S Khatri",
+        "year": "2019",
+        "unstructured": "Khatri, S. et al. Quantum-assisted quantum compiling. Quantum 3, 140 (2019).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR124",
+        "unstructured": "Commeau, B. et al. Variational Hamiltonian diagonalization for dynamical quantum simulation. Preprint at https://arxiv.org/abs/2009.02559 (2020)."
+      },
+      {
+        "key": "348_CR125",
+        "doi-asserted-by": "publisher",
+        "first-page": "030503",
+        "DOI": "10.1088/2058-9565/aab822",
+        "volume": "3",
+        "author": "N Moll",
+        "year": "2018",
+        "unstructured": "Moll, N. et al. Quantum optimization using variational algorithms on near-term quantum devices. Quantum Sci. Technol. 3, 030503 (2018).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR126",
+        "unstructured": "Lin, C. Y.-Y. & Zhu, Y. Performance of qaoa on typical instances of constraint satisfaction problems with bounded degree. Preprint at https://arxiv.org/abs/1601.01744 (2016)."
+      },
+      {
+        "key": "348_CR127",
+        "doi-asserted-by": "publisher",
+        "first-page": "022304",
+        "DOI": "10.1103/PhysRevA.97.022304",
+        "volume": "97",
+        "author": "Z Wang",
+        "year": "2018",
+        "unstructured": "Wang, Z., Hadfield, S., Jiang, Z. & Rieffel, E. G. Quantum approximate optimization algorithm for MaxCut: a fermionic view. Phys. Rev. A 97, 022304 (2018).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR128",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shaydulin, R., Safro, I. & Larson, J. Multistart methods for quantum approximate optimization. In 2019 IEEE High Performance Extreme Computing Conference (HPEC) (IEEE, 2019); https://ieeexplore.ieee.org/document/8916288/",
+        "DOI": "10.1109/HPEC.2019.8916288"
+      },
+      {
+        "key": "348_CR129",
+        "doi-asserted-by": "publisher",
+        "first-page": "014008",
+        "DOI": "10.1088/2058-9565/aad3e4",
+        "volume": "4",
+        "author": "J Romero",
+        "year": "2018",
+        "unstructured": "Romero, J. et al. Strategies for quantum computing molecular energies using the unitary coupled cluster ansatz. Quantum Sci. Technol. 4, 014008 (2018).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR130",
+        "unstructured": "Crooks, G. E. Performance of the quantum approximate optimization algorithm on the maximum cut problem. Preprint at https://arxiv.org/abs/1811.08419 (2018)."
+      },
+      {
+        "key": "348_CR131",
+        "doi-asserted-by": "publisher",
+        "first-page": "022309",
+        "DOI": "10.1103/PhysRevA.94.022309",
+        "volume": "94",
+        "author": "D Wecker",
+        "year": "2016",
+        "unstructured": "Wecker, D., Hastings, M. B. & Troyer, M. Training a quantum optimizer. Phys. Rev. A 94, 022309 (2016).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR132",
+        "first-page": "2367",
+        "volume": "34",
+        "author": "S Khairy",
+        "year": "2020",
+        "unstructured": "Khairy, S., Shaydulin, R., Cincio, L., Alexeev, Y. & Balaprakash, P. Learning to optimize variational quantum circuits to solve combinatorial problems. Proc. AAAI Conf. Artif. Intell. 34, 2367–2375 (2020).",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "348_CR133",
+        "unstructured": "Ambainis, A. Variable time amplitude amplification and a faster quantum algorithm for solving systems of linear equations. In 29th Int. Symp. Theoretical Aspects of Computer Science (STACS 2012), 636–647 (Dagstuhl, 2012)."
+      },
+      {
+        "key": "348_CR134",
+        "doi-asserted-by": "publisher",
+        "first-page": "060504",
+        "DOI": "10.1103/PhysRevLett.122.060504",
+        "volume": "122",
+        "author": "Y Subaşı",
+        "year": "2019",
+        "unstructured": "Subaşı, Y., Somma, R. D. & Orsucci, D. Quantum algorithms for systems of linear equations inspired by adiabatic quantum computing. Phys. Rev. Lett. 122, 060504 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR135",
+        "doi-asserted-by": "publisher",
+        "first-page": "1920",
+        "DOI": "10.1137/16M1087072",
+        "volume": "46",
+        "author": "A Childs",
+        "year": "2017",
+        "unstructured": "Childs, A., Kothari, R. & Somma, R. Quantum algorithm for systems of linear equations with exponentially improved dependence on precision. SIAM J. Comput. 46, 1920–1950 (2017).",
+        "journal-title": "SIAM J. Comput."
+      },
+      {
+        "key": "348_CR136",
+        "unstructured": "Chakraborty, S., Gilyén, A. & Jeffery, S. The power of block-encoded matrix powers: improved regression techniques via faster Hamiltonian simulation. In Leibniz International Proceedings in Informatics (LIPIcs) Vol. 132, 33:1–33:14 (Dagstuhl, 2019)."
+      },
+      {
+        "key": "348_CR137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11128-016-1495-5",
+        "volume": "16",
+        "author": "A Scherer",
+        "year": "2017",
+        "unstructured": "Scherer, A. et al. Concrete resource analysis of the quantum linear-system algorithm used to compute the electromagnetic scattering cross section of a 2D target. Quantum Inf. Process. 16, 60 (2017).",
+        "journal-title": "Quantum Inf. Process."
+      },
+      {
+        "key": "348_CR138",
+        "unstructured": "Bravo-Prieto, C. et al. Variational quantum linear solver: a hybrid algorithm for linear systems. Preprint at https://arxiv.org/abs/1909.05820 (2019)."
+      },
+      {
+        "key": "348_CR139",
+        "unstructured": "Xu, X. et al. Variational algorithms for linear algebra. Preprint at https://arxiv.org/abs/1911.05759 (2019)."
+      },
+      {
+        "key": "348_CR140",
+        "unstructured": "Huang, H.-Y., Bharti, K. & Rebentrost, P. Near-term quantum algorithms for linear systems of equations. Preprint at https://arxiv.org/abs/1909.07344 (2019)."
+      },
+      {
+        "key": "348_CR141",
+        "doi-asserted-by": "publisher",
+        "first-page": "010301",
+        "DOI": "10.1103/PhysRevA.101.010301",
+        "volume": "101",
+        "author": "M Lubasch",
+        "year": "2020",
+        "unstructured": "Lubasch, M., Joo, J., Moinier, P., Kiffner, M. & Jaksch, D. Variational quantum algorithms for nonlinear problems. Phys. Rev. A 101, 010301 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR142",
+        "doi-asserted-by": "publisher",
+        "first-page": "052416",
+        "DOI": "10.1103/PhysRevA.103.052416",
+        "volume": "103",
+        "author": "O Kyriienko",
+        "year": "2021",
+        "unstructured": "Kyriienko, O., Paine, A. E. & Elfving, V. E. Solving nonlinear differential equations with differentiable quantum circuits. Phys. Rev. A 103, 052416 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR143",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anschuetz, E., Olson, J., Aspuru-Guzik, A. & Cao, Y. Variational quantum factoring. In International Workshop on Quantum Technology and Optimization Problems, 74–85 (Springer, 2019).",
+        "DOI": "10.1007/978-3-030-14082-3_7"
+      },
+      {
+        "key": "348_CR144",
+        "doi-asserted-by": "publisher",
+        "first-page": "631",
+        "DOI": "10.1038/nphys3029",
+        "volume": "10",
+        "author": "S Lloyd",
+        "year": "2014",
+        "unstructured": "Lloyd, S., Mohseni, M. & Rebentrost, P. Quantum principal component analysis. Nat. Phys. 10, 631–633 (2014).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "348_CR145",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1038/s41534-019-0167-6",
+        "volume": "5",
+        "author": "R LaRose",
+        "year": "2019",
+        "unstructured": "LaRose, R., Tikku, A., O’Neel-Judy, É., Cincio, L. & Coles, P. J. Variational quantum state diagonalization. NPJ Quantum Inf. 5, 57 (2019).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR146",
+        "unstructured": "Heya, K., Suzuki, Y., Nakamura, Y. & Fujii, K. Variational quantum gate optimization. Preprint at https://arxiv.org/abs/1810.12745 (2018)."
+      },
+      {
+        "key": "348_CR147",
+        "unstructured": "Jones, T. & Benjamin, S. C. Quantum compilation and circuit optimisation via energy dissipation. Preprint at https://arxiv.org/abs/1811.03147 (2018)."
+      },
+      {
+        "key": "348_CR148",
+        "doi-asserted-by": "publisher",
+        "first-page": "043006",
+        "DOI": "10.1088/1367-2630/ab784c",
+        "volume": "22",
+        "author": "K Sharma",
+        "year": "2020",
+        "unstructured": "Sharma, K., Khatri, S., Cerezo, M. & Coles, P. J. Noise resilience of variational quantum compiling. New J. Phys. 22, 043006 (2020).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR149",
+        "doi-asserted-by": "publisher",
+        "first-page": "322",
+        "DOI": "10.1038/s41567-019-0747-6",
+        "volume": "16",
+        "author": "J Carolan",
+        "year": "2020",
+        "unstructured": "Carolan, J. et al. Variational quantum unsampling on a quantum photonic processor. Nat. Phys. 16, 322–327 (2020).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "348_CR150",
+        "unstructured": "Johnson, P. D., Romero, J., Olson, J., Cao, Y. & Aspuru-Guzik, A. Qvector: an algorithm for device-tailored quantum error correction. Preprint at https://arxiv.org/abs/1711.02249 (2017)."
+      },
+      {
+        "key": "348_CR151",
+        "doi-asserted-by": "publisher",
+        "first-page": "034068",
+        "DOI": "10.1103/PhysRevApplied.15.034068",
+        "volume": "15",
+        "author": "X Xu",
+        "year": "2021",
+        "unstructured": "Xu, X., Benjamin, S. C. & Yuan, X. Variational circuit compiler for quantum error correction. Phys. Rev. Appl. 15, 034068 (2021).",
+        "journal-title": "Phys. Rev. Appl."
+      },
+      {
+        "key": "348_CR152",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1038/nature23474",
+        "volume": "549",
+        "author": "J Biamonte",
+        "year": "2017",
+        "unstructured": "Biamonte, J. et al. Quantum machine learning. Nature 549, 195–202 (2017).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR153",
+        "unstructured": "Farhi, E. & Neven, H. Classification with quantum neural networks on near term processors. Preprint at https://arxiv.org/abs/1802.06002 (2018)."
+      },
+      {
+        "key": "348_CR154",
+        "doi-asserted-by": "publisher",
+        "first-page": "032308",
+        "DOI": "10.1103/PhysRevA.101.032308",
+        "volume": "101",
+        "author": "M Schuld",
+        "year": "2020",
+        "unstructured": "Schuld, M., Bocharov, A., Svore, K. M. & Wiebe, N. Circuit-centric quantum classifiers. Phys. Rev. A 101, 032308 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR155",
+        "doi-asserted-by": "publisher",
+        "first-page": "040504",
+        "DOI": "10.1103/PhysRevLett.122.040504",
+        "volume": "122",
+        "author": "M Schuld",
+        "year": "2019",
+        "unstructured": "Schuld, M. & Killoran, N. Quantum machine learning in feature Hilbert spaces. Phys. Rev. Lett. 122, 040504 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR156",
+        "doi-asserted-by": "publisher",
+        "first-page": "209",
+        "DOI": "10.1038/s41586-019-0980-2",
+        "volume": "567",
+        "author": "V Havlíček",
+        "year": "2019",
+        "unstructured": "Havlíček, V. et al. Supervised learning with quantum-enhanced feature spaces. Nature 567, 209–212 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR157",
+        "unstructured": "Stoudenmire, E. & Schwab, D. J. Supervised learning with tensor networks. Adv. Neural Inf. Proc. Syst. 29, 4799–4807 (2016)."
+      },
+      {
+        "key": "348_CR158",
+        "unstructured": "Lloyd, S., Schuld, M., Ijaz, A., Izaac, J. & Killoran, N. Quantum embeddings for machine learning. Preprint at https://arxiv.org/abs/2001.03622 (2020)."
+      },
+      {
+        "key": "348_CR159",
+        "doi-asserted-by": "publisher",
+        "first-page": "226",
+        "DOI": "10.22331/q-2020-02-06-226",
+        "volume": "4",
+        "author": "A Pérez-Salinas",
+        "year": "2020",
+        "unstructured": "Pérez-Salinas, A., Cervera-Lierta, A., Gil-Fuster, E. & Latorre, J. I. Data re-uploading for a universal quantum classifier. Quantum 4, 226 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR160",
+        "doi-asserted-by": "crossref",
+        "first-page": "123290",
+        "DOI": "10.1016/j.physa.2019.123290",
+        "volume": "541",
+        "author": "T Kusumoto",
+        "year": "2020",
+        "unstructured": "Kusumoto, T., Mitarai, K., Fujii, K., Kitagawa, M. & Negoro, M. Experimental quantum kernel machine learning with nuclear spins in a solid. Physica A 541, 123290 (2020).",
+        "journal-title": "Physica A"
+      },
+      {
+        "key": "348_CR161",
+        "doi-asserted-by": "publisher",
+        "first-page": "045001",
+        "DOI": "10.1088/2058-9565/aa8072",
+        "volume": "2",
+        "author": "J Romero",
+        "year": "2017",
+        "unstructured": "Romero, J., Olson, J. P. & Aspuru-Guzik, A. Quantum autoencoders for efficient compression of quantum data. Quantum Sci. Technol. 2, 045001 (2017).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41534-017-0032-4",
+        "volume": "3",
+        "author": "KH Wan",
+        "year": "2017",
+        "unstructured": "Wan, K. H., Dahlsten, O., Kristjánsson, H., Gardner, R. & Kim, M. Quantum generalisation of feedforward neural networks. NPJ Quantum Inf. 3, 36 (2017).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR163",
+        "unstructured": "Verdon, G., Pye, J. & Broughton, M. A universal training algorithm for quantum deep learning. Preprint at https://arxiv.org/abs/1806.09729 (2018)."
+      },
+      {
+        "key": "348_CR164",
+        "doi-asserted-by": "publisher",
+        "first-page": "1791",
+        "DOI": "10.1038/s41467-021-21728-w",
+        "volume": "12",
+        "author": "M Cerezo",
+        "year": "2021",
+        "unstructured": "Cerezo, M., Sone, A., Volkoff, T., Cincio, L. & Coles, P. J. Cost function dependent barren plateaus in shallow parameterized quantum circuits. Nat. Commun. 12, 1791 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR165",
+        "doi-asserted-by": "publisher",
+        "first-page": "054012",
+        "DOI": "10.1103/PhysRevApplied.15.054012",
+        "volume": "15",
+        "author": "C Cao",
+        "year": "2021",
+        "unstructured": "Cao, C. & Wang, X. Noise-assisted quantum autoencoder. Phys. Rev. Appl. 15, 054012 (2021).",
+        "journal-title": "Phys. Rev. Appl."
+      },
+      {
+        "key": "348_CR166",
+        "doi-asserted-by": "publisher",
+        "first-page": "060501",
+        "DOI": "10.1103/PhysRevLett.122.060501",
+        "volume": "122",
+        "author": "A Pepper",
+        "year": "2019",
+        "unstructured": "Pepper, A., Tischler, N. & Pryde, G. J. Experimental realization of a quantum autoencoder: the compression of qutrits via machine learning. Phys. Rev. Lett. 122, 060501 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR167",
+        "unstructured": "Verdon, G., Broughton, M. & Biamonte, J. A quantum algorithm to train neural networks using low-depth circuits. Preprint at https://arxiv.org/abs/1712.05304 (2017)."
+      },
+      {
+        "key": "348_CR168",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.1038/s41534-019-0157-8",
+        "volume": "5",
+        "author": "M Benedetti",
+        "year": "2019",
+        "unstructured": "Benedetti, M. et al. A generative modeling approach for benchmarking and training shallow quantum circuits. NPJ Quantum Inf. 5, 45 (2019).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR169",
+        "doi-asserted-by": "publisher",
+        "first-page": "033125",
+        "DOI": "10.1103/PhysRevResearch.2.033125",
+        "volume": "2",
+        "author": "Y Du",
+        "year": "2020",
+        "unstructured": "Du, Y., Hsieh, M.-H., Liu, T. & Tao, D. Expressive power of parameterized quantum circuits. Phys. Rev. Res. 2, 033125 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR170",
+        "doi-asserted-by": "publisher",
+        "first-page": "062324",
+        "DOI": "10.1103/PhysRevA.98.062324",
+        "volume": "98",
+        "author": "J-G Liu",
+        "year": "2018",
+        "unstructured": "Liu, J.-G. & Wang, L. Differentiable learning of quantum circuit Born machines. Phys. Rev. A 98, 062324 (2018).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR171",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1038/s41534-020-00288-9",
+        "volume": "6",
+        "author": "B Coyle",
+        "year": "2020",
+        "unstructured": "Coyle, B., Mills, D., Danos, V. & Kashefi, E. The Born supremacy: quantum advantage and training of an Ising Born machine. NPJ Quantum Inf. 6, 60 (2020).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR172",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Romero, J. & Aspuru-Guzik, A. Variational quantum generators: generative adversarial quantum machine learning for continuous distributions. Preprint at https://arxiv.org/abs/1901.00848 (2019).",
+        "DOI": "10.1002/qute.202000003"
+      },
+      {
+        "key": "348_CR173",
+        "unstructured": "Altaisky, M. Quantum neural network. Preprint at https://arxiv.org/abs/quant-ph/0107012 (2001)."
+      },
+      {
+        "key": "348_CR174",
+        "doi-asserted-by": "publisher",
+        "first-page": "808",
+        "DOI": "10.1038/s41467-020-14454-2",
+        "volume": "11",
+        "author": "K Beer",
+        "year": "2020",
+        "unstructured": "Beer, K. et al. Training deep quantum neural networks. Nat. Commun. 11, 808 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR175",
+        "doi-asserted-by": "publisher",
+        "first-page": "1273",
+        "DOI": "10.1038/s41567-019-0648-8",
+        "volume": "15",
+        "author": "I Cong",
+        "year": "2019",
+        "unstructured": "Cong, I., Choi, S. & Lukin, M. D. Quantum convolutional neural networks. Nat. Phys. 15, 1273–1278 (2019).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "348_CR176",
+        "unstructured": "Franken, L. & Georgiev, B. Explorations in quantum neural networks with intermediate measurements. In Proc. ESANN (2020); https://www.esann.org/sites/default/files/proceedings/2020/ES2020-197.pdf"
+      },
+      {
+        "key": "348_CR177",
+        "unstructured": "Pesah, A. et al. Absence of barren plateaus in quantum convolutional neural networks. Preprint at https://arxiv.org/abs/2011.02966 (2020)."
+      },
+      {
+        "key": "348_CR178",
+        "unstructured": "Zhang, K., Hsieh, M.-H., Liu, L. & Tao, D. Toward trainability of quantum neural networks. Preprint at https://arxiv.org/abs/2011.06258 (2020)."
+      },
+      {
+        "key": "348_CR179",
+        "doi-asserted-by": "publisher",
+        "first-page": "181",
+        "DOI": "10.1038/nphys1202",
+        "volume": "5",
+        "author": "WH Zurek",
+        "year": "2009",
+        "unstructured": "Zurek, W. H. Quantum Darwinism. Nat. Phys. 5, 181–188 (2009).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "348_CR180",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11417-0",
+        "volume": "10",
+        "author": "A Arrasmith",
+        "year": "2019",
+        "unstructured": "Arrasmith, A., Cincio, L., Sornborger, A. T., Zurek, W. H. & Coles, P. J. Variational consistent histories as a hybrid algorithm for quantum foundations. Nat. Commun. 10, 3438 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR181",
+        "unstructured": "Griffiths, R. B. Consistent Quantum Theory (Cambridge Univ. Press, 2003)."
+      },
+      {
+        "key": "348_CR182",
+        "doi-asserted-by": "publisher",
+        "first-page": "190501",
+        "DOI": "10.1103/PhysRevLett.126.190501",
+        "volume": "126",
+        "author": "Z Holmes",
+        "year": "2021",
+        "unstructured": "Holmes, Z. et al. Barren plateaus preclude learning scramblers. Phys. Rev. Lett. 126, 190501 (2021).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR183",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1126-6708/2007/09/120",
+        "volume": "2007",
+        "author": "P Hayden",
+        "year": "2007",
+        "unstructured": "Hayden, P. & Preskill, J. Black holes as mirrors: quantum information in random subsystems. J. High Energy Phys. 2007, 120 (2007).",
+        "journal-title": "J. High Energy Phys."
+      },
+      {
+        "key": "348_CR184",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilde, M. M. Quantum Information Theory (Cambridge Univ. Press, 2013).",
+        "DOI": "10.1017/CBO9781139525343"
+      },
+      {
+        "key": "348_CR185",
+        "unstructured": "Rosgen, B. & Watrous, J. On the hardness of distinguishing mixed-state quantum computations. In 20th Annual IEEE Conference on Computational Complexity (CCC’05) 344–354 (IEEE, 2005)."
+      },
+      {
+        "key": "348_CR186",
+        "doi-asserted-by": "publisher",
+        "first-page": "248",
+        "DOI": "10.22331/q-2020-03-26-248",
+        "volume": "4",
+        "author": "M Cerezo",
+        "year": "2020",
+        "unstructured": "Cerezo, M., Poremba, A., Cincio, L. & Coles, P. J. Variational quantum fidelity estimation. Quantum 4, 248 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR187",
+        "doi-asserted-by": "publisher",
+        "first-page": "062310",
+        "DOI": "10.1103/PhysRevA.101.062310",
+        "volume": "101",
+        "author": "C Bravo-Prieto",
+        "year": "2020",
+        "unstructured": "Bravo-Prieto, C., García-Martín, D. & Latorre, J. I. Quantum singular value decomposer. Phys. Rev. A 101, 062310 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR188",
+        "doi-asserted-by": "publisher",
+        "first-page": "083038",
+        "DOI": "10.1088/1367-2630/ab965e",
+        "volume": "22",
+        "author": "B Koczor",
+        "year": "2020",
+        "unstructured": "Koczor, B., Endo, S., Jones, T., Matsuzaki, Y. & Benjamin, S. C. Variational-state quantum metrology. New J. Phys. 22, 083038 (2020).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR189",
+        "doi-asserted-by": "publisher",
+        "first-page": "260505",
+        "DOI": "10.1103/PhysRevLett.123.260505",
+        "volume": "123",
+        "author": "R Kaubruegger",
+        "year": "2019",
+        "unstructured": "Kaubruegger, R. et al. Variational spin-squeezing algorithms on programmable quantum sensors. Phys. Rev. Lett. 123, 260505 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR190",
+        "unstructured": "Ma, Z. et al. Adaptive circuit learning for quantum metrology. Preprint at https://arxiv.org/abs/2010.08702 (2020)."
+      },
+      {
+        "key": "348_CR191",
+        "unstructured": "Beckey, J. L., Cerezo, M., Sone, A. & Coles, P. J. Variational quantum algorithm for estimating the quantum Fisher information. Preprint at https://arxiv.org/abs/2010.10488 (2020)."
+      },
+      {
+        "key": "348_CR192",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-07090-4",
+        "volume": "9",
+        "author": "JR McClean",
+        "year": "2018",
+        "unstructured": "McClean, J. R., Boixo, S., Smelyanskiy, V. N., Babbush, R. & Neven, H. Barren plateaus in quantum neural network training landscapes. Nat. Commun. 9, 4812 (2018).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR193",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arrasmith, A., Cerezo, M., Czarnik, P., Cincio, L. & Coles, P. J. Effect of barren plateaus on gradient-free optimization. Preprint at https://arxiv.org/abs/2011.12245 (2020).",
+        "DOI": "10.22331/q-2021-10-05-558"
+      },
+      {
+        "key": "348_CR194",
+        "doi-asserted-by": "publisher",
+        "first-page": "257",
+        "DOI": "10.1007/s00220-009-0873-6",
+        "volume": "291",
+        "author": "AW Harrow",
+        "year": "2009",
+        "unstructured": "Harrow, A. W. & Low, R. A. Random quantum circuits are approximate 2-designs. Commun. Math. Phys. 291, 257–302 (2009).",
+        "journal-title": "Commun. Math. Phys."
+      },
+      {
+        "key": "348_CR195",
+        "doi-asserted-by": "publisher",
+        "first-page": "397",
+        "DOI": "10.1007/s00220-016-2706-8",
+        "volume": "346",
+        "author": "FG Brandao",
+        "year": "2016",
+        "unstructured": "Brandao, F. G., Harrow, A. W. & Horodecki, M. Local random quantum circuits are approximate polynomial-designs. Commun. Math. Phys. 346, 397–434 (2016).",
+        "journal-title": "Commun. Math. Phys."
+      },
+      {
+        "key": "348_CR196",
+        "doi-asserted-by": "publisher",
+        "first-page": "075104",
+        "DOI": "10.1103/PhysRevB.102.075104",
+        "volume": "102",
+        "author": "A Uvarov",
+        "year": "2020",
+        "unstructured": "Uvarov, A., Biamonte, J. D. & Yudin, D. Variational quantum eigensolver for frustrated quantum systems. Phys. Rev. B 102, 075104 (2020).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "348_CR197",
+        "doi-asserted-by": "publisher",
+        "first-page": "245301",
+        "DOI": "10.1088/1751-8121/abfac7",
+        "volume": "54",
+        "author": "A Uvarov",
+        "year": "2021",
+        "unstructured": "Uvarov, A. & Biamonte, J. On barren plateaus and cost function locality in variational quantum algorithms. J. Phys. A 54, 245301 (2021).",
+        "journal-title": "J. Phys. A"
+      },
+      {
+        "key": "348_CR198",
+        "unstructured": "Sharma, K., Cerezo, M., Cincio, L. & Coles, P. J. Trainability of dissipative perceptron-based quantum neural networks. Preprint at https://arxiv.org/abs/2005.12458 (2020)."
+      },
+      {
+        "key": "348_CR199",
+        "unstructured": "Marrero, C. O., Kieferová, M. & Wiebe, N. Entanglement induced barren plateaus. Preprint at https://arxiv.org/abs/2010.15968 (2020)."
+      },
+      {
+        "key": "348_CR200",
+        "unstructured": "Wang, S. et al. Noise-induced barren plateaus in variational quantum algorithms. Preprint at https://arxiv.org/abs/2007.14384 (2020)."
+      },
+      {
+        "key": "348_CR201",
+        "unstructured": "Franca, D. S. & Garcia-Patron, R. Limitations of optimization algorithms on noisy quantum devices. Preprint at https://arxiv.org/abs/2009.05532 (2020)."
+      },
+      {
+        "key": "348_CR202",
+        "first-page": "021067",
+        "volume": "10",
+        "author": "L Zhou",
+        "year": "2020",
+        "unstructured": "Zhou, L., Wang, S.-T., Choi, S., Pichler, H. & Lukin, M. D. Quantum approximate optimization algorithm: performance, mechanism, and implementation on near-term devices. Phys. Rev. X 10, 021067 (2020).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR203",
+        "doi-asserted-by": "publisher",
+        "first-page": "214",
+        "DOI": "10.22331/q-2019-12-09-214",
+        "volume": "3",
+        "author": "E Grant",
+        "year": "2019",
+        "unstructured": "Grant, E., Wossnig, L., Ostaszewski, M. & Benedetti, M. An initialization strategy for addressing barren plateaus in parameterized quantum circuits. Quantum 3, 214 (2019).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR204",
+        "doi-asserted-by": "publisher",
+        "first-page": "025008",
+        "DOI": "10.1088/2058-9565/abd891",
+        "volume": "6",
+        "author": "T Volkoff",
+        "year": "2021",
+        "unstructured": "Volkoff, T. & Coles, P. J. Large gradients via correlation in random parameterized quantum circuits. Quantum Sci. Technol. 6, 025008 (2021).",
+        "journal-title": "Quantum Sci. Technol."
+      },
+      {
+        "key": "348_CR205",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skolik, A., McClean, J. R., Mohseni, M., van der Smagt, P. & Leib, M. Layerwise learning for quantum neural networks. Preprint at https://arxiv.org/abs/2006.14904 (2020).",
+        "DOI": "10.1007/s42484-020-00036-4"
+      },
+      {
+        "key": "348_CR206",
+        "doi-asserted-by": "publisher",
+        "first-page": "032607",
+        "DOI": "10.1103/PhysRevA.103.032607",
+        "volume": "103",
+        "author": "E Campos",
+        "year": "2021",
+        "unstructured": "Campos, E., Nasrallah, A. & Biamonte, J. Abrupt transitions in variational quantum circuit training. Phys. Rev. A 103, 032607 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR207",
+        "unstructured": "Verdon, G. et al. Learning to learn with quantum neural networks via classical neural networks. Preprint at https://arxiv.org/abs/1907.05415 (2019)."
+      },
+      {
+        "key": "348_CR208",
+        "unstructured": "Anand, A., Degroote, M. & Aspuru-Guzik, A. Natural evolutionary strategies for variational quantum computation. Preprint at https://arxiv.org/abs/2012.00101 (2020)."
+      },
+      {
+        "key": "348_CR209",
+        "doi-asserted-by": "publisher",
+        "first-page": "014059",
+        "DOI": "10.1103/PhysRevApplied.14.014059",
+        "volume": "14",
+        "author": "Z Cai",
+        "year": "2020",
+        "unstructured": "Cai, Z. Resource estimation for quantum variational simulations of the hubbard model. Phys. Rev. Appl. 14, 014059 (2020).",
+        "journal-title": "Phys. Rev. Appl."
+      },
+      {
+        "key": "348_CR210",
+        "doi-asserted-by": "publisher",
+        "first-page": "235122",
+        "DOI": "10.1103/PhysRevB.102.235122",
+        "volume": "102",
+        "author": "C Cade",
+        "year": "2020",
+        "unstructured": "Cade, C., Mineh, L., Montanaro, A. & Stanisic, S. Strategies for solving the Fermi–Hubbard model on near-term quantum computers. Phys. Rev. B 102, 235122 (2020).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "348_CR211",
+        "unstructured": "Jena, A., Genin, S. & Mosca, M. Pauli partitioning with respect to gate sets. Preprint at https://arxiv.org/abs/1907.07859 (2019)."
+      },
+      {
+        "key": "348_CR212",
+        "doi-asserted-by": "publisher",
+        "first-page": "385",
+        "DOI": "10.22331/q-2021-01-20-385",
+        "volume": "5",
+        "author": "O Crawford",
+        "year": "2021",
+        "unstructured": "Crawford, O. et al. Efficient quantum measurement of Pauli operators in the presence of finite sampling error. Quantum 5, 385 (2021).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR213",
+        "doi-asserted-by": "publisher",
+        "first-page": "124114",
+        "DOI": "10.1063/1.5141458",
+        "volume": "152",
+        "author": "V Verteletskyi",
+        "year": "2020",
+        "unstructured": "Verteletskyi, V., Yen, T.-C. & Izmaylov, A. F. Measurement optimization in the variational quantum eigensolver using a minimum clique cover. J. Chem. Phys. 152, 124114 (2020).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "348_CR214",
+        "doi-asserted-by": "publisher",
+        "first-page": "190",
+        "DOI": "10.1021/acs.jctc.9b00791",
+        "volume": "16",
+        "author": "AF Izmaylov",
+        "year": "2019",
+        "unstructured": "Izmaylov, A. F., Yen, T.-C., Lang, R. A. & Verteletskyi, V. Unitary partitioning approach to the measurement problem in the variational quantum eigensolver method. J. Chem. Theory Comput. 16, 190–195 (2019).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "348_CR215",
+        "doi-asserted-by": "publisher",
+        "first-page": "062322",
+        "DOI": "10.1103/PhysRevA.101.062322",
+        "volume": "101",
+        "author": "A Zhao",
+        "year": "2020",
+        "unstructured": "Zhao, A. et al. Measurement reduction in variational quantum algorithms. Phys. Rev. A 101, 062322 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR216",
+        "doi-asserted-by": "publisher",
+        "first-page": "2400",
+        "DOI": "10.1021/acs.jctc.0c00008",
+        "volume": "16",
+        "author": "T-C Yen",
+        "year": "2020",
+        "unstructured": "Yen, T.-C., Verteletskyi, V. & Izmaylov, A. F. Measuring all compatible operators in one series of single-qubit measurements using unitary transformations. J. Chem. Theory Comput. 16, 2400–2409 (2020).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "348_CR217",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gokhale, P. & Chong, F. T. o(n3) measurement cost for variational quantum eigensolver on molecular Hamiltonians. Preprint at https://arxiv.org/abs/1908.11857 (2019).",
+        "DOI": "10.1109/TQE.2020.3035814"
+      },
+      {
+        "key": "348_CR218",
+        "doi-asserted-by": "publisher",
+        "first-page": "023023",
+        "DOI": "10.1088/1367-2630/18/2/023023",
+        "volume": "18",
+        "author": "JR McClean",
+        "year": "2016",
+        "unstructured": "McClean, J. R., Romero, J., Babbush, R. & Aspuru-Guzik, A. The theory of variational hybrid quantum–classical algorithms. New J. Phys. 18, 023023 (2016).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR219",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41534-020-00341-7",
+        "volume": "7",
+        "author": "WJ Huggins",
+        "year": "2021",
+        "unstructured": "Huggins, W. J. et al. Efficient and noise resilient measurements for quantum chemistry on near-term quantum computers. NPJ Quantum Inf. 7, 1–9 (2021).",
+        "journal-title": "NPJ Quantum Inf."
+      },
+      {
+        "key": "348_CR220",
+        "doi-asserted-by": "publisher",
+        "first-page": "053020",
+        "DOI": "10.1088/1367-2630/aab919",
+        "volume": "20",
+        "author": "NC Rubin",
+        "year": "2018",
+        "unstructured": "Rubin, N. C., Babbush, R. & McClean, J. Application of fermionic marginal constraints to hybrid quantum algorithms. New J. Phys. 20, 053020 (2018).",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "348_CR221",
+        "unstructured": "Arrasmith, A., Cincio, L., Somma, R. D. & Coles, P. J. Operator sampling for shot-frugal optimization in variational algorithms. Preprint at https://arxiv.org/abs/2004.06252 (2020)."
+      },
+      {
+        "key": "348_CR222",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Straaten, B. & Koczor, B. Measurement cost of metric-aware variational quantum algorithms. Preprint at https://arxiv.org/abs/2005.05172 (2020).",
+        "DOI": "10.1103/PRXQuantum.2.030324"
+      },
+      {
+        "key": "348_CR223",
+        "doi-asserted-by": "publisher",
+        "first-page": "1050",
+        "DOI": "10.1038/s41567-020-0932-7",
+        "volume": "16",
+        "author": "H-Y Huang",
+        "year": "2020",
+        "unstructured": "Huang, H.-Y., Kueng, R. & Preskill, J. Predicting many properties of a quantum system from very few measurements. Nat. Phys. 16, 1050–1057 (2020).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "348_CR224",
+        "unstructured": "Hadfield, C., Bravyi, S., Raymond, R. & Mezzacapo, A. Measurements of quantum Hamiltonians with locally-biased classical shadows. Preprint at https://arxiv.org/abs/2006.15788 (2020)."
+      },
+      {
+        "key": "348_CR225",
+        "doi-asserted-by": "publisher",
+        "first-page": "022060",
+        "DOI": "10.1103/PhysRevResearch.2.022060",
+        "volume": "2",
+        "author": "G Torlai",
+        "year": "2020",
+        "unstructured": "Torlai, G., Mazzola, G., Carleo, G. & Mezzacapo, A. Precise measurement of quantum observables with neural-network estimators. Phys. Rev. Res. 2, 022060 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "348_CR226",
+        "doi-asserted-by": "publisher",
+        "first-page": "032001",
+        "DOI": "10.7566/JPSJ.90.032001",
+        "volume": "90",
+        "author": "S Endo",
+        "year": "2021",
+        "unstructured": "Endo, S., Cai, Z., Benjamin, S. C. & Yuan, X. Hybrid quantum–classical algorithms and quantum error mitigation. J. Phys. Soc. Japan 90, 032001 (2021).",
+        "journal-title": "J. Phys. Soc. Japan"
+      },
+      {
+        "key": "348_CR227",
+        "doi-asserted-by": "publisher",
+        "first-page": "180509",
+        "DOI": "10.1103/PhysRevLett.119.180509",
+        "volume": "119",
+        "author": "K Temme",
+        "year": "2017",
+        "unstructured": "Temme, K., Bravyi, S. & Gambetta, J. M. Error mitigation for short-depth quantum circuits. Phys. Rev. Lett. 119, 180509 (2017).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR228",
+        "doi-asserted-by": "publisher",
+        "first-page": "491",
+        "DOI": "10.1038/s41586-019-1040-7",
+        "volume": "567",
+        "author": "A Kandala",
+        "year": "2019",
+        "unstructured": "Kandala, A. et al. Error mitigation extends the computational reach of a noisy quantum processor. Nature 567, 491–495 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "348_CR229",
+        "first-page": "031027",
+        "volume": "8",
+        "author": "S Endo",
+        "year": "2018",
+        "unstructured": "Endo, S., Benjamin, S. C. & Li, Y. Practical quantum error mitigation for near-future applications. Phys. Rev. X 8, 031027 (2018).",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "348_CR230",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai, Z. Multi-exponential error extrapolation and combining error mitigation techniques for nisq applications. Preprint at https://arxiv.org/abs/2007.01265 (2020).",
+        "DOI": "10.1038/s41534-021-00404-3"
+      },
+      {
+        "key": "348_CR231",
+        "doi-asserted-by": "publisher",
+        "first-page": "012338",
+        "DOI": "10.1103/PhysRevA.99.012338",
+        "volume": "99",
+        "author": "M Otten",
+        "year": "2019",
+        "unstructured": "Otten, M. & Gray, S. K. Recovering noise-free quantum observables. Phys. Rev. A 99, 012338 (2019).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR232",
+        "doi-asserted-by": "publisher",
+        "first-page": "012334",
+        "DOI": "10.1103/PhysRevA.99.012334",
+        "volume": "99",
+        "author": "S Endo",
+        "year": "2019",
+        "unstructured": "Endo, S., Zhao, Q., Li, Y., Benjamin, S. & Yuan, X. Mitigating algorithmic errors in a Hamiltonian simulation. Phys. Rev. A 99, 012334 (2019).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR233",
+        "doi-asserted-by": "publisher",
+        "first-page": "034026",
+        "DOI": "10.1103/PhysRevApplied.15.034026",
+        "volume": "15",
+        "author": "J Sun",
+        "year": "2021",
+        "unstructured": "Sun, J. et al. Mitigating realistic noise in practical noisy intermediate-scale quantum devices. Phys. Rev. Appl. 15, 034026 (2021).",
+        "journal-title": "Phys. Rev. Appl."
+      },
+      {
+        "key": "348_CR234",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Strikis, A., Qin, D., Chen, Y., Benjamin, S. C. & Li, Y. Learning-based quantum error mitigation. Preprint at https://arxiv.org/abs/2005.07601 (2020).",
+        "DOI": "10.1103/PRXQuantum.2.040330"
+      },
+      {
+        "key": "348_CR235",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Czarnik, P., Arrasmith, A., Coles, P. J. & Cincio, L. Error mitigation with Clifford quantum-circuit data. Preprint at https://arxiv.org/abs/2005.10189 (2020).",
+        "DOI": "10.22331/q-2021-11-26-592"
+      },
+      {
+        "key": "348_CR236",
+        "unstructured": "Lowe, A. et al. Unified approach to data-driven quantum error mitigation. Preprint at https://arxiv.org/abs/2011.01157 (2020)."
+      },
+      {
+        "key": "348_CR237",
+        "doi-asserted-by": "publisher",
+        "first-page": "180501",
+        "DOI": "10.1103/PhysRevLett.122.180501",
+        "volume": "122",
+        "author": "S McArdle",
+        "year": "2019",
+        "unstructured": "McArdle, S., Yuan, X. & Benjamin, S. Error-mitigated digital quantum simulation. Phys. Rev. Lett. 122, 180501 (2019).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "348_CR238",
+        "doi-asserted-by": "publisher",
+        "first-page": "062339",
+        "DOI": "10.1103/PhysRevA.98.062339",
+        "volume": "98",
+        "author": "X Bonet-Monroig",
+        "year": "2018",
+        "unstructured": "Bonet-Monroig, X., Sagastizabal, R., Singh, M. & O’Brien, T. Low-cost error mitigation by symmetry verification. Phys. Rev. A 98, 062339 (2018).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR239",
+        "doi-asserted-by": "publisher",
+        "first-page": "636",
+        "DOI": "10.1038/s41467-020-14341-w",
+        "volume": "11",
+        "author": "JR McClean",
+        "year": "2020",
+        "unstructured": "McClean, J. R., Jiang, Z., Rubin, N. C., Babbush, R. & Neven, H. Decoding quantum errors with subspace expansions. Nat. Commun. 11, 636 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "348_CR240",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koczor, B. Exponential error suppression for near-term quantum devices. Preprint at https://arxiv.org/abs/2011.05942 (2020).",
+        "DOI": "10.1103/PhysRevX.11.031057"
+      },
+      {
+        "key": "348_CR241",
+        "unstructured": "Huggins, W. J. et al. Virtual distillation for quantum error mitigation. Preprint at https://arxiv.org/abs/2011.07064 (2020)."
+      },
+      {
+        "key": "348_CR242",
+        "doi-asserted-by": "publisher",
+        "first-page": "042605",
+        "DOI": "10.1103/PhysRevA.103.042605",
+        "volume": "103",
+        "author": "S Bravyi",
+        "year": "2021",
+        "unstructured": "Bravyi, S., Sheldon, S., Kandala, A., Mckay, D. C. & Gambetta, J. M. Mitigating measurement errors in multi-qubit experiments. Phys. Rev. A 103, 042605 (2021).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR243",
+        "doi-asserted-by": "publisher",
+        "first-page": "452",
+        "DOI": "10.22331/q-2021-05-04-452",
+        "volume": "5",
+        "author": "D Su",
+        "year": "2021",
+        "unstructured": "Su, D. et al. Error mitigation on a near-term quantum photonic device. Quantum 5, 452 (2021).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR244",
+        "doi-asserted-by": "publisher",
+        "first-page": "052414",
+        "DOI": "10.1103/PhysRevA.102.052414",
+        "volume": "102",
+        "author": "L Gentini",
+        "year": "2020",
+        "unstructured": "Gentini, L., Cuccoli, A., Pirandola, S., Verrucchi, P. & Banchi, L. Noise-resilient variational hybrid quantum–classical optimization. Phys. Rev. A 102, 052414 (2020).",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "348_CR245",
+        "unstructured": "Fontana, E., Cerezo, M., Arrasmith, A., Rungger, I. & Coles, P. J. Optimizing parameterized quantum circuits via noise-induced breaking of symmetries. Preprint at https://arxiv.org/abs/2011.08763 (2020)."
+      },
+      {
+        "key": "348_CR246",
+        "unstructured": "Xue, C., Chen, Z.-Y., Wu, Y.-C. & Guo, G.-P. Effects of quantum noise on quantum approximate optimization algorithm. Preprint at https://arxiv.org/abs/1909.02196 (2019)."
+      },
+      {
+        "key": "348_CR247",
+        "doi-asserted-by": "publisher",
+        "first-page": "025208",
+        "DOI": "10.1088/2633-1357/abb0d7",
+        "volume": "1",
+        "author": "J Marshall",
+        "year": "2020",
+        "unstructured": "Marshall, J., Wudarski, F., Hadfield, S. & Hogg, T. Characterizing local noise in QAOA circuits. IOP SciNotes 1, 025208 (2020).",
+        "journal-title": "IOP SciNotes"
+      },
+      {
+        "key": "348_CR248",
+        "unstructured": "Kim, I. H. Noise-resilient preparation of quantum many-body ground states. Preprint at https://arxiv.org/abs/1703.00032 (2017)."
+      },
+      {
+        "key": "348_CR249",
+        "unstructured": "Broughton, M. et al. Tensorflow quantum: a software framework for quantum machine learning. Preprint at https://arxiv.org/abs/2003.02989 (2020)."
+      },
+      {
+        "key": "348_CR250",
+        "doi-asserted-by": "publisher",
+        "first-page": "341",
+        "DOI": "10.22331/q-2020-10-11-341",
+        "volume": "4",
+        "author": "X-Z Luo",
+        "year": "2020",
+        "unstructured": "Luo, X.-Z., Liu, J.-G., Zhang, P. & Wang, L. Yao. jl: Extensible, efficient framework for quantum algorithm design. Quantum 4, 341 (2020).",
+        "journal-title": "Quantum"
+      },
+      {
+        "key": "348_CR251",
+        "first-page": "020312",
+        "volume": "1",
+        "author": "YR Sanders",
+        "year": "2020",
+        "unstructured": "Sanders, Y. R. et al. Compilation of fault-tolerant quantum heuristics for combinatorial optimization. Phys. Rev. X Quantum 1, 020312 (2020).",
+        "journal-title": "Phys. Rev. X Quantum"
+      }
+    ],
+    "container-title": [
+      "Nature Reviews Physics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s42254-021-00348-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42254-021-00348-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42254-021-00348-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          5
+        ]
+      ],
+      "date-time": "2023-02-05T11:09:41Z",
+      "timestamp": 1675595381000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s42254-021-00348-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "references-count": 251,
+    "journal-issue": {
+      "issue": "9",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "348"
+    ],
+    "URL": "https://doi.org/10.1038/s42254-021-00348-9",
+    "relation": {},
+    "ISSN": [
+      "2522-5820"
+    ],
+    "issn-type": [
+      {
+        "value": "2522-5820",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "14 June 2021",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "12 August 2021",
+        "order": 2,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

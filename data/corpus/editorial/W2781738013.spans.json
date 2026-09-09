@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W2781738013-06fd0388985b.txt.gz",
+  "sourceTextSha256": "7929f7c4daf17f60be0cd6dc6d8ab426e3e3385d2b6ff82722372eab5da0a698",
+  "spans": [
+    {
+      "start": 216,
+      "end": 831,
+      "text": "Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the near future. Quantum computers with 50-100 qubits may be able to perform tasks which surpass the capabilities of today’s classical digital computers, but noise in quantum gates will limit the size of quantum circuits that can be executed reliably. NISQ devices will be useful tools for exploring many-body quantum physics, and may have other useful applications, but the 100-qubit quantum computer will not change the world right away — we should regard it as a significant step toward the more powerful quantum technologies of the future."
+    },
+    {
+      "start": 7473,
+      "end": 7774,
+      "text": "3.2 Why quantum computing is hard So why is it taking so long? What is it about quantum computing that’s so difficult? The core of the problem stems from a fundamental feature of the quantum world — that we cannot observe a quantum system without producing an uncontrollable disturbance in the system."
+    },
+    {
+      "start": 7775,
+      "end": 8214,
+      "text": "That means that if we want to use a quantum system to store and reliably process information, then we need to keep that system nearly perfectly isolated from the outside world. At the same time, though, we want the qubits to strongly interact with one another so we can process the information; we also need to be able to control the system from the outside, and eventually read out the qubits so we can find the result of our computation."
+    },
+    {
+      "start": 16836,
+      "end": 17569,
+      "text": "At least in the near term quantum computers are likely to be special purpose devices, which most users will access via the cloud. When we speak of a quantum speedup, we typically mean that the quantum computer solves the problem faster than competing classical computers using the best available hardware and running the best algorithm which performs the same task. (Arguably, though, quantum technology might be preferred even if classical supercomputers run faster, if for example the quantum hardware has lower cost and lower power consumption.) In any case, we should recognize that the power of classical computers will continue to increase, with exascale systems (surpassing 1018 FLOPS) expected to be available in a few years."
+    },
+    {
+      "start": 35564,
+      "end": 35903,
+      "text": "Note added: After this paper was submitted, Tang [45] exhibited a “quantum-inspired” classical algorithm which returns a high-value recommendation in runtime O(poly(k)polylog(mn)); thus the quantum algorithm proposed in [44] does not in fact achieve an exponential speedup compared to the best classical algorithm performing the same task."
+    },
+    {
+      "start": 46312,
+      "end": 46825,
+      "text": "The truly transformative quantum technologies of the future are probably going to have to be fault tolerant, and because of the very hefty overhead cost of quantum error correction, the era of fault-tolerant quantum computing may still be rather distant. No one really knows how long it will take to get there. As the quantum community eagerly seizes the impending opportunity to experiment with NISQ devices, we must not lose sight of the essential longer-term goal: hastening the onset of the faulttolerant era."
+    }
+  ]
+}

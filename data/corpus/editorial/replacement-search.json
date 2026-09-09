@@ -1,0 +1,3049 @@
+[
+  {
+    "query": "knowledge graphs reasoning survey",
+    "rows": [
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1810.04805",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1810.04805"
+          },
+          {
+            "url": "https://drops.dagstuhl.de/storage/01oasics/oasics-vol070-ldk2019/OASIcs.LDK.2019.21/OASIcs.LDK.2019.21.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.LDK.2019.21"
+          },
+          {
+            "url": "https://drops.dagstuhl.de/storage/01oasics/oasics-vol116-parma-ditam2024/OASIcs.PARMA-DITAM.2024.2/OASIcs.PARMA-DITAM.2024.2.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.PARMA-DITAM.2024.2"
+          },
+          {
+            "url": "https://drops.dagstuhl.de/storage/01oasics/oasics-vol141-parma-ditam2026/OASIcs.PARMA-DITAM.2026.8/OASIcs.PARMA-DITAM.2026.8.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.PARMA-DITAM.2026.8"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2896457183",
+        "doi": "10.4230/lipics.cosit.2022.18",
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "year": 2018,
+        "citations": 46037,
+        "abstract": "Although geospatial question answering systems have received increasing attention in recent years, existing prototype systems struggle to properly answer qualitative spatial questions. In this work, we propose a unique framework for answering qualitative spatial questions, which comprises three main components: a geoparser that takes the input questions and extracts place semantic information from text, a reasoning system which is embedded with a crisp reasoner, and finally, answer extraction, which refines the solution space and generates final answers. We present an experimental design to evaluate our framework for point-based cardinal direction calculus (CDC) relations by developing an automated approach for generating three types of synthetic qualitative spatial questions. The initial evaluations of generated answers in our system are promising because a high proportion of answers were labelled correct.",
+        "authors": [
+          "Kefallinos, Dionysios",
+          "Alexandris, Georgios",
+          "Maras, Alexis",
+          "Chaidos, Panagiotis",
+          "Gomony, Manil Dev",
+          "Corporaal, Henk",
+          "Soudris, Dimitrios",
+          "Xydis, Sotirios"
+        ],
+        "primaryLocation": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.COSIT.2022.18",
+        "pdfUrl": null,
+        "landingUrl": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.COSIT.2022.18",
+        "license": "cc-by",
+        "oaStatus": "green",
+        "topics": [
+          "Topic Modeling",
+          "Natural Language Processing Techniques",
+          "Speech Recognition and Synthesis"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "http://hdl.handle.net/20.500.11824/1166",
+            "license": "other-oa",
+            "landingUrl": "http://hdl.handle.net/20.500.11824/1166"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1910.10045",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1910.10045"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2981731882",
+        "doi": "10.1016/j.inffus.2019.12.012",
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "year": 2019,
+        "citations": 9857,
+        "abstract": null,
+        "authors": [
+          "Alejandro Barredo Arrieta",
+          "Natalia Díaz-Rodríguez",
+          "Javier Del Ser",
+          "Adrien Bennetot",
+          "Siham Tabik",
+          "Alberto Barbado",
+          "Salvador García",
+          "Sergio Gil-López",
+          "Daniel Molina",
+          "Richard Benjamins",
+          "Raja Chatila",
+          "Francisco Herrera"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "pdfUrl": "http://hdl.handle.net/20.500.11824/1166",
+        "landingUrl": "http://hdl.handle.net/20.500.11824/1166",
+        "license": "other-oa",
+        "oaStatus": "green",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Adversarial Robustness in Machine Learning",
+          "Artificial Intelligence in Healthcare and Education"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1186/s40537-021-00444-8"
+          },
+          {
+            "url": "https://eprints.qut.edu.au/229114/1/107324367.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://eprints.qut.edu.au/229114/1/107324367.pdf"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3140854437",
+        "doi": "10.1186/s40537-021-00444-8",
+        "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+        "year": 2021,
+        "citations": 7864,
+        "abstract": "In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few years and it has been extensively used to successfully address a wide range of traditional applications. More importantly, DL has outperformed well-known ML techniques in many domains, e.g., cybersecurity, natural language processing, bioinformatics, robotics and control, and medical information processing, among many others. Despite it has been contributed several works reviewing the State-of-the-Art on DL, all of them only tackled one aspect of the DL, which leads to an overall lack of knowledge about it. Therefore, in this contribution, we propose using a more holistic approach in order to provide a more suitable starting point from which to develop a full understanding of DL. Specifically, this review attempts to provide a more comprehensive survey of the most important aspects of DL and including those enhancements recently added to the field. In particular, this paper outlines the importance of DL, presents the types of DL techniques and networks. It then presents convolutional neural networks (CNNs) which the most utilized DL network type and describes the development of CNNs architectures together with their main features, e.g., starting with the AlexNet network and closing with the High-Resolution network (HR.Net). Finally, we further present the challenges and suggested solutions to help researchers understand the existing research gaps. It is followed by a list of the major DL applications. Computational tools including FPGA, GPU, and CPU are summarized along with a description of their influence on DL. The paper ends with the evolution matrix, benchmark datasets, and summary and conclusion.",
+        "authors": [
+          "Laith Alzubaidi",
+          "Jinglan Zhang",
+          "Amjad J. Humaidi",
+          "Ayad Q. Al-Dujaili",
+          "Ye Duan",
+          "Omran Al-Shamma",
+          "José Santamaría",
+          "Mohammed A. Fadhel",
+          "Muthana Al‐Amidie",
+          "Laith Farhan"
+        ],
+        "primaryLocation": "https://doi.org/10.1186/s40537-021-00444-8",
+        "pdfUrl": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8",
+        "landingUrl": "https://doi.org/10.1186/s40537-021-00444-8",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Advanced Neural Network Applications",
+          "COVID-19 diagnosis using AI",
+          "Anomaly Detection Techniques and Applications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1912.04977",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1912.04977"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2995022099",
+        "doi": "10.1561/2200000083",
+        "title": "Advances and Open Problems in Federated Learning",
+        "year": 2020,
+        "citations": 5420,
+        "abstract": "Federated learning (FL) is a machine learning setting where many clients (e.g., mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g., service provider), while keeping the training data decentralized. FL embodies the principles of focused data collection and minimization, and can mitigate many of the systemic privacy risks and costs resulting from traditional, centralized machine learning and data science approaches. Motivated by the explosive growth in FL research, this monograph discusses recent advances and presents an extensive collection of open problems and challenges.",
+        "authors": [
+          "Peter Kairouz",
+          "H. Brendan McMahan",
+          "Brendan Avent",
+          "Aurélien Bellet",
+          "Mehdi Bennis",
+          "Arjun Nitin Bhagoji",
+          "Kallista Bonawitz",
+          "Zachary Charles",
+          "Graham Cormode",
+          "Rachel Cummings",
+          "Rafael G. L. D’Oliveira",
+          "Hubert Eichner",
+          "Salim El Rouayheb",
+          "David Evans",
+          "Joshua Gardner",
+          "Zachary Garrett",
+          "Adrià Gascón",
+          "Badih Ghazi",
+          "Phillip B. Gibbons",
+          "Marco Gruteser",
+          "Zaïd Harchaoui",
+          "Chaoyang He",
+          "Lingxiao He",
+          "Zhouyuan Huo",
+          "Ben Hutchinson",
+          "Justin Hsu",
+          "Martin Jaggi",
+          "Tara Javidi",
+          "Gauri Joshi",
+          "Mikhail Khodak",
+          "Jakub Konečný",
+          "Aleksandra Korolova",
+          "Farinaz Koushanfar",
+          "Sanmi Koyejo",
+          "Tancrède Lepoint",
+          "Yang Liu",
+          "Prateek Mittal",
+          "Mehryar Mohri",
+          "Richard Nock",
+          "Ayfer Özgür",
+          "Rasmus Pagh",
+          "Hang Qi",
+          "Daniel Ramage",
+          "Ramesh Raskar",
+          "Mariana Raykova",
+          "Dawn Song",
+          "Weikang Song",
+          "Sebastian U. Stich",
+          "Ziteng Sun",
+          "Ananda Theertha Suresh",
+          "Florian Tramèr",
+          "Praneeth Vepakomma",
+          "Jianyu Wang",
+          "Li Xiong",
+          "Zheng Xu",
+          "Qiang Yang",
+          "Felix X. Yu",
+          "Han Yu",
+          "Sen Zhao"
+        ],
+        "primaryLocation": "https://doi.org/10.1561/2200000083",
+        "pdfUrl": "https://arxiv.org/pdf/1912.04977",
+        "landingUrl": "http://arxiv.org/abs/1912.04977",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Privacy-Preserving Technologies in Data",
+          "Cryptography and Data Security",
+          "Mobile Crowdsensing and Crowdsourcing"
+        ]
+      },
+      {
+        "pdfLocations": [],
+        "provider": "openalex",
+        "id": "W2962772482",
+        "doi": "10.1145/3236009",
+        "title": "A survey of methods for explaining black box models",
+        "year": 2019,
+        "citations": 5013,
+        "abstract": "In recent years, many accurate decision support systems have been constructed as black boxes, that is as systems that hide their internal logic to the user. This lack of explanation constitutes both a practical and an ethical issue. The literature reports many approaches aimed at overcoming this crucial weakness, sometimes at the cost of sacrificing accuracy for interpretability. The applications in which black box decision systems can be used are various, and each approach is typically developed to provide a solution for a specific problem and, as a consequence, it explicitly or implicitly delineates its own definition of interpretability and explanation. The aim of this article is to provide a classification of the main problems addressed in the literature with respect to the notion of explanation and the type of black box system. Given a problem definition, a black box type, and a desired explanation, this survey should help the researcher to find the proposals more useful for his own work. The proposed classification of approaches to open black box models should also be useful for putting the many research open questions in perspective.",
+        "authors": [
+          "Riccardo Guidotti",
+          "Anna Monreale",
+          "Salvatore Ruggieri",
+          "Franco Turini",
+          "Fosca Giannotti",
+          "Dino Pedreschi"
+        ],
+        "primaryLocation": "https://openportal.isti.cnr.it/doc?id=people______::59c23a947c3ae79b5c331dedba7a295e",
+        "pdfUrl": null,
+        "landingUrl": "https://openportal.isti.cnr.it/doc?id=people______::59c23a947c3ae79b5c331dedba7a295e",
+        "license": "other-oa",
+        "oaStatus": "green",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Adversarial Robustness in Machine Learning",
+          "Bayesian Modeling and Causal Inference"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3560815",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1145/3560815"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3185341429",
+        "doi": "10.1145/3560815",
+        "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+        "year": 2022,
+        "citations": 3842,
+        "abstract": "This article surveys and organizes research works in a new paradigm in natural language processing, which we dub “prompt-based learning.” Unlike traditional supervised learning, which trains a model to take in an input x and predict an output y as P ( y|x ), prompt-based learning is based on language models that model the probability of text directly. To use these models to perform prediction tasks, the original input x is modified using a template into a textual string prompt x′ that has some unfilled slots, and then the language model is used to probabilistically fill the unfilled information to obtain a final string x̂ , from which the final output y can be derived. This framework is powerful and attractive for a number of reasons: It allows the language model to be pre-trained on massive amounts of raw text, and by defining a new prompting function the model is able to perform few-shot or even zero-shot learning, adapting to new scenarios with few or no labeled data. In this article, we introduce the basics of this promising paradigm, describe a unified set of mathematical notations that can cover a wide variety of existing work, and organize existing work along several dimensions, e.g., the choice of pre-trained language models, prompts, and tuning strategies. To make the field more accessible to interested beginners, we not only make a systematic review of existing works and a highly structured typology of prompt-based concepts but also release other resources, e.g., a website NLPedia–Pretrain including constantly updated survey and paperlist.",
+        "authors": [
+          "Pengfei Liu",
+          "Weizhe Yuan",
+          "Jinlan Fu",
+          "Zhengbao Jiang",
+          "Hiroaki Hayashi",
+          "Graham Neubig"
+        ],
+        "primaryLocation": "https://doi.org/10.1145/3560815",
+        "pdfUrl": "https://dl.acm.org/doi/pdf/10.1145/3560815",
+        "landingUrl": "https://doi.org/10.1145/3560815",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "Topic Modeling",
+          "Natural Language Processing Techniques",
+          "Sentiment Analysis and Opinion Mining"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.nature.com/articles/s41586-023-06291-2.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1038/s41586-023-06291-2"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10396962/pdf/41586_2023_Article_6291.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/10396962"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4384071683",
+        "doi": "10.1038/s41586-023-06291-2",
+        "title": "Large language models encode clinical knowledge",
+        "year": 2023,
+        "citations": 3762,
+        "abstract": "Abstract Large language models (LLMs) have demonstrated impressive capabilities, but the bar for clinical applications is high. Attempts to assess the clinical knowledge of models typically rely on automated evaluations based on limited benchmarks. Here, to address these limitations, we present MultiMedQA, a benchmark combining six existing medical question answering datasets spanning professional medicine, research and consumer queries and a new dataset of medical questions searched online, HealthSearchQA. We propose a human evaluation framework for model answers along multiple axes including factuality, comprehension, reasoning, possible harm and bias. In addition, we evaluate Pathways Language Model 1 (PaLM, a 540-billion parameter LLM) and its instruction-tuned variant, Flan-PaLM 2 on MultiMedQA. Using a combination of prompting strategies, Flan-PaLM achieves state-of-the-art accuracy on every MultiMedQA multiple-choice dataset (MedQA 3 , MedMCQA 4 , PubMedQA 5 and Measuring Massive Multitask Language Understanding (MMLU) clinical topics 6 ), including 67.6% accuracy on MedQA (US Medical Licensing Exam-style questions), surpassing the prior state of the art by more than 17%. However, human evaluation reveals key gaps. To resolve this, we introduce instruction prompt tuning, a parameter-efficient approach for aligning LLMs to new domains using a few exemplars. The resulting model, Med-PaLM, performs encouragingly, but remains inferior to clinicians. We show that comprehension, knowledge recall and reasoning improve with model scale and instruction prompt tuning, suggesting the potential utility of LLMs in medicine. Our human evaluations reveal limitations of today’s models, reinforcing the importance of both evaluation frameworks and method development in creating safe, helpful LLMs for clinical applications.",
+        "authors": [
+          "Karan Singhal",
+          "Shekoofeh Azizi",
+          "Tao Tu",
+          "S. Sara Mahdavi",
+          "Jason Lee",
+          "Hyung Won Chung",
+          "Nathan Scales",
+          "Ajay Kumar Tanwani",
+          "Heather Cole-Lewis",
+          "Stephen Pfohl",
+          "Perry W. Payne",
+          "Martin Seneviratne",
+          "Paul Gamble",
+          "Christopher Kelly",
+          "Abubakr Babiker",
+          "Nathanael Schärli",
+          "Aakanksha Chowdhery",
+          "P. Mansfield",
+          "Dina Demner‐Fushman",
+          "Blaise Agüera y Arcas",
+          "Dale R. Webster",
+          "Greg S. Corrado",
+          "Yossi Matias",
+          "Katherine Chou",
+          "Juraj Gottweis",
+          "Nenad Tomašev",
+          "Yun Liu",
+          "Alvin Rajkomar",
+          "Joëlle Barral",
+          "Christopher Semturs",
+          "Alan Karthikesalingam",
+          "Vivek Natarajan"
+        ],
+        "primaryLocation": "https://doi.org/10.1038/s41586-023-06291-2",
+        "pdfUrl": "https://www.nature.com/articles/s41586-023-06291-2.pdf",
+        "landingUrl": "https://doi.org/10.1038/s41586-023-06291-2",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Topic Modeling",
+          "Artificial Intelligence in Healthcare and Education",
+          "Natural Language Processing Techniques"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "http://downloads.hindawi.com/journals/cin/2018/7068349.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1155/2018/7068349"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2794284562",
+        "doi": "10.1155/2018/7068349",
+        "title": "Deep Learning for Computer Vision: A Brief Review",
+        "year": 2018,
+        "citations": 3377,
+        "abstract": "Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases. This review paper provides a brief overview of some of the most significant deep learning schemes used in computer vision problems, that is, Convolutional Neural Networks, Deep Boltzmann Machines and Deep Belief Networks, and Stacked Denoising Autoencoders. A brief account of their history, structure, advantages, and limitations is given, followed by a description of their applications in various computer vision tasks, such as object detection, face recognition, action and activity recognition, and human pose estimation. Finally, a brief overview is given of future directions in designing deep learning schemes for computer vision problems and the challenges involved therein.",
+        "authors": [
+          "Athanasios Voulodimos",
+          "Nikolaos Doulamis",
+          "Anastasios Doulamis",
+          "Eftychios Protopapadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1155/2018/7068349",
+        "pdfUrl": "http://downloads.hindawi.com/journals/cin/2018/7068349.pdf",
+        "landingUrl": "https://doi.org/10.1155/2018/7068349",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Advanced Neural Network Applications",
+          "Video Surveillance and Tracking Methods",
+          "Human Pose and Action Recognition"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "http://bura.brunel.ac.uk/bitstream/2438/20040/1/FullText.pdf",
+            "license": null,
+            "landingUrl": "http://bura.brunel.ac.uk/handle/2438/20040"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2998506103",
+        "doi": "10.1016/j.ymssp.2019.106587",
+        "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap",
+        "year": 2020,
+        "citations": 2876,
+        "abstract": null,
+        "authors": [
+          "Yaguo Lei",
+          "Bin Yang",
+          "Xinwei Jiang",
+          "Feng Jia",
+          "Naipeng Li",
+          "Asoke K. Nandi"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.ymssp.2019.106587",
+        "pdfUrl": "http://bura.brunel.ac.uk/bitstream/2438/20040/1/FullText.pdf",
+        "landingUrl": "http://bura.brunel.ac.uk/handle/2438/20040",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Machine Fault Diagnosis Techniques",
+          "Fault Detection and Control Systems",
+          "Quality and Safety in Healthcare"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/2002.00388",
+            "license": "other-oa",
+            "landingUrl": "https://arxiv.org/abs/2002.00388"
+          },
+          {
+            "url": "https://arxiv.org/pdf/2002.00388",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2002.00388"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3003265726",
+        "doi": "10.1109/tnnls.2021.3070843",
+        "title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+        "year": 2021,
+        "citations": 2874,
+        "abstract": "Human knowledge provides a formal understanding of the world. Knowledge graphs that represent structural relations between entities have become an increasingly popular research direction toward cognition and human-level intelligence. In this survey, we provide a comprehensive review of the knowledge graph covering overall research topics about: 1) knowledge graph representation learning; 2) knowledge acquisition and completion; 3) temporal knowledge graph; and 4) knowledge-aware applications and summarize recent breakthroughs and perspective directions to facilitate future research. We propose a full-view categorization and new taxonomies on these topics. Knowledge graph embedding is organized from four aspects of representation space, scoring function, encoding models, and auxiliary information. For knowledge acquisition, especially knowledge graph completion, embedding methods, path inference, and logical rule reasoning are reviewed. We further explore several emerging topics, including metarelational learning, commonsense reasoning, and temporal knowledge graphs. To facilitate future research on knowledge graphs, we also provide a curated collection of data sets and open-source libraries on different tasks. In the end, we have a thorough outlook on several promising research directions.",
+        "authors": [
+          "Shaoxiong Ji",
+          "Shirui Pan",
+          "Erik Cambria",
+          "Pekka Marttinen",
+          "Philip S. Yu"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/tnnls.2021.3070843",
+        "pdfUrl": "https://arxiv.org/pdf/2002.00388",
+        "landingUrl": "https://arxiv.org/abs/2002.00388",
+        "license": "other-oa",
+        "oaStatus": "green",
+        "topics": [
+          "Advanced Graph Neural Networks",
+          "Topic Modeling",
+          "Data Quality and Management"
+        ]
+      },
+      {
+        "pdfLocations": [],
+        "provider": "openalex",
+        "id": "W3043135743",
+        "doi": "10.1371/journal.pbio.3000411",
+        "title": "Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0",
+        "year": 2020,
+        "citations": 2861,
+        "abstract": "Improving the reproducibility of biomedical research is a major challenge. Transparent and accurate reporting is vital to this process; it allows readers to assess the reliability of the findings and repeat or build upon the work of other researchers. The ARRIVE guidelines (Animal Research: Reporting In Vivo Experiments) were developed in 2010 to help authors and journals identify the minimum information necessary to report in publications describing in vivo experiments. Despite widespread endorsement by the scientific community, the impact of ARRIVE on the transparency of reporting in animal research publications has been limited. We have revised the ARRIVE guidelines to update them and facilitate their use in practice. The revised guidelines are published alongside this paper. This explanation and elaboration document was developed as part of the revision. It provides further information about each of the 21 items in ARRIVE 2.0, including the rationale and supporting evidence for their inclusion in the guidelines, elaboration of details to report, and examples of good reporting from the published literature. This document also covers advice and best practice in the design and conduct of animal studies to support researchers in improving standards from the start of the experimental design process through to publication.",
+        "authors": [
+          "Nathalie Percie du Sert",
+          "Amrita Ahluwalia",
+          "Sabina Alam",
+          "Marc T. Avey",
+          "Monya Baker",
+          "William J. Browne",
+          "Alejandra Clark",
+          "Innes C. Cuthill",
+          "Ulrich Dirnagl",
+          "Michael Emerson",
+          "Paul Garner",
+          "Stephen T. Holgate",
+          "David W. Howells",
+          "Viki Hurst",
+          "Natasha A. Karp",
+          "Stanley E. Lazic",
+          "Katie Lidster",
+          "Catriona MacCallum",
+          "Malcolm Macleod",
+          "Esther J. Pearl",
+          "Ole H. Petersen",
+          "Frances Rawle",
+          "Penny S. Reynolds",
+          "Kieron Rooney",
+          "Emily S. Sena",
+          "Shai D. Silberberg",
+          "Thomas Steckler",
+          "Hanno Würbel"
+        ],
+        "primaryLocation": "https://doi.org/10.1371/journal.pbio.3000411",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1371/journal.pbio.3000411",
+        "license": "public-domain",
+        "oaStatus": "gold",
+        "topics": [
+          "Animal testing and alternatives",
+          "Meta-analysis and systematic reviews",
+          "Ethics in Clinical Research"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s11263-019-01247-4.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s11263-019-01247-4"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2988916019",
+        "doi": "10.1007/s11263-019-01247-4",
+        "title": "Deep Learning for Generic Object Detection: A Survey",
+        "year": 2019,
+        "citations": 2833,
+        "abstract": "Abstract Object detection, one of the most fundamental and challenging problems in computer vision, seeks to locate object instances from a large number of predefined categories in natural images. Deep learning techniques have emerged as a powerful strategy for learning feature representations directly from data and have led to remarkable breakthroughs in the field of generic object detection. Given this period of rapid evolution, the goal of this paper is to provide a comprehensive survey of the recent achievements in this field brought about by deep learning techniques. More than 300 research contributions are included in this survey, covering many aspects of generic object detection: detection frameworks, object feature representation, object proposal generation, context modeling, training strategies, and evaluation metrics. We finish the survey by identifying promising directions for future research.",
+        "authors": [
+          "Li Liu",
+          "Wanli Ouyang",
+          "Xiaogang Wang",
+          "Paul Fieguth",
+          "Jie Chen",
+          "Xinwang Liu",
+          "Matti Pietikäinen"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s11263-019-01247-4",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s11263-019-01247-4.pdf",
+        "landingUrl": "https://doi.org/10.1007/s11263-019-01247-4",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Advanced Neural Network Applications",
+          "Advanced Image and Video Retrieval Techniques",
+          "Domain Adaptation and Few-Shot Learning"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4288039037",
+        "doi": "10.1007/s10915-022-01939-z",
+        "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+        "year": 2022,
+        "citations": 2646,
+        "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+        "authors": [
+          "Salvatore Cuomo",
+          "Vincenzo Schiano Di Cola",
+          "Fabio Giampaolo",
+          "Gianluigi Rozza",
+          "Maziar Raissi",
+          "Francesco Piccialli"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s10915-022-01939-z",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+        "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Nanofluid Flow and Heat Transfer",
+          "Heat Transfer and Optimization"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s10994-019-05855-6.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s10994-019-05855-6"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2984353870",
+        "doi": "10.1007/s10994-019-05855-6",
+        "title": "A survey on semi-supervised learning",
+        "year": 2019,
+        "citations": 2641,
+        "abstract": "Abstract Semi-supervised learning is the branch of machine learning concerned with using labelled as well as unlabelled data to perform certain learning tasks. Conceptually situated between supervised and unsupervised learning, it permits harnessing the large amounts of unlabelled data available in many use cases in combination with typically smaller sets of labelled data. In recent years, research in this area has followed the general trends observed in machine learning, with much attention directed at neural network-based models and generative learning. The literature on the topic has also expanded in volume and scope, now encompassing a broad spectrum of theory, algorithms and applications. However, no recent surveys exist to collect and organize this knowledge, impeding the ability of researchers and engineers alike to utilize it. Filling this void, we present an up-to-date overview of semi-supervised learning methods, covering earlier work as well as more recent advances. We focus primarily on semi-supervised classification, where the large majority of semi-supervised learning research takes place. Our survey aims to provide researchers and practitioners new to the field as well as more advanced readers with a solid understanding of the main approaches and algorithms developed over the past two decades, with an emphasis on the most prominent and currently relevant work. Furthermore, we propose a new taxonomy of semi-supervised classification algorithms, which sheds light on the different conceptual and methodological approaches for incorporating unlabelled data into the training process. Lastly, we show how the fundamental assumptions underlying most semi-supervised learning algorithms are closely connected to each other, and how they relate to the well-known semi-supervised clustering assumption.",
+        "authors": [
+          "Jesper E. van Engelen",
+          "Holger H. Hoos"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s10994-019-05855-6",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10994-019-05855-6.pdf",
+        "landingUrl": "https://doi.org/10.1007/s10994-019-05855-6",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Domain Adaptation and Few-Shot Learning",
+          "Machine Learning and Data Classification",
+          "Text and Document Classification Technologies"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1907.07374",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1907.07374"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2958089299",
+        "doi": "10.1109/tnnls.2020.3027314",
+        "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+        "year": 2020,
+        "citations": 2390,
+        "abstract": "Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to justify their reliability. This requires greater interpretability, which often means we need to understand the mechanism underlying the algorithms. Unfortunately, the blackbox nature of the DL is still unresolved, and many machine decisions are still poorly understood. We provide a review on interpretabilities suggested by different research works and categorize them. The different categories show different dimensions in interpretability research, from approaches that provide \"obviously\" interpretable information to the studies of complex patterns. By applying the same categorization to interpretability in medical research, it is hoped that: 1) clinicians and practitioners can subsequently approach these methods with caution; 2) insight into interpretability will be born with more considerations for medical practices; and 3) initiatives to push forward data-based, mathematically grounded, and technically grounded medical education are encouraged.",
+        "authors": [
+          "Erico Tjoa",
+          "Cuntai Guan"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/tnnls.2020.3027314",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+        "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Machine Learning in Healthcare",
+          "Artificial Intelligence in Healthcare and Education"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/5/8789751/08736011.pdf",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1109/jproc.2019.2918951"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2950865323",
+        "doi": "10.1109/jproc.2019.2918951",
+        "title": "Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing",
+        "year": 2019,
+        "citations": 2367,
+        "abstract": "With the breakthroughs in deep learning, the recent years have witnessed a booming of artificial intelligence (AI) applications and services, spanning from personal assistant to recommendation systems to video/audio surveillance. More recently, with the proliferation of mobile computing and Internet of Things (IoT), billions of mobile and IoT devices are connected to the Internet, generating zillions bytes of data at the network edge. Driving by this trend, there is an urgent need to push the AI frontiers to the network edge so as to fully unleash the potential of the edge big data. To meet this demand, edge computing, an emerging paradigm that pushes computing tasks and services from the network core to the network edge, has been widely recognized as a promising solution. The resulted new interdiscipline, edge AI or edge intelligence (EI), is beginning to receive a tremendous amount of interest. However, research on EI is still in its infancy stage, and a dedicated venue for exchanging the recent advances of EI is highly desired by both the computer system and AI communities. To this end, we conduct a comprehensive survey of the recent research efforts on EI. Specifically, we first review the background and motivation for AI running at the network edge. We then provide an overview of the overarching architectures, frameworks, and emerging key technologies for deep learning model toward training/inference at the network edge. Finally, we discuss future research opportunities on EI. We believe that this survey will elicit escalating attentions, stimulate fruitful discussions, and inspire further research ideas on EI.",
+        "authors": [
+          "Zhi Zhou",
+          "Xu Chen",
+          "En Li",
+          "Liekang Zeng",
+          "Ke Luo",
+          "Junshan Zhang"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/jproc.2019.2918951",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/5/8789751/08736011.pdf",
+        "landingUrl": "https://doi.org/10.1109/jproc.2019.2918951",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "IoT and Edge/Fog Computing",
+          "Advanced Neural Network Applications",
+          "Privacy-Preserving Technologies in Data"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0925231220307153",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1016/j.neucom.2019.10.118"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3023211159",
+        "doi": "10.1016/j.neucom.2019.10.118",
+        "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+        "year": 2020,
+        "citations": 2366,
+        "abstract": null,
+        "authors": [
+          "Jair Cervantes",
+          "Farid García‐Lamont",
+          "Lisbeth Rodríguez-Mazahua",
+          "Asdrúbal López‐Chau"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.neucom.2019.10.118",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S0925231220307153",
+        "landingUrl": "https://doi.org/10.1016/j.neucom.2019.10.118",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "Face and Expression Recognition",
+          "Imbalanced Data Classification Techniques",
+          "Text and Document Classification Technologies"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://liu.diva-portal.org/smash/get/diva2:1775943/FULLTEXT01",
+            "license": "other-oa",
+            "landingUrl": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-195798"
+          },
+          {
+            "url": "https://durham-repository.worktribe.com/preview/1180102/38121.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://dro.dur.ac.uk/38121/1/38121.pdf"
+          },
+          {
+            "url": "https://durham-repository.worktribe.com/file/1180031/1/Accepted%20Journal%20Article",
+            "license": "cc-by",
+            "landingUrl": "https://durham-repository.worktribe.com/output/1180031"
+          },
+          {
+            "url": "https://eprints.soton.ac.uk/475695/1/lajos_5_.pdf",
+            "license": null,
+            "landingUrl": "http://doi.org/10.1109/COMST.2023.3249835>)."
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4322576964",
+        "doi": "10.1109/comst.2023.3249835",
+        "title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+        "year": 2023,
+        "citations": 2253,
+        "abstract": "Fifth generation (5G) mobile communication systems have entered the stage of commercial deployment, providing users with new services, improved user experiences as well as a host of novel opportunities to various industries. However, 5G still faces many challenges. To address these challenges, international industrial, academic, and standards organizations have commenced research on sixth generation (6G) wireless communication systems. A series of white papers and survey papers have been published, which aim to define 6G in terms of requirements, application scenarios, key technologies, etc. Although ITU-R has been working on the 6G vision and it is expected to reach a consensus on what 6G will be by mid-2023, the related global discussions are still wide open and the existing literature has identified numerous open issues. This paper first provides a comprehensive portrayal of the 6G vision, technical requirements, and application scenarios, covering the current common understanding of 6G. Then, a critical appraisal of the 6G network architecture and key technologies is presented. Furthermore, existing testbeds and advanced 6G verification platforms are detailed for the first time. In addition, future research directions and open challenges are identified to stimulate the on-going global debate. Finally, lessons learned to date concerning 6G networks are discussed.",
+        "authors": [
+          "Cheng‐Xiang Wang",
+          "Xiaohu You",
+          "Xiqi Gao",
+          "Xiuming Zhu",
+          "Zixin Li",
+          "Chuan Zhang",
+          "Haiming Wang",
+          "Yongming Huang",
+          "Yunfei Chen",
+          "Harald Haas",
+          "John Thompson",
+          "Erik G. Larsson",
+          "Marco Di Renzo",
+          "Wen Tong",
+          "Peiying Zhu",
+          "Xuemin Shen",
+          "H. Vincent Poor",
+          "Lajos Hanzo"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/comst.2023.3249835",
+        "pdfUrl": null,
+        "landingUrl": "https://www.research.ed.ac.uk/en/publications/0828f169-e585-4c42-8815-80d2b30ca49a",
+        "license": "other-oa",
+        "oaStatus": "green",
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Energy Harvesting in Wireless Networks",
+          "Advanced biosensing and bioanalysis techniques"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S1361841518306133/pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1016/j.media.2019.01.012"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2888358068",
+        "doi": "10.1016/j.media.2019.01.012",
+        "title": "Attention gated networks: Learning to leverage salient regions in medical images",
+        "year": 2019,
+        "citations": 2002,
+        "abstract": "We propose a novel attention gate (AG) model for medical image analysis that automatically learns to focus on target structures of varying shapes and sizes. Models trained with AGs implicitly learn to suppress irrelevant regions in an input image while highlighting salient features useful for a specific task. This enables us to eliminate the necessity of using explicit external tissue/organ localisation modules when using convolutional neural networks (CNNs). AGs can be easily integrated into standard CNN models such as VGG or U-Net architectures with minimal computational overhead while increasing the model sensitivity and prediction accuracy. The proposed AG models are evaluated on a variety of tasks, including medical image classification and segmentation. For classification, we demonstrate the use case of AGs in scan plane detection for fetal ultrasound screening. We show that the proposed attention mechanism can provide efficient object localisation while improving the overall prediction performance by reducing false positives. For segmentation, the proposed architecture is evaluated on two large 3D CT abdominal datasets with manual annotations for multiple organs. Experimental results show that AG models consistently improve the prediction performance of the base architectures across different datasets and training sizes while preserving computational efficiency. Moreover, AGs guide the model activations to be focused around salient regions, which provides better insights into how model predictions are made. The source code for the proposed AG models is publicly available.",
+        "authors": [
+          "Jo Schlemper",
+          "Ozan Oktay",
+          "Michiel Schaap",
+          "Mattias P. Heinrich‬",
+          "Bernhard Kainz",
+          "Ben Glocker",
+          "Daniel Rueckert"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.media.2019.01.012",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S1361841518306133/pdf",
+        "landingUrl": "https://doi.org/10.1016/j.media.2019.01.012",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Advanced Neural Network Applications",
+          "Domain Adaptation and Few-Shot Learning",
+          "Fetal and Pediatric Neurological Disorders"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s12559-023-10179-8.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s12559-023-10179-8"
+          },
+          {
+            "url": "https://iris.uniroma1.it/bitstream/11573/1693646/1/Hassija_Interpreting_2023.pdf",
+            "license": "other-oa",
+            "landingUrl": "https://hdl.handle.net/11573/1693646"
+          },
+          {
+            "url": "https://napier-repository.worktribe.com/file/3487848/1/Interpreting%20Black-Box%20Models%3A%20A%20Review%20on%20Explainable%20Artificial%20Intelligence",
+            "license": "other-oa",
+            "landingUrl": "http://researchrepository.napier.ac.uk/Output/3487848"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4386142022",
+        "doi": "10.1007/s12559-023-10179-8",
+        "title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+        "year": 2023,
+        "citations": 1997,
+        "abstract": "Abstract Recent years have seen a tremendous growth in Artificial Intelligence (AI)-based methodological development in a broad range of domains. In this rapidly evolving field, large number of methods are being reported using machine learning (ML) and Deep Learning (DL) models. Majority of these models are inherently complex and lacks explanations of the decision making process causing these models to be termed as 'Black-Box'. One of the major bottlenecks to adopt such models in mission-critical application domains, such as banking, e-commerce, healthcare, and public services and safety, is the difficulty in interpreting them. Due to the rapid proleferation of these AI models, explaining their learning and decision making process are getting harder which require transparency and easy predictability. Aiming to collate the current state-of-the-art in interpreting the black-box models, this study provides a comprehensive analysis of the explainable AI (XAI) models. To reduce false negative and false positive outcomes of these back-box models, finding flaws in them is still difficult and inefficient. In this paper, the development of XAI is reviewed meticulously through careful selection and analysis of the current state-of-the-art of XAI research. It also provides a comprehensive and in-depth evaluation of the XAI frameworks and their efficacy to serve as a starting point of XAI for applied and theoretical researchers. Towards the end, it highlights emerging and critical issues pertaining to XAI research to showcase major, model-specific trends for better explanation, enhanced transparency, and improved prediction accuracy.",
+        "authors": [
+          "Vikas Hassija",
+          "Vinay Chamola",
+          "Atmesh Mahapatra",
+          "Abhinandan Singal",
+          "Divyansh Goel",
+          "Kaizhu Huang",
+          "Simone Scardapane",
+          "Indro Spinelli",
+          "Mufti Mahmud",
+          "Amir Hussain"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s12559-023-10179-8",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s12559-023-10179-8.pdf",
+        "landingUrl": "https://doi.org/10.1007/s12559-023-10179-8",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Imbalanced Data Classification Techniques",
+          "Machine Learning in Healthcare"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "physics informed neural networks differential equations",
+    "rows": [
+      {
+        "pdfLocations": [],
+        "provider": "openalex",
+        "id": "W2899283552",
+        "doi": "10.1016/j.jcp.2018.10.045",
+        "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+        "year": 2018,
+        "citations": 19258,
+        "abstract": null,
+        "authors": [
+          "Maziar Raissi",
+          "Paris Perdikaris",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2018.10.045",
+        "pdfUrl": null,
+        "landingUrl": "https://www.osti.gov/biblio/1595805",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Fluid Dynamics and Turbulent Flows",
+          "Meteorological Phenomena and Simulations"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1910.03193",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1910.03193"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/2281727",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2281727"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2979786244",
+        "doi": "10.1038/s42256-021-00302-5",
+        "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+        "year": 2021,
+        "citations": 3241,
+        "abstract": null,
+        "authors": [
+          "Lu Lu",
+          "Pengzhan Jin",
+          "Guofei Pang",
+          "Zhongqiang Zhang",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1038/s42256-021-00302-5",
+        "pdfUrl": "https://arxiv.org/pdf/1910.03193",
+        "landingUrl": "http://arxiv.org/abs/1910.03193",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Stochastic Gradient Optimization Techniques",
+          "Neural Networks and Applications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.nature.com/articles/s41467-019-14108-y.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1038/s41467-019-14108-y"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1905.00501",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1905.00501"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3000603264",
+        "doi": "10.1038/s41467-019-14108-y",
+        "title": "The role of artificial intelligence in achieving the Sustainable Development Goals",
+        "year": 2020,
+        "citations": 3175,
+        "abstract": "The emergence of artificial intelligence (AI) and its progressively wider impact on many sectors requires an assessment of its effect on the achievement of the Sustainable Development Goals. Using a consensus-based expert elicitation process, we find that AI can enable the accomplishment of 134 targets across all the goals, but it may also inhibit 59 targets. However, current research foci overlook important aspects. The fast development of AI needs to be supported by the necessary regulatory insight and oversight for AI-based technologies to enable sustainable development. Failure to do so could result in gaps in transparency, safety, and ethical standards.",
+        "authors": [
+          "Ricardo Vinuesa",
+          "Hossein Azizpour",
+          "Iolanda Leite",
+          "Madeline Balaam",
+          "Virginia Dignum",
+          "Sami Domisch",
+          "Anna Felländer",
+          "Simone D. Langhans",
+          "Max Tegmark",
+          "Francesco Fuso Nerini"
+        ],
+        "primaryLocation": "https://doi.org/10.1038/s41467-019-14108-y",
+        "pdfUrl": "https://www.nature.com/articles/s41467-019-14108-y.pdf",
+        "landingUrl": "https://doi.org/10.1038/s41467-019-14108-y",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Smart Cities and Technologies",
+          "Energy, Environment, and Transportation Policies",
+          "Ethics and Social Impacts of AI"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S1566253521001081/pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://doi.org/10.1016/j.inffus.2021.05.008"
+          },
+          {
+            "url": "https://arxiv.org/pdf/2011.06225",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2011.06225"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3102100346",
+        "doi": "10.1016/j.inffus.2021.05.008",
+        "title": "A review of uncertainty quantification in deep learning: Techniques, applications and challenges",
+        "year": 2021,
+        "citations": 2662,
+        "abstract": "Uncertainty quantification (UQ) methods play a pivotal role in reducing the impact of uncertainties during both optimization and decision making processes. They have been applied to solve a variety of real-world problems in science and engineering. Bayesian approximation and ensemble learning techniques are two widely-used types of uncertainty quantification (UQ) methods. In this regard, researchers have proposed different UQ methods and examined their performance in a variety of applications such as computer vision (e.g., self-driving cars and object detection), image processing (e.g., image restoration), medical image analysis (e.g., medical image classification and segmentation), natural language processing (e.g., text classification, social media texts and recidivism risk-scoring), bioinformatics, etc. This study reviews recent advances in UQ methods used in deep learning, investigates the application of these methods in reinforcement learning, and highlights fundamental research challenges and directions associated with UQ.",
+        "authors": [
+          "Moloud Abdar",
+          "Farhad Pourpanah",
+          "Sadiq Hussain",
+          "Dana Rezazadegan",
+          "Li Liu",
+          "Mohammad Ghavamzadeh",
+          "Paul Fieguth",
+          "Xiaochun Cao",
+          "Abbas Khosravi",
+          "U. Rajendra Acharya",
+          "Vladimir Makarenkov",
+          "Saeid Nahavandi"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.inffus.2021.05.008",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S1566253521001081/pdf",
+        "landingUrl": "https://doi.org/10.1016/j.inffus.2021.05.008",
+        "license": "cc-by-nc-nd",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Anomaly Detection Techniques and Applications",
+          "Adversarial Robustness in Machine Learning",
+          "Machine Learning and Data Classification"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4288039037",
+        "doi": "10.1007/s10915-022-01939-z",
+        "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+        "year": 2022,
+        "citations": 2646,
+        "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+        "authors": [
+          "Salvatore Cuomo",
+          "Vincenzo Schiano Di Cola",
+          "Fabio Giampaolo",
+          "Gianluigi Rozza",
+          "Maziar Raissi",
+          "Francesco Piccialli"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s10915-022-01939-z",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+        "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Nanofluid Flow and Heat Transfer",
+          "Heat Transfer and Optimization"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1708.07469",
+            "license": null,
+            "landingUrl": "https://arxiv.org/abs/1708.07469"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2749028154",
+        "doi": "10.1016/j.jcp.2018.08.029",
+        "title": "DGM: A deep learning algorithm for solving partial differential equations",
+        "year": 2018,
+        "citations": 2211,
+        "abstract": null,
+        "authors": [
+          "Justin Sirignano",
+          "Konstantinos Spiliopoulos"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2018.08.029",
+        "pdfUrl": "https://arxiv.org/pdf/1708.07469",
+        "landingUrl": "https://arxiv.org/abs/1708.07469",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Generative Adversarial Networks and Image Synthesis",
+          "Meteorological Phenomena and Simulations"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.osti.gov/servlets/purl/2282982",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2282982"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4220717841",
+        "doi": "10.1007/s10409-021-01148-1",
+        "title": "Physics-informed neural networks (PINNs) for fluid mechanics: a review",
+        "year": 2021,
+        "citations": 2024,
+        "abstract": null,
+        "authors": [
+          "Shengze Cai",
+          "Zhiping Mao",
+          "Zhicheng Wang",
+          "Minglang Yin",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s10409-021-01148-1",
+        "pdfUrl": "https://www.osti.gov/servlets/purl/2282982",
+        "landingUrl": "https://www.osti.gov/biblio/2282982",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Fluid Dynamics and Turbulent Flows",
+          "Fluid Dynamics and Vibration Analysis"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/access.2020.2970143"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3003667836",
+        "doi": "10.1109/access.2020.2970143",
+        "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+        "year": 2020,
+        "citations": 1852,
+        "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avatar or a synchronized virtual prototype, there can be no doubt that a digital twin plays a transformative role not only in how we design and operate cyber-physical intelligent systems, but also in how we advance the modularity of multi-disciplinary systems to tackle fundamental barriers not addressed by the current, evolutionary modeling practices. In this work, we review the recent status of methodologies and techniques related to the construction of digital twins mostly from a modeling perspective. Our aim is to provide a detailed coverage of the current challenges and enabling technologies along with recommendations and reflections for various stakeholders.",
+        "authors": [
+          "Adil Rasheed",
+          "Omer San",
+          "Trond Kvamsdal"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2020.2970143",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+        "landingUrl": "https://doi.org/10.1109/access.2020.2970143",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Digital Transformation in Industry",
+          "Simulation Techniques and Applications"
+        ]
+      },
+      {
+        "pdfLocations": [],
+        "provider": "openalex",
+        "id": "W4205129187",
+        "doi": "10.1109/access.2022.3142859",
+        "title": "Particle Swarm Optimization: A Comprehensive Survey",
+        "year": 2022,
+        "citations": 1401,
+        "abstract": "Particle swarm optimization (PSO) is one of the most well-regarded swarm-based algorithms in the literature. Although the original PSO has shown good optimization performance, it still severely suffers from premature convergence. As a result, many researchers have been modifying it resulting in a large number of PSO variants with either slightly or significantly better performance. Mainly, the standard PSO has been modified by four main strategies: modification of the PSO controlling parameters, hybridizing PSO with other well-known meta-heuristic algorithms such as genetic algorithm (GA) and differential evolution (DE), cooperation and multi-swarm techniques. This paper attempts to provide a comprehensive review of PSO, including the basic concepts of PSO, binary PSO, neighborhood topologies in PSO, recent and historical PSO variants, remarkable engineering applications of PSO, and its drawbacks. Moreover, this paper reviews recent studies that utilize PSO to solve feature selection problems. Finally, eight potential research directions that can help researchers further enhance the performance of PSO are provided.",
+        "authors": [
+          "Tareq M. Shami",
+          "Ayman A. El‐Saleh",
+          "Mohammed Alswaitti",
+          "Qasem Al-Tashi",
+          "Mhd Amen Summakieh",
+          "Seyedali Mirjalili"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2022.3142859",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1109/access.2022.3142859",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Metaheuristic Optimization Algorithms Research",
+          "Advanced Algorithms and Applications",
+          "Machine Learning and ELM"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.osti.gov/servlets/purl/1977272",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/1977272"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3205073660",
+        "doi": "10.1016/j.jcp.2021.110768",
+        "title": "When and why PINNs fail to train: A neural tangent kernel perspective",
+        "year": 2021,
+        "citations": 1375,
+        "abstract": null,
+        "authors": [
+          "Sifan Wang",
+          "Xinling Yu",
+          "Paris Perdikaris"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2021.110768",
+        "pdfUrl": "https://www.osti.gov/servlets/purl/1977272",
+        "landingUrl": "https://www.osti.gov/biblio/1977272",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Nuclear reactor physics and engineering",
+          "Probabilistic and Robust Engineering Design"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.tandfonline.com/doi/pdf/10.1080/00273171.2018.1454823?needAccess=true",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://doi.org/10.1080/00273171.2018.1454823"
+          },
+          {
+            "url": "https://pure.uva.nl/ws/files/31374989/_14_1_2019_The_Gaussi.pdf",
+            "license": null,
+            "landingUrl": "https://handle.uba.uva.nl/personal/pure/en/publications/the-gaussian-graphical-model-in-crosssectional-and-timeseries-data(6d2cfa6c-bc17-4194-a8ad-0dc5cf854535).html"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1609.04156",
+            "license": null,
+            "landingUrl": "https://arxiv.org/abs/1609.04156"
+          },
+          {
+            "url": "https://cran.r-project.org/web/packages/SparseTSCGM/index.html",
+            "license": null,
+            "landingUrl": null
+          },
+          {
+            "url": "https://www.research.ed.ac.uk/files/58339992/The_Gaussian_Graphical_Model_in_Cross_Sectional_and_Time_Series_Data.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://www.research.ed.ac.uk/en/publications/e062a5b6-b209-48e3-9948-686fc7da7f6e"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2795897604",
+        "doi": "10.1080/00273171.2018.1454823",
+        "title": "The Gaussian Graphical Model in Cross-Sectional and Time-Series Data",
+        "year": 2018,
+        "citations": 1211,
+        "abstract": "We discuss the Gaussian graphical model (GGM; an undirected network of partial correlation coefficients) and detail its utility as an exploratory data analysis tool. The GGM shows which variables predict one-another, allows for sparse modeling of covariance structures, and may highlight potential causal relationships between observed variables. We describe the utility in three kinds of psychological data sets: data sets in which consecutive cases are assumed independent (e.g., cross-sectional data), temporally ordered data sets (e.g., n = 1 time series), and a mixture of the 2 (e.g., n > 1 time series). In time-series analysis, the GGM can be used to model the residual structure of a vector-autoregression analysis (VAR), also termed graphical VAR. Two network models can then be obtained: a temporal network and a contemporaneous network. When analyzing data from multiple subjects, a GGM can also be formed on the covariance structure of stationary means-the between-subjects network. We discuss the interpretation of these models and propose estimation methods to obtain these networks, which we implement in the R packages graphicalVAR and mlVAR. The methods are showcased in two empirical examples, and simulation studies on these methods are included in the supplementary materials.",
+        "authors": [
+          "Sacha Epskamp",
+          "Lourens Waldorp",
+          "René Mõttus",
+          "Denny Borsboom"
+        ],
+        "primaryLocation": "https://doi.org/10.1080/00273171.2018.1454823",
+        "pdfUrl": "https://www.tandfonline.com/doi/pdf/10.1080/00273171.2018.1454823?needAccess=true",
+        "landingUrl": "https://doi.org/10.1080/00273171.2018.1454823",
+        "license": "cc-by-nc-nd",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Mental Health Research Topics",
+          "Cognitive Science and Mapping",
+          "Sensory Analysis and Statistical Methods"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/2003.06496",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2003.06496"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/2282017",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2282017"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3010839048",
+        "doi": "10.1016/j.jcp.2020.109951",
+        "title": "NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations",
+        "year": 2020,
+        "citations": 1210,
+        "abstract": null,
+        "authors": [
+          "Xiaowei Jin",
+          "Shengze Cai",
+          "Hui Li",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2020.109951",
+        "pdfUrl": "https://arxiv.org/pdf/2003.06496",
+        "landingUrl": "http://arxiv.org/abs/2003.06496",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Fluid Dynamics and Turbulent Flows",
+          "Nuclear Engineering Thermal-Hydraulics"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.nature.com/articles/s41524-022-00734-6.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1038/s41524-022-00734-6"
+          },
+          {
+            "url": "https://arxiv.org/pdf/2110.14820",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2110.14820"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/1869676",
+            "license": "cc-by",
+            "landingUrl": "https://www.osti.gov/biblio/1869676"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3208687975",
+        "doi": "10.1038/s41524-022-00734-6",
+        "title": "Recent advances and applications of deep learning methods in materials science",
+        "year": 2022,
+        "citations": 1173,
+        "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this article, we present a high-level overview of deep learning methods followed by a detailed discussion of recent developments of deep learning in atomistic simulation, materials imaging, spectral analysis, and natural language processing. For each modality we discuss applications involving both theoretical and experimental data, typical modeling approaches with their strengths and limitations, and relevant publicly available software and datasets. We conclude the review with a discussion of recent cross-cutting work related to uncertainty quantification in this field and a brief perspective on limitations, challenges, and potential growth areas for DL methods in materials science.",
+        "authors": [
+          "Kamal Choudhary",
+          "Brian DeCost",
+          "Chi Chen",
+          "Anubhav Jain",
+          "Francesca Tavazza",
+          "Ryan Cohn",
+          "Cheol Woo Park",
+          "Alok Choudhary",
+          "Ankit Agrawal",
+          "Simon J. L. Billinge",
+          "Elizabeth A. Holm",
+          "Shyue Ping Ong",
+          "Chris Wolverton"
+        ],
+        "primaryLocation": "https://doi.org/10.1038/s41524-022-00734-6",
+        "pdfUrl": "https://www.nature.com/articles/s41524-022-00734-6.pdf",
+        "landingUrl": "https://doi.org/10.1038/s41524-022-00734-6",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Machine Learning in Materials Science",
+          "X-ray Diffraction in Crystallography",
+          "Electron and X-Ray Spectroscopy Techniques"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/2003.06097",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2003.06097"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/2282008",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2282008"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3010849941",
+        "doi": "10.1016/j.jcp.2020.109913",
+        "title": "B-PINNs: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data",
+        "year": 2020,
+        "citations": 1151,
+        "abstract": null,
+        "authors": [
+          "Liu Yang",
+          "Xuhui Meng",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2020.109913",
+        "pdfUrl": "https://arxiv.org/pdf/2003.06097",
+        "landingUrl": "http://arxiv.org/abs/2003.06097",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Gaussian Processes and Bayesian Inference",
+          "Nuclear reactor physics and engineering"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1906.01170",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1906.01170"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/2282002",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2282002"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2948551291",
+        "doi": "10.1016/j.jcp.2019.109136",
+        "title": "Adaptive activation functions accelerate convergence in deep and physics-informed neural networks",
+        "year": 2019,
+        "citations": 1114,
+        "abstract": null,
+        "authors": [
+          "Ameya D. Jagtap",
+          "Kenji Kawaguchi",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.jcp.2019.109136",
+        "pdfUrl": "https://arxiv.org/pdf/1906.01170",
+        "landingUrl": "http://arxiv.org/abs/1906.01170",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Neural Networks and Applications",
+          "Gaussian Processes and Bayesian Inference"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.osti.gov/servlets/purl/2282003",
+            "license": null,
+            "landingUrl": "https://www.osti.gov/biblio/2282003"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3098546160",
+        "doi": "10.4208/cicp.oa-2020-0164",
+        "title": "Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations",
+        "year": 2020,
+        "citations": 1103,
+        "abstract": "Here we propose a generalized space-time domain decomposition approach for the physics-informed neural networks (PINNs) to solve nonlinear partial differential equations (PDEs) on arbitrary complex-geometry domains. The proposed framework, named eXtended PINNs ( X P I N N s ), further pushes the boundaries of both PINNs as well as conservative PINNs (cPINNs), which is a recently proposed domain decomposition approach in the PINN framework tailored to conservation laws. Compared to PINN, the XPINN method has large representation and parallelization capacity due to the inherent property of deployment of multiple neural networks in the smaller subdomains. Unlike cPINN, XPINN can be extended to any type of PDEs. Moreover, the domain can be decomposed in any arbitrary way (in space and time), which is not possible in cPINN. Thus, XPINN offers both space and time parallelization, thereby reducing the training cost more effectively. In each subdomain, a separate neural network is employed with optimally selected hyperparameters, e.g., depth/width of the network, number and location of residual points, activation function, optimization method, etc. A deep network can be employed in a subdomain with complex solution, whereas a shallow neural network can be used in a subdomain with relatively simple and smooth solutions. We demonstrate the versatility of XPINN by solving both forward and inverse PDE problems, ranging from one-dimensional to three-dimensional problems, from time-dependent to time-independent problems, and from continuous to discontinuous problems, which clearly shows that the XPINN method is promising in many practical problems. The proposed XPINN method is the generalization of PINN and cPINN methods, both in terms of applicability as well as domain decomposition approach, which efficiently lends itself to parallelized computation. The XPINN code is available on h t t p s : / / g i t h u b . c o m / A m e y a J a g t a p / X P I N N s .",
+        "authors": [
+          "Ameya D. Jagtap",
+          "George Em Karniadakis"
+        ],
+        "primaryLocation": "https://doi.org/10.4208/cicp.oa-2020-0164",
+        "pdfUrl": "https://www.osti.gov/servlets/purl/2282003",
+        "landingUrl": "https://www.osti.gov/biblio/2282003",
+        "license": null,
+        "oaStatus": "green",
+        "topics": [
+          "Model Reduction and Neural Networks"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://iopscience.iop.org/article/10.1088/1361-6633/aab406/pdf",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1088/1361-6633/aab406"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2792315573",
+        "doi": "10.1088/1361-6633/aab406",
+        "title": "Machine learning & artificial intelligence in the quantum domain: a review of recent progress",
+        "year": 2018,
+        "citations": 1079,
+        "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benefit from each other. Quantum ML explores the interaction between quantum computing and ML, investigating how results and techniques from one field can be used to solve the problems of the other. Recently we have witnessed significant breakthroughs in both directions of influence. For instance, quantum computing is finding a vital application in providing speed-ups for ML problems, critical in our 'big data' world. Conversely, ML already permeates many cutting-edge technologies and may become instrumental in advanced quantum technologies. Aside from quantum speed-up in data analysis, or classical ML optimization used in quantum experiments, quantum enhancements have also been (theoretically) demonstrated for interactive learning tasks, highlighting the potential of quantum-enhanced learning agents. Finally, works exploring the use of AI for the very design of quantum experiments and for performing parts of genuine research autonomously, have reported their first successes. Beyond the topics of mutual enhancement-exploring what ML/AI can do for quantum physics and vice versa-researchers have also broached the fundamental issue of quantum generalizations of learning and AI concepts. This deals with questions of the very meaning of learning and intelligence in a world that is fully described by quantum mechanics. In this review, we describe the main ideas, recent developments and progress in a broad spectrum of research investigating ML and AI in the quantum domain.",
+        "authors": [
+          "Vedran Dunjko",
+          "Hans J. Briegel"
+        ],
+        "primaryLocation": "https://doi.org/10.1088/1361-6633/aab406",
+        "pdfUrl": "https://iopscience.iop.org/article/10.1088/1361-6633/aab406/pdf",
+        "landingUrl": "https://doi.org/10.1088/1361-6633/aab406",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "Quantum Computing Algorithms and Architecture",
+          "Quantum Information and Cryptography",
+          "Quantum Mechanics and Applications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1137/16m1082469"
+          },
+          {
+            "url": "https://www.osti.gov/servlets/purl/1500214",
+            "license": "cc-by",
+            "landingUrl": "https://www.osti.gov/biblio/1500214"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2811395263",
+        "doi": "10.1137/16m1082469",
+        "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+        "year": 2018,
+        "citations": 1064,
+        "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity models are leveraged for speedup while the high-fidelity model is kept in the loop to establish accuracy and/or convergence guarantees. We categorize multifidelity methods according to three classes of strategies: adaptation, fusion, and filtering. The paper reviews multifidelity methods in the outer-loop contexts of uncertainty propagation, inference, and optimization.",
+        "authors": [
+          "Benjamin Peherstorfer",
+          "Karen Willcox",
+          "Max Gunzburger"
+        ],
+        "primaryLocation": "https://doi.org/10.1137/16m1082469",
+        "pdfUrl": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+        "landingUrl": "https://doi.org/10.1137/16m1082469",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Probabilistic and Robust Engineering Design",
+          "Advanced Multi-Objective Optimization Algorithms",
+          "Model Reduction and Neural Networks"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://arxiv.org/pdf/1905.08883",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1905.08883"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2945526235",
+        "doi": "10.1109/access.2020.2976199",
+        "title": "Explainable Machine Learning for Scientific Insights and Discoveries",
+        "year": 2020,
+        "citations": 1028,
+        "abstract": "Machine learning methods have been remarkably successful for a wide range of application areas in the extraction of essential information from data. An exciting and relatively recent development is the uptake of machine learning in the natural sciences, where the major goal is to obtain novel scientific insights and discoveries from observational or simulated data. A prerequisite for obtaining a scientific outcome is domain knowledge, which is needed to gain explainability, but also to enhance scientific consistency. In this article, we review explainable machine learning in view of applications in the natural sciences and discuss three core elements that we identified as relevant in this context: transparency, interpretability, and explainability. With respect to these core elements, we provide a survey of recent scientific works that incorporate machine learning and the way that explainable machine learning is used in combination with domain knowledge from the application areas.",
+        "authors": [
+          "Ribana Roscher",
+          "Bastian Bohn",
+          "Marco F. Duarte",
+          "Jochen Garcke"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2020.2976199",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1109/access.2020.2976199",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Machine Learning in Materials Science",
+          "Scientific Computing and Data Management"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/6570654/9497871/09498989.pdf",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1109/jas.2021.1004129"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3184078521",
+        "doi": "10.1109/jas.2021.1004129",
+        "title": "A Review on Representative Swarm Intelligence Algorithms for Solving Optimization Problems: Applications and Trends",
+        "year": 2021,
+        "citations": 987,
+        "abstract": "Swarm intelligence algorithms are a subset of the artificial intelligence (AI) field, which is increasing popularity in resolving different optimization problems and has been widely utilized in various applications. In the past decades, numerous swarm intelligence algorithms have been developed, including ant colony optimization (ACO), particle swarm optimization (PSO), artificial fish swarm (AFS), bacterial foraging optimization (BFO), and artificial bee colony (ABC). This review tries to review the most representative swarm intelligence algorithms in chronological order by highlighting the functions and strengths from 127 research literatures. It provides an overview of the various swarm intelligence algorithms and their advanced developments, and briefly provides the description of their successful applications in optimization problems of engineering fields. Finally, opinions and perspectives on the trends and prospects in this relatively new research domain are represented to support future developments.",
+        "authors": [
+          "Jun Tang",
+          "Gang Liu",
+          "Qingtao Pan"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/jas.2021.1004129",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6570654/9497871/09498989.pdf",
+        "landingUrl": "https://doi.org/10.1109/jas.2021.1004129",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "Metaheuristic Optimization Algorithms Research",
+          "Artificial Immune Systems Applications",
+          "Advanced Algorithms and Applications"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "computational modeling engineering digital twin",
+    "rows": [
+      {
+        "pdfLocations": [
+          {
+            "url": "http://hdl.handle.net/20.500.11824/1166",
+            "license": "other-oa",
+            "landingUrl": "http://hdl.handle.net/20.500.11824/1166"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1910.10045",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1910.10045"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2981731882",
+        "doi": "10.1016/j.inffus.2019.12.012",
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "year": 2019,
+        "citations": 9857,
+        "abstract": null,
+        "authors": [
+          "Alejandro Barredo Arrieta",
+          "Natalia Díaz-Rodríguez",
+          "Javier Del Ser",
+          "Adrien Bennetot",
+          "Siham Tabik",
+          "Alberto Barbado",
+          "Salvador García",
+          "Sergio Gil-López",
+          "Daniel Molina",
+          "Richard Benjamins",
+          "Raja Chatila",
+          "Francisco Herrera"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "pdfUrl": "http://hdl.handle.net/20.500.11824/1166",
+        "landingUrl": "http://hdl.handle.net/20.500.11824/1166",
+        "license": "other-oa",
+        "oaStatus": "green",
+        "topics": [
+          "Explainable Artificial Intelligence (XAI)",
+          "Adversarial Robustness in Machine Learning",
+          "Artificial Intelligence in Healthcare and Education"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://centaur.reading.ac.uk/118699/1/PIIS0140673624007578.pdf",
+            "license": null,
+            "landingUrl": "https://centaur.reading.ac.uk/view/creators/90011432.html>"
+          },
+          {
+            "url": "http://eprints.lse.ac.uk/124564/1/PIIS0140673624007578.pdf",
+            "license": null,
+            "landingUrl": "http://eprints.lse.ac.uk/124564/1/PIIS0140673624007578.pdf"
+          },
+          {
+            "url": "https://eprints.soton.ac.uk/499528/1/PIIS0140673624007578.pdf",
+            "license": null,
+            "landingUrl": "http://doi.org/10.1016/S0140-6736(24)00757-8>)."
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/216635/1/Global%20incidence%2C%20prevalence%2C%20years%20lived%20with%20disability%20%28YLDs%29%2C%20disability-adjusted%20life-years%20%28DALYs%29%2C%20and%20healthy%20life%20e.pdf",
+            "license": null,
+            "landingUrl": "https://eprints.whiterose.ac.uk/216635/1/Global%20incidence%2C%20prevalence%2C%20years%20lived%20with%20disability%20%28YLDs%29%2C%20disability-adjusted%20life-years%20%28DALYs%29%2C%20and%20healthy%20life%20e.pdf"
+          },
+          {
+            "url": "https://kclpure.kcl.ac.uk/ws/files/254755661/GBD_2021_Diseases_and_Injuries.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://kclpure.kcl.ac.uk/portal/en/publications/8c795c79-0a92-4b2b-b8ad-da3866a70c72"
+          },
+          {
+            "url": "https://lirias.kuleuven.be/retrieve/f64230f8-66c0-47dc-881a-ee722fb3235c",
+            "license": "cc-by",
+            "landingUrl": "https://lirias.kuleuven.be/handle/20.500.12942/773424"
+          },
+          {
+            "url": "https://openaccess.city.ac.uk/id/eprint/32729/1/1-s2.0-S0140673624007578-main.pdf",
+            "license": null,
+            "landingUrl": "https://openaccess.city.ac.uk/view/creators_id/dian=2Ekusuma.html>"
+          },
+          {
+            "url": "https://pure.coventry.ac.uk/ws/files/99910548/Fagbamigbe2024VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pureportal.coventry.ac.uk/en/publications/04d7a6a2-8a6e-4173-abd2-780896f87667"
+          },
+          {
+            "url": "https://pure.eur.nl/ws/files/149163637/Global_incidence_prevalence_years_lived_with_disability.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.eur.nl/en/publications/04c74236-8996-4130-9c4d-ff13069a9e8c"
+          },
+          {
+            "url": "https://researchonline.lse.ac.uk/id/eprint/124564/1/PIIS0140673624007578.pdf",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1016/S0140-6736(24)00757-8"
+          },
+          {
+            "url": "https://shura.shu.ac.uk/33979/1/Khatab-GlobalIncidencePrevalence%28VoR%29.pdf",
+            "license": null,
+            "landingUrl": "https://shura.shu.ac.uk/33979/1/Khatab-GlobalIncidencePrevalence%28VoR%29.pdf"
+          },
+          {
+            "url": "https://wrap.warwick.ac.uk/185820/7/WRAP-global-incidence-prevalence-years-lived-disability-%28YLDs%29-disability-adjusted-life-years-%28DALYs%29-healthy-life-expectancy-%28HALE%29-2024.pdf",
+            "license": null,
+            "landingUrl": "https://wrap.warwick.ac.uk/185820/7/WRAP-global-incidence-prevalence-years-lived-disability-%28YLDs%29-disability-adjusted-life-years-%28DALYs%29-healthy-life-expectancy-%28HALE%29-2024.pdf"
+          },
+          {
+            "url": "https://nur.nu.edu.kz/bitstreams/ca7002c6-57f4-4cab-86e6-3bf205d8d09b/download",
+            "license": null,
+            "landingUrl": "https://nur.nu.edu.kz/handle/123456789/10628"
+          },
+          {
+            "url": "https://repositorio.cuc.edu.co/bitstreams/a04e974b-b08a-4a87-a88b-314646920dac/download",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/11323/13936"
+          },
+          {
+            "url": "https://upcommons.upc.edu/bitstreams/58835c65-9666-4a17-9fc4-1a4bbc9101ab/download",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://hdl.handle.net/2117/429666"
+          },
+          {
+            "url": "https://uu.diva-portal.org/smash/get/diva2:1853601/FULLTEXT01",
+            "license": "other-oa",
+            "landingUrl": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-527080"
+          },
+          {
+            "url": "http://www.thelancet.com/article/S0140673624007578/pdf",
+            "license": null,
+            "landingUrl": "https://hal.inrae.fr/hal-04664303"
+          },
+          {
+            "url": "https://air.unimi.it/bitstream/2434/1061108/2/GBD%20YLD%20DALYs_Lancet_2024.pdf",
+            "license": "other-oa",
+            "landingUrl": "https://hdl.handle.net/2434/1061108"
+          },
+          {
+            "url": "https://boa.unimib.it/bitstream/10281/473658/1/Ferrari-2024-Lancet-VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/10281/473658"
+          },
+          {
+            "url": "https://cris.unibo.it/bitstream/11585/970424/1/PIIS0140673624007578.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)00757-8/fulltext"
+          },
+          {
+            "url": "https://discovery.dundee.ac.uk/ws/files/146884183/1-s2.0-S0140673624007578-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://discovery.dundee.ac.uk/en/publications/6f92a68a-5aac-4454-bb15-39b535c0f415"
+          },
+          {
+            "url": "https://discovery.ucl.ac.uk/10195431/1/Global%20incidence%2C%20prevalence%2C%20years%20lived%20with%20disability%20%28YLDs%29%2C%20disability-adjusted%20life-years%20%28DALYs%29%2C%20and%20healthy%20life%20e.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://discovery.ucl.ac.uk/id/eprint/10195431/"
+          },
+          {
+            "url": "https://escholarship.org/content/qt92c1r2fp/qt92c1r2fp.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://escholarship.org/uc/item/92c1r2fp"
+          },
+          {
+            "url": "http://hub.hku.hk/bitstream/10722/347542/1/content.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://hub.hku.hk/handle/10722/347542"
+          },
+          {
+            "url": "https://hull-repository.worktribe.com/preview/4716061/PIIS0140673624007578.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hull-repository.worktribe.com/output/4712851"
+          },
+          {
+            "url": "https://irinsubria.uninsubria.it/bitstream/11383/2174653/1/Ferrari-2024-Lancet-VoR.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://www.sciencedirect.com/science/article/pii/S0140673624007578"
+          },
+          {
+            "url": "https://openrepository.aut.ac.nz/bitstreams/f2e956cf-d857-44e5-8d79-b067400d3500/download",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10292/17569"
+          },
+          {
+            "url": "https://vbn.aau.dk/ws/files/699307740/PIIS0140673624007578.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://vbn.aau.dk/da/publications/05b8f35a-c8a4-47b1-933e-b80e608d86c7"
+          },
+          {
+            "url": "https://pure.au.dk/ws/files/452007360/1-s2.0-S0140673624007578-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.au.dk/portal/en/publications/e2ad7740-36fd-4194-96fd-086b2c83a2fd"
+          },
+          {
+            "url": "https://pure.coventry.ac.uk/ws/files/99910548/Fagbamigbe2024VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pureportal.coventry.ac.uk/en/publications/04d7a6a2-8a6e-4173-abd2-780896f87667"
+          },
+          {
+            "url": "https://research.rug.nl/files/1004815611/1-s2.0-S0140673624007578-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/11370/0f1ef602-be9c-46dc-8dc9-10704198c4da"
+          },
+          {
+            "url": "https://qmro.qmul.ac.uk/xmlui/bitstream/123456789/96576/3/Global%20incidence%2c%20prevalence%2c%20years%20lived%20with%20disability%20%28YLDs%29%20published%2c%202024.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://qmro.qmul.ac.uk/xmlui/handle/123456789/96576"
+          },
+          {
+            "url": "https://research.chalmers.se/publication/540771/file/540771_Fulltext.pdf",
+            "license": null,
+            "landingUrl": "https://research.chalmers.se/en/publication/540771"
+          },
+          {
+            "url": "https://research.chalmers.se/publication/542122/file/542122_Fulltext.pdf",
+            "license": null,
+            "landingUrl": "https://research.chalmers.se/en/publication/542122"
+          },
+          {
+            "url": "https://findresearcher.sdu.dk/ws/files/260524878/1-s2.0-S0140673624007578-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://portal.findresearcher.sdu.dk/da/publications/c1bb0a4e-53dd-433f-896d-c8a259f89d8d"
+          },
+          {
+            "url": "https://findresearcher.sdu.dk/ws/files/260524878/1-s2.0-S0140673624007578-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://portal.findresearcher.sdu.dk/files/260524878/1-s2.0-S0140673624007578-main.pdf"
+          },
+          {
+            "url": "https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(24)00757-8.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11122111/"
+          },
+          {
+            "url": "https://zaguan.unizar.es/record/144820/files/texto_completo.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://zaguan.unizar.es/record/144820"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4394894573",
+        "doi": "10.1016/s0140-6736(24)00757-8",
+        "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+        "year": 2024,
+        "citations": 4897,
+        "abstract": "BACKGROUND: Detailed, comprehensive, and timely reporting on population health by underlying causes of disability and premature death is crucial to understanding and responding to complex patterns of disease and injury burden over time and across age groups, sexes, and locations. The availability of disease burden estimates can promote evidence-based interventions that enable public health researchers, policy makers, and other professionals to implement strategies that can mitigate diseases. It can also facilitate more rigorous monitoring of progress towards national and international health targets, such as the Sustainable Development Goals. For three decades, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) has filled that need. A global network of collaborators contributed to the production of GBD 2021 by providing, reviewing, and analysing all available data. GBD estimates are updated routinely with additional data and refined analytical methods. GBD 2021 presents, for the first time, estimates of health loss due to the COVID-19 pandemic. METHODS: The GBD 2021 disease and injury burden analysis estimated years lived with disability (YLDs), years of life lost (YLLs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries using 100 983 data sources. Data were extracted from vital registration systems, verbal autopsies, censuses, household surveys, disease-specific registries, health service contact data, and other sources. YLDs were calculated by multiplying cause-age-sex-location-year-specific prevalence of sequelae by their respective disability weights, for each disease and injury. YLLs were calculated by multiplying cause-age-sex-location-year-specific deaths by the standard life expectancy at the age that death occurred. DALYs were calculated by summing YLDs and YLLs. HALE estimates were produced using YLDs per capita and age-specific mortality rates by location, age, sex, year, and cause. 95% uncertainty intervals (UIs) were generated for all final estimates as the 2·5th and 97·5th percentiles values of 500 draws. Uncertainty was propagated at each step of the estimation process. Counts and age-standardised rates were calculated globally, for seven super-regions, 21 regions, 204 countries and territories (including 21 countries with subnational locations), and 811 subnational locations, from 1990 to 2021. Here we report data for 2010 to 2021 to highlight trends in disease burden over the past decade and through the first 2 years of the COVID-19 pandemic. FINDINGS: Global DALYs increased from 2·63 billion (95% UI 2·44-2·85) in 2010 to 2·88 billion (2·64-3·15) in 2021 for all causes combined. Much of this increase in the number of DALYs was due to population growth and ageing, as indicated by a decrease in global age-standardised all-cause DALY rates of 14·2% (95% UI 10·7-17·3) between 2010 and 2019. Notably, however, this decrease in rates reversed during the first 2 years of the COVID-19 pandemic, with increases in global age-standardised all-cause DALY rates since 2019 of 4·1% (1·8-6·3) in 2020 and 7·2% (4·7-10·0) in 2021. In 2021, COVID-19 was the leading cause of DALYs globally (212·0 million [198·0-234·5] DALYs), followed by ischaemic heart disease (188·3 million [176·7-198·3]), neonatal disorders (186·3 million [162·3-214·9]), and stroke (160·4 million [148·0-171·7]). However, notable health gains were seen among other leading communicable, maternal, neonatal, and nutritional (CMNN) diseases. Globally between 2010 and 2021, the age-standardised DALY rates for HIV/AIDS decreased by 47·8% (43·3-51·7) and for diarrhoeal diseases decreased by 47·0% (39·9-52·9). Non-communicable diseases contributed 1·73 billion (95% UI 1·54-1·94) DALYs in 2021, with a decrease in age-standardised DALY rates since 2010 of 6·4% (95% UI 3·5-9·5). Between 2010 and 2021, among the 25 leading Level 3 causes, age-standardised DALY rates increased most substantially for anxiety disorders (16·7% [14·0-19·8]), depressive disorders (16·4% [11·9-21·3]), and diabetes (14·0% [10·0-17·4]). Age-standardised DALY rates due to injuries decreased globally by 24·0% (20·7-27·2) between 2010 and 2021, although improvements were not uniform across locations, ages, and sexes. Globally, HALE at birth improved slightly, from 61·3 years (58·6-63·6) in 2010 to 62·2 years (59·4-64·7) in 2021. However, despite this overall increase, HALE decreased by 2·2% (1·6-2·9) between 2019 and 2021. INTERPRETATION: Putting the COVID-19 pandemic in the context of a mutually exclusive and collectively exhaustive list of causes of health loss is crucial to understanding its impact and ensuring that health funding and policy address needs at both local and global levels through cost-effective and evidence-based interventions. A global epidemiological transition remains underway. Our findings suggest that prioritising non-communicable disease prevention and treatment policies, as well as strengthening health systems, continues to be crucially important. The progress on reducing the burden of CMNN diseases must not stall; although global trends are improving, the burden of CMNN diseases remains unacceptably high. Evidence-based interventions will help save the lives of young children and mothers and improve the overall health and economic conditions of societies across the world. Governments and multilateral organisations should prioritise pandemic preparedness planning alongside efforts to reduce the burden of diseases and injuries that will strain resources in the coming decades. FUNDING: Bill & Melinda Gates Foundation.",
+        "authors": [
+          "Alize J Ferrari",
+          "Damian Santomauro",
+          "Amirali Aali",
+          "Yohannes Abate",
+          "Cristiana Abbafati",
+          "Hedayat Abbastabar",
+          "Samar Abd ElHafeez",
+          "Michael Abdelmasseh",
+          "Sherief Abd‐Elsalam",
+          "Arash Abdollahi",
+          "Auwal Abdullahi",
+          "Kedir Hussein Abegaz",
+          "Roberto Ariel Abeldaño Zúñiga",
+          "Richard Gyan Aboagye",
+          "Hassan Abolhassani",
+          "Lucas Guimarães Abreu",
+          "Hasan Abualruz",
+          "Eman Abu‐Gharbieh",
+          "Niveen ME Abu-Rmeileh",
+          "Ilana N. Ackerman",
+          "Isaac Yeboah Addo",
+          "Giovanni Addolorato",
+          "Akindele O. Adebiyi",
+          "Victor Abiola Adepoju",
+          "Habeeb Omoponle Adewuyi",
+          "Shadi Afyouni",
+          "Saira Afzal",
+          "Sina Afzal",
+          "Antonella Agodi",
+          "Aqeel Ahmad",
+          "Danish Ahmad",
+          "Firdos Ahmad",
+          "Shahzaib Ahmad",
+          "Ali Ahmed",
+          "Luai A. Ahmed",
+          "Muktar Beshir Ahmed",
+          "Marjan Ajami",
+          "Karolina Akinosoglou",
+          "Mohammed Ahmed Akkaif",
+          "Syed Mahfuz Al Hasan",
+          "Samer O Alalalmeh",
+          "Ziyad Al‐Aly",
+          "Mohammed ALBashtawy",
+          "Robert W Aldridge",
+          "Meseret Desalegn Alemu",
+          "Megbaru Alemu",
+          "Kefyalew Addis Alene",
+          "Adel Al‐Gheethi",
+          "Maryam Alharrasi",
+          "Robert Kaba Alhassan",
+          "Mohammed Usman Ali",
+          "Rafat Ali",
+          "Syed Shujait Ali",
+          "Sheikh Mohammad Alif",
+          "Syed Mohamed Aljunid",
+          "Sabah Al-Marwani",
+          "Joseph Uy Almazan",
+          "Mahmoud A. Alomari",
+          "Basem Al‐Omari",
+          "Zaid Altaany",
+          "Nelson Alvis‐Guzmán",
+          "Nelson J Alvis-Zakzuk",
+          "Hassan Alwafi",
+          "Mohammad Al‐Wardat",
+          "Yaser Mohammed Al‐Worafi",
+          "Safwat Aly",
+          "Karem H. Alzoubi",
+          "Azmeraw T. Amare",
+          "Prince M. Amegbor",
+          "Edward Kwabena Ameyaw",
+          "Tarek Tawfik Amin",
+          "Alireza Amindarolzarbi",
+          "Sohrab Amiri",
+          "Dickson A Amugsi",
+          "Robert Ancuceanu",
+          "Deanna Anderlini",
+          "David Anderson",
+          "Pedro Prata Andrade",
+          "Cătălina Liliana Andrei",
+          "Hossein Ansari",
+          "Catherine M Antony",
+          "Saleha Anwar",
+          "Sumadi Lukman Anwar",
+          "Razique Anwer",
+          "P.E. Anyanwu",
+          "Juan Pablo Arab",
+          "Jalal Arabloo",
+          "Mosab Arafat",
+          "Daniel T Araki",
+          "Aleksandr Y. Aravkin",
+          "Mesay Arkew",
+          "Benedetta Armocida",
+          "Michael B. Arndt",
+          "Mahwish Arooj",
+          "Anton A Artamonov",
+          "Raphael Taiwo Aruleba",
+          "Ashokan Arumugam",
+          "Charlie Ashbaugh",
+          "Mubarek Yesse Ashemo",
+          "Muhammad Ashraf"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/s0140-6736(24)00757-8",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1016/s0140-6736(24)00757-8",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "COVID-19 and healthcare impacts",
+          "Health disparities and outcomes",
+          "Disability Rights and Representation"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S026840121930917X",
+            "license": "public-domain",
+            "landingUrl": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+          },
+          {
+            "url": "https://ueaeprints.uea.ac.uk/id/eprint/72090/1/Artificial_Intelligence_AI_2019.pdf",
+            "license": "public-domain",
+            "landingUrl": "https://ueaeprints.uea.ac.uk/id/eprint/72090/1/Artificial_Intelligence_AI_2019.pdf"
+          },
+          {
+            "url": "https://eprints.keele.ac.uk/id/eprint/12675/1/AI.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://eprints.keele.ac.uk/id/eprint/12675/1/AI.pdf"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2969625533",
+        "doi": "10.1016/j.ijinfomgt.2019.08.002",
+        "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "year": 2019,
+        "citations": 4417,
+        "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development.",
+        "authors": [
+          "Yogesh K. Dwivedi",
+          "Laurie Hughes",
+          "Elvira Ismagilova",
+          "Gert Aarts",
+          "Crispin Coombs",
+          "Tom Crick",
+          "Yanqing Duan",
+          "Rohita Dwivedi",
+          "John S. Edwards",
+          "Aled Eirug",
+          "Vassilis Galanos",
+          "P. Vigneswara Ilavarasan",
+          "Marijn Janssen",
+          "Paul Jones",
+          "Arpan Kumar Kar",
+          "Hatice Kizgin",
+          "Bianca Kronemann",
+          "Banita Lal",
+          "Biagio Lucini",
+          "Rony Medaglia",
+          "Kenneth Le Meunier‐FitzHugh",
+          "Leslie Caroline Le Meunier-FitzHugh",
+          "Santosh K. Misra",
+          "Emmanuel Mogaji",
+          "Sujeet Kumar Sharma",
+          "Jang Bahadur Singh",
+          "Vishnupriya Raghavan",
+          "Ramakrishnan Raman",
+          "Nripendra P. Rana",
+          "Spyridon Samothrakis",
+          "Jak Spencer",
+          "Kuttimani Tamilmani",
+          "Annie Tubadji",
+          "Paul Walton",
+          "Michael D. Williams"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S026840121930917X",
+        "landingUrl": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "license": "public-domain",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Big Data and Business Intelligence",
+          "Economic and Technological Systems Analysis",
+          "Digital Transformation in Industry"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://nrc-publications.canada.ca/eng/view/ft/?id=e38fec49-0637-43f8-beb0-09dae6a7621f",
+            "license": null,
+            "landingUrl": "https://nrc-publications.canada.ca/eng/view/ft/?id=e38fec49-0637-43f8-beb0-09dae6a7621f"
+          },
+          {
+            "url": "https://strathprints.strath.ac.uk/71043/1/Langer_etal_ACS_Nano_2019_Present_and_future_of_surface_enhanced_raman_scattering.pdf",
+            "license": null,
+            "landingUrl": "https://strathprints.strath.ac.uk/view/author/59662.html>"
+          },
+          {
+            "url": "https://www.repository.cam.ac.uk/handle/1810/296564",
+            "license": null,
+            "landingUrl": "https://www.repository.cam.ac.uk/handle/1810/296564"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2971763914",
+        "doi": "10.1021/acsnano.9b04224",
+        "title": "Present and Future of Surface-Enhanced Raman Scattering",
+        "year": 2019,
+        "citations": 3891,
+        "abstract": "The discovery of the enhancement of Raman scattering by molecules adsorbed on nanostructured metal surfaces is a landmark in the history of spectroscopic and analytical techniques. Significant experimental and theoretical effort has been directed toward understanding the surface-enhanced Raman scattering (SERS) effect and demonstrating its potential in various types of ultrasensitive sensing applications in a wide variety of fields. In the 45 years since its discovery, SERS has blossomed into a rich area of research and technology, but additional efforts are still needed before it can be routinely used analytically and in commercial products. In this Review, prominent authors from around the world joined together to summarize the state of the art in understanding and using SERS and to predict what can be expected in the near future in terms of research, applications, and technological development. This Review is dedicated to SERS pioneer and our coauthor, the late Prof. Richard Van Duyne, whom we lost during the preparation of this article.",
+        "authors": [
+          "Judith Langer",
+          "Dorleta Jiménez de Aberasturi",
+          "Javier Aizpurua",
+          "Ramón A. Álvarez‐Puebla",
+          "Baptiste Auguié",
+          "Jeremy J. Baumberg",
+          "Guillermo C. Bazan",
+          "Steven E. J. Bell",
+          "Anja Boisen",
+          "Alexandre G. Brolo",
+          "Jaebum Choo",
+          "Dana Cialla‐May",
+          "Volker Deckert",
+          "Laura Fabris",
+          "Karen Faulds",
+          "F. Javier Garcı́a de Abajo",
+          "Royston Goodacre",
+          "Duncan Graham",
+          "Amanda J. Haes",
+          "Christy L. Haynes",
+          "Christian Huck",
+          "Tamitake Itoh",
+          "Mikael Käll",
+          "Janina Kneipp",
+          "Nicholas A. Kotov",
+          "Hua Kuang",
+          "Eric C. Le Ru",
+          "Hiang Kwee Lee",
+          "Jian‐Feng Li",
+          "Xing Yi Ling",
+          "Stefan A. Maier",
+          "Thomas G. Mayerhöfer",
+          "Martin Moskovits",
+          "Kei Murakoshi",
+          "Jwa‐Min Nam",
+          "Shuming Nie",
+          "Yukihiro Ozaki",
+          "Isabel Pastoriza‐Santos",
+          "Jorge Pérez‐Juste",
+          "Jürgen Popp",
+          "Annemarie Pucci",
+          "Stephanie Reich",
+          "Bin Ren",
+          "George C. Schatz",
+          "Timur Shegai",
+          "Sebastian Schlücker",
+          "Li‐Lin Tay",
+          "K. George Thomas",
+          "Zhong‐Qun Tian",
+          "Richard P. Van Duyne",
+          "Tuan Vo‐Dinh",
+          "Yue Wang",
+          "Katherine A. Willets",
+          "Chuanlai Xu",
+          "Hongxing Xu",
+          "Yikai Xu",
+          "Yuko S. Yamamoto",
+          "Bing Zhao",
+          "Luis M. Liz‐Marzán"
+        ],
+        "primaryLocation": "https://doi.org/10.1021/acsnano.9b04224",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1021/acsnano.9b04224",
+        "license": "other-oa",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Gold and Silver Nanoparticles Synthesis and Applications",
+          "Nanocluster Synthesis and Applications",
+          "Advanced biosensing and bioanalysis techniques"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/49/9776000/09737357.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/jsac.2022.3156632"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3194620979",
+        "doi": "10.1109/jsac.2022.3156632",
+        "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+        "year": 2022,
+        "citations": 3606,
+        "abstract": "As the standardization of 5G solidifies, researchers are speculating what 6G will be. The integration of sensing functionality is emerging as a key feature of the 6G Radio Access Network (RAN), allowing for the exploitation of dense cell infrastructures to construct a perceptive network. In this IEEE Journal on Selected Areas in Communications (JSAC) Special Issue overview, we provide a comprehensive review on the background, range of key applications and state-of-the-art approaches of Integrated Sensing and Communications (ISAC). We commence by discussing the interplay between sensing and communications (S&C) from a historical point of view, and then consider the multiple facets of ISAC and the resulting performance gains. By introducing both ongoing and potential use cases, we shed light on the industrial progress and standardization activities related to ISAC. We analyze a number of performance tradeoffs between S&C, spanning from information theoretical limits to physical layer performance tradeoffs, and the cross-layer design tradeoffs. Next, we discuss the signal processing aspects of ISAC, namely ISAC waveform design and receive signal processing. As a step further, we provide our vision on the deeper integration between S&C within the framework of perceptive networks, where the two functionalities are expected to mutually assist each other, i.e., via communication-assisted sensing and sensing-assisted communications. Finally, we identify the potential integration of ISAC with other emerging communication technologies, and their positive impacts on the future of wireless networks.",
+        "authors": [
+          "Fan Liu",
+          "Yuanhao Cui",
+          "Christos Masouros",
+          "Jie Xu",
+          "Tony Xiao Han",
+          "Yonina C. Eldar",
+          "Stefano Buzzi"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/jsac.2022.3156632",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/49/9776000/09737357.pdf",
+        "landingUrl": "https://doi.org/10.1109/jsac.2022.3156632",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Indoor and Outdoor Localization Technologies",
+          "Advanced Wireless Communication Technologies",
+          "Full-Duplex Wireless Communications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09103025.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/access.2020.2998358"
+          },
+          {
+            "url": "https://arxiv.org/pdf/1911.01276",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/1911.01276"
+          },
+          {
+            "url": "https://eprints.keele.ac.uk/8471/1/09103025.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://eprints.keele.ac.uk/8471/1/09103025.pdf"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2982936646",
+        "doi": "10.1109/access.2020.2998358",
+        "title": "Digital Twin: Enabling Technologies, Challenges and Open Research",
+        "year": 2020,
+        "citations": 2795,
+        "abstract": "Digital Twin technology is an emerging concept that has become the centre of attention for industry and, in more recent years, academia. The advancements in industry 4.0 concepts have facilitated its growth, particularly in the manufacturing industry. The Digital Twin is defined extensively but is best described as the effortless integration of data between a physical and virtual machine in either direction. The challenges, applications, and enabling technologies for Artificial Intelligence, Internet of Things (IoT) and Digital Twins are presented. A review of publications relating to Digital Twins is performed, producing a categorical review of recent papers. The review has categorised them by research areas: manufacturing, healthcare and smart cities, discussing a range of papers that reflect these areas and the current state of research. The paper provides an assessment of the enabling technologies, challenges and open research for Digital Twins.",
+        "authors": [
+          "Aidan Fuller",
+          "Zhong Fan",
+          "Charles Day",
+          "Chris Barlow"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2020.2998358",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09103025.pdf",
+        "landingUrl": "https://doi.org/10.1109/access.2020.2998358",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Digital Transformation in Industry",
+          "Engineering Education and Technology",
+          "Big Data and Business Intelligence"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://researchmgt.monash.edu/ws/files/595010758/586356306_oa.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://research.monash.edu/en/publications/26125c7d-2ba1-423b-8ecd-47d486a01014"
+          },
+          {
+            "url": "https://repositori.upf.edu/bitstreams/badcc938-c570-452b-a173-f4b8d30a3e99/download",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10230/60389"
+          },
+          {
+            "url": "https://centaur.reading.ac.uk/116163/2/1-s2.0-S0140673624003672-main.pdf",
+            "license": null,
+            "landingUrl": "https://centaur.reading.ac.uk/view/creators/90011432.html>"
+          },
+          {
+            "url": "http://eprints.lse.ac.uk/124320/3/PIIS0140673624003672.pdf",
+            "license": null,
+            "landingUrl": "https://orcid.org/0000-0002-3932-8228>"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/216065/1/1-s2.0-S0140673624003672-main.pdf",
+            "license": null,
+            "landingUrl": "https://eprints.whiterose.ac.uk/216065/1/1-s2.0-S0140673624003672-main.pdf"
+          },
+          {
+            "url": "https://lirias.kuleuven.be/retrieve/6bed4bbc-9c00-4e49-beec-cf40fc968561",
+            "license": "cc-by",
+            "landingUrl": "https://lirias.kuleuven.be/handle/20.500.12942/773423"
+          },
+          {
+            "url": "https://openaccess.city.ac.uk/id/eprint/32670/1/PIIS0140673624003672.pdf",
+            "license": null,
+            "landingUrl": "https://openaccess.city.ac.uk/view/creators_id/dian=2Ekusuma.html>"
+          },
+          {
+            "url": "https://ray.yorksj.ac.uk/id/eprint/9865/1/1-s2.0-S0140673624003672-main.pdf",
+            "license": "other-oa",
+            "landingUrl": "https://orcid.org/0000-0002-9208-6408"
+          },
+          {
+            "url": "https://researchonline.lse.ac.uk/id/eprint/124320/3/PIIS0140673624003672.pdf",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1016/S0140-6736(24)00367-2"
+          },
+          {
+            "url": "https://shura.shu.ac.uk/33978/1/Khatab-GlobalBurdenOf288%28VoR%29.pdf",
+            "license": null,
+            "landingUrl": "https://shura.shu.ac.uk/33978/1/Khatab-GlobalBurdenOf288%28VoR%29.pdf"
+          },
+          {
+            "url": "https://wrap.warwick.ac.uk/184741/1/1-s2.0-S0140673624003672-main.pdf",
+            "license": null,
+            "landingUrl": "https://wrap.warwick.ac.uk/184741/1/1-s2.0-S0140673624003672-main.pdf"
+          },
+          {
+            "url": "https://researchmgt.monash.edu/ws/files/595010758/586356306_oa.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://research.monash.edu/en/publications/26125c7d-2ba1-423b-8ecd-47d486a01014"
+          },
+          {
+            "url": "http://repositori.upf.edu/bitstream/10230/60389/1/GBD_lan_glob.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10230/60389"
+          },
+          {
+            "url": "https://researchonline.jcu.edu.au/82559/7/82559.pdf",
+            "license": null,
+            "landingUrl": "https://researchonline.jcu.edu.au/82559/7/82559.pdf"
+          },
+          {
+            "url": "https://du.diva-portal.org/smash/get/diva2:1954600/FULLTEXT01",
+            "license": "cc-by",
+            "landingUrl": "http://urn.kb.se/resolve?urn=urn:nbn:se:du-50530"
+          },
+          {
+            "url": "https://uu.diva-portal.org/smash/get/diva2:1852922/FULLTEXT01",
+            "license": "other-oa",
+            "landingUrl": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-526865"
+          },
+          {
+            "url": "http://www.thelancet.com/article/S0140673624003672/pdf",
+            "license": null,
+            "landingUrl": "https://hal.inrae.fr/hal-04664307"
+          },
+          {
+            "url": "https://air.unimi.it/bitstream/2434/1047631/2/Publisher_s%20version.pdf",
+            "license": "other-oa",
+            "landingUrl": "https://hdl.handle.net/2434/1047631"
+          },
+          {
+            "url": "https://arts.units.it/bitstream/11368/3072278/1/Naghavi%202024%20%20%20Lacent%20%28Global%20burden%20of%20288%20causes%20of%20death%20and%20life%20expectancy%29.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/11368/3072278"
+          },
+          {
+            "url": "https://boa.unimib.it/bitstream/10281/470287/1/Naghavi-2024-Lancet-VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/10281/470287"
+          },
+          {
+            "url": "https://cris.unibo.it/bitstream/11585/975495/2/Global%20burden_288.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/11585/975495"
+          },
+          {
+            "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/384280/3/doi_367924.pdf",
+            "license": "other-oa",
+            "landingUrl": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/384280"
+          },
+          {
+            "url": "https://discovery.ucl.ac.uk/id/eprint/10190845/1/Zumla_Global%20burden%20of%20288%20causes%20of%20death%20and%20life%20expectancy%20decomposition%20in%20204%20countries%20and%20territories_VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://discovery.ucl.ac.uk/id/eprint/10190845/"
+          },
+          {
+            "url": "https://escholarship.org/content/qt4k62k45q/qt4k62k45q.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://escholarship.org/uc/item/4k62k45q"
+          },
+          {
+            "url": "http://hub.hku.hk/bitstream/10722/347943/1/content.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://hub.hku.hk/handle/10722/347943"
+          },
+          {
+            "url": "https://hull-repository.worktribe.com/preview/4715715/1-s2.0-S0140673624003672-main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hull-repository.worktribe.com/output/4712746"
+          },
+          {
+            "url": "https://irinsubria.uninsubria.it/bitstream/11383/2174632/1/Naghavi-2024-Lancet-VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/11383/2174632"
+          },
+          {
+            "url": "https://iris.uniroma1.it/bitstream/11573/1707730/2/Abbafati_Global_2024.pdf",
+            "license": "other-oa",
+            "landingUrl": "https://hdl.handle.net/11573/1707730"
+          },
+          {
+            "url": "https://kclpure.kcl.ac.uk/ws/files/252937982/GBD_2021_Causes_of_Death.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://kclpure.kcl.ac.uk/portal/en/publications/6cdcbaaf-fa95-4a37-b5a9-cb45aa5d7ec7"
+          },
+          {
+            "url": "https://openrepository.aut.ac.nz/bitstreams/de0299be-da02-4f17-acbf-0dec990376b3/download",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10292/17479"
+          },
+          {
+            "url": "https://pure.au.dk/ws/files/452006639/25978b00-898a-42f2-b178-3c7d05f1d274.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.au.dk/portal/en/publications/25978b00-898a-42f2-b178-3c7d05f1d274"
+          },
+          {
+            "url": "https://pure.coventry.ac.uk/ws/files/99911512/Fagbamigbe2024VoR.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pureportal.coventry.ac.uk/en/publications/6ef708c8-7ca1-41cb-8a3d-2127821a8cdf"
+          },
+          {
+            "url": "https://repositorio.ucp.pt/bitstream/10400.14/44491/3/96694145.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10400.14/44491"
+          },
+          {
+            "url": "https://research.chalmers.se/publication/541901/file/541901_Fulltext.pdf",
+            "license": null,
+            "landingUrl": "https://research.chalmers.se/en/publication/541901"
+          },
+          {
+            "url": "https://run.unl.pt/bitstream/10362/166541/1/1-s2.0-S0140673624003672-main_1_.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/10362/166541"
+          },
+          {
+            "url": "https://repisalud.isciii.es/bitstreams/f0d0149c-b9df-4a13-a66e-41e2b52c6806/download",
+            "license": "cc-by",
+            "landingUrl": "https://hdl.handle.net/20.500.12105/19137"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11126520/pdf/main.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11126520/"
+          },
+          {
+            "url": "https://lume.ufrgs.br/bitstream/10183/289096/1/001244132.pdf",
+            "license": "cc-by-nc-sa",
+            "landingUrl": "http://hdl.handle.net/10183/289096"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4393858312",
+        "doi": "10.1016/s0140-6736(24)00367-2",
+        "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+        "year": 2024,
+        "citations": 2766,
+        "abstract": "BACKGROUND: Regular, detailed reporting on population health by underlying cause of death is fundamental for public health decision making. Cause-specific estimates of mortality and the subsequent effects on life expectancy worldwide are valuable metrics to gauge progress in reducing mortality rates. These estimates are particularly important following large-scale mortality spikes, such as the COVID-19 pandemic. When systematically analysed, mortality rates and life expectancy allow comparisons of the consequences of causes of death globally and over time, providing a nuanced understanding of the effect of these causes on global populations. METHODS: The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2021 cause-of-death analysis estimated mortality and years of life lost (YLLs) from 288 causes of death by age-sex-location-year in 204 countries and territories and 811 subnational locations for each year from 1990 until 2021. The analysis used 56 604 data sources, including data from vital registration and verbal autopsy as well as surveys, censuses, surveillance systems, and cancer registries, among others. As with previous GBD rounds, cause-specific death rates for most causes were estimated using the Cause of Death Ensemble model-a modelling tool developed for GBD to assess the out-of-sample predictive validity of different statistical models and covariate permutations and combine those results to produce cause-specific mortality estimates-with alternative strategies adapted to model causes with insufficient data, substantial changes in reporting over the study period, or unusual epidemiology. YLLs were computed as the product of the number of deaths for each cause-age-sex-location-year and the standard life expectancy at each age. As part of the modelling process, uncertainty intervals (UIs) were generated using the 2·5th and 97·5th percentiles from a 1000-draw distribution for each metric. We decomposed life expectancy by cause of death, location, and year to show cause-specific effects on life expectancy from 1990 to 2021. We also used the coefficient of variation and the fraction of population affected by 90% of deaths to highlight concentrations of mortality. Findings are reported in counts and age-standardised rates. Methodological improvements for cause-of-death estimates in GBD 2021 include the expansion of under-5-years age group to include four new age groups, enhanced methods to account for stochastic variation of sparse data, and the inclusion of COVID-19 and other pandemic-related mortality-which includes excess mortality associated with the pandemic, excluding COVID-19, lower respiratory infections, measles, malaria, and pertussis. For this analysis, 199 new country-years of vital registration cause-of-death data, 5 country-years of surveillance data, 21 country-years of verbal autopsy data, and 94 country-years of other data types were added to those used in previous GBD rounds. FINDINGS: The leading causes of age-standardised deaths globally were the same in 2019 as they were in 1990; in descending order, these were, ischaemic heart disease, stroke, chronic obstructive pulmonary disease, and lower respiratory infections. In 2021, however, COVID-19 replaced stroke as the second-leading age-standardised cause of death, with 94·0 deaths (95% UI 89·2-100·0) per 100 000 population. The COVID-19 pandemic shifted the rankings of the leading five causes, lowering stroke to the third-leading and chronic obstructive pulmonary disease to the fourth-leading position. In 2021, the highest age-standardised death rates from COVID-19 occurred in sub-Saharan Africa (271·0 deaths [250·1-290·7] per 100 000 population) and Latin America and the Caribbean (195·4 deaths [182·1-211·4] per 100 000 population). The lowest age-standardised death rates from COVID-19 were in the high-income super-region (48·1 deaths [47·4-48·8] per 100 000 population) and southeast Asia, east Asia, and Oceania (23·2 deaths [16·3-37·2] per 100 000 population). Globally, life expectancy steadily improved between 1990 and 2019 for 18 of the 22 investigated causes. Decomposition of global and regional life expectancy showed the positive effect that reductions in deaths from enteric infections, lower respiratory infections, stroke, and neonatal deaths, among others have contributed to improved survival over the study period. However, a net reduction of 1·6 years occurred in global life expectancy between 2019 and 2021, primarily due to increased death rates from COVID-19 and other pandemic-related mortality. Life expectancy was highly variable between super-regions over the study period, with southeast Asia, east Asia, and Oceania gaining 8·3 years (6·7-9·9) overall, while having the smallest reduction in life expectancy due to COVID-19 (0·4 years). The largest reduction in life expectancy due to COVID-19 occurred in Latin America and the Caribbean (3·6 years). Additionally, 53 of the 288 causes of death were highly concentrated in locations with less than 50% of the global population as of 2021, and these causes of death became progressively more concentrated since 1990, when only 44 causes showed this pattern. The concentration phenomenon is discussed heuristically with respect to enteric and lower respiratory infections, malaria, HIV/AIDS, neonatal disorders, tuberculosis, and measles. INTERPRETATION: Long-standing gains in life expectancy and reductions in many of the leading causes of death have been disrupted by the COVID-19 pandemic, the adverse effects of which were spread unevenly among populations. Despite the pandemic, there has been continued progress in combatting several notable causes of death, leading to improved global life expectancy over the study period. Each of the seven GBD super-regions showed an overall improvement from 1990 and 2021, obscuring the negative effect in the years of the pandemic. Additionally, our findings regarding regional variation in causes of death driving increases in life expectancy hold clear policy utility. Analyses of shifting mortality trends reveal that several causes, once widespread globally, are now increasingly concentrated geographically. These changes in mortality concentration, alongside further investigation of changing risks, interventions, and relevant policy, present an important opportunity to deepen our understanding of mortality-reduction strategies. Examining patterns in mortality concentration might reveal areas where successful public health interventions have been implemented. Translating these successes to locations where certain causes of death remain entrenched can inform policies that work to improve life expectancy for people everywhere. FUNDING: Bill & Melinda Gates Foundation.",
+        "authors": [
+          "Mohsen Naghavi",
+          "Kanyin Liane Ong",
+          "Amirali Aali",
+          "Hazim Ababneh",
+          "Yohannes Abate",
+          "Cristiana Abbafati",
+          "Rouzbeh Abbasgholizadeh",
+          "Mohammadreza Abbasian",
+          "Mohsen Abbasi‐Kangevari",
+          "Hedayat Abbastabar",
+          "Samar Abd ElHafeez",
+          "Michael Abdelmasseh",
+          "Sherief Abd‐Elsalam",
+          "Ahmed Abdel‐Wahab",
+          "Mohammad Abdollahı",
+          "Mohammad‐Amin Abdollahifar",
+          "Meriem Abdoun",
+          "Deldar Morad Abdulah",
+          "Auwal Abdullahi",
+          "Mesfin Abebe",
+          "Samrawit Shawel Abebe",
+          "Aidin Abedi",
+          "Kedir Hussein Abegaz",
+          "E S Abhilash",
+          "Hassan Abidi",
+          "Olumide Abiodun",
+          "Richard Gyan Aboagye",
+          "Hassan Abolhassani",
+          "Meysam Abolmaali",
+          "Mohamed Abouzid",
+          "Girma Beressa Aboye",
+          "Lucas Guimarães Abreu",
+          "Woldu Aberhe Abrha",
+          "Dariush Abtahi",
+          "Samir Abu‐Rumeileh",
+          "Hasan Abualruz",
+          "Bilyaminu Abubakar",
+          "Eman Abu‐Gharbieh",
+          "Niveen ME Abu-Rmeileh",
+          "Salahdein Aburuz",
+          "Ahmed Abu‐Zaid",
+          "Manfred Accrombessi",
+          "Tadele Girum Girum Adal",
+          "Abdu A. Adamu",
+          "Isaac Yeboah Addo",
+          "Giovanni Addolorato",
+          "Akindele O. Adebiyi",
+          "Victor Adekanmbi",
+          "Victor Abiola Adepoju",
+          "Charles Oluwaseun Adetunji",
+          "Juliana Bunmi Adetunji",
+          "Temitayo Esther Adeyeoluwa",
+          "Daniel A Adeyinka",
+          "Olorunsola Adeyomoye",
+          "Biruk Adie Admass",
+          "Qorinah Estiningtyas Sakilah Adnani",
+          "Saryia Adra",
+          "Aanuoluwapo Adeyimika Afolabi",
+          "Muhammad U. Afzal",
+          "Saira Afzal",
+          "Suneth Agampodi",
+          "Pradyumna Agasthi",
+          "Manik Aggarwal",
+          "Shahin Aghamiri",
+          "Feleke Doyore Agide",
+          "Antonella Agodi",
+          "Anurag Agrawal",
+          "Williams Agyemang‐Duah",
+          "Bright Opoku Ahinkorah",
+          "Aqeel Ahmad",
+          "Danish Ahmad",
+          "Firdos Ahmad",
+          "Muayyad Ahmad",
+          "Sajjad Ahmad",
+          "Shahzaib Ahmad",
+          "Tauseef Ahmad",
+          "Keivan Ahmadi",
+          "Amir Mahmoud Ahmadzade",
+          "Ali Ahmed",
+          "Ayman Ahmed",
+          "Haroon Ahmed",
+          "Luai A. Ahmed",
+          "Mehrunnisha Sharif Ahmed",
+          "Meqdad Saleh Ahmed",
+          "Muktar Beshir Ahmed",
+          "Syed Anees Ahmed",
+          "Marjan Ajami",
+          "Budi Aji",
+          "Essona Matatom Akara",
+          "Hossein Akbarialiabad",
+          "Karolina Akinosoglou",
+          "Tomi Akinyemiju",
+          "Mohammed Ahmed Akkaif",
+          "Samuel Akyirem",
+          "Hanadi Al Hamad",
+          "Syed Mahfuz Al Hasan",
+          "Fares Alahdab",
+          "Samer O Alalalmeh",
+          "Tariq A. Alalwan",
+          "Ziyad Al‐Aly"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/s0140-6736(24)00367-2",
+        "pdfUrl": null,
+        "landingUrl": "https://doi.org/10.1016/s0140-6736(24)00367-2",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "COVID-19 and healthcare impacts",
+          "COVID-19 epidemiological studies",
+          "Insurance, Mortality, Demography, Risk Management"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0268401222000767/pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://doi.org/10.1016/j.ijinfomgt.2022.102542"
+          },
+          {
+            "url": "https://lirias.kuleuven.be/retrieve/8d82a105-acd0-4234-ab0a-fdbe89ee46fb",
+            "license": null,
+            "landingUrl": "https://lirias.kuleuven.be/handle/20.500.12942/738668"
+          },
+          {
+            "url": "https://scholarworks.utrgv.edu/context/marketing_fac/article/1029/viewcontent/1_s2.0_S0268401222000767_main.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://scholarworks.utrgv.edu/marketing_fac/30"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4285585446",
+        "doi": "10.1016/j.ijinfomgt.2022.102542",
+        "title": "Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "year": 2022,
+        "citations": 2715,
+        "abstract": "The metaverse has the potential to extend the physical world using augmented and virtual reality technologies allowing users to seamlessly interact within real and simulated environments using avatars and holograms. Virtual environments and immersive games (such as, Second Life, Fortnite, Roblox and VRChat) have been described as antecedents of the metaverse and offer some insight to the potential socio-economic impact of a fully functional persistent cross platform metaverse. Separating the hype and “meta…” rebranding from current reality is difficult, as “big tech” paints a picture of the transformative nature of the metaverse and how it will positively impact people in their work, leisure, and social interaction. The potential impact on the way we conduct business, interact with brands and others, and develop shared experiences is likely to be transformational as the distinct lines between physical and digital are likely to be somewhat blurred from current perceptions. However, although the technology and infrastructure does not yet exist to allow the development of new immersive virtual worlds at scale - one that our avatars could transcend across platforms, researchers are increasingly examining the transformative impact of the metaverse. Impacted sectors include marketing, education, healthcare as well as societal effects relating to social interaction factors from widespread adoption, and issues relating to trust, privacy, bias, disinformation, application of law as well as psychological aspects linked to addiction and impact on vulnerable people. This study examines these topics in detail by combining the informed narrative and multi-perspective approach from experts with varied disciplinary backgrounds on many aspects of the metaverse and its transformational impact. The paper concludes by proposing a future research agenda that is valuable for researchers, professionals and policy makers alike.",
+        "authors": [
+          "Yogesh K. Dwivedi",
+          "Laurie Hughes",
+          "Abdullah M. Baabdullah",
+          "Samuel Ribeiro‐Navarrete",
+          "Mihalis Giannakis",
+          "Mutaz M. Al‐Debei",
+          "Denis Dennehy",
+          "Bhimaraya Metri",
+          "Dimitrios Buhalis",
+          "Christy M.K. Cheung",
+          "Kieran Conboy",
+          "Ronan Doyle",
+          "Rameshwar Dubey",
+          "Vincent Dutot",
+          "Reto Felix",
+          "D.P. Goyal",
+          "Anders Gustafsson",
+          "Chris Hinsch",
+          "Ikram Jebabli",
+          "Marijn Janssen",
+          "Young‐Gab Kim",
+          "Joo-Young Kim",
+          "Stefan Koos",
+          "David Kreps",
+          "Nir Kshetri",
+          "Vikram Kumar",
+          "Keng‐Boon Ooi",
+          "Savvas Papagiannidis",
+          "Ilias O. Pappas",
+          "Ariana Polyviou",
+          "Sang‐Min Park",
+          "Neeraj Pandey",
+          "Maciel M. Queiroz",
+          "Ramakrishnan Raman",
+          "Philipp A. Rauschnabel",
+          "Anuragini Shirish",
+          "Μαριάννα Σιγάλα",
+          "Konstantina Spanaki",
+          "Garry Wei‐Han Tan",
+          "Manoj Kumar Tiwari",
+          "Giampaolo Viglia",
+          "Samuel Fosso Wamba"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.ijinfomgt.2022.102542",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S0268401222000767/pdf",
+        "landingUrl": "https://doi.org/10.1016/j.ijinfomgt.2022.102542",
+        "license": "cc-by-nc-nd",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Virtual Reality Applications and Impacts",
+          "Technology Adoption and User Behaviour",
+          "Consumer Retail Behavior Studies"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4288039037",
+        "doi": "10.1007/s10915-022-01939-z",
+        "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+        "year": 2022,
+        "citations": 2646,
+        "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+        "authors": [
+          "Salvatore Cuomo",
+          "Vincenzo Schiano Di Cola",
+          "Fabio Giampaolo",
+          "Gianluigi Rozza",
+          "Maziar Raissi",
+          "Francesco Piccialli"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s10915-022-01939-z",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+        "landingUrl": "https://doi.org/10.1007/s10915-022-01939-z",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Model Reduction and Neural Networks",
+          "Nanofluid Flow and Heat Transfer",
+          "Heat Transfer and Optimization"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0925231220307153",
+            "license": null,
+            "landingUrl": "https://doi.org/10.1016/j.neucom.2019.10.118"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3023211159",
+        "doi": "10.1016/j.neucom.2019.10.118",
+        "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+        "year": 2020,
+        "citations": 2366,
+        "abstract": null,
+        "authors": [
+          "Jair Cervantes",
+          "Farid García‐Lamont",
+          "Lisbeth Rodríguez-Mazahua",
+          "Asdrúbal López‐Chau"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.neucom.2019.10.118",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S0925231220307153",
+        "landingUrl": "https://doi.org/10.1016/j.neucom.2019.10.118",
+        "license": null,
+        "oaStatus": "bronze",
+        "topics": [
+          "Face and Expression Recognition",
+          "Imbalanced Data Classification Techniques",
+          "Text and Document Classification Technologies"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0264127521005633/pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1016/j.matdes.2021.110008"
+          },
+          {
+            "url": "https://iris.uniroma1.it/bitstream/11573/1654356/2/Blakey-Milner_Metal-additive-manufacturing_2021.pdf",
+            "license": "cc-by",
+            "landingUrl": "http://hdl.handle.net/11573/1654356"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3186352373",
+        "doi": "10.1016/j.matdes.2021.110008",
+        "title": "Metal additive manufacturing in aerospace: A review",
+        "year": 2021,
+        "citations": 2237,
+        "abstract": "Metal additive manufacturing involves manufacturing techniques that add material to produce metallic components, typically layer by layer. The substantial growth in this technology is partly driven by its opportunity for commercial and performance benefits in the aerospace industry. The fundamental opportunities for metal additive manufacturing in aerospace applications include: significant cost and lead-time reductions, novel materials and unique design solutions, mass reduction of components through highly efficient and lightweight designs, and consolidation of multiple components for performance enhancement or risk management, e.g. through internal cooling features in thermally loaded components or by eliminating traditional joining processes. These opportunities are being commercially applied in a range of high-profile aerospace applications including liquid-fuel rocket engines, propellant tanks, satellite components, heat exchangers, turbomachinery, valves, and sustainment of legacy systems. This paper provides a comprehensive review of metal additive manufacturing in the aerospace industry (from industrial/popular as well as technical literature). This provides a current state of the art, while also summarizing the primary application scenarios and the associated commercial and technical benefits of additive manufacturing in these applications. Based on these observations, challenges and potential opportunities are highlighted for metal additive manufacturing for each application scenario.",
+        "authors": [
+          "Byron Blakey-Milner",
+          "Paul Gradl",
+          "Glen Snedden",
+          "Michael J. Brooks",
+          "Jean Pitot",
+          "Elena López",
+          "Martin Leary",
+          "Filippo Berto",
+          "Anton du Plessis"
+        ],
+        "primaryLocation": "https://doi.org/10.1016/j.matdes.2021.110008",
+        "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S0264127521005633/pdf",
+        "landingUrl": "https://doi.org/10.1016/j.matdes.2021.110008",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Additive Manufacturing Materials and Processes",
+          "Additive Manufacturing and 3D Printing Technologies",
+          "Titanium Alloys Microstructure and Properties"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s11432-020-2955-6.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s11432-020-2955-6"
+          },
+          {
+            "url": "https://pureadmin.qub.ac.uk/ws/files/244954810/towards.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.qub.ac.uk/en/publications/0f9d0428-345c-4366-bcfe-46ea04ec94c8"
+          },
+          {
+            "url": "https://pureadmin.qub.ac.uk/ws/files/244954810/towards.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.qub.ac.uk/en/publications/0f9d0428-345c-4366-bcfe-46ea04ec94c8"
+          },
+          {
+            "url": "https://pureadmin.qub.ac.uk/ws/files/244954810/towards.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://pure.qub.ac.uk/en/publications/0f9d0428-345c-4366-bcfe-46ea04ec94c8"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3110989801",
+        "doi": "10.1007/s11432-020-2955-6",
+        "title": "Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",
+        "year": 2020,
+        "citations": 2045,
+        "abstract": "Abstract The fifth generation (5G) wireless communication networks are being deployed worldwide from 2020 and more capabilities are in the process of being standardized, such as mass connectivity, ultra-reliability, and guaranteed low latency. However, 5G will not meet all requirements of the future in 2030 and beyond, and sixth generation (6G) wireless communication networks are expected to provide global coverage, enhanced spectral/energy/cost efficiency, better intelligence level and security, etc. To meet these requirements, 6G networks will rely on new enabling technologies, i.e., air interface and transmission technologies and novel network architecture, such as waveform design, multiple access, channel coding schemes, multi-antenna technologies, network slicing, cell-free architecture, and cloud/fog/edge computing. Our vision on 6G is that it will have four new paradigm shifts. First, to satisfy the requirement of global coverage, 6G will not be limited to terrestrial communication networks, which will need to be complemented with non-terrestrial networks such as satellite and unmanned aerial vehicle (UAV) communication networks, thus achieving a space-air-ground-sea integrated communication network. Second, all spectra will be fully explored to further increase data rates and connection density, including the sub-6 GHz, millimeter wave (mmWave), terahertz (THz), and optical frequency bands. Third, facing the big datasets generated by the use of extremely heterogeneous networks, diverse communication scenarios, large numbers of antennas, wide bandwidths, and new service requirements, 6G networks will enable a new range of smart applications with the aid of artificial intelligence (AI) and big data technologies. Fourth, network security will have to be strengthened when developing 6G networks. This article provides a comprehensive survey of recent advances and future trends in these four aspects. Clearly, 6G with additional technical requirements beyond those of 5G will enable faster and further communications to the extent that the boundary between physical and cyber worlds disappears.",
+        "authors": [
+          "Xiaohu You",
+          "Cheng‐Xiang Wang",
+          "Jie Huang",
+          "Xiqi Gao",
+          "Zaichen Zhang",
+          "Mao Wang",
+          "Yongming Huang",
+          "Chuan Zhang",
+          "Yanxiang Jiang",
+          "Jiaheng Wang",
+          "Min Zhu",
+          "Bin Sheng",
+          "Dongming Wang",
+          "Zhiwen Pan",
+          "Pengcheng Zhu",
+          "Yang Yang",
+          "Zening Liu",
+          "Ping Zhang",
+          "Xiaofeng Tao",
+          "Shaoqian Li",
+          "Zhi Chen",
+          "Xinying Ma",
+          "I Chih‐Lin",
+          "Shuangfeng Han",
+          "Ke Li",
+          "Chengkang Pan",
+          "Zhimin Zheng",
+          "Lajos Hanzo",
+          "Xuemin Shen",
+          "Yingjie Jay Guo",
+          "Zhiguo Ding",
+          "Harald Haas",
+          "Wen Tong",
+          "Peiying Zhu",
+          "Ganghua Yang",
+          "Jun Wang",
+          "Erik G. Larsson",
+          "Hien Quoc Ngo",
+          "Wei Hong",
+          "Haiming Wang",
+          "Debin Hou",
+          "Jixin Chen",
+          "Zhe Chen",
+          "Zhang‐Cheng Hao",
+          "Geoffrey Ye Li",
+          "Rahim Tafazolli",
+          "Yue Gao",
+          "H. Vincent Poor",
+          "Gerhard Fettweis",
+          "Ying‐Chang Liang"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s11432-020-2955-6",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s11432-020-2955-6.pdf",
+        "landingUrl": "https://doi.org/10.1007/s11432-020-2955-6",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "UAV Applications and Optimization",
+          "Satellite Communication Systems"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/access.2020.2970143"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3003667836",
+        "doi": "10.1109/access.2020.2970143",
+        "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+        "year": 2020,
+        "citations": 1852,
+        "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avatar or a synchronized virtual prototype, there can be no doubt that a digital twin plays a transformative role not only in how we design and operate cyber-physical intelligent systems, but also in how we advance the modularity of multi-disciplinary systems to tackle fundamental barriers not addressed by the current, evolutionary modeling practices. In this work, we review the recent status of methodologies and techniques related to the construction of digital twins mostly from a modeling perspective. Our aim is to provide a detailed coverage of the current challenges and enabling technologies along with recommendations and reflections for various stakeholders.",
+        "authors": [
+          "Adil Rasheed",
+          "Omer San",
+          "Trond Kvamsdal"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2020.2970143",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+        "landingUrl": "https://doi.org/10.1109/access.2020.2970143",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Digital Transformation in Industry",
+          "Simulation Techniques and Applications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09667507.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/access.2021.3140175"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4206484811",
+        "doi": "10.1109/access.2021.3140175",
+        "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+        "year": 2022,
+        "citations": 1827,
+        "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the previous Metaverse. This paper divides the concepts and essential techniques necessary for realizing the Metaverse into three components (i.e., hardware, software, and contents) and three approaches (i.e., user interaction, implementation, and application) rather than marketing or hardware approach to conduct a comprehensive analysis. Furthermore, we describe essential methods based on three components and techniques to Metaverse’s representative Ready Player One, Roblox, and Facebook research in the domain of films, games, and studies. Finally, we summarize the limitations and directions for implementing the immersive Metaverse as social influences, constraints, and open challenges.",
+        "authors": [
+          "Sangmin Park",
+          "Young‐Gab Kim"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/access.2021.3140175",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09667507.pdf",
+        "landingUrl": "https://doi.org/10.1109/access.2021.3140175",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Multimodal Machine Learning Applications",
+          "Advanced Neural Network Applications",
+          "Domain Adaptation and Few-Shot Learning"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.rcpjournals.org/content/futurehosp/8/2/e188.full.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://doi.org/10.7861/fhj.2021-0095"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3186209406",
+        "doi": "10.7861/fhj.2021-0095",
+        "title": "Artificial intelligence in healthcare: transforming the practice of medicine",
+        "year": 2021,
+        "citations": 1778,
+        "abstract": "Artificial intelligence (AI) is a powerful and disruptive area of computer science, with the potential to fundamentally transform the practice of medicine and the delivery of healthcare. In this review article, we outline recent breakthroughs in the application of AI in healthcare, describe a roadmap to building effective, reliable and safe AI systems, and discuss the possible future direction of AI augmented healthcare systems.",
+        "authors": [
+          "Junaid Bajwa",
+          "Usman Munir",
+          "Aditya Nori",
+          "Bryan Williams"
+        ],
+        "primaryLocation": "https://doi.org/10.7861/fhj.2021-0095",
+        "pdfUrl": "https://www.rcpjournals.org/content/futurehosp/8/2/e188.full.pdf",
+        "landingUrl": "https://doi.org/10.7861/fhj.2021-0095",
+        "license": "cc-by-nc-nd",
+        "oaStatus": "gold",
+        "topics": [
+          "Artificial Intelligence in Healthcare and Education",
+          "COVID-19 diagnosis using AI",
+          "Artificial Intelligence in Healthcare"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://journals.sfu.ca/jalt/index.php/jalt/article/download/689/539",
+            "license": "other-oa",
+            "landingUrl": "https://doi.org/10.37074/jalt.2023.6.1.9"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4317910584",
+        "doi": "10.37074/jalt.2023.6.1.9",
+        "title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher education?",
+        "year": 2023,
+        "citations": 1759,
+        "abstract": "ChatGPT is the world’s most advanced chatbot thus far. Unlike other chatbots, it can create impressive prose within seconds, and it has created much hype and doomsday predictions when it comes to student assessment in higher education and a host of other matters. ChatGPT is a state-of-the-art language model (a variant of OpenAI’s Generative Pretrained Transformer (GPT) language model) designed to generate text that can be indistinguishable from text written by humans. It can engage in conversation with users in a seemingly natural and intuitive way. In this article, we briefly tell the story of OpenAI, the organisation behind ChatGPT. We highlight the fundamental change from a not-for-profit organisation to a commercial business model. In terms of our methods, we conducted an extensive literature review and experimented with this artificial intelligence (AI) software. Our literature review shows our review to be amongst the first peer-reviewed academic journal articles to explore ChatGPT and its relevance for higher education (especially assessment, learning and teaching). After a description of ChatGPT’s functionality and a summary of its strengths and limitations, we focus on the technology’s implications for higher education and discuss what is the future of learning, teaching and assessment in higher education in the context of AI chatbots such as ChatGPT. We position ChatGPT in the context of current Artificial Intelligence in Education (AIEd) research, discuss student-facing, teacher-facing and system-facing applications, and analyse opportunities and threats. We conclude the article with recommendations for students, teachers and higher education institutions. Many of them focus on assessment.",
+        "authors": [
+          "Jürgen Rudolph",
+          "Samson Tan",
+          "Shannon Tan"
+        ],
+        "primaryLocation": "https://doi.org/10.37074/jalt.2023.6.1.9",
+        "pdfUrl": "https://journals.sfu.ca/jalt/index.php/jalt/article/download/689/539",
+        "landingUrl": "https://doi.org/10.37074/jalt.2023.6.1.9",
+        "license": "other-oa",
+        "oaStatus": "diamond",
+        "topics": [
+          "Artificial Intelligence in Healthcare and Education",
+          "Online Learning and Analytics",
+          "Topic Modeling"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://www.mdpi.com/2071-1050/11/16/4371/pdf?version=1565665540",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.3390/su11164371"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W2968770299",
+        "doi": "10.3390/su11164371",
+        "title": "Industry 5.0—A Human-Centric Solution",
+        "year": 2019,
+        "citations": 1672,
+        "abstract": "Staying at the top is getting tougher and more challenging due to the fast-growing and changing digital technologies and AI-based solutions. The world of technology, mass customization, and advanced manufacturing is experiencing a rapid transformation. Robots are becoming even more important as they can now be coupled with the human mind by means of brain–machine interface and advances in artificial intelligence. A strong necessity to increase productivity while not removing human workers from the manufacturing industry is imposing punishing challenges on the global economy. To counter these challenges, this article introduces the concept of Industry 5.0, where robots are intertwined with the human brain and work as collaborator instead of competitor. This article also outlines a number of key features and concerns that every manufacturer may have about Industry 5.0. In addition, it presents several developments achieved by researchers for use in Industry 5.0 applications and environments. Finally, the impact of Industry 5.0 on the manufacturing industry and overall economy is discussed from an economic and productivity point of view, where it is argued that Industry 5.0 will create more jobs than it will take away.",
+        "authors": [
+          "Saeid Nahavandi"
+        ],
+        "primaryLocation": "https://doi.org/10.3390/su11164371",
+        "pdfUrl": "https://www.mdpi.com/2071-1050/11/16/4371/pdf?version=1565665540",
+        "landingUrl": "https://doi.org/10.3390/su11164371",
+        "license": "cc-by",
+        "oaStatus": "gold",
+        "topics": [
+          "Digital Transformation in Industry",
+          "Economic and Technological Innovation"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/8782661/9309127/09349624.pdf",
+            "license": "cc-by-nc-nd",
+            "landingUrl": "https://doi.org/10.1109/ojcoms.2021.3057679"
+          },
+          {
+            "url": "https://arxiv.org/pdf/2102.01420",
+            "license": null,
+            "landingUrl": "http://arxiv.org/abs/2102.01420"
+          },
+          {
+            "url": "https://zenodo.org/record/8182814",
+            "license": "cc-by",
+            "landingUrl": "https://zenodo.org/record/8182814"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3126686235",
+        "doi": "10.1109/ojcoms.2021.3057679",
+        "title": "The Road Towards 6G: A Comprehensive Survey",
+        "year": 2021,
+        "citations": 1590,
+        "abstract": "As of today, the fifth generation (5G) mobile communication system has been rolled out in many countries and the number of 5G subscribers already reaches a very large scale. It is time for academia and industry to shift their attention towards the next generation. At this crossroad, an overview of the current state of the art and a vision of future communications are definitely of interest. This article thus aims to provide a comprehensive survey to draw a picture of the sixth generation (6G) system in terms of drivers, use cases, usage scenarios, requirements, key performance indicators (KPIs), architecture, and enabling technologies. First, we attempt to answer the question of “Is there any need for 6G?” by shedding light on its key driving factors, in which we predict the explosive growth of mobile traffic until 2030, and envision potential use cases and usage scenarios. Second, the technical requirements of 6G are discussed and compared with those of 5G with respect to a set of KPIs in a quantitative manner. Third, the state-of-the-art 6G research efforts and activities from representative institutions and countries are summarized, and a tentative roadmap of definition, specification, standardization, and regulation is projected. Then, we identify a dozen of potential technologies and introduce their principles, advantages, challenges, and open research issues. Finally, the conclusions are drawn to paint a picture of “What 6G may look like?.” This survey is intended to serve as an enlightening guideline to spur interests and further investigations for subsequent research and development of 6G communications systems.",
+        "authors": [
+          "Wei Jiang",
+          "Bin Han",
+          "Mohammad Asif Habibi",
+          "Hans Dieter Schotten"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/ojcoms.2021.3057679",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/8782661/9309127/09349624.pdf",
+        "landingUrl": "https://doi.org/10.1109/ojcoms.2021.3057679",
+        "license": "cc-by-nc-nd",
+        "oaStatus": "gold",
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Advanced MIMO Systems Optimization",
+          "PAPR reduction in OFDM"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1007/s11704-024-40231-1"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W4393065402",
+        "doi": "10.1007/s11704-024-40231-1",
+        "title": "A survey on large language model based autonomous agents",
+        "year": 2024,
+        "citations": 1538,
+        "abstract": "Abstract Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated environments, which diverges significantly from human learning processes, and makes the agents hard to achieve human-like decisions. Recently, through the acquisition of vast amounts of Web knowledge, large language models (LLMs) have shown potential in human-level intelligence, leading to a surge in research on LLM-based autonomous agents. In this paper, we present a comprehensive survey of these studies, delivering a systematic review of LLM-based autonomous agents from a holistic perspective. We first discuss the construction of LLM-based autonomous agents, proposing a unified framework that encompasses much of previous work. Then, we present a overview of the diverse applications of LLM-based autonomous agents in social science, natural science, and engineering. Finally, we delve into the evaluation strategies commonly used for LLM-based autonomous agents. Based on the previous studies, we also present several challenges and future directions in this field.",
+        "authors": [
+          "Lei Wang",
+          "Chen Ma",
+          "Xueyang Feng",
+          "Zeyu Zhang",
+          "Hao Yang",
+          "Jingsen Zhang",
+          "Zhiyuan Chen",
+          "Jiakai Tang",
+          "Xu Chen",
+          "Yankai Lin",
+          "Wayne Xin Zhao",
+          "Zhewei Wei",
+          "Ji-Rong Wen"
+        ],
+        "primaryLocation": "https://doi.org/10.1007/s11704-024-40231-1",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf",
+        "landingUrl": "https://doi.org/10.1007/s11704-024-40231-1",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Reinforcement Learning in Robotics",
+          "Topic Modeling",
+          "Multimodal Machine Learning Applications"
+        ]
+      },
+      {
+        "pdfLocations": [
+          {
+            "url": "https://ieeexplore.ieee.org/ielx7/9739/9361471/09210567.pdf",
+            "license": "cc-by",
+            "landingUrl": "https://doi.org/10.1109/comst.2020.3028247"
+          }
+        ],
+        "provider": "openalex",
+        "id": "W3089706104",
+        "doi": "10.1109/comst.2020.3028247",
+        "title": "Satellite Communications in the New Space Era: A Survey and Future Challenges",
+        "year": 2020,
+        "citations": 1504,
+        "abstract": "Satellite communications (SatComs) have recently entered a period of renewed interest motivated by technological advances and nurtured through private investment and ventures. The present survey aims at capturing the state of the art in SatComs, while highlighting the most promising open research topics. Firstly, the main innovation drivers are motivated, such as new constellation types, on-board processing capabilities, non-terrestrial networks and space-based data collection/processing. Secondly, the most promising applications are described, i.e., 5G integration, space communications, Earth observation, aeronautical and maritime tracking and communication. Subsequently, an in-depth literature review is provided across five axes: i) system aspects, ii) air interface, iii) medium access, iv) networking, v) testbeds & prototyping. Finally, a number of future challenges and the respective open research topics are described.",
+        "authors": [
+          "Oltjon Kodheli",
+          "Eva Lagunas",
+          "Nicola Maturo",
+          "Shree Krishna Sharma",
+          "Bhavani Shankar",
+          "Jesús Fabián Mendoza Montoya",
+          "Juan Carlos Merlano Duncán",
+          "Danilo Spano",
+          "Symeon Chatzinotas",
+          "Steven Kisseleff",
+          "Jorge Querol",
+          "Lei Lei",
+          "Thang X. Vu",
+          "George Goussetis"
+        ],
+        "primaryLocation": "https://doi.org/10.1109/comst.2020.3028247",
+        "pdfUrl": "https://ieeexplore.ieee.org/ielx7/9739/9361471/09210567.pdf",
+        "landingUrl": "https://doi.org/10.1109/comst.2020.3028247",
+        "license": "cc-by",
+        "oaStatus": "hybrid",
+        "topics": [
+          "Satellite Communication Systems",
+          "IoT Networks and Protocols",
+          "Opportunistic and Delay-Tolerant Networks"
+        ]
+      }
+    ]
+  }
+]

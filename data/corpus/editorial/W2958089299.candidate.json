@@ -1,0 +1,54 @@
+{
+  "pdfLocations": [
+    {
+      "url": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+      "license": "cc-by",
+      "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1907.07374",
+      "license": null,
+      "landingUrl": "http://arxiv.org/abs/1907.07374"
+    }
+  ],
+  "provider": "openalex",
+  "id": "W2958089299",
+  "doi": "10.1109/tnnls.2020.3027314",
+  "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+  "year": 2020,
+  "citations": 2390,
+  "abstract": "Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to justify their reliability. This requires greater interpretability, which often means we need to understand the mechanism underlying the algorithms. Unfortunately, the blackbox nature of the DL is still unresolved, and many machine decisions are still poorly understood. We provide a review on interpretabilities suggested by different research works and categorize them. The different categories show different dimensions in interpretability research, from approaches that provide \"obviously\" interpretable information to the studies of complex patterns. By applying the same categorization to interpretability in medical research, it is hoped that: 1) clinicians and practitioners can subsequently approach these methods with caution; 2) insight into interpretability will be born with more considerations for medical practices; and 3) initiatives to push forward data-based, mathematically grounded, and technically grounded medical education are encouraged.",
+  "authors": [
+    "Erico Tjoa",
+    "Cuntai Guan"
+  ],
+  "primaryLocation": "https://doi.org/10.1109/tnnls.2020.3027314",
+  "pdfUrl": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+  "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314",
+  "license": "cc-by",
+  "oaStatus": "hybrid",
+  "topics": [
+    "Explainable Artificial Intelligence (XAI)",
+    "Machine Learning in Healthcare",
+    "Artificial Intelligence in Healthcare and Education"
+  ],
+  "topic": "artificial-intelligence",
+  "localPdf": "data/corpus/papers/W2958089299-35cd1fa1f28d.pdf",
+  "download": {
+    "bytes": 2895120,
+    "sha256": "f94376434b69a6f57304513b727982778c47b37e1b48c3798e282345171aec9e",
+    "downloadedAt": "2026-09-09T19:33:51.295Z",
+    "finalUrl": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf"
+  },
+  "localText": "data/text/reviewed/W2958089299-f94376434b69.txt.gz",
+  "textSha256": "c7551e1f4ed15c5dbc9ff3a494a1a8abb40e0bda9a8e9e651225a1da857bf71a",
+  "textChars": 23968,
+  "sourceReview": {
+    "id": "W2958089299",
+    "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+    "pdfSha256": "f94376434b69a6f57304513b727982778c47b37e1b48c3798e282345171aec9e",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+    "version": 1
+  }
+}

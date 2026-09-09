@@ -1,0 +1,49 @@
+{
+  "pdfLocations": [
+    {
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+      "license": "cc-by",
+      "landingUrl": "https://doi.org/10.1109/access.2020.2970143"
+    }
+  ],
+  "provider": "openalex",
+  "id": "W3003667836",
+  "doi": "10.1109/access.2020.2970143",
+  "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+  "year": 2020,
+  "citations": 1852,
+  "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avatar or a synchronized virtual prototype, there can be no doubt that a digital twin plays a transformative role not only in how we design and operate cyber-physical intelligent systems, but also in how we advance the modularity of multi-disciplinary systems to tackle fundamental barriers not addressed by the current, evolutionary modeling practices. In this work, we review the recent status of methodologies and techniques related to the construction of digital twins mostly from a modeling perspective. Our aim is to provide a detailed coverage of the current challenges and enabling technologies along with recommendations and reflections for various stakeholders.",
+  "authors": [
+    "Adil Rasheed",
+    "Omer San",
+    "Trond Kvamsdal"
+  ],
+  "primaryLocation": "https://doi.org/10.1109/access.2020.2970143",
+  "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+  "landingUrl": "https://doi.org/10.1109/access.2020.2970143",
+  "license": "cc-by",
+  "oaStatus": "gold",
+  "topics": [
+    "Digital Transformation in Industry",
+    "Simulation Techniques and Applications"
+  ],
+  "topic": "interdisciplinary-modeling",
+  "localPdf": "data/corpus/papers/W3003667836-7a0e79c7282f.pdf",
+  "download": {
+    "bytes": 9598713,
+    "sha256": "6fbda8c7fe391e9795da93a9f3d494dfa5e4a058f5ba84d340ec94929c552e7e",
+    "downloadedAt": "2026-09-09T19:31:45.919Z",
+    "finalUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf"
+  },
+  "localText": "data/text/reviewed/W3003667836-6fbda8c7fe39.txt.gz",
+  "textSha256": "64c0db9df072d8d3eb2cf1ff238b6c60ccbc13a2520f3a4e594b64d922bd685a",
+  "textChars": 83205,
+  "sourceReview": {
+    "id": "W3003667836",
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "pdfSha256": "6fbda8c7fe391e9795da93a9f3d494dfa5e4a058f5ba84d340ec94929c552e7e",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+    "version": 1
+  }
+}

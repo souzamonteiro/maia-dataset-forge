@@ -1,0 +1,173 @@
+{
+  "W2781738013": {
+    "inputHash": "023dd9062f632b82ed80f44d43ac4410df1218f848ad1b20387ce6e23c68dad3",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W2781738013.crossref.json; https://api.crossref.org/works/10.22331/q-2018-08-06-79.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.22331/q-2018-08-06-79 agrees with PDF identity. Quantum landing page https://quantum-journal.org/papers/q-2018-08-06-79/ explicitly links this PDF/arXiv v3 to this DOI.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 1 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W2781738013.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2018 from published-online; preserve separate online and print dates {'published-online': [2018, 8, 6]}. Confirmed against article masthead and https://api.crossref.org/works/10.22331/q-2018-08-06-79; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Quantum author policy https://quantum-journal.org/instructions/authors/ and linked final arXiv version establish CC-BY 4.0.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W2781738013.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W2781738013.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Reclassified from machine-learning to computational-modeling: quantum simulation, computational speedup and physical limits; all statements anchored to the 2018 paper."
+    }
+  },
+  "W2978346165": {
+    "inputHash": "07ee5803c3e0fe116cc5a42fc8aafe963152aba3164111d593f8d8575f37fe7c",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "quarantined",
+    "reason": "Excluded from this corpus sample: business strategy and digital transformation research agenda does not establish empirical software engineering or computational modeling content. Bibliographic corrections retained (volume year 2021, not online year 2019)."
+  },
+  "W3003257820": {
+    "inputHash": "6b38d2f7565ef1ef0885e09837c20a7b452aebfbd2f90a1751892b0d49db83cb",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3003257820.crossref.json; https://api.crossref.org/works/10.1038/s41592-019-0686-2.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.1038/s41592-019-0686-2 agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 112 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3003257820.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2020 from published-print; preserve separate online and print dates {'published-online': [2020, 2, 3], 'published-print': [2020, 3, 2]}. Confirmed against article masthead and https://api.crossref.org/works/10.1038/s41592-019-0686-2; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W3003257820.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3003257820.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Scientific-computing: numerical algorithms, sparse matrices, scientific library architecture and implementation."
+    }
+  },
+  "W3182706339": {
+    "inputHash": "a8a97596e3bf30a709ab059262d3cff93d607f834f33d5e4b3edaa39f1638fcb",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3182706339.crossref.json; https://api.crossref.org/works/10.7717/peerj-cs.623.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.7717/peerj-cs.623 agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 3 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3182706339.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2021 from published-online; preserve separate online and print dates {'published-online': [2021, 7, 5]}. Confirmed against article masthead and https://api.crossref.org/works/10.7717/peerj-cs.623; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W3182706339.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3182706339.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Reclassified to data-science: regression evaluation metrics and experimental comparison; article-specific claims are not universal statistical rules."
+    }
+  },
+  "W3111162498": {
+    "inputHash": "a55c78fde4ea676060961ccf07767b10fd602ea258d54e45b379ae24ccdab4f0",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "quarantined",
+    "reason": "Excluded: allowed CC-BY/CC0/public-domain license not established for downloaded LANL accepted manuscript. PDF grants US Government-purpose rights; Crossref lists Springer TDM terms, not CC-BY. Open access to a file is insufficient for configured license eligibility."
+  },
+  "W3021613070": {
+    "inputHash": "eb3503ce30870d86c112b325375b23bc1d355c9bf2813991c69550cce59525d1",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3021613070.crossref.json; https://api.crossref.org/works/10.1109/access.2020.2990567.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.1109/access.2020.2990567 agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 2 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3021613070.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2020 from published-print; preserve separate online and print dates {'published-print': [2020]}. Confirmed against article masthead and https://api.crossref.org/works/10.1109/access.2020.2990567; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/legalcode; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W3021613070.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3021613070.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Optimization: multi-objective problem formulation, reproducibility and optimization framework design."
+    }
+  },
+  "W2888532099": {
+    "inputHash": "3e4b3f72def55f7e62914bce9ddb541c7f72bbb31d55ab96feef8dba1fc49208",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W2888532099.crossref.json; https://api.crossref.org/works/10.3847/1538-3881/aabc4f.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.3847/1538-3881/aabc4f agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 142 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W2888532099.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2018 from published-print; preserve separate online and print dates {'published-online': [2018, 8, 24], 'published-print': [2018, 9, 1]}. Confirmed against article masthead and https://api.crossref.org/works/10.3847/1538-3881/aabc4f; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: http://creativecommons.org/licenses/by/3.0/; Crossref non-TDM entry and article license statement checked. For Astropy the article says CC-BY 3.0; repository cover CC-BY 4.0 is not substituted for the article license.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W2888532099.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W2888532099.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Reclassified to software-engineering: coordination, modular packages, testing, interoperability and API unit checking in scientific software."
+    }
+  },
+  "W3113178943": {
+    "inputHash": "429ef3af3525e5cd41eb4b62e9d52ee7df3f5f8febe6017ad2854374e5cd407a",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "quarantined",
+    "reason": "Excluded from this corpus sample: cardiovascular disease burden review, not network-science/agent-based modeling methods. Former complex-systems assignment was search provenance, not topic validation; all 679 Crossref contributor entries preserved."
+  },
+  "W3140854437": {
+    "inputHash": "b231661e4f4648a9c8dc81caa321c87169cbfd32c3cb61a7278f4415d7858d3e",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W3140854437.crossref.json; https://api.crossref.org/works/10.1186/s40537-021-00444-8.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.1186/s40537-021-00444-8 agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 10 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W3140854437.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2021 from published-online; preserve separate online and print dates {'published-online': [2021, 3, 31]}. Confirmed against article masthead and https://api.crossref.org/works/10.1186/s40537-021-00444-8; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W3140854437.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W3140854437.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Reclassified to machine-learning: neural network architecture and supervised/unsupervised learning methods."
+    }
+  },
+  "W4308834893": {
+    "inputHash": "f23e7456fb8de61c0b57dedac440b763dc9f18090ea548850d4b85a24384d938",
+    "reviewer": "Codex — documentary review of primary PDF and publisher-deposited Crossref metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Title and DOI inspected on the first article pages (repository covers excluded); publisher-deposited title in data/corpus/editorial/W4308834893.crossref.json; https://api.crossref.org/works/10.1093/nar/gkac1000.",
+      "doi": "Publisher deposit https://api.crossref.org/works/10.1093/nar/gkac1000 agrees with PDF identity. DOI present in article header or repository cover.",
+      "authors": "Publisher-deposited contributor list retained without the old 100-entry cap: 13 entries. Compare PDF byline and collaborator lists with data/corpus/editorial/W4308834893.crossref.json; initials and consortium members need not all appear on page one.",
+      "year": "Use 2023 from published-print; preserve separate online and print dates {'published-online': [2022, 11, 12], 'published-print': [2023, 1, 6]}. Confirmed against article masthead and https://api.crossref.org/works/10.1093/nar/gkac1000; deposit/download dates are not publication dates.",
+      "license": "Publisher license for article content: https://creativecommons.org/licenses/by/4.0/; Crossref non-TDM entry and article license statement checked. Covers and software license mentions were not treated as article license grants.",
+      "extraction": "Read all six curated prose spans in data/corpus/editorial/W4308834893.spans.json; exact offsets and source hash verified. Approved ONLY these spans in data/corpus/editorial/W4308834893.curated.txt.gz, not the entire lossy PDF extraction. Bibliography, page fragments and malformed equations excluded. Dated assertions must remain attributed to this paper.",
+      "topic": "Reclassified to complex-systems: protein interaction networks, cross-species network transfer and edge-confidence scoring."
+    }
+  },
+  "W2958089299": {
+    "inputHash": "cd762b3e31684ebb1cf78fe8c9c12fbce4b4fcbf0d28ed74aa0c0a27fdf1c667",
+    "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Article title checked on first PDF page at https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1109/tnnls.2020.3027314.",
+      "doi": "10.1109/tnnls.2020.3027314 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W2958089299.crossref.json.",
+      "authors": "All 2 byline authors checked against first PDF page and full Crossref author list: Erico Tjoa, Cuntai Guan",
+      "year": "Volume year 2021 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-print': [2021, 11]}. Online publication dates are not silently used as volume dates.",
+      "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf. Crossref also records the CC-BY 4.0 license for the version of record.",
+      "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W2958089299.spans.json. Approval covers only data/corpus/editorial/W2958089299.curated.txt.gz; whole-paper extraction is not certified.",
+      "topic": "AI interpretability frameworks, accountability, explanation evaluation and neural-symbolic knowledge extraction; selected passages address methods, not clinical recommendations."
+    }
+  },
+  "W2811395263": {
+    "inputHash": "cf0604440a7030bbe6735bf9b1ff2312f1a20e6575dcc23eb82f8b300f71ebf7",
+    "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Article title checked on first PDF page at https://www.osti.gov/servlets/purl/1500214; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1137/16m1082469.",
+      "doi": "10.1137/16m1082469 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W2811395263.crossref.json.",
+      "authors": "All 3 byline authors checked against first PDF page and full Crossref author list: Benjamin Peherstorfer, Karen Willcox, Max Gunzburger",
+      "year": "Volume year 2018 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-online': [2018, 8, 8], 'published-print': [2018, 1]}. Online publication dates are not silently used as volume dates.",
+      "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://www.osti.gov/servlets/purl/1500214. SIAM PDF explicitly states redistribution subject to CCBY and Creative Commons 4.0; Crossref lacks license metadata, so PDF evidence is authoritative here.",
+      "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W2811395263.spans.json. Approval covers only data/corpus/editorial/W2811395263.curated.txt.gz; whole-paper extraction is not certified.",
+      "topic": "Applied mathematics: error/cost tradeoffs, multifidelity and multilevel numerical methods, uncertainty propagation, statistical inference and optimization."
+    }
+  },
+  "W3003667836": {
+    "inputHash": "e6546df76c2af96aefc8415c54e0813e9834bc962164335848d965a59478f64c",
+    "reviewer": "Codex — documentary review of article PDF and publisher-deposited metadata",
+    "reviewedAt": "2026-09-09",
+    "status": "approved",
+    "evidence": {
+      "title": "Article title checked on first PDF page at https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf; agrees with publisher-deposited Crossref title at https://api.crossref.org/works/10.1109/access.2020.2970143.",
+      "doi": "10.1109/access.2020.2970143 printed in PDF first-page identifier; publisher record preserved in data/corpus/editorial/W3003667836.crossref.json.",
+      "authors": "All 3 byline authors checked against first PDF page and full Crossref author list: Adil Rasheed, Omer San, Trond Kvamsdal",
+      "year": "Volume year 2020 confirmed in PDF masthead and Crossref. Separate dates retained: {'published-print': [2020]}. Online publication dates are not silently used as volume dates.",
+      "license": "First-page article license/redistribution statement confirms CC-BY 4.0 at https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf. Crossref also records the CC-BY 4.0 license for the version of record.",
+      "extraction": "All six selected prose spans read and checked for sentence completeness, source support and absence of broken equations. Exact source offsets/hashes saved in data/corpus/editorial/W3003667836.spans.json. Approval covers only data/corpus/editorial/W3003667836.curated.txt.gz; whole-paper extraction is not certified.",
+      "topic": "Interdisciplinary computational modeling: physical simulators, 3D representations, data quality and hardware-in-the-loop in digital twins."
+    }
+  }
+}

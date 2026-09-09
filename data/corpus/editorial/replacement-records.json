@@ -1,0 +1,259 @@
+[
+  {
+    "pdfLocations": [
+      {
+        "url": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+        "license": "cc-by",
+        "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314"
+      },
+      {
+        "url": "https://arxiv.org/pdf/1907.07374",
+        "license": null,
+        "landingUrl": "http://arxiv.org/abs/1907.07374"
+      }
+    ],
+    "provider": "openalex",
+    "id": "W2958089299",
+    "doi": "10.1109/tnnls.2020.3027314",
+    "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+    "year": 2021,
+    "citations": 2390,
+    "abstract": "Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to justify their reliability. This requires greater interpretability, which often means we need to understand the mechanism underlying the algorithms. Unfortunately, the blackbox nature of the DL is still unresolved, and many machine decisions are still poorly understood. We provide a review on interpretabilities suggested by different research works and categorize them. The different categories show different dimensions in interpretability research, from approaches that provide \"obviously\" interpretable information to the studies of complex patterns. By applying the same categorization to interpretability in medical research, it is hoped that: 1) clinicians and practitioners can subsequently approach these methods with caution; 2) insight into interpretability will be born with more considerations for medical practices; and 3) initiatives to push forward data-based, mathematically grounded, and technically grounded medical education are encouraged.",
+    "authors": [
+      "Erico Tjoa",
+      "Cuntai Guan"
+    ],
+    "primaryLocation": "https://doi.org/10.1109/tnnls.2020.3027314",
+    "pdfUrl": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf",
+    "landingUrl": "https://doi.org/10.1109/tnnls.2020.3027314",
+    "license": "cc-by",
+    "oaStatus": "hybrid",
+    "topics": [
+      "Explainable Artificial Intelligence (XAI)",
+      "Machine Learning in Healthcare",
+      "Artificial Intelligence in Healthcare and Education"
+    ],
+    "topic": "artificial-intelligence",
+    "localPdf": "data/corpus/papers/W2958089299-35cd1fa1f28d.pdf",
+    "download": {
+      "bytes": 2895120,
+      "sha256": "f94376434b69a6f57304513b727982778c47b37e1b48c3798e282345171aec9e",
+      "downloadedAt": "2026-09-09T19:33:51.295Z",
+      "finalUrl": "https://ieeexplore.ieee.org/ielx7/5962385/9591206/09233366.pdf"
+    },
+    "localText": "data/corpus/editorial/W2958089299.curated.txt.gz",
+    "textSha256": "b207fa963381f13ab40670313a18e51d77284a995198fcb3694cdab08bec06f4",
+    "textChars": 3479,
+    "sourceReview": {
+      "id": "W2958089299",
+      "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+      "pdfSha256": "f94376434b69a6f57304513b727982778c47b37e1b48c3798e282345171aec9e",
+      "status": "identity-matched",
+      "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+      "version": 1
+    },
+    "originalMetadata": {
+      "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+      "doi": "10.1109/tnnls.2020.3027314",
+      "authors": [
+        "Erico Tjoa",
+        "Cuntai Guan"
+      ],
+      "year": 2020,
+      "license": "cc-by",
+      "topic": "artificial-intelligence"
+    },
+    "publicationDates": {
+      "published-print": [
+        2021,
+        11
+      ]
+    },
+    "yearBasis": "published-print",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "metadataEvidence": {
+      "source": "https://api.crossref.org/works/10.1109/tnnls.2020.3027314",
+      "snapshot": "data/corpus/editorial/W2958089299.crossref.json",
+      "snapshotSha256": "cca7de694f82c556428484f50a6dda5fae19155fd938b4e1eadcd9f373183b17",
+      "reviewer": "Codex — documentary review",
+      "date": "2026-09-09"
+    },
+    "extractionReview": {
+      "scope": "Only curated literal prose spans; full raw extraction is NOT certified",
+      "spansFile": "data/corpus/editorial/W2958089299.spans.json",
+      "textSha256": "b207fa963381f13ab40670313a18e51d77284a995198fcb3694cdab08bec06f4"
+    }
+  },
+  {
+    "pdfLocations": [
+      {
+        "url": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+        "license": "cc-by",
+        "landingUrl": "https://doi.org/10.1137/16m1082469"
+      },
+      {
+        "url": "https://www.osti.gov/servlets/purl/1500214",
+        "license": "cc-by",
+        "landingUrl": "https://www.osti.gov/biblio/1500214"
+      }
+    ],
+    "provider": "openalex",
+    "id": "W2811395263",
+    "doi": "10.1137/16m1082469",
+    "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+    "year": 2018,
+    "citations": 1064,
+    "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity models are leveraged for speedup while the high-fidelity model is kept in the loop to establish accuracy and/or convergence guarantees. We categorize multifidelity methods according to three classes of strategies: adaptation, fusion, and filtering. The paper reviews multifidelity methods in the outer-loop contexts of uncertainty propagation, inference, and optimization.",
+    "authors": [
+      "Benjamin Peherstorfer",
+      "Karen Willcox",
+      "Max Gunzburger"
+    ],
+    "primaryLocation": "https://doi.org/10.1137/16m1082469",
+    "pdfUrl": "https://www.osti.gov/servlets/purl/1500214",
+    "landingUrl": "https://doi.org/10.1137/16m1082469",
+    "license": "cc-by",
+    "oaStatus": "hybrid",
+    "topics": [
+      "Probabilistic and Robust Engineering Design",
+      "Advanced Multi-Objective Optimization Algorithms",
+      "Model Reduction and Neural Networks"
+    ],
+    "topic": "applied-mathematics",
+    "localPdf": "data/corpus/papers/W2811395263-327b99ac2991.pdf",
+    "download": {
+      "bytes": 667810,
+      "sha256": "d297f6acbdf03ffa61a6dea45359373b2075d178b65147b07b8a94f337a84d43",
+      "downloadedAt": "2026-09-09T19:35:51.990Z",
+      "finalUrl": "https://www.osti.gov/servlets/purl/1500214"
+    },
+    "localText": "data/corpus/editorial/W2811395263.curated.txt.gz",
+    "textSha256": "36519ea69d51f5d631d59760b24f410d794fcad61233dd3ecbc216c2562da94f",
+    "textChars": 2950,
+    "sourceReview": {
+      "id": "W2811395263",
+      "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+      "pdfSha256": "d297f6acbdf03ffa61a6dea45359373b2075d178b65147b07b8a94f337a84d43",
+      "status": "identity-matched",
+      "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+      "version": 1
+    },
+    "originalMetadata": {
+      "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+      "doi": "10.1137/16m1082469",
+      "authors": [
+        "Benjamin Peherstorfer",
+        "Karen Willcox",
+        "Max Gunzburger"
+      ],
+      "year": 2018,
+      "license": "cc-by",
+      "topic": "applied-mathematics"
+    },
+    "publicationDates": {
+      "published-online": [
+        2018,
+        8,
+        8
+      ],
+      "published-print": [
+        2018,
+        1
+      ]
+    },
+    "yearBasis": "published-print",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "metadataEvidence": {
+      "source": "https://api.crossref.org/works/10.1137/16m1082469",
+      "snapshot": "data/corpus/editorial/W2811395263.crossref.json",
+      "snapshotSha256": "cd39048f9f6a77e747d4e15b5bb29ef433c8b7047b7e6aeaaa3362158073ac39",
+      "reviewer": "Codex — documentary review",
+      "date": "2026-09-09"
+    },
+    "extractionReview": {
+      "scope": "Only curated literal prose spans; full raw extraction is NOT certified",
+      "spansFile": "data/corpus/editorial/W2811395263.spans.json",
+      "textSha256": "36519ea69d51f5d631d59760b24f410d794fcad61233dd3ecbc216c2562da94f"
+    }
+  },
+  {
+    "pdfLocations": [
+      {
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+        "license": "cc-by",
+        "landingUrl": "https://doi.org/10.1109/access.2020.2970143"
+      }
+    ],
+    "provider": "openalex",
+    "id": "W3003667836",
+    "doi": "10.1109/access.2020.2970143",
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "year": 2020,
+    "citations": 1852,
+    "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avatar or a synchronized virtual prototype, there can be no doubt that a digital twin plays a transformative role not only in how we design and operate cyber-physical intelligent systems, but also in how we advance the modularity of multi-disciplinary systems to tackle fundamental barriers not addressed by the current, evolutionary modeling practices. In this work, we review the recent status of methodologies and techniques related to the construction of digital twins mostly from a modeling perspective. Our aim is to provide a detailed coverage of the current challenges and enabling technologies along with recommendations and reflections for various stakeholders.",
+    "authors": [
+      "Adil Rasheed",
+      "Omer San",
+      "Trond Kvamsdal"
+    ],
+    "primaryLocation": "https://doi.org/10.1109/access.2020.2970143",
+    "pdfUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+    "landingUrl": "https://doi.org/10.1109/access.2020.2970143",
+    "license": "cc-by",
+    "oaStatus": "gold",
+    "topics": [
+      "Digital Transformation in Industry",
+      "Simulation Techniques and Applications"
+    ],
+    "topic": "interdisciplinary-modeling",
+    "localPdf": "data/corpus/papers/W3003667836-7a0e79c7282f.pdf",
+    "download": {
+      "bytes": 9598713,
+      "sha256": "6fbda8c7fe391e9795da93a9f3d494dfa5e4a058f5ba84d340ec94929c552e7e",
+      "downloadedAt": "2026-09-09T19:31:45.919Z",
+      "finalUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf"
+    },
+    "localText": "data/corpus/editorial/W3003667836.curated.txt.gz",
+    "textSha256": "3acdd020c175668f15b630edd254a5fb5587e4c4c2b5e7b15fd9bf35e3e5dde7",
+    "textChars": 3173,
+    "sourceReview": {
+      "id": "W3003667836",
+      "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+      "pdfSha256": "6fbda8c7fe391e9795da93a9f3d494dfa5e4a058f5ba84d340ec94929c552e7e",
+      "status": "identity-matched",
+      "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+      "version": 1
+    },
+    "originalMetadata": {
+      "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+      "doi": "10.1109/access.2020.2970143",
+      "authors": [
+        "Adil Rasheed",
+        "Omer San",
+        "Trond Kvamsdal"
+      ],
+      "year": 2020,
+      "license": "cc-by",
+      "topic": "interdisciplinary-modeling"
+    },
+    "publicationDates": {
+      "published-print": [
+        2020
+      ]
+    },
+    "yearBasis": "published-print",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "metadataEvidence": {
+      "source": "https://api.crossref.org/works/10.1109/access.2020.2970143",
+      "snapshot": "data/corpus/editorial/W3003667836.crossref.json",
+      "snapshotSha256": "ee5e78d64218d817948cf861e9b60fbb0f3145135e497e2eb1babc599f933133",
+      "reviewer": "Codex — documentary review",
+      "date": "2026-09-09"
+    },
+    "extractionReview": {
+      "scope": "Only curated literal prose spans; full raw extraction is NOT certified",
+      "spansFile": "data/corpus/editorial/W3003667836.spans.json",
+      "textSha256": "3acdd020c175668f15b630edd254a5fb5587e4c4c2b5e7b15fd9bf35e3e5dde7"
+    }
+  }
+]

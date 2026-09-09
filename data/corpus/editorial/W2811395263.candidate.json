@@ -1,0 +1,55 @@
+{
+  "pdfLocations": [
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+      "license": "cc-by",
+      "landingUrl": "https://doi.org/10.1137/16m1082469"
+    },
+    {
+      "url": "https://www.osti.gov/servlets/purl/1500214",
+      "license": "cc-by",
+      "landingUrl": "https://www.osti.gov/biblio/1500214"
+    }
+  ],
+  "provider": "openalex",
+  "id": "W2811395263",
+  "doi": "10.1137/16m1082469",
+  "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+  "year": 2018,
+  "citations": 1064,
+  "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity models are leveraged for speedup while the high-fidelity model is kept in the loop to establish accuracy and/or convergence guarantees. We categorize multifidelity methods according to three classes of strategies: adaptation, fusion, and filtering. The paper reviews multifidelity methods in the outer-loop contexts of uncertainty propagation, inference, and optimization.",
+  "authors": [
+    "Benjamin Peherstorfer",
+    "Karen Willcox",
+    "Max Gunzburger"
+  ],
+  "primaryLocation": "https://doi.org/10.1137/16m1082469",
+  "pdfUrl": "https://www.osti.gov/servlets/purl/1500214",
+  "landingUrl": "https://doi.org/10.1137/16m1082469",
+  "license": "cc-by",
+  "oaStatus": "hybrid",
+  "topics": [
+    "Probabilistic and Robust Engineering Design",
+    "Advanced Multi-Objective Optimization Algorithms",
+    "Model Reduction and Neural Networks"
+  ],
+  "topic": "applied-mathematics",
+  "localPdf": "data/corpus/papers/W2811395263-327b99ac2991.pdf",
+  "download": {
+    "bytes": 667810,
+    "sha256": "d297f6acbdf03ffa61a6dea45359373b2075d178b65147b07b8a94f337a84d43",
+    "downloadedAt": "2026-09-09T19:35:51.990Z",
+    "finalUrl": "https://www.osti.gov/servlets/purl/1500214"
+  },
+  "localText": "data/text/reviewed/W2811395263-d297f6acbdf0.txt.gz",
+  "textSha256": "deb499580703fb43cbc16b6b68c89a26d74ef46091fcdee0468b47d57e2e0812",
+  "textChars": 42158,
+  "sourceReview": {
+    "id": "W2811395263",
+    "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+    "pdfSha256": "d297f6acbdf03ffa61a6dea45359373b2075d178b65147b07b8a94f337a84d43",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review",
+    "version": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-09-09T19:37:59.520Z",
+  "target": 1000,
+  "discovered": 13,
+  "downloaded": 13,
+  "approved": 10,
+  "pending": 0,
+  "quarantined": 3,
+  "failures": 0,
+  "topics": [
+    {
+      "id": "computational-modeling",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "machine-learning",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "scientific-computing",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "complex-systems",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "software-engineering",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "artificial-intelligence",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "data-science",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "optimization",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "applied-mathematics",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    },
+    {
+      "id": "interdisciplinary-modeling",
+      "target": 100,
+      "approved": 1,
+      "pending": 0
+    }
+  ]
+}

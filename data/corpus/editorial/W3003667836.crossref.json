@@ -1,0 +1,3139 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T17:17:43Z",
+      "timestamp": 1788974263038,
+      "version": "build-2803163510"
+    },
+    "reference-count": 550,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Access"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1109/access.2020.2970143",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2020-01-28T17:44:50Z",
+      "timestamp": 1580233490000
+    },
+    "page": "21980-22012",
+    "source": "Crossref",
+    "is-referenced-by-count": 1740,
+    "title": [
+      "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective"
+    ],
+    "prefix": "10.1109",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2690-983X",
+        "authenticated-orcid": false,
+        "given": "Adil",
+        "family": "Rasheed",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2241-4648",
+        "authenticated-orcid": false,
+        "given": "Omer",
+        "family": "San",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1615-7649",
+        "authenticated-orcid": false,
+        "given": "Trond",
+        "family": "Kvamsdal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref275",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.fluid.010908.165248"
+      },
+      {
+        "key": "ref274",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11075-004-2866-z"
+      },
+      {
+        "key": "ref277",
+        "author": "biegler",
+        "year": "2011",
+        "journal-title": "Large-Scale Inverse Problems and Quantification of Uncertainty"
+      },
+      {
+        "key": "ref276",
+        "first-page": "1581",
+        "article-title": "Non-linear model reduction for uncertainty quantification in large-scale inverse problems",
+        "volume": "81",
+        "author": "galbally",
+        "year": "2010",
+        "journal-title": "Int J Numer Meth Eng"
+      },
+      {
+        "key": "ref271",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2013.794730"
+      },
+      {
+        "key": "ref270",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.8650"
+      },
+      {
+        "key": "ref170",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/geosciences8120489"
+      },
+      {
+        "key": "ref273",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10915-017-0433-8"
+      },
+      {
+        "key": "ref272",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/16M1088958"
+      },
+      {
+        "key": "ref172",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-17-1517-2013"
+      },
+      {
+        "key": "ref171",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-71056-1_2"
+      },
+      {
+        "key": "ref174",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jae.3950090204"
+      },
+      {
+        "key": "ref173",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR-D-15-0440.1"
+      },
+      {
+        "key": "ref176",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0266-5611/13/5/001"
+      },
+      {
+        "key": "ref175",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9965.1994.tb00055.x"
+      },
+      {
+        "key": "ref178",
+        "volume": "32",
+        "author": "wells",
+        "year": "2013",
+        "journal-title": "The Kalman Filter in Finance"
+      },
+      {
+        "key": "ref177",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0266-5611/15/3/201"
+      },
+      {
+        "key": "ref168",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1751-5823.2003.tb00194.x"
+      },
+      {
+        "key": "ref169",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2151/jmsj.85B.331"
+      },
+      {
+        "key": "ref267",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fld.1365"
+      },
+      {
+        "key": "ref268",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2118/141967-MS"
+      },
+      {
+        "key": "ref269",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR-D-11-00257.1"
+      },
+      {
+        "key": "ref288",
+        "first-page": "1",
+        "article-title": "From the POD-Galerkin method to sparse manifold models",
+        "volume": "2",
+        "author": "loiseau",
+        "year": "2019",
+        "journal-title": "Handbook Model-Order Reduction"
+      },
+      {
+        "key": "ref287",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2008.04.034"
+      },
+      {
+        "key": "ref286",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.17383"
+      },
+      {
+        "key": "ref285",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015706.1015744"
+      },
+      {
+        "key": "ref181",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0031-9155/32/1/004"
+      },
+      {
+        "key": "ref284",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10618560108970021"
+      },
+      {
+        "key": "ref180",
+        "volume": "153",
+        "author": "rachev",
+        "year": "2008",
+        "journal-title": "Bayesian Methods in Finance"
+      },
+      {
+        "key": "ref283",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1097-0363(20001115)34:5<425::AID-FLD67>3.0.CO;2-W"
+      },
+      {
+        "key": "ref282",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0207(19990310)44:7<973::AID-NME538>3.0.CO;2-F"
+      },
+      {
+        "key": "ref281",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0207(19990310)44:7<945::AID-NME537>3.3.CO;2-6"
+      },
+      {
+        "key": "ref185",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.1997.554212"
+      },
+      {
+        "key": "ref280",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.commatsci.2018.01.056"
+      },
+      {
+        "key": "ref184",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9892.1990.tb00058.x"
+      },
+      {
+        "key": "ref183",
+        "first-page": "407",
+        "article-title": "Computational aspects of low frequency electrical and electromagnetic tomography: A review study",
+        "volume": "5",
+        "author": "soleimani",
+        "year": "2008",
+        "journal-title": "Int J Numer Anal Model"
+      },
+      {
+        "key": "ref182",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0193(1999)7:3<195::AID-HBM4>3.0.CO;2-F"
+      },
+      {
+        "key": "ref189",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JOE.2013.2278891"
+      },
+      {
+        "key": "ref188",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sigpro.2012.09.002"
+      },
+      {
+        "key": "ref187",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2011.2119372"
+      },
+      {
+        "key": "ref186",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-24670-1_3"
+      },
+      {
+        "key": "ref179",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wilm.42820030315"
+      },
+      {
+        "key": "ref278",
+        "author": "smith",
+        "year": "2014",
+        "journal-title": "Uncertainty Quantification Theory Implementation and Applications"
+      },
+      {
+        "key": "ref279",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006181"
+      },
+      {
+        "key": "ref293",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-75319-5"
+      },
+      {
+        "key": "ref292",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-75319-5_8"
+      },
+      {
+        "key": "ref295",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jsv.2012.10.017"
+      },
+      {
+        "key": "ref294",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/num.21768"
+      },
+      {
+        "key": "ref297",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2016.03.025"
+      },
+      {
+        "key": "ref296",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fld.4066"
+      },
+      {
+        "key": "ref299",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.04.015"
+      },
+      {
+        "key": "ref298",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.02.037"
+      },
+      {
+        "key": "ref154",
+        "first-page": "3",
+        "article-title": "A tutorial on particle filtering and smoothing: Fifteen years later",
+        "volume": "12",
+        "author": "doucet",
+        "year": "2008",
+        "journal-title": "Handbook of Nonlinear Filtering"
+      },
+      {
+        "key": "ref153",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.978374"
+      },
+      {
+        "key": "ref156",
+        "author": "bennett",
+        "year": "2005",
+        "journal-title": "Inverse Modeling of the Ocean and Atmosphere"
+      },
+      {
+        "key": "ref155",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0065-2687(08)60442-2"
+      },
+      {
+        "key": "ref150",
+        "author": "martens",
+        "year": "2019",
+        "journal-title": "Bigdatacybernetics"
+      },
+      {
+        "key": "ref152",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2670179"
+      },
+      {
+        "key": "ref291",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/09615531011048231"
+      },
+      {
+        "key": "ref151",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/81.669068"
+      },
+      {
+        "key": "ref290",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.2804935"
+      },
+      {
+        "key": "ref146",
+        "article-title": "Adversarial examples: Attacks and defenses for deep learning",
+        "author": "yuan",
+        "year": "2017",
+        "journal-title": "arXiv 1712 07107"
+      },
+      {
+        "key": "ref147",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2018.2807385"
+      },
+      {
+        "key": "ref148",
+        "article-title": "Adversarial attacks and defenses in images, graphs and text: A review",
+        "author": "xu",
+        "year": "2019",
+        "journal-title": "arXiv 1909 08072"
+      },
+      {
+        "key": "ref149",
+        "first-page": "21",
+        "article-title": "Hybrid analysis and modeling as an enabler for big data cybernetics",
+        "author": "rasheed",
+        "year": "2019",
+        "journal-title": "Proc 32nd Nordic Seminar Comput Mech"
+      },
+      {
+        "key": "ref289",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0895-7177(00)00240-5"
+      },
+      {
+        "key": "ref167",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2151/jmsj1965.75.1B_191"
+      },
+      {
+        "key": "ref166",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/S0422-9894(96)80003-1",
+        "article-title": "The oceanographic data assimilation problem: Overview, motivation and purposes",
+        "volume": "61",
+        "author": "malanotte-rizzoli",
+        "year": "1996",
+        "journal-title": "Elsevier Oceanography Series"
+      },
+      {
+        "key": "ref165",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-statistics-031017-100232"
+      },
+      {
+        "key": "ref164",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-39997-3"
+      },
+      {
+        "key": "ref163",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-18347-3"
+      },
+      {
+        "key": "ref162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-20325-6"
+      },
+      {
+        "key": "ref161",
+        "volume": "2",
+        "author": "park",
+        "year": "2013",
+        "journal-title": "Data Assimilation for Atmospheric Oceanic and Hydrologic Applications"
+      },
+      {
+        "key": "ref160",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139344203"
+      },
+      {
+        "key": "ref159",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139061308"
+      },
+      {
+        "key": "ref157",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511526480"
+      },
+      {
+        "key": "ref158",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-642-03711-5",
+        "author": "evensen",
+        "year": "2009",
+        "journal-title": "Data Assimilation The Ensemble Kalman Filter"
+      },
+      {
+        "key": "ref197",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR-D-14-00195.1"
+      },
+      {
+        "key": "ref198",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00376-019-9001-5"
+      },
+      {
+        "key": "ref199",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/PCICEurope.2018.8491413"
+      },
+      {
+        "key": "ref193",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/atmos9040127"
+      },
+      {
+        "key": "ref194",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1256/qj.02.132"
+      },
+      {
+        "key": "ref195",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0870.2007.00261.x"
+      },
+      {
+        "key": "ref196",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.2135"
+      },
+      {
+        "key": "ref190",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299124"
+      },
+      {
+        "key": "ref191",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0201872"
+      },
+      {
+        "key": "ref192",
+        "author": "kalnay",
+        "year": "2003",
+        "journal-title": "Atmospheric Modeling Data Assimilation and Predictability"
+      },
+      {
+        "key": "ref526",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2897824.2925953"
+      },
+      {
+        "key": "ref527",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2984511.2984565"
+      },
+      {
+        "key": "ref524",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCI.2018.2840738"
+      },
+      {
+        "key": "ref525",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCCN.2015.7288485"
+      },
+      {
+        "key": "ref522",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref523",
+        "author": "ruder",
+        "year": "2019",
+        "journal-title": "A Review of the Neural History of Natural Language Processing"
+      },
+      {
+        "key": "ref520",
+        "first-page": "133",
+        "article-title": "Augmented reality trends in education: A systematic review of research and applications",
+        "volume": "17",
+        "author": "bacca",
+        "year": "2014",
+        "journal-title": "J Educ Technol Soc"
+      },
+      {
+        "key": "ref521",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LaTiCE.2014.23"
+      },
+      {
+        "key": "ref528",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2971648.2971738"
+      },
+      {
+        "key": "ref529",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2015.2476474"
+      },
+      {
+        "key": "ref530",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3191772"
+      },
+      {
+        "key": "ref535",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RoboMech.2019.8704839"
+      },
+      {
+        "key": "ref536",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2009.4959977"
+      },
+      {
+        "key": "ref537",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2207676.2208331"
+      },
+      {
+        "key": "ref538",
+        "first-page": "82",
+        "article-title": "Device-free gesture tracking using acoustic signals",
+        "author": "wang",
+        "year": "2016",
+        "journal-title": "Proc 22nd Annu Int Conf Mobile Comput Netw"
+      },
+      {
+        "key": "ref531",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3242587.3242635"
+      },
+      {
+        "key": "ref532",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROMAN.2012.6343787"
+      },
+      {
+        "key": "ref533",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10586-018-1844-5"
+      },
+      {
+        "key": "ref534",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s19010059"
+      },
+      {
+        "key": "ref539",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2018.2886279"
+      },
+      {
+        "key": "ref200",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.J055201"
+      },
+      {
+        "key": "ref541",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2015.2405413"
+      },
+      {
+        "key": "ref540",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1999995.2000034"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.camwa.2015.05.031"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fld.2454"
+      },
+      {
+        "key": "ref500",
+        "year": "2018",
+        "journal-title": "Digital Twin Workflow and Applications"
+      },
+      {
+        "key": "ref501",
+        "year": "2017",
+        "journal-title": "Creating a Digital Twin for a Pump"
+      },
+      {
+        "key": "ref209",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0264-9381/31/19/195010"
+      },
+      {
+        "key": "ref504",
+        "author": "knezevic",
+        "year": "2017",
+        "journal-title": "Akselos Digital Twins Physics-Based Simulations Transforming Operations"
+      },
+      {
+        "key": "ref409",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4236/jcc.2015.35021"
+      },
+      {
+        "key": "ref505",
+        "year": "2019",
+        "journal-title": "GE Digital Twin"
+      },
+      {
+        "key": "ref502",
+        "year": "2015",
+        "journal-title": "Breaking New Ground Digital Twin Helps Engineers Design Megawatt-Sized Circuit Breakers"
+      },
+      {
+        "key": "ref407",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2017.10.006"
+      },
+      {
+        "key": "ref503",
+        "year": "2019",
+        "journal-title": "RB-FEA Technology"
+      },
+      {
+        "key": "ref408",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bdcc3010019"
+      },
+      {
+        "key": "ref508",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2018.2808326"
+      },
+      {
+        "key": "ref405",
+        "first-page": "482",
+        "article-title": "A survey on big data mining techniques",
+        "volume": "15",
+        "author": "sangeetha",
+        "year": "2017",
+        "journal-title": "Int J Comput Sci Inf Secur"
+      },
+      {
+        "key": "ref203",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2010.10.009"
+      },
+      {
+        "key": "ref509",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rcim.2017.06.002"
+      },
+      {
+        "key": "ref406",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jksuci.2017.06.001"
+      },
+      {
+        "key": "ref204",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2014.07.024"
+      },
+      {
+        "key": "ref506",
+        "author": "company",
+        "year": "2016",
+        "journal-title": "GE Digital Twin Analytic Engine for the Digital Power Plant"
+      },
+      {
+        "key": "ref403",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2017.01.026"
+      },
+      {
+        "key": "ref201",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00466-002-0404-1"
+      },
+      {
+        "key": "ref507",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4419-0312-9_21"
+      },
+      {
+        "key": "ref404",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-45145-9_2"
+      },
+      {
+        "key": "ref202",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/2190-5983-1-3"
+      },
+      {
+        "key": "ref401",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2016.2580581"
+      },
+      {
+        "key": "ref207",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.combustflame.2012.08.003"
+      },
+      {
+        "key": "ref402",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13634-016-0355-x"
+      },
+      {
+        "key": "ref208",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/303939"
+      },
+      {
+        "key": "ref205",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-007-0412-1_9"
+      },
+      {
+        "key": "ref400",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.is.2014.07.006"
+      },
+      {
+        "key": "ref206",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ef101719a"
+      },
+      {
+        "key": "ref211",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.laa.2004.06.023"
+      },
+      {
+        "key": "ref210",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.4.031006"
+      },
+      {
+        "key": "ref510",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/2213-7459-1-9"
+      },
+      {
+        "key": "ref511",
+        "first-page": "193",
+        "article-title": "Trends in augmented reality tracking, interaction and display: A review of ten years of ISMAR",
+        "author": "zhou",
+        "year": "2008",
+        "journal-title": "Proc 7th IEEE/ACM Int Symp Mixed Augmented Reality"
+      },
+      {
+        "key": "ref512",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5772/5664"
+      },
+      {
+        "key": "ref513",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10143-016-0732-9"
+      },
+      {
+        "key": "ref418",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/GIOTS.2017.8016265"
+      },
+      {
+        "key": "ref514",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5999/aps.2017.44.3.179"
+      },
+      {
+        "key": "ref419",
+        "first-page": "515",
+        "article-title": "FarmBeats: An IoT platform for data-driven agriculture",
+        "author": "vasisht",
+        "year": "2017",
+        "journal-title": "Proc 14th USENIX Symp Networked Syst Design Implement (NSDI)"
+      },
+      {
+        "key": "ref515",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00464-016-4800-6"
+      },
+      {
+        "key": "ref516",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02763869.2012.670604"
+      },
+      {
+        "key": "ref517",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JDT.2008.2001575"
+      },
+      {
+        "key": "ref414",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/NESEA.2010.5678063"
+      },
+      {
+        "key": "ref212",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-map.2012.0222"
+      },
+      {
+        "key": "ref518",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-10-2419-1_2"
+      },
+      {
+        "key": "ref415",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CloudCom.2013.155"
+      },
+      {
+        "key": "ref213",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAP.2014.2314734"
+      },
+      {
+        "key": "ref519",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00779-013-0747-y"
+      },
+      {
+        "key": "ref416",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WICT.2011.6141241"
+      },
+      {
+        "key": "ref214",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2015.01.034"
+      },
+      {
+        "key": "ref417",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jisa.2017.11.002"
+      },
+      {
+        "key": "ref215",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JD095iD02p01955"
+      },
+      {
+        "key": "ref410",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.comnet.2018.07.017",
+        "article-title": "Internet of Things (IoT): A review of enabling technologies, challenges, and open research issues",
+        "volume": "144",
+        "author": "?olakovi?",
+        "year": "2018",
+        "journal-title": "Comput Netw"
+      },
+      {
+        "key": "ref216",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0469(1995)052<0915:AEDOTD>2.0.CO;2"
+      },
+      {
+        "key": "ref411",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.fcij.2017.02.001"
+      },
+      {
+        "key": "ref217",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0469(2004)061<2206:SFMRCD>2.0.CO;2"
+      },
+      {
+        "key": "ref412",
+        "author": "murty",
+        "year": "2008",
+        "journal-title": "Programming Amazon Web Services S3 EC2 SQS FPS and SimpleDB"
+      },
+      {
+        "key": "ref218",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JAS3438.1"
+      },
+      {
+        "key": "ref413",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002147"
+      },
+      {
+        "key": "ref219",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/qam/910462"
+      },
+      {
+        "key": "ref420",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HealthCom.2015.7454584"
+      },
+      {
+        "key": "ref220",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0022112088001818"
+      },
+      {
+        "key": "ref222",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0022112003006694"
+      },
+      {
+        "key": "ref221",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/2.1570"
+      },
+      {
+        "key": "ref229",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01597226"
+      },
+      {
+        "key": "ref228",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10407790.2016.1173472"
+      },
+      {
+        "key": "ref227",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0009-2509(95)00230-8"
+      },
+      {
+        "key": "ref226",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0045-7825(94)00684-F"
+      },
+      {
+        "key": "ref225",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jfm.2018.147"
+      },
+      {
+        "key": "ref224",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-005-2824-x"
+      },
+      {
+        "key": "ref223",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0218127405012429"
+      },
+      {
+        "key": "ref127",
+        "article-title": "Photo-realistic single image super-resolution using a generative adversarial network",
+        "author": "ledig",
+        "year": "2016",
+        "journal-title": "arXiv 1609 04802"
+      },
+      {
+        "key": "ref126",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "volume": "27",
+        "author": "goodfellow",
+        "year": "2014",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2016.06.008"
+      },
+      {
+        "key": "ref124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2019.08.083"
+      },
+      {
+        "key": "ref129",
+        "article-title": "GAIN: Missing data imputation using generative adversarial nets",
+        "author": "yoon",
+        "year": "2018",
+        "journal-title": "arXiv 1806 02920"
+      },
+      {
+        "key": "ref128",
+        "article-title": "Correction by projection: Denoising images with generative adversarial networks",
+        "author": "tripathi",
+        "year": "2018",
+        "journal-title": "arXiv 1803 04477"
+      },
+      {
+        "key": "ref130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2019.04.014"
+      },
+      {
+        "key": "ref133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2007.10.001"
+      },
+      {
+        "key": "ref134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40745-015-0040-1"
+      },
+      {
+        "key": "ref131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2018.09.082"
+      },
+      {
+        "key": "ref132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.energy.2019.05.230"
+      },
+      {
+        "key": "ref232",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11831-010-9053-2"
+      },
+      {
+        "key": "ref233",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cnm.2465"
+      },
+      {
+        "key": "ref230",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.2179459"
+      },
+      {
+        "key": "ref231",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.35374"
+      },
+      {
+        "key": "ref239",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSAA.12.001657"
+      },
+      {
+        "key": "ref238",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.41390"
+      },
+      {
+        "key": "ref235",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2016.11.025"
+      },
+      {
+        "key": "ref234",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2012.12.004"
+      },
+      {
+        "key": "ref237",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/3.20031"
+      },
+      {
+        "key": "ref236",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1981.1102568"
+      },
+      {
+        "key": "ref136",
+        "volume": "2",
+        "author": "sutton",
+        "year": "1998",
+        "journal-title": "Introduction to Reinforcement Learning"
+      },
+      {
+        "key": "ref135",
+        "first-page": "2579",
+        "article-title": "Visualizing data using T-SNE",
+        "volume": "9",
+        "author": "van der maaten",
+        "year": "2008",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2019.03.027"
+      },
+      {
+        "key": "ref137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.113.2.300"
+      },
+      {
+        "key": "ref139",
+        "article-title": "Mastering chess and shogi by self-play with a general reinforcement learning algorithm",
+        "author": "silver",
+        "year": "2017",
+        "journal-title": "arXiv 1712 01815"
+      },
+      {
+        "key": "ref140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.robot.2019.01.003"
+      },
+      {
+        "key": "ref141",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2019.02.068"
+      },
+      {
+        "key": "ref142",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2019.04.041"
+      },
+      {
+        "key": "ref143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2018.11.014"
+      },
+      {
+        "key": "ref144",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2019.08.007"
+      },
+      {
+        "key": "ref2",
+        "author": "garfinkel",
+        "year": "2018",
+        "journal-title": "Gartner Identifies the Top 10 Strategic Technology Trends for 2019"
+      },
+      {
+        "key": "ref145",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2019.07.019"
+      },
+      {
+        "key": "ref1",
+        "author": "grieves",
+        "year": "2019",
+        "journal-title": "Digital Twin Manufacturing Excellence Through Virtual Factory Replication"
+      },
+      {
+        "key": "ref241",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.automatica.2019.05.016"
+      },
+      {
+        "key": "ref242",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-78841-6_1"
+      },
+      {
+        "key": "ref243",
+        "author": "buljak",
+        "year": "2011",
+        "journal-title": "Inverse Analyses with Model Reduction Proper Orthogonal Decomposition in Structural Mechanics"
+      },
+      {
+        "key": "ref244",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-7091-0758-4_3"
+      },
+      {
+        "key": "ref240",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/090766498"
+      },
+      {
+        "key": "ref248",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-22470-1"
+      },
+      {
+        "key": "ref247",
+        "volume": "9",
+        "author": "quarteroni",
+        "year": "2014",
+        "journal-title": "Reduced Order Methods for Modeling and Computational Reduction"
+      },
+      {
+        "key": "ref246",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-7551-4"
+      },
+      {
+        "key": "ref245",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511919701"
+      },
+      {
+        "key": "ref249",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611974508"
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2019.01.018"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.autcon.2019.02.005"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compind.2019.04.011"
+      },
+      {
+        "key": "ref106",
+        "author": "nakamoto",
+        "year": "2008",
+        "journal-title": "Bitcoin A Peer-to-Peer Electronic Cash System"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cem.2823"
+      },
+      {
+        "key": "ref104",
+        "year": "2019",
+        "journal-title": "Smart Home Weather Station"
+      },
+      {
+        "key": "ref103",
+        "year": "2019",
+        "journal-title": "The World Urban Database and Access Portal Tools"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2016.11.014"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/trit.2018.1051"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2018.05.046"
+      },
+      {
+        "key": "ref250",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.fl.25.010193.002543"
+      },
+      {
+        "key": "ref251",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr950223l"
+      },
+      {
+        "key": "ref254",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.1499"
+      },
+      {
+        "key": "ref255",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11831-011-9064-7"
+      },
+      {
+        "key": "ref252",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.paerosci.2003.12.001"
+      },
+      {
+        "key": "ref253",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.paerosci.2005.02.001"
+      },
+      {
+        "key": "ref257",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4031175"
+      },
+      {
+        "key": "ref256",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR011527"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2018.00031"
+      },
+      {
+        "key": "ref259",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR016967"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41578-018-0034-7"
+      },
+      {
+        "key": "ref258",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/130932715"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.drudis.2016.07.003"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21236/ADA507162"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-18732-3_6"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1109/JPROC.2011.2165270",
+        "article-title": "Challenges and research directions in medical cyber&#x2013;physical systems",
+        "volume": "100",
+        "author": "lee",
+        "year": "2012",
+        "journal-title": "Proc IEEE"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cegh.2018.12.004"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-018-0921-x"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1126/science.1127647",
+        "article-title": "Reducing the dimensionality of data with neural networks",
+        "volume": "313",
+        "author": "hinton",
+        "year": "2006",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCBB.2016.2520933"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11276-010-0252-4"
+      },
+      {
+        "key": "ref119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2019.01.029"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2011BAMS2928.1"
+      },
+      {
+        "key": "ref114",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "volume": "25",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "Proc Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref113",
+        "article-title": "Inception-v4, inception-resnet and the impact of residual connections on learning",
+        "author": "szegedy",
+        "year": "2016",
+        "journal-title": "arXiv 1602 07261"
+      },
+      {
+        "key": "ref116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33275-3_2"
+      },
+      {
+        "key": "ref115",
+        "author": "goodfellow",
+        "year": "2016",
+        "journal-title": "Deep Learning"
+      },
+      {
+        "key": "ref120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jprocont.2019.05.002"
+      },
+      {
+        "key": "ref121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.specom.2018.06.002"
+      },
+      {
+        "key": "ref122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/trit.2018.1054"
+      },
+      {
+        "key": "ref123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2017.03.034"
+      },
+      {
+        "key": "ref260",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-fluid-010816-060042"
+      },
+      {
+        "key": "ref261",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.J056060"
+      },
+      {
+        "key": "ref262",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compchemeng.2017.09.017"
+      },
+      {
+        "key": "ref263",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2019.01.018"
+      },
+      {
+        "key": "ref264",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1998)126<0796:DAUAEK>2.0.CO;2"
+      },
+      {
+        "key": "ref265",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(2001)129<0123:ASEKFF>2.0.CO;2"
+      },
+      {
+        "key": "ref266",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fld.1316"
+      },
+      {
+        "key": "ref365",
+        "article-title": "Informed machine learning - towards a taxonomy of explicit integration of knowledge into machine learning",
+        "author": "von rüden",
+        "year": "2019",
+        "journal-title": "arXiv 1903 12394"
+      },
+      {
+        "key": "ref364",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/en12142716"
+      },
+      {
+        "key": "ref363",
+        "article-title": "Machine learning in cardiovascular flows modeling: Predicting pulse wave propagation from non-invasive clinical measurements using physics-informed deep learning",
+        "author": "kissas",
+        "year": "2019",
+        "journal-title": "arXiv 1905 04817"
+      },
+      {
+        "key": "ref362",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compfluid.2018.07.021"
+      },
+      {
+        "key": "ref361",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevFluids.3.074602"
+      },
+      {
+        "key": "ref360",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevFluids.2.034603"
+      },
+      {
+        "key": "ref498",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PC.2017.7976223"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.actamat.2017.06.039"
+      },
+      {
+        "key": "ref499",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BigData.2017.8258105"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apmt.2018.11.003"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0477(2000)081<0417:OVATIE>2.3.CO;2"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11831-018-9301-4"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(2000)128<3268:DAITPO>2.0.CO;2"
+      },
+      {
+        "key": "ref359",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jfm.2016.615"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.49712454512"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compind.2019.01.006"
+      },
+      {
+        "key": "ref357",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1718942115"
+      },
+      {
+        "key": "ref36",
+        "author": "gerbert",
+        "year": "2015",
+        "journal-title": "Industry 4 0 The Future of Productivity and Growth in Manufacturing Industries"
+      },
+      {
+        "key": "ref358",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5025819"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.oceaneng.2017.06.066"
+      },
+      {
+        "key": "ref355",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nme.5980"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physd.2014.04.012"
+      },
+      {
+        "key": "ref356",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.10.045"
+      },
+      {
+        "key": "ref547",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1071-5819(03)00039-9"
+      },
+      {
+        "key": "ref352",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/19942060.2019.1613448"
+      },
+      {
+        "key": "ref546",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/ijhc.1999.0290"
+      },
+      {
+        "key": "ref351",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2118/195238-MS"
+      },
+      {
+        "key": "ref549",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijhcs.2018.05.010"
+      },
+      {
+        "key": "ref354",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nme.5312"
+      },
+      {
+        "key": "ref548",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/ijhc.1999.0285"
+      },
+      {
+        "key": "ref353",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5029879"
+      },
+      {
+        "key": "ref543",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-6670(17)55277-5"
+      },
+      {
+        "key": "ref542",
+        "first-page": "207",
+        "article-title": "Hand gesture recognition using clip device applicable to smart watch based on flexible sensor",
+        "author": "byun",
+        "year": "2018",
+        "journal-title": "Int Conf Extrem Learn Mach"
+      },
+      {
+        "key": "ref545",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0005-1098(83)90024-9"
+      },
+      {
+        "key": "ref350",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.enbuild.2018.01.039"
+      },
+      {
+        "key": "ref544",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0005-1098(83)90031-6"
+      },
+      {
+        "key": "ref491",
+        "year": "2019",
+        "journal-title": "B & R Integrates MapleSim for Digital Twin Capability"
+      },
+      {
+        "key": "ref490",
+        "year": "2019",
+        "journal-title": "User Case Study Saving Development Costs With Digital Twins-Motor Sizing for a New Filling Machine"
+      },
+      {
+        "key": "ref493",
+        "year": "2019",
+        "journal-title": "From Crude to Contextualized Data Extracting Value From Big Data for the Oil & Gas Industry"
+      },
+      {
+        "key": "ref492",
+        "year": "2019",
+        "journal-title": "User Case Study Using Virtual Commissioning for a New Competitive Injection Molding Machine"
+      },
+      {
+        "key": "ref495",
+        "year": "2019",
+        "journal-title": "Realizing the Value of Digitalized Collaboration in Pursuit of Predictive Maintenance"
+      },
+      {
+        "key": "ref494",
+        "year": "2019",
+        "journal-title": "The Future of the Field Performance-Based Contracts Disrupt the Oil & Gas Value Chain"
+      },
+      {
+        "key": "ref497",
+        "author": "taylor",
+        "year": "2017",
+        "journal-title": "Digital Twin Capabilities in Siemens PLM Products and Solutions"
+      },
+      {
+        "key": "ref496",
+        "author": "riemer",
+        "year": "2017",
+        "journal-title": "Why Siemens Digital Twin Capabilities are the Best in the Market"
+      },
+      {
+        "key": "ref487",
+        "year": "2019",
+        "journal-title": "Greenfield Digital Twin Getting off to a Good Start"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR-D-16-0398.1"
+      },
+      {
+        "key": "ref488",
+        "year": "2019",
+        "journal-title": "Brownfield Digital Twin It Pays to Plan Ahead"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR-D-15-0242.1"
+      },
+      {
+        "key": "ref489",
+        "year": "2019",
+        "journal-title": "Digital Twins & Virtual Prototypes"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-15-00200.1"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14956"
+      },
+      {
+        "key": "ref348",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1007/s12289-018-1448-x",
+        "article-title": "Hybrid constitutive modeling: Data-driven learning of corrections to plasticity models",
+        "volume": "12",
+        "author": "ibáñez",
+        "year": "2019",
+        "journal-title": "Int J Mater Forming"
+      },
+      {
+        "key": "ref550",
+        "author": "o’sullivan",
+        "year": "2017",
+        "journal-title": "A Review of International Approaches to Center-Based Multidisciplinary Engineering Research"
+      },
+      {
+        "key": "ref349",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bit.27120"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jastp.2018.04.015"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-16-0297.1"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2008MWR2444.1"
+      },
+      {
+        "key": "ref344",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.2017.0844"
+      },
+      {
+        "key": "ref23",
+        "first-page": "6",
+        "article-title": "Private observations improve MET Norway&#x2019;s operational weather forecasts",
+        "author": "nipen",
+        "year": "2019",
+        "journal-title": "Proc Ann Meeting Am Meteorological Soc"
+      },
+      {
+        "key": "ref345",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2006.01.002"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.2029"
+      },
+      {
+        "key": "ref346",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2005.08.009"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.2027"
+      },
+      {
+        "key": "ref347",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.03.057"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-6908-7_24"
+      },
+      {
+        "key": "ref383",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v033.i01"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-8260-4_49"
+      },
+      {
+        "key": "ref382",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jco.2009.01.002"
+      },
+      {
+        "key": "ref381",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      },
+      {
+        "key": "ref380",
+        "author": "murphy",
+        "year": "2012",
+        "journal-title": "Machine Learning A Probabilistic Perspective"
+      },
+      {
+        "key": "ref387",
+        "volume": "21",
+        "author": "ferreira",
+        "year": "2006",
+        "journal-title": "Gene Expression Programming Mathematical Modeling by an Artificial Intelligence"
+      },
+      {
+        "key": "ref386",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2016.08.015"
+      },
+      {
+        "key": "ref385",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1165893"
+      },
+      {
+        "key": "ref384",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1602614"
+      },
+      {
+        "key": "ref486",
+        "year": "2019",
+        "journal-title": "The &#x2018;Full Picture&#x2019; Sees Double-the New Digital Twin From Kongsberg Digital"
+      },
+      {
+        "key": "ref485",
+        "year": "2019",
+        "journal-title": "Solutions Browse Through the Applications and Solutions on Kognifai"
+      },
+      {
+        "key": "ref484",
+        "year": "2019",
+        "journal-title": "Kongsberg Digital Makes the Kognifai Partner Program Available to All"
+      },
+      {
+        "key": "ref483",
+        "year": "2019",
+        "journal-title": "Collaborative Platform Promises New Digital Reality"
+      },
+      {
+        "key": "ref482",
+        "year": "2019",
+        "journal-title": "Kognifai Ecosystem Unlock the Value of Your Data"
+      },
+      {
+        "key": "ref481",
+        "article-title": "The impact of digital disruption in the maintenance service industry, in the oil and gas sector",
+        "author": "ullevik",
+        "year": "2017"
+      },
+      {
+        "key": "ref480",
+        "article-title": "Quantum networks for open science (QNOS)",
+        "author": "peters",
+        "year": "2019"
+      },
+      {
+        "key": "ref478",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2017.02.002"
+      },
+      {
+        "key": "ref479",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2016.11.008"
+      },
+      {
+        "key": "ref476",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41066-015-0002-1"
+      },
+      {
+        "key": "ref477",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijar.2012.01.001"
+      },
+      {
+        "key": "ref59",
+        "first-page": "1",
+        "article-title": "A scalable cloud for Internet of Things in smart cities",
+        "volume": "26",
+        "author": "hao",
+        "year": "2015",
+        "journal-title": "J Comput"
+      },
+      {
+        "key": "ref379",
+        "volume": "2",
+        "author": "myers",
+        "year": "1990",
+        "journal-title": "Classical and Modern Regression with Applications"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VR.2019.8798250"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3188721"
+      },
+      {
+        "key": "ref377",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b18401"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EDUCON.2019.8725057"
+      },
+      {
+        "key": "ref378",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00401706.2000.10485983"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-78753-4_5"
+      },
+      {
+        "key": "ref54",
+        "article-title": "An electronic data management and analysis application for abet accreditation",
+        "author": "sabir",
+        "year": "2018",
+        "journal-title": "arXiv 1901 05845"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Smart learning: A new paradigm of learning in the smart age",
+        "author": "adu",
+        "year": "2014",
+        "journal-title": "Proc Int Conf Teach Learn Higher Educ"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cpe.4515"
+      },
+      {
+        "key": "ref370",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5085780"
+      },
+      {
+        "key": "ref372",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2006.871582"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00170-017-0233-1"
+      },
+      {
+        "key": "ref371",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0087-3"
+      },
+      {
+        "key": "ref374",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acha.2008.07.002"
+      },
+      {
+        "key": "ref373",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2007.914731"
+      },
+      {
+        "key": "ref376",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4614-7138-7",
+        "volume": "112",
+        "author": "james",
+        "year": "2013",
+        "journal-title": "Introduction to Statistical Learning"
+      },
+      {
+        "key": "ref375",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+      },
+      {
+        "key": "ref473",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2015.2471260"
+      },
+      {
+        "key": "ref472",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/spe.2509"
+      },
+      {
+        "key": "ref475",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCOMSTD.2018.1700057"
+      },
+      {
+        "key": "ref474",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2018.04.057"
+      },
+      {
+        "key": "ref471",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MC.2016.245"
+      },
+      {
+        "key": "ref470",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2017.2682318"
+      },
+      {
+        "key": "ref469",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2017.2745201"
+      },
+      {
+        "key": "ref4",
+        "author": "hicks",
+        "year": "2019",
+        "journal-title": "Industry 4 0 and Digital Twins Key Lessons From NASA"
+      },
+      {
+        "key": "ref3",
+        "author": "escorsa",
+        "year": "2018",
+        "journal-title": "Digital Twin A Glimpse at the Main Patented Developments"
+      },
+      {
+        "key": "ref6",
+        "year": "2019",
+        "journal-title": "Digital Twins for IoT Applications A Comprehensive Approach to Implementing IoT Digital Twins"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2018.2804917"
+      },
+      {
+        "key": "ref465",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13174-010-0007-6"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41569-018-0040-x"
+      },
+      {
+        "key": "ref466",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MIC.2010.113"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41539-017-0016-3"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40345-017-0115-3"
+      },
+      {
+        "key": "ref467",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MC.2016.145"
+      },
+      {
+        "key": "ref468",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2016.2579198"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2897018"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2933275"
+      },
+      {
+        "key": "ref366",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MC.2014.335"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3384/ecp11063105"
+      },
+      {
+        "key": "ref367",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmats.2016.00028"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cirp.2017.04.038"
+      },
+      {
+        "key": "ref368",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2017.2720168"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.promfg.2018.12.033"
+      },
+      {
+        "key": "ref369",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611975673.63"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2018.2873186"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00207543.2018.1443229"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.ENG.2017.05.015"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mfglet.2014.12.001"
+      },
+      {
+        "key": "ref460",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1493-8"
+      },
+      {
+        "key": "ref463",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2018.2883051"
+      },
+      {
+        "key": "ref464",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2008.12.001"
+      },
+      {
+        "key": "ref461",
+        "article-title": "Extreme heterogeneity 2018-productive computational science in the era of extreme heterogeneity: Report for DOE ASCR workshop on extreme heterogeneity",
+        "author": "vetter",
+        "year": "2019"
+      },
+      {
+        "key": "ref462",
+        "first-page": "1",
+        "article-title": "In-datacenter performance analysis of a tensor processing unit",
+        "author": "jouppi",
+        "year": "2017",
+        "journal-title": "Proc ACM/IEEE 44th Annu Int Symp Comput Archit (ISCA)"
+      },
+      {
+        "key": "ref320",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MILCOM.2007.4455268"
+      },
+      {
+        "key": "ref321",
+        "first-page": "59",
+        "article-title": "Software-in-the-loop simulation for early-stage testing of AUTOSAR software component",
+        "author": "jeong",
+        "year": "2016",
+        "journal-title": "Proc 8th Int Conf Ubiquitous Future Netw (ICUFN)"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.autcon.2014.04.007"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2897045"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compind.2019.06.007"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cae.21845"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/proceedings2151127"
+      },
+      {
+        "key": "ref318",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00423110600563338"
+      },
+      {
+        "key": "ref77",
+        "article-title": "Emergence of digital twins",
+        "author": "datta",
+        "year": "2016",
+        "journal-title": "arXiv 1610 06467"
+      },
+      {
+        "key": "ref317",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2005.1582653"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.autcon.2010.06.007"
+      },
+      {
+        "key": "ref316",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0967-0661(98)00205-6"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/proceedings2019020009"
+      },
+      {
+        "key": "ref315",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compfluid.2018.10.006"
+      },
+      {
+        "key": "ref314",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2017.09.014"
+      },
+      {
+        "key": "ref313",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF03024948"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2017.2657006"
+      },
+      {
+        "key": "ref312",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/3.50778"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24840/2183-0606_005.003_0003"
+      },
+      {
+        "key": "ref311",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/en12071271"
+      },
+      {
+        "key": "ref457",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1094342010391989"
+      },
+      {
+        "key": "ref456",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/atmos9070252"
+      },
+      {
+        "key": "ref455",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10546-012-9760-3"
+      },
+      {
+        "key": "ref454",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.53737"
+      },
+      {
+        "key": "ref459",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2014.06.017"
+      },
+      {
+        "key": "ref458",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2699414"
+      },
+      {
+        "key": "ref319",
+        "first-page": "115",
+        "article-title": "Real-time distributed software-in-the-loop simulation for distributed control systems",
+        "author": "hyun kwon",
+        "year": "2003",
+        "journal-title": "Proc IEEE Int Symp Comput Aided Control Syst Des"
+      },
+      {
+        "key": "ref450",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2929212"
+      },
+      {
+        "key": "ref451",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCOMM.2017.2722500"
+      },
+      {
+        "key": "ref452",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2018.2841655"
+      },
+      {
+        "key": "ref453",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s18124448"
+      },
+      {
+        "key": "ref310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2018.11.038"
+      },
+      {
+        "key": "ref60",
+        "author": "kiang",
+        "year": "2016",
+        "journal-title": "50 Years of Urban Planning in Singapore"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SSCI.2017.8285439"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2399808318796416"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2015.2503119"
+      },
+      {
+        "key": "ref305",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00158-009-0434-9"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ENERGYCON.2018.8398846"
+      },
+      {
+        "key": "ref304",
+        "article-title": "A non-intrusive reduced order modeling framework for quasi-geostrophic turbulence",
+        "author": "rahman",
+        "year": "2019",
+        "journal-title": "arXiv 1906 11617"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISGTEurope.2018.8571803"
+      },
+      {
+        "key": "ref307",
+        "first-page": "119",
+        "article-title": "A statistical approach to some basic mine valuation problems on the witwatersrand",
+        "volume": "52",
+        "author": "krige",
+        "year": "1951",
+        "journal-title": "J Chem"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2015.2511446"
+      },
+      {
+        "key": "ref306",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/PL00007198"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11036-014-0499-6"
+      },
+      {
+        "key": "ref301",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compfluid.2019.02.012"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2013.2268677"
+      },
+      {
+        "key": "ref300",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.J056161"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2627598"
+      },
+      {
+        "key": "ref303",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cnsns.2019.04.025"
+      },
+      {
+        "key": "ref302",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2019.01.031"
+      },
+      {
+        "key": "ref444",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-92898-2_22"
+      },
+      {
+        "key": "ref443",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MS.2017.2"
+      },
+      {
+        "key": "ref446",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CCAA.2017.8230005"
+      },
+      {
+        "key": "ref445",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISITIA.2016.7828696"
+      },
+      {
+        "key": "ref448",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IWCMC.2016.7577098"
+      },
+      {
+        "key": "ref309",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.egypro.2017.10.369"
+      },
+      {
+        "key": "ref447",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.optcom.2018.08.031"
+      },
+      {
+        "key": "ref308",
+        "volume": "2",
+        "author": "williams",
+        "year": "2006",
+        "journal-title": "Gaussian Processes for Machine Learning"
+      },
+      {
+        "key": "ref449",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCOM.2017.1600613"
+      },
+      {
+        "key": "ref441",
+        "first-page": "39",
+        "article-title": "An architecture for interoperable IoT Ecosystems",
+        "author": "schmid",
+        "year": "2016",
+        "journal-title": "Interoperability and Open-Source Solutions for the Internet of Things"
+      },
+      {
+        "key": "ref442",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MWC.2014.6845045"
+      },
+      {
+        "key": "ref440",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.ENG.2016.01.014"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.camwa.2018.08.017"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cag.2015.03.006"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2013.09.014"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cagd.2012.12.005"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2016.10.040"
+      },
+      {
+        "key": "ref342",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5028373"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2004.10.008"
+      },
+      {
+        "key": "ref343",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/fluids3040086"
+      },
+      {
+        "key": "ref340",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/MWR2923.1"
+      },
+      {
+        "key": "ref341",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0197704"
+      },
+      {
+        "key": "ref336",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jfm.2018.770"
+      },
+      {
+        "key": "ref335",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cgf.13620"
+      },
+      {
+        "key": "ref334",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cgf.13619"
+      },
+      {
+        "key": "ref333",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.08.029"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2015.02.030"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.oceaneng.2016.07.018"
+      },
+      {
+        "key": "ref339",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01418-6_39"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511780066"
+      },
+      {
+        "key": "ref338",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-35934-y"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2014.10.033"
+      },
+      {
+        "key": "ref337",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-0912-1"
+      },
+      {
+        "key": "ref439",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WCNCW.2018.8368997"
+      },
+      {
+        "key": "ref438",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2018.2803201"
+      },
+      {
+        "key": "ref437",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2016.2584538"
+      },
+      {
+        "key": "ref436",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2017/2363240"
+      },
+      {
+        "key": "ref435",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ERECT.2015.7499001"
+      },
+      {
+        "key": "ref434",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICGCIoT.2015.7380718"
+      },
+      {
+        "key": "ref433",
+        "author": "evans",
+        "year": "2012",
+        "journal-title": "The Internet of Things how the next evolution of the Internet is changing everything (April 2011)"
+      },
+      {
+        "key": "ref432",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11761-017-0216-y"
+      },
+      {
+        "key": "ref430",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-1501-5_4"
+      },
+      {
+        "key": "ref431",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5120/ijca2017912609"
+      },
+      {
+        "key": "ref82",
+        "first-page": "283",
+        "article-title": "An idea of using digital twin to perform the functional safety and cybersecurity analysis",
+        "author": "lou",
+        "year": "2019",
+        "journal-title": "Proc INFORMATIK"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3198458.3198464"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2018.2842228"
+      },
+      {
+        "key": "ref83",
+        "first-page": "4242",
+        "article-title": "A survey on concepts, applications, and challenges in cyber-physical systems",
+        "volume": "8",
+        "author": "gunes",
+        "year": "2014",
+        "journal-title": "KSII Trans Internet Inf Syst"
+      },
+      {
+        "key": "ref330",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/72.870037"
+      },
+      {
+        "key": "ref80",
+        "first-page": "28",
+        "article-title": "Challenges in digital twin development for cyber-physical production systems",
+        "author": "park",
+        "year": "2018",
+        "journal-title": "Model-based Design of Cyber-Physical Systems"
+      },
+      {
+        "key": "ref331",
+        "first-page": "3424",
+        "article-title": "Accelerating eulerian fluid simulation with convolutional networks",
+        "volume": "70",
+        "author": "tompson",
+        "year": "2017",
+        "journal-title": "Proc 34th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref332",
+        "first-page": "1",
+        "article-title": "Study on a Poisson&#x2019;s equation solver based on deep learning technique",
+        "author": "tang",
+        "year": "2017",
+        "journal-title": "Electrical Design Adv Packag Syst (EDAPS) Symp"
+      },
+      {
+        "key": "ref89",
+        "year": "2019",
+        "journal-title": "Basel Urban Boundary Layer Experiment"
+      },
+      {
+        "key": "ref323",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1119/1.1987060"
+      },
+      {
+        "key": "ref322",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.procir.2019.02.104"
+      },
+      {
+        "key": "ref325",
+        "author": "kumar",
+        "year": "2008",
+        "journal-title": "Quantum Einstein Bohr and the Great Debate about the Nature of Reality"
+      },
+      {
+        "key": "ref324",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511805714"
+      },
+      {
+        "key": "ref85",
+        "author": "union",
+        "year": "2016",
+        "journal-title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the Protection of Natural Persons With Regard to the Processing of Personal Data and on the Free Movement of Such Data and Repealing"
+      },
+      {
+        "key": "ref327",
+        "article-title": "Machine learning for fluid mechanics",
+        "author": "brunton",
+        "year": "2019",
+        "journal-title": "arXiv 1905 11075"
+      },
+      {
+        "key": "ref429",
+        "first-page": "17",
+        "article-title": "Understanding the need and importance of the cloud computing environment within the national institute of food and agriculture, an agency of the United States department of agriculture",
+        "volume": "4",
+        "author": "onyegbula",
+        "year": "2011",
+        "journal-title": "J Inf Syst Technol Plan"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/1463922X.2017.1293187"
+      },
+      {
+        "key": "ref326",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-018-0337-2"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-018-0637-6"
+      },
+      {
+        "key": "ref329",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/72.712178"
+      },
+      {
+        "key": "ref88",
+        "author": "sund",
+        "year": "2019",
+        "journal-title": "Folkehelseutfordringer i Tr&#x00F8;ndelag"
+      },
+      {
+        "key": "ref328",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9991(90)90007-N"
+      },
+      {
+        "key": "ref426",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-38082-2_11"
+      },
+      {
+        "key": "ref425",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40565-018-0425-1"
+      },
+      {
+        "key": "ref428",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICECCT.2017.8117887"
+      },
+      {
+        "key": "ref427",
+        "author": "lucero",
+        "year": "2016",
+        "journal-title": "IoT platforms enabling the Internet of Things"
+      },
+      {
+        "key": "ref422",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-1217-5_20"
+      },
+      {
+        "key": "ref421",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICACCI.2015.7275966"
+      },
+      {
+        "key": "ref424",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2018.2812803"
+      },
+      {
+        "key": "ref423",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5220/0006462201780185"
+      },
+      {
+        "key": "ref399",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-015-0030-3"
+      },
+      {
+        "key": "ref389",
+        "author": "white",
+        "year": "2009",
+        "journal-title": "Hadoop The Definitive Guide"
+      },
+      {
+        "key": "ref388",
+        "article-title": "DeepMoD: Deep learning for Model Discovery in noisy data",
+        "author": "both",
+        "year": "2019",
+        "journal-title": "arXiv 1904 09406"
+      },
+      {
+        "key": "ref390",
+        "author": "zikopoulos",
+        "year": "2011",
+        "journal-title": "Understanding Big Data Analytics for Enterprise Class Hadoop and Streaming Data"
+      },
+      {
+        "key": "ref397",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2015.2487976"
+      },
+      {
+        "key": "ref398",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-014-0008-6"
+      },
+      {
+        "key": "ref395",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2014.01.015"
+      },
+      {
+        "key": "ref396",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2015.2427795"
+      },
+      {
+        "key": "ref393",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CTS.2013.6567202"
+      },
+      {
+        "key": "ref394",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11036-013-0489-0"
+      },
+      {
+        "key": "ref391",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-015-0032-1"
+      },
+      {
+        "key": "ref392",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-27763-9_2"
+      }
+    ],
+    "container-title": [
+      "IEEE Access"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6287639/8948470/08972429.pdf?arnumber=8972429",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2023-09-25T16:58:00Z",
+      "timestamp": 1695661080000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8972429/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "references-count": 550,
+    "URL": "https://doi.org/10.1109/access.2020.2970143",
+    "relation": {},
+    "ISSN": [
+      "2169-3536"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-3536",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    }
+  }
+}

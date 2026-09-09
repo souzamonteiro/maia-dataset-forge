@@ -1,0 +1,100 @@
+[
+  {
+    "id": "W4385245566",
+    "title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
+    "pdfSha256": "82f7e32dc25bd5f25de5e09db4ce5622bc9a115f61b6434d0350e39ef161a1ee",
+    "status": "quarantined",
+    "reason": "Catalog title not found in first two PDF pages; metadata/PDF association requires review"
+  },
+  {
+    "id": "W2896457183",
+    "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+    "pdfSha256": "1face6d65fde283db054884fe2d1c7c64614cf5ffed021ef4474a3284e52b860",
+    "status": "quarantined",
+    "reason": "Catalog title not found in first two PDF pages; metadata/PDF association requires review"
+  },
+  {
+    "id": "W4292779060",
+    "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+    "pdfSha256": "f61786a8da8169ec86c742cb5292ee8df68b6f6bc2915a10be7ae1fe4e71cff7",
+    "status": "quarantined",
+    "reason": "Catalog title not found in first two PDF pages; metadata/PDF association requires review"
+  },
+  {
+    "id": "W2781738013",
+    "title": "Quantum Computing in the NISQ era and beyond",
+    "pdfSha256": "06fd0388985b6b9903ba585b07fb145b9ffe43a53f4e723f85e43fab93843d3b",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W2978346165",
+    "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+    "pdfSha256": "15a6befec266de6a84c2d386b76ae54f07ebd23c1d72431632e8602401680733",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W4392145873",
+    "title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+    "pdfSha256": "873d27ac5ab65a26d0e6aa459b1e306425dc22c1236d930e61ae6e5f0a0d3c12",
+    "status": "quarantined",
+    "reason": "Catalog title not found in first two PDF pages; metadata/PDF association requires review"
+  },
+  {
+    "id": "W3003257820",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "pdfSha256": "941bfc3edcf91c40e96c028b4f4c46f13361727a30e7767c935ba0d509318131",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W3182706339",
+    "title": "The coefficient of determination R-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation",
+    "pdfSha256": "ceb606646a05ef8c16388e9bec170aef9ac74f39086d6c5d4193ba8b54afa3d4",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W3111162498",
+    "title": "Variational quantum algorithms",
+    "pdfSha256": "fb2f8183fd01378fa7553ba14853fe03968286ba61caa1401dba809737ca1c6e",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W3021613070",
+    "title": "Pymoo: Multi-Objective Optimization in Python",
+    "pdfSha256": "968d1829e6a0c157548a2b963ad08a318b78313104d417b590885db64ebc83be",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W2888532099",
+    "title": "The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package *",
+    "pdfSha256": "a45e6487679b3e8cc3f8e801ba238b74916f2396dd531740224f6adfeb9cbabf",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W3113178943",
+    "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+    "pdfSha256": "cfd18d677f817996e9ae1cb3622eea0e81fe5622ad570ae0ff3a331050eb6012",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W3140854437",
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "pdfSha256": "28b985f24b383296d17700035a383b69a6a3fc86ffe38dc3b3bc3d3f45018297",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  },
+  {
+    "id": "W4308834893",
+    "title": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
+    "pdfSha256": "41cd1b6608eaea38513cb9f9c0d0c6fe4821968e31cb95fc5985e16b713a5fb9",
+    "status": "identity-matched",
+    "reason": "Catalog title found in first two PDF pages; extraction still requires review"
+  }
+]

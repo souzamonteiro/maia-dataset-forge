@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W3021613070-968d1829e6a0.txt.gz",
+  "sourceTextSha256": "71f6aa754ef4e939ed5594ee33652c3c6717ae6c450cd99175339bf1e82abb63",
+  "spans": [
+    {
+      "start": 6615,
+      "end": 7121,
+      "text": "In the last decades, various optimization frameworks in diverse programming languages were developed. However, some of them only partially cover multi-objective optimization. In general, the choice of a suitable framework for an optimization task is a multi-objective problem itself. Moreover, some criteria are rather subjective, for instance, the usability and extendibility of a framework and, therefore, the assessment regarding criteria as well as the decision making process differ from user to user."
+    },
+    {
+      "start": 10038,
+      "end": 10434,
+      "text": "Our framework pymoo is available on PyPI [17] which is a central repository to make Python software package easily accessible. The framework can be installed by using the package manager: $ pip install -U pymoo Some components are available in Python and additionally in Cython [18]. Cython allows developers to annotate existing Python code which is translated to C or C++ programming languages."
+    },
+    {
+      "start": 10435,
+      "end": 10722,
+      "text": "The translated files are compiled to a binary executable and can be used to speed up computations. During the installation of pymoo, attempts are made for compilation, however, if unsuccessful due to the lack of a suitable compiler or other reasons, the pure Python version is installed."
+    },
+    {
+      "start": 12349,
+      "end": 12909,
+      "text": "In the following, we provide an example implementation of the problem formulation above using pymoo. We assume the reader is familiar with Python and has a fundamental knowledge of NumPy [20] which is utilized to deal with vector and matrix computations. In pymoo, we consider pure minimization problems for optimization in all our modules. However, without loss of generality an objective which is supposed to be maximized, can be multiplied by −1 and be minimized [19]. Therefore, we minimize −f2 (x) instead of maximizing f2 (x) in our optimization problem."
+    },
+    {
+      "start": 15313,
+      "end": 15772,
+      "text": "Next, we use the initialized algorithm object to optimize the defined problem. Therefore, the minimize function with both instances problem and algorithm as parameters is called. Moreover, we supply the termination criterion of running the algorithm for 40 generations which will result in 40 + 40 × 10 = 440 function evaluations. In addition, we define a random seed to ensure reproducibility and enable the verbose flag to see printouts for each generation."
+    },
+    {
+      "start": 20283,
+      "end": 20824,
+      "text": "In our framework, we categorize test problems regarding the number of objectives: single-objective (1 objective), multi-objective (2 or 3 objectives) and many-objective (more than 3 objectives). Test problems implemented in pymoo are listed in Table 2. For each problem the number of variables, objectives, and constraints are indicated. If the test problem is scalable to any of the parameters, we label the problem with (s). If the problem is scalable, but a default number was original proposed we indicate that with surrounding brackets."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W2888532099-a45e6487679b.txt.gz",
+  "sourceTextSha256": "c2e8674b7fa22fee76dc08a10a511e5f6def3d3ac4f6fe5d6a97ba40ea2ca65e",
+  "spans": [
+    {
+      "start": 8464,
+      "end": 8750,
+      "text": "From its inception, Astropy has required coordination to ensure the project as a whole and its coding efforts are consistent and reasonably efficient. While many Python projects adopt a “Benevolent Dictator For Life” (BDFL) model, Astropy has instead opted for a coordination committee."
+    },
+    {
+      "start": 8751,
+      "end": 9050,
+      "text": "This is partly due to the nature of the project as a large-scale collaboration between many contributors with many interests, and partly due to the sheer amount of work that needs to get done. For the latter reason, the project has expanded the committee from three to four members starting in 2016."
+    },
+    {
+      "start": 15273,
+      "end": 15532,
+      "text": "A major part of the Astropy Project is the concept of “Affiliated Packages.” An affiliated package is an astronomyrelated Python package that is not part of the astropy core package, but has requested to be included as part of the Astropy Project’s community."
+    },
+    {
+      "start": 15533,
+      "end": 15948,
+      "text": "These packages support the goals and vision of Astropy of improving code re-use, interoperability, and embracing good coding practices such as testing and thorough documentation. Affiliated packages contain functionality that is more specialized, have license incompatibilities, or have external dependencies (e.g., GUI libraries) that make these packages more suitable to be separate from the astropy core package."
+    },
+    {
+      "start": 20818,
+      "end": 21275,
+      "text": "By default, taking the logarithm of a Quantity object with nondimensionless units intentionally fails. However, some well-known units are actually logarithmic quantities, where the logarithm of the value is taken with respect to some reference value. Examples include astronomical magnitudes, which are logarithmic fluxes, and decibels, which are more generic logarithmic ratios of quantities. Logarithmic, relative units are now supported in astropy.units."
+    },
+    {
+      "start": 22531,
+      "end": 23116,
+      "text": "The astropy.constants subpackage provides a selection of physical and astronomical constants as Quantity objects (see Section 3.1). A brief description of this package was given in Astropy Collaboration et al. (2013). In version 2.0, the built-in constants have been organized into modules for specific versions of the constant values. For example, physical constants have codata2014 (Mohr et al. 2016) and codata2010 versions. Astronomical constants are organized into iau2015 and iau2012 modules to indicate their sources (resolutions from the International Astronomical Union, IAU)."
+    }
+  ]
+}

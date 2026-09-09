@@ -1,0 +1,1615 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T18:48:27Z",
+      "timestamp": 1788979707088,
+      "version": "build-2803163510"
+    },
+    "reference-count": 126,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              14
+            ]
+          ],
+          "date-time": "2019-09-14T00:00:00Z",
+          "timestamp": 1568419200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100013427",
+        "name": "Samenwerkingsverband Noord-Nederland",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013427",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Business Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbusres.2019.09.022",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2019-11-03T13:15:54Z",
+      "timestamp": 1572786954000
+    },
+    "page": "889-901",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4614,
+    "special_numbering": "C",
+    "title": [
+      "Digital transformation: A multidisciplinary reflection and research agenda"
+    ],
+    "prefix": "10.1016",
+    "volume": "122",
+    "author": [
+      {
+        "given": "Peter C.",
+        "family": "Verhoef",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thijs",
+        "family": "Broekhuizen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yakov",
+        "family": "Bart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4692-065X",
+        "authenticated-orcid": false,
+        "given": "Abhi",
+        "family": "Bhattacharya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Qi Dong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicolai",
+        "family": "Fabian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6921-7430",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Haenlein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0005",
+        "unstructured": "Accenture (2017). Accenture Technology Vision 2017. Available on <https://www.accenture.com/us-en/insight-disruptive-technology-trends-2017> (Accessed July 7 2019)."
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0010",
+        "unstructured": "Accenture (2018). Accenture Technology Vision 2018, Available on <https://www.accenture.com/t20180227T215953Z__w__/us-en/_acnmedia/Accenture/next-gen-7/tech-vision-2018/pdf/Accenture-TechVision-2018-Tech-Trends-Report.pdf> (Accessed July 7 2019)."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "796",
+        "DOI": "10.1287/isre.1100.0327",
+        "article-title": "The digital transformation of healthcare: Current status and the road ahead",
+        "volume": "21",
+        "author": "Agarwal",
+        "year": "2010",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "6–7",
+        "key": "10.1016/j.jbusres.2019.09.022_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1002/smj.187",
+        "article-title": "Value creation in e-business",
+        "volume": "22",
+        "author": "Amit",
+        "year": "2001",
+        "journal-title": "Strategic Management Journal"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0025",
+        "first-page": "34",
+        "article-title": "The digital transformation of traditional businesses",
+        "volume": "44",
+        "author": "Andal-Ancion",
+        "year": "2003",
+        "journal-title": "MIT Sloan Management Review"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1287/isre.1100.0335",
+        "article-title": "The digitization of healthcare: Boundary risks, emotion, and consumer willingness to disclose personal health information",
+        "volume": "22",
+        "author": "Anderson",
+        "year": "2011",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jbusres.2019.09.022_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1829",
+        "DOI": "10.1002/smj.2442",
+        "article-title": "The disruptor’s dilemma: TiVo and the US television ecosystem",
+        "volume": "37",
+        "author": "Ansari",
+        "year": "2016",
+        "journal-title": "Strategic Management Journal"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.09.022_b0040",
+        "first-page": "113",
+        "article-title": "Strategies for diversification",
+        "volume": "35",
+        "author": "Ansoff",
+        "year": "1957",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "October 2017",
+        "key": "10.1016/j.jbusres.2019.09.022_b0045",
+        "first-page": "36",
+        "article-title": "The impact of technological change on employment: The case of press digitisation",
+        "volume": "128",
+        "author": "Aubert-Tarby",
+        "year": "2016",
+        "journal-title": "Technological Forecasting and Social Change"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jbusres.2019.09.022_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1016/j.technovation.2005.09.016",
+        "article-title": "The challenges in digitalising business relationships: The construction of an IT infrastructure for a textile-related business network",
+        "volume": "26",
+        "author": "Baraldi",
+        "year": "2006",
+        "journal-title": "Technovation"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1177/014920639101700108",
+        "article-title": "Firm resources and sustained competitive advantage",
+        "volume": "17",
+        "author": "Barney",
+        "year": "1991",
+        "journal-title": "Journal of Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "366",
+        "DOI": "10.1007/s11747-017-0539-4",
+        "article-title": "Good, better, engaged? The effect of company-initiated customer engagement behavior on shareholder value",
+        "volume": "46",
+        "author": "Beckers",
+        "year": "2018",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1108/10878571211209314",
+        "article-title": "Digital transformation: Opportunities to create new business models",
+        "volume": "40",
+        "author": "Berman",
+        "year": "2012",
+        "journal-title": "Strategy & Leadership"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b9000",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Borreau, M., Gensollen, M., Moreau, M., Waelbroeck, P., (2012). ‘Selling Less of More’? The Impact of Digitization on Record Companies, SSRN Working Paper, Available at SSRN: https://ssrn.com/abstract=2011854 or http://dx.doi.org/10.2139/ssrn.2011854.",
+        "DOI": "10.2139/ssrn.2011854"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1016/j.bushor.2018.03.003",
+        "article-title": "Implementing new business models: What challenges lie ahead?",
+        "volume": "61",
+        "author": "Broekhuizen",
+        "year": "2018",
+        "journal-title": "Business Horizons"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0075",
+        "article-title": "Digital platform openness: Drivers, dimensions and outcomes",
+        "author": "Broekhuizen",
+        "year": "2019",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0080",
+        "unstructured": "Business Insider (2017a). 5 companies are carrying the S&P 500, available on <http://www.businessinsider.com/5-companies-are-carrying-the-sp-500-2017-5?international=true&r=US&IR=T> Accessed July 7 2019."
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0085",
+        "unstructured": "Business Insider (2017b). Lyft tripled its rides in 2016, available on <https://www.businessinsider.de/lyft-tripled-its-rides-in-2016-2017-1> (Accessed July 7 2019)."
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0090",
+        "unstructured": "Business Insider (2017c). One charts shows Apple dominating the smartwatch market, available on <https://www.businessinsider.de/lyft-tripled-its-rides-in-2016-2017-1> (Accessed July 7 2019)."
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1016/j.lrp.2010.01.004",
+        "article-title": "From strategy to business models and onto tactics",
+        "volume": "43",
+        "author": "Casadesus-Masanell",
+        "year": "2010",
+        "journal-title": "Long Range Planning"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "976",
+        "DOI": "10.1287/isre.2013.0500",
+        "article-title": "Information technology competencies, organizational agility, and firm performance: Enabling and facilitating roles",
+        "volume": "24",
+        "author": "Chakravarty",
+        "year": "2013",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "1165",
+        "DOI": "10.2307/41703503",
+        "article-title": "Business intelligence and analytics: From big data to big impact",
+        "volume": "36",
+        "author": "Chen",
+        "year": "2012",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0110",
+        "series-title": "The innovator’s dilemma: When new technologies cause great firms to fail",
+        "author": "Christensen",
+        "year": "1997"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0115",
+        "first-page": "66",
+        "article-title": "Meeting the challenge of disruptive change",
+        "volume": "78",
+        "author": "Christensen",
+        "year": "2000",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0120",
+        "first-page": "30",
+        "article-title": "The hard truth about business model innovation",
+        "volume": "58",
+        "author": "Christensen",
+        "year": "2016",
+        "journal-title": "Sloan Management Review"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1177/001316446002000104",
+        "article-title": "A coefficient of agreement for nominal scales",
+        "volume": "20",
+        "author": "Cohen",
+        "year": "1960",
+        "journal-title": "Educational and Psychological Measurement"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1016/j.indmarman.2016.04.012",
+        "article-title": "Boosting servitization through digitization: Pathways and dynamic resource configurations for manufacturers",
+        "volume": "60",
+        "author": "Coreynen",
+        "year": "2017",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "516",
+        "DOI": "10.1007/s11747-015-0433-x",
+        "article-title": "Utilizing customer knowledge in innovation: Antecedents and impact of customer involvement on new product outcomes",
+        "volume": "44",
+        "author": "Cui",
+        "year": "2016",
+        "journal-title": "Journal of Academy of Marketing Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.im.2016.05.005",
+        "article-title": "Digital work in a digitally challenged organization",
+        "volume": "54",
+        "author": "Davison",
+        "year": "2017",
+        "journal-title": "Information and Management"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0145",
+        "unstructured": "Deloitte (2015). The sting in the tale: Are banks attracting the right talent? The Deloitte Talent in Banking survey 2015, available on <https://www2.deloitte.com/content/dam/Deloitte/ie/Documents/FinancialServices/Sting-in-the-tail-talent-in-banking-global-report-2015.pdf/> Accessed July 7 2019."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1016/j.jsis.2015.04.003",
+        "article-title": "Business value of social media technologies: Evidence from online user innovation communities",
+        "volume": "24",
+        "author": "Dong",
+        "year": "2015",
+        "journal-title": "Journal of Strategic Information Systems"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0155",
+        "article-title": "Business value of bid data analytics: A systems-theoretic approach and empirical test",
+        "author": "Dong",
+        "year": "2019",
+        "journal-title": "Information and Management"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.09.022_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "1467",
+        "DOI": "10.1287/orsc.1110.0700",
+        "article-title": "Digital science and knowledge boundaries in complex innovation",
+        "volume": "23",
+        "author": "Dougherty",
+        "year": "2012",
+        "journal-title": "Organization Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0165",
+        "first-page": "81",
+        "article-title": "How AUDI AG established big data analytics in its digital transformation",
+        "volume": "16",
+        "author": "Dremel",
+        "year": "2017",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.5465/annals.2016.0051",
+        "article-title": "Incumbent adaptation to technological change: The past, present, and future of research on heterogeneous incumbent response",
+        "volume": "12",
+        "author": "Eggers",
+        "year": "2018",
+        "journal-title": "Academy of Management Annals"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0175",
+        "first-page": "92",
+        "article-title": "Strategies for two sided markets",
+        "volume": "84",
+        "author": "Eisenmann",
+        "year": "2006",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.1177/0149206316675927",
+        "article-title": "Fifteen years of research on business model innovation: How far have we come, and where should we go?",
+        "volume": "43",
+        "author": "Foss",
+        "year": "2017",
+        "journal-title": "Journal of Management"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.intmar.2017.01.003",
+        "article-title": "The showrooming phenomenon: It’s more than just about price",
+        "volume": "38",
+        "author": "Gensler",
+        "year": "2017",
+        "journal-title": "Journal of Interactive Marketing"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.jbusres.2019.09.022_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "1332",
+        "DOI": "10.1080/09537287.2017.1375148",
+        "article-title": "Data-driven operations management: Organisational implications of the digital transformation in industrial practice",
+        "volume": "28",
+        "author": "Gölzer",
+        "year": "2017",
+        "journal-title": "Production Planning and Control"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1177/1476127012460940",
+        "article-title": "Digitization, innovation, and copyright: What is the agenda?",
+        "volume": "11",
+        "author": "Greenstein",
+        "year": "2013",
+        "journal-title": "Strategic Organization"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1007/s11747-012-0308-3",
+        "article-title": "Critical service logic: Making sense of value creation and co-creation",
+        "volume": "41",
+        "author": "Grönroos",
+        "year": "2013",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0205",
+        "first-page": "175",
+        "article-title": "Rapid adaption in digital transformation: A participatory process for enaging IS and business leaders",
+        "volume": "10",
+        "author": "Hansen",
+        "year": "2011",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0210",
+        "first-page": "51",
+        "article-title": "Hummel’s digital transformation toward omnichannel retailing: Key lessons learned",
+        "volume": "14",
+        "author": "Hansen",
+        "year": "2015",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1016/j.techfore.2014.05.015",
+        "article-title": "A typology of technological change: Technological paradigm theory with validation and generalization from case studies",
+        "volume": "97",
+        "author": "Ho",
+        "year": "2015",
+        "journal-title": "Technological Forecasting and Social Change"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "1178",
+        "DOI": "10.1093/jcr/ucx105",
+        "article-title": "Consumer and object experience in the internet of things: An assemblage theory approach",
+        "volume": "44",
+        "author": "Hoffman",
+        "year": "2017",
+        "journal-title": "Journal of Consumer Research"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbusres.2019.09.022_b0230",
+        "first-page": "90",
+        "article-title": "Digital ubiquity: How connections, sensors, and data are revolutionizing business",
+        "volume": "92",
+        "author": "Iansiti",
+        "year": "2014",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1177/0092070304266119",
+        "article-title": "Digitization of selling activity and sales force performance: An empirical investigation",
+        "volume": "33",
+        "author": "Johnson",
+        "year": "2005",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0240",
+        "first-page": "1",
+        "article-title": "Strategy, not technology, drives digital transformation",
+        "volume": "14",
+        "author": "Kane",
+        "year": "2015",
+        "journal-title": "MIT Sloan Management Review and Deloitte University Press"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1016/j.ijresmar.2016.11.006",
+        "article-title": "Digital marketing: A framework, review and research agenda",
+        "volume": "34",
+        "author": "Kannan",
+        "year": "2017",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1080/07421222.2015.1029380",
+        "article-title": "The role of dynamic capabilities in responding to digital disruption: A factor-based study of the newspaper industry",
+        "volume": "32",
+        "author": "Karimi",
+        "year": "2015",
+        "journal-title": "Journal of Management Information Systems"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1509/jm.15.0287",
+        "article-title": "Assessing performance outcomes in marketing",
+        "volume": "80",
+        "author": "Katsikeas",
+        "year": "2016",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "10–11",
+        "key": "10.1016/j.jbusres.2019.09.022_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1016/j.technovation.2013.06.004",
+        "article-title": "Measuring digitization: A growth and welfare multiplier",
+        "volume": "33",
+        "author": "Katz",
+        "year": "2013",
+        "journal-title": "Technovation"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b9015",
+        "first-page": "254",
+        "article-title": "Digital innovation in the energy industry: The impact of controversies on the evolution of innovation ecosystems",
+        "volume": "134",
+        "author": "Kolloch",
+        "year": "2017",
+        "journal-title": "Technological Forecasting and Social Change"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0270",
+        "unstructured": "Klood Digital (2017). The growth of searches on Google, available on <https://digital.klood.com/blog/growth-of-searches-on-google> (Accessed July 7 2019)."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1186/s41469-017-0016-z",
+        "article-title": "Seeing through the network: Competitive advantage in the digital economy",
+        "volume": "6",
+        "author": "Koch",
+        "year": "2017",
+        "journal-title": "Journal of Organization Design"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0280",
+        "first-page": "175",
+        "article-title": "Digital transformation in latecomer industries: CIO and CEO leadership lessons from Encana Oil & Gas (USA) Inc",
+        "volume": "10",
+        "author": "Kohli",
+        "year": "2011",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "issue": "156",
+        "key": "10.1016/j.jbusres.2019.09.022_b0285",
+        "first-page": "77",
+        "article-title": "Tailored automotive business strategies in the context of digitalization and service-oriented models",
+        "volume": "18",
+        "author": "Kompalla",
+        "year": "2017",
+        "journal-title": "Quality - Access to Success"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0290",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kübler, R. V., Wieringa, J. E., & Pauwels, K. H. (2017). Machine learning and big data. In P. Leeflang, J. Wieringa, T. Bijmolt, & K. Pauwels (Eds.), Advanced methods for modeling markets (pp. 631-670). (International Series in Quantitative Marketing). Cham, Switzerland: Springer.",
+        "DOI": "10.1007/978-3-319-53469-5_19"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0295",
+        "article-title": "The Influence of new-age technologies: A research agenda",
+        "author": "Kumar",
+        "year": "2019",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1016/j.indmarman.2008.08.002",
+        "article-title": "Bundling digitized logistics activities and its performance implications",
+        "volume": "39",
+        "author": "Lai",
+        "year": "2010",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1509/jm.15.0415",
+        "article-title": "A thematic exploration of digital, social media, and mobile marketing: Research evolution from 2000 to 2015 and an agenda for future inquiry",
+        "volume": "80",
+        "author": "Lamberton",
+        "year": "2016",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.5465/amr.2006.19379629",
+        "article-title": "Capability reconfiguration: An analysis of incumbent responses to technological change",
+        "volume": "31",
+        "author": "Lavie",
+        "year": "2006",
+        "journal-title": "Academy of Management Review"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1287/isre.2015.0577",
+        "article-title": "How does IT ambidexterity impact organizational agility?",
+        "volume": "26",
+        "author": "Lee",
+        "year": "2015",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1509/jm.15.0420",
+        "article-title": "Understanding customer experience throughout the customer journey",
+        "volume": "80",
+        "author": "Lemon",
+        "year": "2016",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0330",
+        "first-page": "461",
+        "article-title": "Digitalization capabilities as enables of value co-creation in servitizing firms",
+        "volume": "30",
+        "author": "Lenka",
+        "year": "2017",
+        "journal-title": "Psychology & Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0335",
+        "unstructured": "Leonhardt, D., Haffke, I., Kranz, J., & Benlian, A. (2017). Reinventing the IT function: the role of IT agility and IT ambidexterity in supporting digital business transformation. In ECIS Proceedings, Guimarães, Portugal, June 5-10, 2017 (pp. 968–984)."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.techsoc.2016.07.001",
+        "article-title": "Digitalisation of Finland’s transport sector",
+        "volume": "47",
+        "author": "Leviäkangas",
+        "year": "2016",
+        "journal-title": "Technology in Society"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0345",
+        "article-title": "The digital transformation of business models in the creative industries: A holistic framework and emerging trends",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Technovation"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "514",
+        "DOI": "10.1080/09537287.2016.1147096",
+        "article-title": "How smart cities transform operations models: A new research agenda for operations management in the digital economy",
+        "volume": "27",
+        "author": "Li",
+        "year": "2016",
+        "journal-title": "Production Planning & Control"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0355",
+        "doi-asserted-by": "crossref",
+        "first-page": "1129",
+        "DOI": "10.1111/isj.12153",
+        "article-title": "Digital transformation by SME entrepreneurs: A capability perspective",
+        "volume": "28",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Information Systems Journal"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0360",
+        "series-title": "The network imperative: How to survive and grow in the age of digital business models",
+        "author": "Libert",
+        "year": "2016"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jbusres.2019.09.022_b0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "1728",
+        "DOI": "10.1108/00251741111183852",
+        "article-title": "Resource fit in digital transformation – Lessons learned from the CBC bank global e-banking project",
+        "volume": "49",
+        "author": "Liu",
+        "year": "2011",
+        "journal-title": "Management Decision"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/j.jsis.2015.08.002",
+        "article-title": "Reflections on societal and business model transformation arising from digitization and big data analytics: A research agenda",
+        "volume": "24",
+        "author": "Loebbecke",
+        "year": "2015",
+        "journal-title": "Journal of Strategic Information Systems"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "931",
+        "DOI": "10.2307/41409967",
+        "article-title": "Understanding the link between information technology capability and organizational agility: An empirical examination",
+        "volume": "35",
+        "author": "Lu",
+        "year": "2011",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1111/j.1540-5885.2005.00177.x",
+        "article-title": "Disruptive innovation: In need of better theory",
+        "volume": "23",
+        "author": "Markides",
+        "year": "2006",
+        "journal-title": "Journal of Product Innovation Management"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.09.022_b0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1007/s12599-015-0401-5",
+        "article-title": "Digital transformation strategies",
+        "volume": "57",
+        "author": "Matt",
+        "year": "2015",
+        "journal-title": "Business and Information Systems Engineering"
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1016/j.lrp.2009.07.005",
+        "article-title": "Business models: A discovery driven approach",
+        "volume": "43",
+        "author": "McGrath",
+        "year": "2010",
+        "journal-title": "Long Range Planning"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1002/smj.2596",
+        "article-title": "Networks, platforms, and strategy: Emerging views and next steps",
+        "volume": "38",
+        "author": "McIntyre",
+        "year": "2017",
+        "journal-title": "Strategic Management Journal"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.25300/MISQ/2017/41:1.03",
+        "article-title": "Digital innovation management: Reinventing innovation management research in a digital world",
+        "volume": "41",
+        "author": "Nambisan",
+        "year": "2017",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/j.ijresmar.2016.11.003",
+        "article-title": "The internet-of-things: Review and research directions",
+        "volume": "34",
+        "author": "Ng",
+        "year": "2017",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1016/j.techfore.2013.01.010",
+        "article-title": "Digitisation of publishing: Exploration based on existing business models",
+        "volume": "83",
+        "author": "Øiestad",
+        "year": "2014",
+        "journal-title": "Technological Forecasting and Social Change"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0425",
+        "series-title": "Business model generation: A handbook for visionaries, game changers, and challengers",
+        "author": "Osterwalder",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/j.indmarman.2017.08.009",
+        "article-title": "The impact of digital technology on relationships in a business network",
+        "volume": "67",
+        "author": "Pagani",
+        "year": "2017",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0435",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1016/j.im.2014.08.008",
+        "article-title": "Synthesizing information systems knowledge: A typology of literature reviews",
+        "volume": "52",
+        "author": "Paré",
+        "year": "2015",
+        "journal-title": "Information & Management"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0440",
+        "series-title": "Platform revolution: How networked markets are transforming the economy and how to make them work for you",
+        "author": "Parker",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0445",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.12821/ijispm050104",
+        "article-title": "Tackling the digitalization challenge: How to benefit from digitalization in practice",
+        "volume": "5",
+        "author": "Parviainen",
+        "year": "2017",
+        "journal-title": "International Journal of Information Systems and Project Management"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0450",
+        "first-page": "115",
+        "article-title": "Realizing strategic value through center-edge digital transformation in consumer-centric industries",
+        "volume": "10",
+        "author": "Peppard",
+        "year": "2011",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0455",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1108/13598541011039983",
+        "article-title": "Measuring chain digitisation maturity: An assessment of Dutch retail branches",
+        "volume": "15",
+        "author": "Plomp",
+        "year": "2010",
+        "journal-title": "Supply Chain Management: An International Journal"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0460",
+        "first-page": "79",
+        "article-title": "Co-opting customer competence",
+        "volume": "78",
+        "author": "Prahalad",
+        "year": "2000",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0465",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.ijresmar.2015.07.001",
+        "article-title": "Brand value co-creation in a digitalized world: An integrative framework and research implications",
+        "volume": "33",
+        "author": "Ramaswamy",
+        "year": "2016",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0470",
+        "unstructured": "Recode (2018). You can watch Netflix on any screen you want, but you’re probably watching it on a TV, available on <http://www.recode.net/2018/3/7/17094610/netflix-70-percent-tv-viewing-statistics> (Accessed July 7 2019)."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0475",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1287/orsc.2017.1183",
+        "article-title": "Demand heterogeneity in platform markets: Implications for complementors",
+        "volume": "29",
+        "author": "Rietveld",
+        "year": "2018",
+        "journal-title": "Organization Science"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0480",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robertson, B. J. (2015).Holacracy: The new management system for a rapidly changing world. Henry Holt and Company.",
+        "DOI": "10.15358/9783800650880"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.09.022_b0485",
+        "doi-asserted-by": "crossref",
+        "first-page": "667",
+        "DOI": "10.1016/j.bushor.2017.05.010",
+        "article-title": "The internet of things: Are you ready for what’s coming?",
+        "volume": "60",
+        "author": "Saarikko",
+        "year": "2017",
+        "journal-title": "Business Horizons"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.2307/30036530",
+        "article-title": "Shaping agility through digital options: Reconceptualizing the role of information technology in contemporary firms",
+        "volume": "27",
+        "author": "Sambamurthy",
+        "year": "2003",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jbusres.2019.09.022_b0495",
+        "doi-asserted-by": "crossref",
+        "first-page": "1740014",
+        "DOI": "10.1142/S136391961740014X",
+        "article-title": "Digital Transformation of business models — Best practice, enablers, and roadmap",
+        "volume": "21",
+        "author": "Schallmo",
+        "year": "2017",
+        "journal-title": "International Journal of Innovation Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0500",
+        "first-page": "197",
+        "article-title": "How big old companies navigate digital transformation",
+        "volume": "16",
+        "author": "Sebastian",
+        "year": "2017",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0505",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1177/1094670506294666",
+        "article-title": "The path to customer centricity",
+        "volume": "9",
+        "author": "Shah",
+        "year": "2006",
+        "journal-title": "Journal of Service Research"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0510",
+        "first-page": "1",
+        "article-title": "How chief digital officers promote the digital transformation of their companies",
+        "volume": "16",
+        "author": "Singh",
+        "year": "2017",
+        "journal-title": "MIS Quarterly Executive"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0515",
+        "doi-asserted-by": "crossref",
+        "first-page": "450",
+        "DOI": "10.1016/j.jbusres.2019.02.012",
+        "article-title": "Organizing for digital servitization: A service ecosystem perspective",
+        "volume": "104",
+        "author": "Sklyar",
+        "year": "2019",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0525",
+        "unstructured": "Statista (2019). Retail e-commerce sales worldwide from 2014 to 2021 (in billion U.S. dollars), available on <https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales> (Accessed January 18 2019)."
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0530",
+        "unstructured": "Statista. Number of monthly active Facebook users worldwide as of 1st quarter 2018 (in millions), available on <https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide> (Accessed July 7 2019)."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0535",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.25300/MISQ/2017/41.1.12",
+        "article-title": "Embracing digital innovation in incumbent firms: How Volvo cars managed competing concerns",
+        "volume": "41",
+        "author": "Svahn",
+        "year": "2017",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0540",
+        "first-page": "137",
+        "article-title": "The new product development game",
+        "volume": "64",
+        "author": "Takeuchi",
+        "year": "1986",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0545",
+        "doi-asserted-by": "crossref",
+        "first-page": "463",
+        "DOI": "10.2307/23044052",
+        "article-title": "Competing perspectives on the link between strategic information technology alignment and organizational agility: Insights from a mediation model",
+        "volume": "35",
+        "author": "Tallon",
+        "year": "2011",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1057/palgrave.ejis.3000479",
+        "article-title": "Managing e-transformation in the public sector: An e-government study of the inland revenue authority of Singapore (IRAS)",
+        "volume": "12",
+        "author": "Tan",
+        "year": "2003",
+        "journal-title": "European Journal of Information Systems"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0555",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.17705/1jais.00500",
+        "article-title": "Research in information systems: Intra-disciplinary and inter-disciplinary approaches",
+        "volume": "19",
+        "author": "Tarafdar",
+        "year": "2018",
+        "journal-title": "Journal of the Association for Information Systems"
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0560",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/j.lrp.2009.07.003",
+        "article-title": "Business models, business strategy and innovation",
+        "volume": "43",
+        "author": "Teece",
+        "year": "2010",
+        "journal-title": "Long Range Planning"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0565",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.5465/amp.2011.0105",
+        "article-title": "Architectural leverage: Putting platforms in context",
+        "volume": "28",
+        "author": "Thomas",
+        "year": "2014",
+        "journal-title": "Academy of Management Perspectives"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0570",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1177/1094670510375599",
+        "article-title": "Customer engagement behavior: Theoretical foundations and research directions",
+        "volume": "13",
+        "author": "Van Doorn",
+        "year": "2010",
+        "journal-title": "Journal of Service Research"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0575",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.indmarman.2016.06.013",
+        "article-title": "Servitization, digitization and supply chain interdependency",
+        "volume": "60",
+        "author": "Vendrell-Herrero",
+        "year": "2017",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0580",
+        "series-title": "The Digital Matrix: New Rules for Business Transformation Through Technology",
+        "author": "Venkatraman",
+        "year": "2017"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0585",
+        "article-title": "Marketing perspectives on digital business models: A framework and overview of the special issue",
+        "volume": "36",
+        "author": "Verhoef",
+        "year": "2019",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0590",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1016/j.jretai.2015.02.005",
+        "article-title": "From multi-channel retailing to omni-channel retailing: Introduction to the special issue on multi-channel retailing",
+        "volume": "91",
+        "author": "Verhoef",
+        "year": "2015",
+        "journal-title": "Journal of Retailing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0595",
+        "series-title": "Creating value with big data analytics – Making smarter marketing decisions",
+        "author": "Verhoef",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.09.022_b0600",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.intmar.2017.06.001",
+        "article-title": "Consumer connectivity in a complex technology-enabled, and mobile-oriented world with smart products",
+        "volume": "40",
+        "author": "Verhoef",
+        "year": "2017",
+        "journal-title": "Journal of Interactive Marketing"
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.jbusres.2019.09.022_b0605",
+        "doi-asserted-by": "crossref",
+        "first-page": "2122",
+        "DOI": "10.1002/smj.2328",
+        "article-title": "Talented people and strong brands: The contribution of human capital and brand equity to firm value",
+        "volume": "36",
+        "author": "Vomberg",
+        "year": "2015",
+        "journal-title": "Strategic Management Journal"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0610",
+        "first-page": "xiii-xxiii",
+        "article-title": "Analyzing the past to prepare for the future: Writing a literature review",
+        "volume": "26",
+        "author": "Webster",
+        "year": "2002",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0615",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1509/jm.15.0413",
+        "article-title": "Marketing analytics for data-rich environments",
+        "volume": "80",
+        "author": "Wedel",
+        "year": "2016",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.09.022_b0620",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1111/j.1365-2575.2011.00384.x",
+        "article-title": "Digitising the R&D social network: Revisiting the technological gatekeeper",
+        "volume": "23",
+        "author": "Whelan",
+        "year": "2013",
+        "journal-title": "Information Systems Journal"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.09.022_b0625",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1016/j.ijresmar.2015.11.002",
+        "article-title": "On-demand streaming services and music industry revenues – Insights from Spotify’s market entry",
+        "volume": "33",
+        "author": "Wölmert",
+        "year": "2016",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0630",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.2753/MIS0742-1222300110",
+        "article-title": "Risk mitigation in supply chain digitization: System modularity and information technology governance",
+        "volume": "30",
+        "author": "Xue",
+        "year": "2013",
+        "journal-title": "Journal of Management Information Systems"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0635",
+        "doi-asserted-by": "crossref",
+        "first-page": "724",
+        "DOI": "10.1287/isre.1100.0322",
+        "article-title": "The new organizing logic of digital innovation: An agenda for information systems research",
+        "volume": "21",
+        "author": "Yoo",
+        "year": "2010",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.09.022_b0640",
+        "first-page": "72",
+        "article-title": "Product platforms: Making the leap",
+        "volume": "94",
+        "author": "Zhu",
+        "year": "2016",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.09.022_b0645",
+        "doi-asserted-by": "crossref",
+        "first-page": "601",
+        "DOI": "10.1057/palgrave.ejis.3000650",
+        "article-title": "Innovation diffusion in global contexts: Determinants of post-adoption digital transformation of European companies",
+        "volume": "15",
+        "author": "Zhu",
+        "year": "2006",
+        "journal-title": "European Journal of Information Systems"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.09.022_b0650",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1002/smj.642",
+        "article-title": "The fit between product market strategy and business model: Implications for firm performance",
+        "volume": "29",
+        "author": "Zott",
+        "year": "2008",
+        "journal-title": "Strategic Management Journal"
+      }
+    ],
+    "container-title": [
+      "Journal of Business Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0148296319305478?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0148296319305478?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2025-09-27T07:28:02Z",
+      "timestamp": 1758958082000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0148296319305478"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "references-count": 126,
+    "alternative-id": [
+      "S0148296319305478"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbusres.2019.09.022",
+    "relation": {},
+    "ISSN": [
+      "0148-2963"
+    ],
+    "issn-type": [
+      {
+        "value": "0148-2963",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Digital transformation: A multidisciplinary reflection and research agenda",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Business Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbusres.2019.09.022",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Authors. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

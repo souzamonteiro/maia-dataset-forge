@@ -11,6 +11,9 @@ import { createStepCoolingGuard } from "./lib/thermal.js";
 setThermalGuard(createStepCoolingGuard());
 const cmd = process.argv[2] || "help";
 const map = {
+  corpus: () => import("./pipeline/corpus.js").then(m => m.corpus()),
+  "prepare-reviewed": () => import("./pipeline/prepare-reviewed.js").then(m => m.prepareReviewed()),
+  "review-corpus": () => import("./pipeline/review-corpus.js").then(m => m.reviewCorpus()),
   "batch-pilot": () =>
     import("./pipeline/batch-pilot.js").then((m) => m.batchPilot()),
   "benchmark-cost": () =>

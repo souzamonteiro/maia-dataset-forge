@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W4308834893-41cd1b6608ea.txt.gz",
+  "sourceTextSha256": "a76c4eff5fd9a402228f54237c747df0483d7fd1b928494b601db148ff799e86",
+  "spans": [
+    {
+      "start": 1228,
+      "end": 1753,
+      "text": "ABSTRACT Much of the complexity within cells arises from functional and regulatory interactions among proteins. The core of these interactions is increasingly known, but novel interactions continue to be discovered, and the information remains scattered across different database resources, experimental modalities and levels of mechanistic detail. The STRING database (https://string-db.org/) systematically collects and integrates protein–protein interactions––both physical interactions as well as functional associations."
+    },
+    {
+      "start": 6494,
+      "end": 7036,
+      "text": "All protein–protein associations assembled for the STRING database are then transferred across organisms, where applicable, based on orthology relationships with the assumption that orthologs of associated proteins are likewise associated (‘interologs’, (50)). For this, hierarchical orthology relationships, at various levels of taxonomic resolution, are imported from the eggNOG database (51). After interolog transfer and the final combined score integration, the resulting protein association networks can be accessed in a number of ways."
+    },
+    {
+      "start": 9831,
+      "end": 10539,
+      "text": "The outline of the proteome annotation pipeline is shown in Figure 1. The procedure for uploading a new proteome begins by choosing ‘Annotate your proteome’ on the STRING input page, after which the user is guided through a few simple steps of the process. All that is required for the submission is a simple FASTA-formatted proteome, as well as the taxonomic name of the species or clade that the uploaded proteome belongs to. Along with the protein sequences from the file, if provided, STRING will extract from the FASTA definition lines (headers) any standard gene names, identifiers, and free-text protein descriptions; these will later be searchable from the input page and used throughout the webpage."
+    },
+    {
+      "start": 14204,
+      "end": 14851,
+      "text": "In version 12.0 of STRING, the co-expression network is being extended with evidence from two novel sources: single-cell RNA-Seq data from the Human Protein Atlas (66) and proteomics datasets from the PRIDE database (67). The expression data tends to be sparse, highdimensional and highly redundant. These attributes decrease the performance of correlations using Pearson Correlation Coefficient. For previous versions of STRING we have reduced the redundancy by removing highly correlated expression matrices before correlating the gene expression which, in turn, increased the recovery of the functional associations derived from these matrices."
+    },
+    {
+      "start": 16338,
+      "end": 16872,
+      "text": "New methods together with the additional sources result in significant improvement in the performance of STRING version 12.0 over STRING version 11.5 co-expression network (Figure 2A). The performance of each individual source contributing to the combined network is shown in Figure 2B. In addition, the STRING interface now reports the associated fractional score and the source of each piece of evidence in the co-expression network. RNA-Seq datasets have increased sensitivity for genes exhibiting low levels of expression (69,70)."
+    },
+    {
+      "start": 17030,
+      "end": 17696,
+      "text": "EXPERIMENT-LEVEL CONFIDENCE SCORING For the experiments channel, STRING integrates pairwise experimental interaction evidence from BioGRID, IntAct, MINT, and others ((37–40), see Figure 3). Each reported protein pair supported by a specific publication is considered an independent piece of evidence and scored individually. During import, duplicate records from different sources are removed. Each ‘experiment’, defined as all protein–protein pairs supported by a common PubMed identifier and a given detection method, is classified as a high-throughput (HT) experiment if at least 25 unique interactions are reported, otherwise as a low-throughput (LT) experiment."
+    }
+  ]
+}

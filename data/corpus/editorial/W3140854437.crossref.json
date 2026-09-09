@@ -1,0 +1,3660 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T07:02:23Z",
+      "timestamp": 1788937343437,
+      "version": "build-2803163510"
+    },
+    "reference-count": 343,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2021-03-31T00:00:00Z",
+          "timestamp": 1617148800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2021-03-31T00:00:00Z",
+          "timestamp": 1617148800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Big Data"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few years and it has been extensively used to successfully address a wide range of traditional applications. More importantly, DL has outperformed well-known ML techniques in many domains, e.g., cybersecurity, natural language processing, bioinformatics, robotics and control, and medical information processing, among many others. Despite it has been contributed several works reviewing the State-of-the-Art on DL, all of them only tackled one aspect of the DL, which leads to an overall lack of knowledge about it. Therefore, in this contribution, we propose using a more holistic approach in order to provide a more suitable starting point from which to develop a full understanding of DL. Specifically, this review attempts to provide a more comprehensive survey of the most important aspects of DL and including those enhancements recently added to the field. In particular, this paper outlines the importance of DL, presents the types of DL techniques and networks. It then presents convolutional neural networks (CNNs) which the most utilized DL network type and describes the development of CNNs architectures together with their main features, e.g., starting with the AlexNet network and closing with the High-Resolution network (HR.Net). Finally, we further present the challenges and suggested solutions to help researchers understand the existing research gaps. It is followed by a list of the major DL applications. Computational tools including FPGA, GPU, and CPU are summarized along with a description of their influence on DL. The paper ends with the evolution matrix, benchmark datasets, and summary and conclusion.</jats:p>",
+    "DOI": "10.1186/s40537-021-00444-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2021-03-31T06:03:18Z",
+      "timestamp": 1617170598000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6973,
+    "title": [
+      "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions"
+    ],
+    "prefix": "10.1186",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7296-5413",
+        "authenticated-orcid": false,
+        "given": "Laith",
+        "family": "Alzubaidi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinglan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amjad J.",
+        "family": "Humaidi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayad",
+        "family": "Al-Dujaili",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ye",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Omran",
+        "family": "Al-Shamma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Santamaría",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohammed A.",
+        "family": "Fadhel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muthana",
+        "family": "Al-Amidie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laith",
+        "family": "Farhan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "444_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.7717/peerj-cs.307",
+        "volume": "6",
+        "author": "MB Rozenwald",
+        "year": "2020",
+        "unstructured": "Rozenwald MB, Galitsyna AA, Sapunov GV, Khrameeva EE, Gelfand MS. A machine learning framework for the prediction of chromatin folding in Drosophila using epigenetic features. PeerJ Comput Sci. 2020;6:307.",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "key": "444_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "402",
+        "DOI": "10.1016/j.eswa.2017.06.035",
+        "volume": "88",
+        "author": "C Amrit",
+        "year": "2017",
+        "unstructured": "Amrit C, Paauw T, Aly R, Lavric M. Identifying child abuse through text mining and machine learning. Expert Syst Appl. 2017;88:402–18.",
+        "journal-title": "Expert Syst Appl"
+      },
+      {
+        "key": "444_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "13960",
+        "DOI": "10.1109/ACCESS.2019.2894819",
+        "volume": "7",
+        "author": "E Hossain",
+        "year": "2019",
+        "unstructured": "Hossain E, Khan I, Un-Noor F, Sikander SS, Sunny MSH. Application of big data and machine learning in smart grid, and associated security concerns: a review. IEEE Access. 2019;7:13960–88.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1186/s40537-015-0029-9",
+        "volume": "2",
+        "author": "M Crawford",
+        "year": "2015",
+        "unstructured": "Crawford M, Khoshgoftaar TM, Prusa JD, Richter AN, Al Najada H. Survey of review spam detection using machine learning techniques. J Big Data. 2015;2(1):23.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1007/s13740-016-0060-9",
+        "volume": "5",
+        "author": "Y Deldjoo",
+        "year": "2016",
+        "unstructured": "Deldjoo Y, Elahi M, Cremonesi P, Garzotto F, Piazzolla P, Quadrana M. Content-based video recommendation system based on stylistic visual features. J Data Semant. 2016;5(2):99–113.",
+        "journal-title": "J Data Semant"
+      },
+      {
+        "key": "444_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "534",
+        "DOI": "10.1016/j.patrec.2019.06.020",
+        "volume": "125",
+        "author": "K Al-Dulaimi",
+        "year": "2019",
+        "unstructured": "Al-Dulaimi K, Chandran V, Nguyen K, Banks J, Tomeo-Reyes I. Benchmarking hep-2 specimen cells classification using linear discriminant analysis on higher order spectra features of cell shape. Pattern Recogn Lett. 2019;125:534–41.",
+        "journal-title": "Pattern Recogn Lett"
+      },
+      {
+        "key": "444_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1016/j.neucom.2016.12.038",
+        "volume": "234",
+        "author": "W Liu",
+        "year": "2017",
+        "unstructured": "Liu W, Wang Z, Liu X, Zeng N, Liu Y, Alsaadi FE. A survey of deep neural network architectures and their applications. Neurocomputing. 2017;234:11–26.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3234150",
+        "volume": "51",
+        "author": "S Pouyanfar",
+        "year": "2018",
+        "unstructured": "Pouyanfar S, Sadiq S, Yan Y, Tian H, Tao Y, Reyes MP, Shyu ML, Chen SC, Iyengar S. A survey on deep learning: algorithms, techniques, and applications. ACM Comput Surv (CSUR). 2018;51(5):1–36.",
+        "journal-title": "ACM Comput Surv (CSUR)"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "292",
+        "DOI": "10.3390/electronics8030292",
+        "volume": "8",
+        "author": "MZ Alom",
+        "year": "2019",
+        "unstructured": "Alom MZ, Taha TM, Yakopcic C, Westberg S, Sidike P, Nasrin MS, Hasan M, Van Essen BC, Awwal AA, Asari VK. A state-of-the-art survey on deep learning theory and architectures. Electronics. 2019;8(3):292.",
+        "journal-title": "Electronics"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3178454",
+        "volume": "14",
+        "author": "TE Potok",
+        "year": "2018",
+        "unstructured": "Potok TE, Schuman C, Young S, Patton R, Spedalieri F, Liu J, Yao KT, Rose G, Chakma G. A study of complex deep learning networks on high-performance, neuromorphic, and quantum computers. ACM J Emerg Technol Comput Syst (JETC). 2018;14(2):1–21.",
+        "journal-title": "ACM J Emerg Technol Comput Syst (JETC)"
+      },
+      {
+        "key": "444_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1016/j.inffus.2019.08.008",
+        "volume": "59",
+        "author": "A Adeel",
+        "year": "2020",
+        "unstructured": "Adeel A, Gogate M, Hussain A. Contextual deep learning-based audio-visual switching for speech enhancement in real-world environments. Inf Fusion. 2020;59:163–70.",
+        "journal-title": "Inf Fusion"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1053",
+        "DOI": "10.1007/s10796-020-10023-6",
+        "volume": "22",
+        "author": "H Tian",
+        "year": "2020",
+        "unstructured": "Tian H, Chen SC, Shyu ML. Evolutionary programming based deep learning feature selection and network construction for visual data classification. Inf Syst Front. 2020;22(5):1053–66.",
+        "journal-title": "Inf Syst Front"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1109/MCI.2018.2840738",
+        "volume": "13",
+        "author": "T Young",
+        "year": "2018",
+        "unstructured": "Young T, Hazarika D, Poria S, Cambria E. Recent trends in deep learning based natural language processing. IEEE Comput Intell Mag. 2018;13(3):55–75.",
+        "journal-title": "IEEE Comput Intell Mag"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "176",
+        "DOI": "10.1038/s41386-020-0767-z",
+        "volume": "46",
+        "author": "G Koppe",
+        "year": "2021",
+        "unstructured": "Koppe G, Meyer-Lindenberg A, Durstewitz D. Deep learning for small and big data in psychiatry. Neuropsychopharmacology. 2021;46(1):176–90.",
+        "journal-title": "Neuropsychopharmacology"
+      },
+      {
+        "key": "444_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dalal N, Triggs B. Histograms of oriented gradients for human detection. In: 2005 IEEE computer society conference on computer vision and pattern recognition (CVPR’05), vol. 1. IEEE; 2005. p. 886–93.",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "444_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lowe DG. Object recognition from local scale-invariant features. In: Proceedings of the seventh IEEE international conference on computer vision, vol. 2. IEEE; 1999. p. 1150–7.",
+        "DOI": "10.1109/ICCV.1999.790410"
+      },
+      {
+        "issue": "7",
+        "key": "444_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1908",
+        "DOI": "10.1109/TIP.2010.2045169",
+        "volume": "19",
+        "author": "L Wu",
+        "year": "2010",
+        "unstructured": "Wu L, Hoi SC, Yu N. Semantics-preserving bag-of-words models and applications. IEEE Trans Image Process. 2010;19(7):1908–20.",
+        "journal-title": "IEEE Trans Image Process"
+      },
+      {
+        "issue": "7553",
+        "key": "444_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "volume": "521",
+        "author": "Y LeCun",
+        "year": "2015",
+        "unstructured": "LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521(7553):436–44.",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "444_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "14",
+        "DOI": "10.1016/j.patrec.2018.05.018",
+        "volume": "118",
+        "author": "G Yao",
+        "year": "2019",
+        "unstructured": "Yao G, Lei T, Zhong J. A review of convolutional-neural-network-based action recognition. Pattern Recogn Lett. 2019;118:14–22.",
+        "journal-title": "Pattern Recogn Lett"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1007/s13748-019-00203-0",
+        "volume": "9",
+        "author": "A Dhillon",
+        "year": "2020",
+        "unstructured": "Dhillon A, Verma GK. Convolutional neural network: a review of models, methodologies and applications to object detection. Prog Artif Intell. 2020;9(2):85–112.",
+        "journal-title": "Prog Artif Intell"
+      },
+      {
+        "issue": "8",
+        "key": "444_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "5455",
+        "DOI": "10.1007/s10462-020-09825-6",
+        "volume": "53",
+        "author": "A Khan",
+        "year": "2020",
+        "unstructured": "Khan A, Sohail A, Zahoora U, Qureshi AS. A survey of the recent architectures of deep convolutional neural networks. Artif Intell Rev. 2020;53(8):5455–516.",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "issue": "10",
+        "key": "444_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1302",
+        "DOI": "10.3390/plants9101302",
+        "volume": "9",
+        "author": "RI Hasan",
+        "year": "2020",
+        "unstructured": "Hasan RI, Yusuf SM, Alzubaidi L. Review of the state of the art of deep learning for plant diseases: a broad analysis and discussion. Plants. 2020;9(10):1302.",
+        "journal-title": "Plants"
+      },
+      {
+        "issue": "33",
+        "key": "444_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "23729",
+        "DOI": "10.1007/s11042-020-08976-6",
+        "volume": "79",
+        "author": "Y Xiao",
+        "year": "2020",
+        "unstructured": "Xiao Y, Tian Z, Yu J, Zhang Y, Liu S, Du S, Lan X. A review of object detection based on deep learning. Multimed Tools Appl. 2020;79(33):23729–91.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "444_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "9375",
+        "DOI": "10.1109/ACCESS.2017.2788044",
+        "volume": "6",
+        "author": "J Ker",
+        "year": "2017",
+        "unstructured": "Ker J, Wang L, Rao J, Lim T. Deep learning applications in medical image analysis. IEEE Access. 2017;6:9375–89.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2020.2981333",
+        "author": "Z Zhang",
+        "year": "2020",
+        "unstructured": "Zhang Z, Cui P, Zhu W. Deep learning on graphs: a survey. IEEE Trans Knowl Data Eng. 2020. https://doi.org/10.1109/TKDE.2020.2981333.",
+        "journal-title": "IEEE Trans Knowl Data Eng"
+      },
+      {
+        "key": "444_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "53040",
+        "DOI": "10.1109/ACCESS.2019.2912200",
+        "volume": "7",
+        "author": "A Shrestha",
+        "year": "2019",
+        "unstructured": "Shrestha A, Mahmood A. Review of deep learning algorithms and architectures. IEEE Access. 2019;7:53040–65.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-014-0007-7",
+        "volume": "2",
+        "author": "MM Najafabadi",
+        "year": "2015",
+        "unstructured": "Najafabadi MM, Villanustre F, Khoshgoftaar TM, Seliya N, Wald R, Muharemagic E. Deep learning applications and challenges in big data analytics. J Big Data. 2015;2(1):1.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "key": "444_CR28",
+        "volume-title": "Deep learning",
+        "author": "I Goodfellow",
+        "year": "2016",
+        "unstructured": "Goodfellow I, Bengio Y, Courville A, Bengio Y. Deep learning, vol. 1. Cambridge: MIT press; 2016."
+      },
+      {
+        "issue": "1",
+        "key": "444_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-020-00392-9",
+        "volume": "8",
+        "author": "C Shorten",
+        "year": "2021",
+        "unstructured": "Shorten C, Khoshgoftaar TM, Furht B. Deep learning applications for COVID-19. J Big Data. 2021;8(1):1–54.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "volume": "60",
+        "author": "A Krizhevsky",
+        "year": "2017",
+        "unstructured": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Commun ACM. 2017;60(6):84–90.",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "issue": "21",
+        "key": "444_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "6299",
+        "DOI": "10.3390/s20216299",
+        "volume": "20",
+        "author": "S Bhowmick",
+        "year": "2020",
+        "unstructured": "Bhowmick S, Nagarajaiah S, Veeraraghavan A. Vision and deep learning-based algorithms to detect and quantify cracks on concrete surfaces from uav videos. Sensors. 2020;20(21):6299.",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "16",
+        "key": "444_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1291",
+        "DOI": "10.1002/jcc.24764",
+        "volume": "38",
+        "author": "GB Goh",
+        "year": "2017",
+        "unstructured": "Goh GB, Hodas NO, Vishnu A. Deep learning for computational chemistry. J Comput Chem. 2017;38(16):1291–307.",
+        "journal-title": "J Comput Chem"
+      },
+      {
+        "key": "444_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "153",
+        "DOI": "10.1016/j.jcp.2019.05.028",
+        "volume": "394",
+        "author": "Y Li",
+        "year": "2019",
+        "unstructured": "Li Y, Zhang T, Sun S, Gao X. Accelerating flash calculation through deep learning methods. J Comput Phys. 2019;394:153–65.",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "issue": "12",
+        "key": "444_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "3106",
+        "DOI": "10.1109/TMM.2019.2919431",
+        "volume": "21",
+        "author": "W Yang",
+        "year": "2019",
+        "unstructured": "Yang W, Zhang X, Tian Y, Wang W, Xue JH, Liao Q. Deep learning for single image super-resolution: a brief review. IEEE Trans Multimed. 2019;21(12):3106–21.",
+        "journal-title": "IEEE Trans Multimed"
+      },
+      {
+        "key": "444_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "107623",
+        "DOI": "10.1016/j.patcog.2020.107623",
+        "volume": "111",
+        "author": "J Tang",
+        "year": "2020",
+        "unstructured": "Tang J, Li S, Liu P. A review of lane detection methods based on deep learning. Pattern Recogn. 2020;111:107623.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "issue": "11",
+        "key": "444_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "3212",
+        "DOI": "10.1109/TNNLS.2018.2876865",
+        "volume": "30",
+        "author": "ZQ Zhao",
+        "year": "2019",
+        "unstructured": "Zhao ZQ, Zheng P, Xu ST, Wu X. Object detection with deep learning: a review. IEEE Trans Neural Netw Learn Syst. 2019;30(11):3212–32.",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "444_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2016. p. 770–8.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "444_CR38",
+        "unstructured": "Ng A. Machine learning yearning: technical strategy for AI engineers in the era of deep learning. 2019. https://www.mlyearning.org."
+      },
+      {
+        "key": "444_CR39",
+        "unstructured": "Metz C. Turing award won by 3 pioneers in artificial intelligence. The New York Times. 2019;27."
+      },
+      {
+        "key": "444_CR40",
+        "unstructured": "Nevo S, Anisimov V, Elidan G, El-Yaniv R, Giencke P, Gigi Y, Hassidim A, Moshe Z, Schlesinger M, Shalev G, et al. Ml for flood forecasting at scale; 2019. arXiv preprint arXiv:1901.09583."
+      },
+      {
+        "issue": "6",
+        "key": "444_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "1241",
+        "DOI": "10.1016/j.drudis.2018.01.039",
+        "volume": "23",
+        "author": "H Chen",
+        "year": "2018",
+        "unstructured": "Chen H, Engkvist O, Wang Y, Olivecrona M, Blaschke T. The rise of deep learning in drug discovery. Drug Discov Today. 2018;23(6):1241–50.",
+        "journal-title": "Drug Discov Today"
+      },
+      {
+        "key": "444_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1016/j.neucom.2019.09.044",
+        "volume": "375",
+        "author": "Y Benhammou",
+        "year": "2020",
+        "unstructured": "Benhammou Y, Achchab B, Herrera F, Tabik S. Breakhis based breast cancer automatic diagnosis using deep learning: taxonomy, survey and insights. Neurocomputing. 2020;375:9–24.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0233678",
+        "DOI": "10.1371/journal.pone.0233678",
+        "volume": "15",
+        "author": "E Wulczyn",
+        "year": "2020",
+        "unstructured": "Wulczyn E, Steiner DF, Xu Z, Sadhwani A, Wang H, Flament-Auvigne I, Mermel CH, Chen PHC, Liu Y, Stumpe MC. Deep learning-based survival prediction for multiple cancer types using histopathology images. PLoS ONE. 2020;15(6):e0233678.",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-018-0076-7",
+        "volume": "2",
+        "author": "K Nagpal",
+        "year": "2019",
+        "unstructured": "Nagpal K, Foote D, Liu Y, Chen PHC, Wulczyn E, Tan F, Olson N, Smith JL, Mohtashamian A, Wren JH, et al. Development and validation of a deep learning algorithm for improving Gleason scoring of prostate cancer. NPJ Digit Med. 2019;2(1):1–10.",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "issue": "7639",
+        "key": "444_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.1038/nature21056",
+        "volume": "542",
+        "author": "A Esteva",
+        "year": "2017",
+        "unstructured": "Esteva A, Kuprel B, Novoa RA, Ko J, Swetter SM, Blau HM, Thrun S. Dermatologist-level classification of skin cancer with deep neural networks. Nature. 2017;542(7639):115–8.",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "105",
+        "key": "444_CR46",
+        "first-page": "608",
+        "volume": "196",
+        "author": "L Brunese",
+        "year": "2020",
+        "unstructured": "Brunese L, Mercaldo F, Reginelli A, Santone A. Explainable deep learning for pulmonary disease and coronavirus COVID-19 detection from X-rays. Comput Methods Programs Biomed. 2020;196(105):608.",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "444_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "109581",
+        "DOI": "10.1109/ACCESS.2020.3001973",
+        "volume": "8",
+        "author": "M Jamshidi",
+        "year": "2020",
+        "unstructured": "Jamshidi M, Lalbakhsh A, Talla J, Peroutka Z, Hadjilooei F, Lalbakhsh P, Jamshidi M, La Spada L, Mirmozafari M, Dehghani M, et al. Artificial intelligence and COVID-19: deep learning approaches for diagnosis and treatment. IEEE Access. 2020;8:109581–95.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "107700",
+        "DOI": "10.1016/j.patcog.2020.107700",
+        "volume": "113",
+        "author": "M Shorfuzzaman",
+        "year": "2020",
+        "unstructured": "Shorfuzzaman M, Hossain MS. Metacovid: a siamese neural network framework with contrastive loss for n-shot diagnosis of COVID-19 patients. Pattern Recogn. 2020;113:107700.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "key": "444_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.1016/j.sleep.2019.12.032",
+        "volume": "69",
+        "author": "L Carvelli",
+        "year": "2020",
+        "unstructured": "Carvelli L, Olesen AN, Brink-Kjær A, Leary EB, Peppard PE, Mignot E, Sørensen HB, Jennum P. Design of a deep learning model for automatic scoring of periodic and non-periodic leg movements during sleep validated against multiple human experts. Sleep Med. 2020;69:109–19.",
+        "journal-title": "Sleep Med"
+      },
+      {
+        "issue": "9",
+        "key": "444_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "volume": "24",
+        "author": "J De Fauw",
+        "year": "2018",
+        "unstructured": "De Fauw J, Ledsam JR, Romera-Paredes B, Nikolov S, Tomasev N, Blackwell S, Askham H, Glorot X, O’Donoghue B, Visentin D, et al. Clinically applicable deep learning for diagnosis and referral in retinal disease. Nat Med. 2018;24(9):1342–50.",
+        "journal-title": "Nat Med"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "volume": "25",
+        "author": "EJ Topol",
+        "year": "2019",
+        "unstructured": "Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med. 2019;25(1):44–56.",
+        "journal-title": "Nat Med"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "volume": "172",
+        "author": "DS Kermany",
+        "year": "2018",
+        "unstructured": "Kermany DS, Goldbaum M, Cai W, Valentim CC, Liang H, Baxter SL, McKeown A, Yang G, Wu X, Yan F, et al. Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell. 2018;172(5):1122–31.",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "444_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van Essen B, Kim H, Pearce R, Boakye K, Chen B. Lbann: livermore big artificial neural network HPC toolkit. In: Proceedings of the workshop on machine learning in high-performance computing environments; 2015. p. 1–6.",
+        "DOI": "10.1145/2834892.2834897"
+      },
+      {
+        "key": "444_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "321",
+        "DOI": "10.7717/peerj-cs.321",
+        "volume": "6",
+        "author": "MM Saeed",
+        "year": "2020",
+        "unstructured": "Saeed MM, Al Aghbari Z, Alsharidah M. Big data clustering techniques based on spark: a literature review. PeerJ Comput Sci. 2020;6:321.",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "issue": "7540",
+        "key": "444_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+        "DOI": "10.1038/nature14236",
+        "volume": "518",
+        "author": "V Mnih",
+        "year": "2015",
+        "unstructured": "Mnih V, Kavukcuoglu K, Silver D, Rusu AA, Veness J, Bellemare MG, Graves A, Riedmiller M, Fidjeland AK, Ostrovski G, et al. Human-level control through deep reinforcement learning. Nature. 2015;518(7540):529–33.",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "26",
+        "DOI": "10.1109/MSP.2017.2743240",
+        "volume": "34",
+        "author": "K Arulkumaran",
+        "year": "2017",
+        "unstructured": "Arulkumaran K, Deisenroth MP, Brundage M, Bharath AA. Deep reinforcement learning: a brief survey. IEEE Signal Process Mag. 2017;34(6):26–38.",
+        "journal-title": "IEEE Signal Process Mag"
+      },
+      {
+        "key": "444_CR57",
+        "unstructured": "Socher R, Perelygin A, Wu J, Chuang J, Manning CD, Ng AY, Potts C. Recursive deep models for semantic compositionality over a sentiment treebank. In: Proceedings of the 2013 conference on empirical methods in natural language processing; 2013. p. 1631–42."
+      },
+      {
+        "key": "444_CR58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goller C, Kuchler A. Learning task-dependent distributed representations by backpropagation through structure. In: Proceedings of international conference on neural networks (ICNN’96), vol 1. IEEE; 1996. p. 347–52.",
+        "DOI": "10.1109/ICNN.1996.548916"
+      },
+      {
+        "key": "444_CR59",
+        "unstructured": "Socher R, Lin CCY, Ng AY, Manning CD. Parsing natural scenes and natural language with recursive neural networks. In: ICML; 2011."
+      },
+      {
+        "issue": "1",
+        "key": "444_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1007/JHEP01(2019)057",
+        "volume": "2019",
+        "author": "G Louppe",
+        "year": "2019",
+        "unstructured": "Louppe G, Cho K, Becot C, Cranmer K. QCD-aware recursive neural networks for jet physics. J High Energy Phys. 2019;2019(1):57.",
+        "journal-title": "J High Energy Phys"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "2745",
+        "DOI": "10.1007/s11063-019-10049-1",
+        "volume": "50",
+        "author": "H Sadr",
+        "year": "2019",
+        "unstructured": "Sadr H, Pedram MM, Teshnehlab M. A robust sentiment analysis method based on sequential combination of convolutional and recursive neural networks. Neural Process Lett. 2019;50(3):2745–61.",
+        "journal-title": "Neural Process Lett"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "207",
+        "DOI": "10.1021/acs.jcim.7b00384",
+        "volume": "58",
+        "author": "G Urban",
+        "year": "2018",
+        "unstructured": "Urban G, Subrahmanya N, Baldi P. Inner and outer recursive neural networks for chemoinformatics applications. J Chem Inf Model. 2018;58(2):207–11.",
+        "journal-title": "J Chem Inf Model"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "388",
+        "DOI": "10.1016/j.ijforecast.2020.06.008",
+        "volume": "37",
+        "author": "H Hewamalage",
+        "year": "2020",
+        "unstructured": "Hewamalage H, Bergmeir C, Bandara K. Recurrent neural networks for time series forecasting: current status and future directions. Int J Forecast. 2020;37(1):388–427.",
+        "journal-title": "Int J Forecast"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "207",
+        "DOI": "10.1109/JSAIT.2020.2988577",
+        "volume": "1",
+        "author": "Y Jiang",
+        "year": "2020",
+        "unstructured": "Jiang Y, Kim H, Asnani H, Kannan S, Oh S, Viswanath P. Learn codes: inventing low-latency codes via recurrent neural networks. IEEE J Sel Areas Inf Theory. 2020;1(1):207–16.",
+        "journal-title": "IEEE J Sel Areas Inf Theory"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-16985-0",
+        "volume": "11",
+        "author": "RA John",
+        "year": "2020",
+        "unstructured": "John RA, Acharya J, Zhu C, Surendran A, Bose SK, Chaturvedi A, Tiwari N, Gao Y, He Y, Zhang KK, et al. Optogenetics inspired transition metal dichalcogenide neuristors for in-memory deep recurrent neural networks. Nat Commun. 2020;11(1):1–9.",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "1273",
+        "DOI": "10.3390/app10041273",
+        "volume": "10",
+        "author": "Ö Batur Dinler",
+        "year": "2020",
+        "unstructured": "Batur Dinler Ö, Aydin N. An optimal feature parameter set based on gated recurrent unit recurrent neural networks for speech segment detection. Appl Sci. 2020;10(4):1273.",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "444_CR67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jagannatha AN, Yu H. Structured prediction models for RNN based sequence labeling in clinical text. In: Proceedings of the conference on empirical methods in natural language processing. conference on empirical methods in natural language processing, vol. 2016, NIH Public Access; 2016. p. 856.",
+        "DOI": "10.18653/v1/D16-1082"
+      },
+      {
+        "key": "444_CR68",
+        "unstructured": "Pascanu R, Gulcehre C, Cho K, Bengio Y. How to construct deep recurrent neural networks. In: Proceedings of the second international conference on learning representations (ICLR 2014); 2014."
+      },
+      {
+        "key": "444_CR69",
+        "unstructured": "Glorot X, Bengio Y. Understanding the difficulty of training deep feedforward neural networks. In: Proceedings of the thirteenth international conference on artificial intelligence and statistics; 2010. p. 249–56."
+      },
+      {
+        "key": "444_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1016/j.ins.2019.06.039",
+        "volume": "502",
+        "author": "C Gao",
+        "year": "2019",
+        "unstructured": "Gao C, Yan J, Zhou S, Varshney PK, Liu H. Long short-term memory-based deep recurrent neural networks for target tracking. Inf Sci. 2019;502:279–96.",
+        "journal-title": "Inf Sci"
+      },
+      {
+        "key": "444_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "319",
+        "DOI": "10.1016/j.neunet.2020.01.018",
+        "volume": "124",
+        "author": "DX Zhou",
+        "year": "2020",
+        "unstructured": "Zhou DX. Theory of deep convolutional neural networks: downsampling. Neural Netw. 2020;124:319–27.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "444_CR72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jhong SY, Tseng PY, Siriphockpirom N, Hsia CH, Huang MS, Hua KL, Chen YY. An automated biometric identification system using CNN-based palm vein recognition. In: 2020 international conference on advanced robotics and intelligent systems (ARIS). IEEE; 2020. p. 1–6.",
+        "DOI": "10.1109/ARIS50834.2020.9205778"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12859-020-03809-7",
+        "volume": "21",
+        "author": "A Al-Azzawi",
+        "year": "2020",
+        "unstructured": "Al-Azzawi A, Ouadou A, Max H, Duan Y, Tanner JJ, Cheng J. Deepcryopicker: fully automated deep neural network for single protein particle picking in cryo-EM. BMC Bioinform. 2020;21(1):1–38.",
+        "journal-title": "BMC Bioinform"
+      },
+      {
+        "key": "444_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "324",
+        "DOI": "10.7717/peerj-cs.324",
+        "volume": "6",
+        "author": "T Wang",
+        "year": "2020",
+        "unstructured": "Wang T, Lu C, Yang M, Hong F, Liu C. A hybrid method for heartbeat classification via convolutional neural networks, multilayer perceptrons and focal loss. PeerJ Comput Sci. 2020;6:324.",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "key": "444_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "107610",
+        "DOI": "10.1016/j.patcog.2020.107610",
+        "volume": "109",
+        "author": "G Li",
+        "year": "2021",
+        "unstructured": "Li G, Zhang M, Li J, Lv F, Tong G. Efficient densely connected convolutional neural networks. Pattern Recogn. 2021;109:107610.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "key": "444_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "354",
+        "DOI": "10.1016/j.patcog.2017.10.013",
+        "volume": "77",
+        "author": "J Gu",
+        "year": "2018",
+        "unstructured": "Gu J, Wang Z, Kuen J, Ma L, Shahroudy A, Shuai B, Liu T, Wang X, Wang G, Cai J, et al. Recent advances in convolutional neural networks. Pattern Recogn. 2018;77:354–77.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "key": "444_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "100980",
+        "DOI": "10.1016/j.aei.2019.100980",
+        "volume": "43",
+        "author": "W Fang",
+        "year": "2020",
+        "unstructured": "Fang W, Love PE, Luo H, Ding L. Computer vision for behaviour-based safety in construction: a review and future directions. Adv Eng Inform. 2020;43:100980.",
+        "journal-title": "Adv Eng Inform"
+      },
+      {
+        "key": "444_CR78",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1016/j.specom.2019.01.004",
+        "volume": "108",
+        "author": "D Palaz",
+        "year": "2019",
+        "unstructured": "Palaz D, Magimai-Doss M, Collobert R. End-to-end acoustic modeling using convolutional neural networks for hmm-based automatic speech recognition. Speech Commun. 2019;108:15–32.",
+        "journal-title": "Speech Commun"
+      },
+      {
+        "issue": "21",
+        "key": "444_CR79",
+        "doi-asserted-by": "publisher",
+        "first-page": "6114",
+        "DOI": "10.3390/s20216114",
+        "volume": "20",
+        "author": "HC Li",
+        "year": "2020",
+        "unstructured": "Li HC, Deng ZY, Chiang HH. Lightweight and resource-constrained learning network for face recognition with performance optimization. Sensors. 2020;20(21):6114.",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "106",
+        "DOI": "10.1113/jphysiol.1962.sp006837",
+        "volume": "160",
+        "author": "DH Hubel",
+        "year": "1962",
+        "unstructured": "Hubel DH, Wiesel TN. Receptive fields, binocular interaction and functional architecture in the cat’s visual cortex. J Physiol. 1962;160(1):106.",
+        "journal-title": "J Physiol"
+      },
+      {
+        "key": "444_CR81",
+        "unstructured": "Ioffe S, Szegedy C. Batch normalization: accelerating deep network training by reducing internal covariate shift; 2015. arXiv preprint arXiv:1502.03167."
+      },
+      {
+        "key": "444_CR82",
+        "unstructured": "Ruder S. An overview of gradient descent optimization algorithms; 2016. arXiv preprint arXiv:1609.04747."
+      },
+      {
+        "key": "444_CR83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bottou L. Large-scale machine learning with stochastic gradient descent. In: Proceedings of COMPSTAT’2010. Springer; 2010. p. 177–86.",
+        "DOI": "10.1007/978-3-7908-2604-3_16"
+      },
+      {
+        "key": "444_CR84",
+        "unstructured": "Hinton G, Srivastava N, Swersky K. Neural networks for machine learning lecture 6a overview of mini-batch gradient descent. Cited on. 2012;14(8)."
+      },
+      {
+        "key": "444_CR85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang Z. Improved Adam optimizer for deep neural networks. In: 2018 IEEE/ACM 26th international symposium on quality of service (IWQoS). IEEE; 2018. p. 1–2.",
+        "DOI": "10.1109/IWQoS.2018.8624183"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "427",
+        "DOI": "10.3390/electronics9030427",
+        "volume": "9",
+        "author": "L Alzubaidi",
+        "year": "2020",
+        "unstructured": "Alzubaidi L, Fadhel MA, Al-Shamma O, Zhang J, Duan Y. Deep learning models for classification of red blood cells in microscopy images to aid in sickle cell anemia diagnosis. Electronics. 2020;9(3):427.",
+        "journal-title": "Electronics"
+      },
+      {
+        "issue": "13",
+        "key": "444_CR87",
+        "doi-asserted-by": "publisher",
+        "first-page": "4523",
+        "DOI": "10.3390/app10134523",
+        "volume": "10",
+        "author": "L Alzubaidi",
+        "year": "2020",
+        "unstructured": "Alzubaidi L, Fadhel MA, Al-Shamma O, Zhang J, Santamaría J, Duan Y, Oleiwi SR. Towards a better understanding of transfer learning for medical imaging: a case study. Appl Sci. 2020;10(13):4523.",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR88",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.3390/electronics9030445",
+        "volume": "9",
+        "author": "L Alzubaidi",
+        "year": "2020",
+        "unstructured": "Alzubaidi L, Al-Shamma O, Fadhel MA, Farhan L, Zhang J, Duan Y. Optimizing the performance of breast cancer classification by employing the same domain transfer learning from hybrid deep convolutional neural network model. Electronics. 2020;9(3):445.",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "444_CR89",
+        "first-page": "276",
+        "volume": "261",
+        "author": "Y LeCun",
+        "year": "1995",
+        "unstructured": "LeCun Y, Jackel LD, Bottou L, Cortes C, Denker JS, Drucker H, Guyon I, Muller UA, Sackinger E, Simard P, et al. Learning algorithms for classification: a comparison on handwritten digit recognition. Neural Netw Stat Mech Perspect. 1995;261:276.",
+        "journal-title": "Neural Netw Stat Mech Perspect"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR90",
+        "first-page": "1929",
+        "volume": "15",
+        "author": "N Srivastava",
+        "year": "2014",
+        "unstructured": "Srivastava N, Hinton G, Krizhevsky A, Sutskever I, Salakhutdinov R. Dropout: a simple way to prevent neural networks from overfitting. J Mach Learn Res. 2014;15(1):1929–58.",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "444_CR91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dahl GE, Sainath TN, Hinton GE. Improving deep neural networks for LVCSR using rectified linear units and dropout. In: 2013 IEEE international conference on acoustics, speech and signal processing. IEEE; 2013. p. 8609–13.",
+        "DOI": "10.1109/ICASSP.2013.6639346"
+      },
+      {
+        "key": "444_CR92",
+        "unstructured": "Xu B, Wang N, Chen T, Li M. Empirical evaluation of rectified activations in convolutional network; 2015. arXiv preprint arXiv:1505.00853."
+      },
+      {
+        "issue": "02",
+        "key": "444_CR93",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1142/S0218488598000094",
+        "volume": "6",
+        "author": "S Hochreiter",
+        "year": "1998",
+        "unstructured": "Hochreiter S. The vanishing gradient problem during learning recurrent neural nets and problem solutions. Int J Uncertain Fuzziness Knowl Based Syst. 1998;6(02):107–16.",
+        "journal-title": "Int J Uncertain Fuzziness Knowl Based Syst"
+      },
+      {
+        "key": "444_CR94",
+        "unstructured": "Lin M, Chen Q, Yan S. Network in network; 2013. arXiv preprint arXiv:1312.4400."
+      },
+      {
+        "key": "444_CR95",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1016/j.sysarc.2019.02.008",
+        "volume": "95",
+        "author": "TY Hsiao",
+        "year": "2019",
+        "unstructured": "Hsiao TY, Chang YC, Chou HH, Chiu CT. Filter-based deep-compression with global average pooling for convolutional networks. J Syst Arch. 2019;95:9–18.",
+        "journal-title": "J Syst Arch"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR96",
+        "doi-asserted-by": "publisher",
+        "first-page": "577",
+        "DOI": "10.1002/ima.22337",
+        "volume": "29",
+        "author": "Z Li",
+        "year": "2019",
+        "unstructured": "Li Z, Wang SH, Fan RR, Cao G, Zhang YD, Guo T. Teeth category classification via seven-layer deep convolutional neural network with max pooling and global average pooling. Int J Imaging Syst Technol. 2019;29(4):577–83.",
+        "journal-title": "Int J Imaging Syst Technol"
+      },
+      {
+        "key": "444_CR97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeiler MD, Fergus R. Visualizing and understanding convolutional networks. In: European conference on computer vision. Springer; 2014. p. 818–33.",
+        "DOI": "10.1007/978-3-319-10590-1_53"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR98",
+        "first-page": "1",
+        "volume": "1341",
+        "author": "D Erhan",
+        "year": "2009",
+        "unstructured": "Erhan D, Bengio Y, Courville A, Vincent P. Visualizing higher-layer features of a deep network. Univ Montreal. 2009;1341(3):1.",
+        "journal-title": "Univ Montreal"
+      },
+      {
+        "key": "444_CR99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Le QV. Building high-level features using large scale unsupervised learning. In: 2013 IEEE international conference on acoustics, speech and signal processing. IEEE; 2013. p. 8595–8.",
+        "DOI": "10.1109/ICASSP.2013.6639343"
+      },
+      {
+        "key": "444_CR100",
+        "unstructured": "Grün F, Rupprecht C, Navab N, Tombari F. A taxonomy and library for visualizing learned features in convolutional neural networks; 2016. arXiv preprint arXiv:1606.07757."
+      },
+      {
+        "key": "444_CR101",
+        "unstructured": "Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition; 2014. arXiv preprint arXiv:1409.1556."
+      },
+      {
+        "key": "444_CR102",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ranzato M, Huang FJ, Boureau YL, LeCun Y. Unsupervised learning of invariant feature hierarchies with applications to object recognition. In: 2007 IEEE conference on computer vision and pattern recognition. IEEE; 2007. p. 1–8.",
+        "DOI": "10.1109/CVPR.2007.383157"
+      },
+      {
+        "key": "444_CR103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C, Liu W, Jia Y, Sermanet P, Reed S, Anguelov D, Erhan D, Vanhoucke V, Rabinovich A. Going deeper with convolutions. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2015. p. 1–9.",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "444_CR104",
+        "unstructured": "Bengio Y, et al. Rmsprop and equilibrated adaptive learning rates for nonconvex optimization; 2015. arXiv:1502.04390corr abs/1502.04390"
+      },
+      {
+        "key": "444_CR105",
+        "unstructured": "Srivastava RK, Greff K, Schmidhuber J. Highway networks; 2015. arXiv preprint arXiv:1505.00387."
+      },
+      {
+        "issue": "1",
+        "key": "444_CR106",
+        "doi-asserted-by": "publisher",
+        "first-page": "841",
+        "DOI": "10.1109/TSG.2017.2753802",
+        "volume": "10",
+        "author": "W Kong",
+        "year": "2017",
+        "unstructured": "Kong W, Dong ZY, Jia Y, Hill DJ, Xu Y, Zhang Y. Short-term residential load forecasting based on LSTM recurrent neural network. IEEE Trans Smart Grid. 2017;10(1):841–51.",
+        "journal-title": "IEEE Trans Smart Grid"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR107",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.3390/s16010115",
+        "volume": "16",
+        "author": "FJ Ordóñez",
+        "year": "2016",
+        "unstructured": "Ordóñez FJ, Roggen D. Deep convolutional and LSTM recurrent neural networks for multimodal wearable activity recognition. Sensors. 2016;16(1):115.",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "444_CR108",
+        "doi-asserted-by": "publisher",
+        "first-page": "333",
+        "DOI": "10.1016/j.neunet.2012.02.023",
+        "volume": "32",
+        "author": "D CireşAn",
+        "year": "2012",
+        "unstructured": "CireşAn D, Meier U, Masci J, Schmidhuber J. Multi-column deep neural network for traffic sign classification. Neural Netw. 2012;32:333–8.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "444_CR109",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C, Ioffe S, Vanhoucke V, Alemi A. Inception-v4, inception-resnet and the impact of residual connections on learning; 2016. arXiv preprint arXiv:1602.07261.",
+        "DOI": "10.1609/aaai.v31i1.11231"
+      },
+      {
+        "key": "444_CR110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C, Vanhoucke V, Ioffe S, Shlens J, Wojna Z. Rethinking the inception architecture for computer vision. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2016. p. 2818–26.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "issue": "9",
+        "key": "444_CR111",
+        "doi-asserted-by": "publisher",
+        "first-page": "10437",
+        "DOI": "10.1007/s11042-017-4440-4",
+        "volume": "77",
+        "author": "S Wu",
+        "year": "2018",
+        "unstructured": "Wu S, Zhong S, Liu Y. Deep residual learning for image steganalysis. Multimed Tools Appl. 2018;77(9):10437–53.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "444_CR112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang G, Liu Z, Van Der Maaten L, Weinberger KQ. Densely connected convolutional networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 4700–08.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR113",
+        "doi-asserted-by": "publisher",
+        "first-page": "S18",
+        "DOI": "10.1016/j.jelectrocard.2018.08.008",
+        "volume": "51",
+        "author": "J Rubin",
+        "year": "2018",
+        "unstructured": "Rubin J, Parvaneh S, Rahman A, Conroy B, Babaeizadeh S. Densely connected convolutional networks for detection of atrial fibrillation from short single-lead ECG recordings. J Electrocardiol. 2018;51(6):S18-21.",
+        "journal-title": "J Electrocardiol"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR114",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1007/s10489-018-1234-y",
+        "volume": "49",
+        "author": "P Kuang",
+        "year": "2019",
+        "unstructured": "Kuang P, Ma T, Chen Z, Li F. Image super-resolution with densely connected convolutional networks. Appl Intell. 2019;49(1):125–36.",
+        "journal-title": "Appl Intell"
+      },
+      {
+        "key": "444_CR115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie S, Girshick R, Dollár P, Tu Z, He K. Aggregated residual transformations for deep neural networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 1492–500.",
+        "DOI": "10.1109/CVPR.2017.634"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR116",
+        "doi-asserted-by": "publisher",
+        "first-page": "3349",
+        "DOI": "10.1007/s11042-020-09350-2",
+        "volume": "80",
+        "author": "A Su",
+        "year": "2020",
+        "unstructured": "Su A, He X, Zhao X. Jpeg steganalysis based on ResNeXt with gauss partial derivative filters. Multimed Tools Appl. 2020;80(3):3349–66.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "444_CR117",
+        "doi-asserted-by": "publisher",
+        "first-page": "102018",
+        "DOI": "10.1016/j.algal.2020.102018",
+        "volume": "50",
+        "author": "D Yadav",
+        "year": "2020",
+        "unstructured": "Yadav D, Jalal A, Garlapati D, Hossain K, Goyal A, Pant G. Deep learning-based ResNeXt model in phycological studies for future. Algal Res. 2020;50:102018.",
+        "journal-title": "Algal Res"
+      },
+      {
+        "key": "444_CR118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han W, Feng R, Wang L, Gao L. Adaptive spatial-scale-aware deep convolutional neural network for high-resolution remote sensing imagery scene classification. In: IGARSS 2018-2018 IEEE international geoscience and remote sensing symposium. IEEE; 2018. p. 4736–9.",
+        "DOI": "10.1109/IGARSS.2018.8518290"
+      },
+      {
+        "key": "444_CR119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zagoruyko S, Komodakis N. Wide residual networks; 2016. arXiv preprint arXiv:1605.07146.",
+        "DOI": "10.5244/C.30.87"
+      },
+      {
+        "key": "444_CR120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang G, Sun Y, Liu Z, Sedra D, Weinberger KQ. Deep networks with stochastic depth. In: European conference on computer vision. Springer; 2016. p. 646–61.",
+        "DOI": "10.1007/978-3-319-46493-0_39"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR121",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s42979-020-00294-w",
+        "volume": "1",
+        "author": "HT Huynh",
+        "year": "2020",
+        "unstructured": "Huynh HT, Nguyen H. Joint age estimation and gender classification of Asian faces using wide ResNet. SN Comput Sci. 2020;1(5):1–9.",
+        "journal-title": "SN Comput Sci"
+      },
+      {
+        "issue": "9",
+        "key": "444_CR122",
+        "doi-asserted-by": "publisher",
+        "first-page": "2917",
+        "DOI": "10.1109/TCSVT.2019.2935128",
+        "volume": "30",
+        "author": "R Takahashi",
+        "year": "2019",
+        "unstructured": "Takahashi R, Matsubara T, Uehara K. Data augmentation using random image cropping and patching for deep cnns. IEEE Trans Circuits Syst Video Technol. 2019;30(9):2917–31.",
+        "journal-title": "IEEE Trans Circuits Syst Video Technol"
+      },
+      {
+        "key": "444_CR123",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han D, Kim J, Kim J. Deep pyramidal residual networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 5927–35.",
+        "DOI": "10.1109/CVPR.2017.668"
+      },
+      {
+        "key": "444_CR124",
+        "doi-asserted-by": "publisher",
+        "first-page": "31959",
+        "DOI": "10.1109/ACCESS.2019.2903582",
+        "volume": "7",
+        "author": "Y Wang",
+        "year": "2019",
+        "unstructured": "Wang Y, Wang L, Wang H, Li P. End-to-end image super-resolution via deep and shallow convolutional networks. IEEE Access. 2019;7:31959–70.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR125",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet F. Xception: Deep learning with depthwise separable convolutions. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 1251–8.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "444_CR126",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lo WW, Yang X, Wang Y. An xception convolutional neural network for malware classification with transfer learning. In: 2019 10th IFIP international conference on new technologies, mobility and security (NTMS). IEEE; 2019. p. 1–5.",
+        "DOI": "10.1109/NTMS.2019.8763852"
+      },
+      {
+        "key": "444_CR127",
+        "doi-asserted-by": "publisher",
+        "first-page": "100360",
+        "DOI": "10.1016/j.imu.2020.100360",
+        "volume": "19",
+        "author": "M Rahimzadeh",
+        "year": "2020",
+        "unstructured": "Rahimzadeh M, Attar A. A modified deep convolutional neural network for detecting COVID-19 and pneumonia from chest X-ray images based on the concatenation of xception and resnet50v2. Inform Med Unlocked. 2020;19:100360.",
+        "journal-title": "Inform Med Unlocked"
+      },
+      {
+        "key": "444_CR128",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang F, Jiang M, Qian C, Yang S, Li C, Zhang H, Wang X, Tang X. Residual attention network for image classification. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 3156–64.",
+        "DOI": "10.1109/CVPR.2017.683"
+      },
+      {
+        "key": "444_CR129",
+        "unstructured": "Salakhutdinov R, Larochelle H. Efficient learning of deep boltzmann machines. In: Proceedings of the thirteenth international conference on artificial intelligence and statistics; 2010. p. 693–700."
+      },
+      {
+        "key": "444_CR130",
+        "first-page": "1878",
+        "volume": "26",
+        "author": "H Goh",
+        "year": "2013",
+        "unstructured": "Goh H, Thome N, Cord M, Lim JH. Top-down regularization of deep belief networks. Adv Neural Inf Process Syst. 2013;26:1878–86.",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "444_CR131",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.1016/j.neucom.2019.10.054",
+        "volume": "377",
+        "author": "J Guan",
+        "year": "2020",
+        "unstructured": "Guan J, Lai R, Xiong A, Liu Z, Gu L. Fixed pattern noise reduction for infrared images based on cascade residual attention CNN. Neurocomputing. 2020;377:301–13.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR132",
+        "doi-asserted-by": "publisher",
+        "first-page": "345",
+        "DOI": "10.1016/j.neucom.2019.11.068",
+        "volume": "377",
+        "author": "Q Bi",
+        "year": "2020",
+        "unstructured": "Bi Q, Qin K, Zhang H, Li Z, Xu K. RADC-Net: a residual attention based convolution network for aerial scene classification. Neurocomputing. 2020;377:345–59.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR133",
+        "first-page": "2017",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "M Jaderberg",
+        "year": "2015",
+        "unstructured": "Jaderberg M, Simonyan K, Zisserman A, et al. Spatial transformer networks. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2015. p. 2017–25."
+      },
+      {
+        "key": "444_CR134",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu J, Shen L, Sun G. Squeeze-and-excitation networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2018. p. 7132–41.",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR135",
+        "doi-asserted-by": "publisher",
+        "first-page": "110",
+        "DOI": "10.1109/TGRS.2019.2933609",
+        "volume": "58",
+        "author": "L Mou",
+        "year": "2019",
+        "unstructured": "Mou L, Zhu XX. Learning to pay attention on spectral domain: a spectral attention module-based convolutional network for hyperspectral image classification. IEEE Trans Geosci Remote Sens. 2019;58(1):110–22.",
+        "journal-title": "IEEE Trans Geosci Remote Sens"
+      },
+      {
+        "key": "444_CR136",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woo S, Park J, Lee JY, So Kweon I. CBAM: Convolutional block attention module. In: Proceedings of the European conference on computer vision (ECCV); 2018. p. 3–19.",
+        "DOI": "10.1007/978-3-030-01234-2_1"
+      },
+      {
+        "key": "444_CR137",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roy AG, Navab N, Wachinger C. Concurrent spatial and channel ‘squeeze & excitation’ in fully convolutional networks. In: International conference on medical image computing and computer-assisted intervention. Springer; 2018. p. 421–9.",
+        "DOI": "10.1007/978-3-030-00928-1_48"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR138",
+        "doi-asserted-by": "publisher",
+        "first-page": "540",
+        "DOI": "10.1109/TMI.2018.2867261",
+        "volume": "38",
+        "author": "AG Roy",
+        "year": "2018",
+        "unstructured": "Roy AG, Navab N, Wachinger C. Recalibrating fully convolutional networks with spatial and channel “squeeze and excitation’’ blocks. IEEE Trans Med Imaging. 2018;38(2):540–9.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "444_CR139",
+        "first-page": "3856",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "S Sabour",
+        "year": "2017",
+        "unstructured": "Sabour S, Frosst N, Hinton GE. Dynamic routing between capsules. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2017. p. 3856–66."
+      },
+      {
+        "issue": "6",
+        "key": "444_CR140",
+        "doi-asserted-by": "publisher",
+        "first-page": "1849",
+        "DOI": "10.1109/JSTARS.2019.2913097",
+        "volume": "12",
+        "author": "P Arun",
+        "year": "2019",
+        "unstructured": "Arun P, Buddhiraju KM, Porwal A. Capsulenet-based spatial-spectral classifier for hyperspectral images. IEEE J Sel Topics Appl Earth Obs Remote Sens. 2019;12(6):1849–65.",
+        "journal-title": "IEEE J Sel Topics Appl Earth Obs Remote Sens"
+      },
+      {
+        "key": "444_CR141",
+        "first-page": "1",
+        "volume": "9",
+        "author": "L Xinwei",
+        "year": "2020",
+        "unstructured": "Xinwei L, Lianghao X, Yi Y. Compact video fingerprinting via an improved capsule net. Syst Sci Control Eng. 2020;9:1–9.",
+        "journal-title": "Syst Sci Control Eng"
+      },
+      {
+        "key": "444_CR142",
+        "doi-asserted-by": "publisher",
+        "first-page": "152",
+        "DOI": "10.1016/j.neucom.2019.10.007",
+        "volume": "379",
+        "author": "B Ma",
+        "year": "2020",
+        "unstructured": "Ma B, Li X, Xia Y, Zhang Y. Autonomous deep learning: a genetic DCNN designer for image classification. Neurocomputing. 2020;379:152–61.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2020.2983686",
+        "author": "J Wang",
+        "year": "2020",
+        "unstructured": "Wang J, Sun K, Cheng T, Jiang B, Deng C, Zhao Y, Liu D, Mu Y, Tan M, Wang X, et al. Deep high-resolution representation learning for visual recognition. IEEE Trans Pattern Anal Mach Intell. 2020. https://doi.org/10.1109/TPAMI.2020.2983686.",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "444_CR144",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng B, Xiao B, Wang J, Shi H, Huang TS, Zhang L. Higherhrnet: scale-aware representation learning for bottom-up human pose estimation. In: CVPR 2020; 2020. https://www.microsoft.com/en-us/research/publication/higherhrnet-scale-aware-representation-learning-for-bottom-up-human-pose-estimation/.",
+        "DOI": "10.1109/CVPR42600.2020.00543"
+      },
+      {
+        "key": "444_CR145",
+        "unstructured": "Karimi H, Derr T, Tang J. Characterizing the decision boundary of deep neural networks; 2019. arXiv preprint arXiv:1912.11460."
+      },
+      {
+        "key": "444_CR146",
+        "unstructured": "Li Y, Ding L, Gao X. On the decision boundary of deep neural networks; 2018. arXiv preprint arXiv:1808.05385."
+      },
+      {
+        "key": "444_CR147",
+        "first-page": "3320",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "J Yosinski",
+        "year": "2014",
+        "unstructured": "Yosinski J, Clune J, Bengio Y, Lipson H. How transferable are features in deep neural networks? In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2014. p. 3320–8."
+      },
+      {
+        "key": "444_CR148",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tan C, Sun F, Kong T, Zhang W, Yang C, Liu C. A survey on deep transfer learning. In: International conference on artificial neural networks. Springer; 2018. p. 270–9.",
+        "DOI": "10.1007/978-3-030-01424-7_27"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR149",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1186/s40537-016-0043-6",
+        "volume": "3",
+        "author": "K Weiss",
+        "year": "2016",
+        "unstructured": "Weiss K, Khoshgoftaar TM, Wang D. A survey of transfer learning. J Big Data. 2016;3(1):9.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR150",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1186/s40537-019-0197-0",
+        "volume": "6",
+        "author": "C Shorten",
+        "year": "2019",
+        "unstructured": "Shorten C, Khoshgoftaar TM. A survey on image data augmentation for deep learning. J Big Data. 2019;6(1):60.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "issue": "18",
+        "key": "444_CR151",
+        "doi-asserted-by": "publisher",
+        "first-page": "25560",
+        "DOI": "10.1364/OE.27.025560",
+        "volume": "27",
+        "author": "F Wang",
+        "year": "2019",
+        "unstructured": "Wang F, Wang H, Wang H, Li G, Situ G. Learning from simulation: an end-to-end deep-learning approach for computational ghost imaging. Opt Express. 2019;27(18):25560–72.",
+        "journal-title": "Opt Express"
+      },
+      {
+        "key": "444_CR152",
+        "doi-asserted-by": "publisher",
+        "first-page": "447",
+        "DOI": "10.1016/j.neucom.2015.11.059",
+        "volume": "177",
+        "author": "W Pan",
+        "year": "2016",
+        "unstructured": "Pan W. A survey of transfer learning for collaborative recommendation with auxiliary data. Neurocomputing. 2016;177:447–53.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR153",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J, Dong W, Socher R, Li LJ, Li K, Fei-Fei L. Imagenet: a large-scale hierarchical image database. In: 2009 IEEE conference on computer vision and pattern recognition. IEEE; 2009. p. 248–55.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR154",
+        "doi-asserted-by": "publisher",
+        "first-page": "537",
+        "DOI": "10.1007/s10115-013-0665-3",
+        "volume": "36",
+        "author": "D Cook",
+        "year": "2013",
+        "unstructured": "Cook D, Feuz KD, Krishnan NC. Transfer learning for activity recognition: a survey. Knowl Inf Syst. 2013;36(3):537–56.",
+        "journal-title": "Knowl Inf Syst"
+      },
+      {
+        "key": "444_CR155",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1016/j.neucom.2011.12.043",
+        "volume": "100",
+        "author": "X Cao",
+        "year": "2013",
+        "unstructured": "Cao X, Wang Z, Yan P, Li X. Transfer learning for pedestrian detection. Neurocomputing. 2013;100:51–7.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR156",
+        "first-page": "3347",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "M Raghu",
+        "year": "2019",
+        "unstructured": "Raghu M, Zhang C, Kleinberg J, Bengio S. Transfusion: understanding transfer learning for medical imaging. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2019. p. 3347–57."
+      },
+      {
+        "key": "444_CR157",
+        "doi-asserted-by": "publisher",
+        "first-page": "189960",
+        "DOI": "10.1109/ACCESS.2020.3031914",
+        "volume": "8",
+        "author": "TN Pham",
+        "year": "2020",
+        "unstructured": "Pham TN, Van Tran L, Dao SVT. Early disease classification of mango leaves using feed-forward neural network and hybrid metaheuristic feature selection. IEEE Access. 2020;8:189960–73.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR158",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-020-00387-6",
+        "volume": "8",
+        "author": "AM Saleh",
+        "year": "2021",
+        "unstructured": "Saleh AM, Hamoud T. Analysis and best parameters selection for person recognition based on gait model using CNN algorithm and image augmentation. J Big Data. 2021;8(1):1–20.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "key": "444_CR159",
+        "doi-asserted-by": "publisher",
+        "first-page": "312",
+        "DOI": "10.7717/peerj-cs.312",
+        "volume": "6",
+        "author": "D Hirahara",
+        "year": "2020",
+        "unstructured": "Hirahara D, Takaya E, Takahara T, Ueda T. Effects of data count and image scaling on deep learning training. PeerJ Comput Sci. 2020;6:312.",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "key": "444_CR160",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moreno-Barea FJ, Strazzera F, Jerez JM, Urda D, Franco L. Forward noise adjustment scheme for data augmentation. In: 2018 IEEE symposium series on computational intelligence (SSCI). IEEE; 2018. p. 728–34.",
+        "DOI": "10.1109/SSCI.2018.8628917"
+      },
+      {
+        "key": "444_CR161",
+        "unstructured": "Dua D, Karra Taniskidou E. Uci machine learning repository. Irvine: University of california. School of Information and Computer Science; 2017. http://archive.ics.uci.edu/ml"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR162",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1186/s40537-019-0192-5",
+        "volume": "6",
+        "author": "JM Johnson",
+        "year": "2019",
+        "unstructured": "Johnson JM, Khoshgoftaar TM. Survey on deep learning with class imbalance. J Big Data. 2019;6(1):27.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "key": "444_CR163",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang P, Zhang Z, Zhou BB, Zomaya AY. Sample subset optimization for classifying imbalanced biological data. In: Pacific-Asia conference on knowledge discovery and data mining. Springer; 2011. p. 333–44.",
+        "DOI": "10.1007/978-3-642-20847-8_28"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR164",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1109/TCYB.2013.2257480",
+        "volume": "44",
+        "author": "P Yang",
+        "year": "2013",
+        "unstructured": "Yang P, Yoo PD, Fernando J, Zhou BB, Zhang Z, Zomaya AY. Sample subset optimization techniques for imbalanced and ensemble learning problems in bioinformatics applications. IEEE Trans Cybern. 2013;44(3):445–55.",
+        "journal-title": "IEEE Trans Cybern"
+      },
+      {
+        "key": "444_CR165",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang S, Sun S, Xu J. Auc-maximized deep convolutional neural fields for sequence labeling 2015. arXiv preprint arXiv:1511.05265.",
+        "DOI": "10.1007/978-3-319-46227-1_1"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR166",
+        "doi-asserted-by": "publisher",
+        "first-page": "760",
+        "DOI": "10.1093/bioinformatics/btx680",
+        "volume": "34",
+        "author": "Y Li",
+        "year": "2018",
+        "unstructured": "Li Y, Wang S, Umarov R, Xie B, Fan M, Li L, Gao X. Deepre: sequence-based enzyme EC number prediction by deep learning. Bioinformatics. 2018;34(5):760–9.",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "444_CR167",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1016/j.ymeth.2019.04.008",
+        "volume": "166",
+        "author": "Y Li",
+        "year": "2019",
+        "unstructured": "Li Y, Huang C, Ding L, Li Z, Pan Y, Gao X. Deep learning in bioinformatics: introduction, application, and perspective in the big data era. Methods. 2019;166:4–21.",
+        "journal-title": "Methods"
+      },
+      {
+        "key": "444_CR168",
+        "first-page": "3504",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "E Choi",
+        "year": "2016",
+        "unstructured": "Choi E, Bahadori MT, Sun J, Kulas J, Schuetz A, Stewart W. Retain: An interpretable predictive model for healthcare using reverse time attention mechanism. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2016. p. 3504–12."
+      },
+      {
+        "issue": "141",
+        "key": "444_CR169",
+        "doi-asserted-by": "publisher",
+        "first-page": "20170,387",
+        "DOI": "10.1098/rsif.2017.0387",
+        "volume": "15",
+        "author": "T Ching",
+        "year": "2018",
+        "unstructured": "Ching T, Himmelstein DS, Beaulieu-Jones BK, Kalinin AA, Do BT, Way GP, Ferrero E, Agapow PM, Zietz M, Hoffman MM, et al. Opportunities and obstacles for deep learning in biology and medicine. J R Soc Interface. 2018;15(141):20170,387.",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "issue": "10",
+        "key": "444_CR170",
+        "doi-asserted-by": "publisher",
+        "first-page": "931",
+        "DOI": "10.1038/nmeth.3547",
+        "volume": "12",
+        "author": "J Zhou",
+        "year": "2015",
+        "unstructured": "Zhou J, Troyanskaya OG. Predicting effects of noncoding variants with deep learning-based sequence model. Nat Methods. 2015;12(10):931–4.",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR171",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41524-019-0231-y",
+        "volume": "5",
+        "author": "BSS Pokuri",
+        "year": "2019",
+        "unstructured": "Pokuri BSS, Ghosal S, Kokate A, Sarkar S, Ganapathysubramanian B. Interpretable deep learning for guided microstructure-property explorations in photovoltaics. NPJ Comput Mater. 2019;5(1):1–11.",
+        "journal-title": "NPJ Comput Mater"
+      },
+      {
+        "key": "444_CR172",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro MT, Singh S, Guestrin C. “Why should I trust you?” explaining the predictions of any classifier. In: Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining; 2016. p. 1135–44.",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "issue": "11",
+        "key": "444_CR173",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s42256-020-00244-4",
+        "volume": "2",
+        "author": "L Wang",
+        "year": "2020",
+        "unstructured": "Wang L, Nie R, Yu Z, Xin R, Zheng C, Zhang Z, Zhang J, Cai J. An interpretable deep-learning architecture of capsule networks for identifying cell-type gene expression programs from single-cell RNA-sequencing data. Nat Mach Intell. 2020;2(11):1–11.",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "key": "444_CR174",
+        "unstructured": "Sundararajan M, Taly A, Yan Q. Axiomatic attribution for deep networks; 2017. arXiv preprint arXiv:1703.01365."
+      },
+      {
+        "issue": "3",
+        "key": "444_CR175",
+        "first-page": "61",
+        "volume": "10",
+        "author": "J Platt",
+        "year": "1999",
+        "unstructured": "Platt J, et al. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. Adv Large Margin Classif. 1999;10(3):61–74.",
+        "journal-title": "Adv Large Margin Classif"
+      },
+      {
+        "key": "444_CR176",
+        "doi-asserted-by": "publisher",
+        "first-page": "101557",
+        "DOI": "10.1016/j.media.2019.101557",
+        "volume": "59",
+        "author": "T Nair",
+        "year": "2020",
+        "unstructured": "Nair T, Precup D, Arnold DL, Arbel T. Exploring uncertainty measures in deep networks for multiple sclerosis lesion detection and segmentation. Med Image Anal. 2020;59:101557.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "444_CR177",
+        "doi-asserted-by": "publisher",
+        "first-page": "101790",
+        "DOI": "10.1016/j.media.2020.101790",
+        "volume": "65",
+        "author": "L Herzog",
+        "year": "2020",
+        "unstructured": "Herzog L, Murina E, Dürr O, Wegener S, Sick B. Integrating uncertainty in deep neural networks for MRI based stroke analysis. Med Image Anal. 2020;65:101790.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "444_CR178",
+        "unstructured": "Pereyra G, Tucker G, Chorowski J, Kaiser Ł, Hinton G. Regularizing neural networks by penalizing confident output distributions; 2017. arXiv preprint arXiv:1701.06548."
+      },
+      {
+        "key": "444_CR179",
+        "unstructured": "Naeini MP, Cooper GF, Hauskrecht M. Obtaining well calibrated probabilities using bayesian binning. In: Proceedings of the... AAAI conference on artificial intelligence. AAAI conference on artificial intelligence, vol. 2015. NIH Public Access; 2015. p. 2901."
+      },
+      {
+        "issue": "7",
+        "key": "444_CR180",
+        "doi-asserted-by": "publisher",
+        "first-page": "1230",
+        "DOI": "10.1016/j.patcog.2006.01.010",
+        "volume": "39",
+        "author": "M Li",
+        "year": "2006",
+        "unstructured": "Li M, Sethi IK. Confidence-based classifier design. Pattern Recogn. 2006;39(7):1230–40.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "key": "444_CR181",
+        "unstructured": "Zadrozny B, Elkan C. Obtaining calibrated probability estimates from decision trees and Naive Bayesian classifiers. In: ICML, vol. 1, Citeseer; 2001. p. 609–16."
+      },
+      {
+        "issue": "1",
+        "key": "444_CR182",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1109/TIT.2004.839514",
+        "volume": "51",
+        "author": "I Steinwart",
+        "year": "2005",
+        "unstructured": "Steinwart I. Consistency of support vector machines and other regularized kernel classifiers. IEEE Trans Inf Theory. 2005;51(1):128–42.",
+        "journal-title": "IEEE Trans Inf Theory"
+      },
+      {
+        "key": "444_CR183",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee K, Lee K, Shin J, Lee H. Overcoming catastrophic forgetting with unlabeled data in the wild. In: Proceedings of the IEEE international conference on computer vision; 2019. p. 312–21.",
+        "DOI": "10.1109/ICCV.2019.00040"
+      },
+      {
+        "key": "444_CR184",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shmelkov K, Schmid C, Alahari K. Incremental learning of object detectors without catastrophic forgetting. In: Proceedings of the IEEE international conference on computer vision; 2017. p. 3400–09.",
+        "DOI": "10.1109/ICCV.2017.368"
+      },
+      {
+        "key": "444_CR185",
+        "doi-asserted-by": "publisher",
+        "first-page": "166",
+        "DOI": "10.1016/j.conb.2017.03.015",
+        "volume": "43",
+        "author": "F Zenke",
+        "year": "2017",
+        "unstructured": "Zenke F, Gerstner W, Ganguli S. The temporal paradox of Hebbian learning and homeostatic plasticity. Curr Opin Neurobiol. 2017;43:166–76.",
+        "journal-title": "Curr Opin Neurobiol"
+      },
+      {
+        "key": "444_CR186",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1016/j.conb.2017.06.001",
+        "volume": "45",
+        "author": "N Andersen",
+        "year": "2017",
+        "unstructured": "Andersen N, Krauth N, Nabavi S. Hebbian plasticity in vivo: relevance and induction. Curr Opin Neurobiol. 2017;45:188–92.",
+        "journal-title": "Curr Opin Neurobiol"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR187",
+        "doi-asserted-by": "publisher",
+        "first-page": "476",
+        "DOI": "10.1080/08982112.2016.1183255",
+        "volume": "28",
+        "author": "R Zheng",
+        "year": "2016",
+        "unstructured": "Zheng R, Chakraborti S. A phase ii nonparametric adaptive exponentially weighted moving average control chart. Qual Eng. 2016;28(4):476–90.",
+        "journal-title": "Qual Eng"
+      },
+      {
+        "key": "444_CR188",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rebuffi SA, Kolesnikov A, Sperl G, Lampert CH. ICARL: Incremental classifier and representation learning. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 2001–10.",
+        "DOI": "10.1109/CVPR.2017.587"
+      },
+      {
+        "key": "444_CR189",
+        "unstructured": "Hinton GE, Plaut DC. Using fast weights to deblur old memories. In: Proceedings of the ninth annual conference of the cognitive science society; 1987. p. 177–86."
+      },
+      {
+        "key": "444_CR190",
+        "doi-asserted-by": "publisher",
+        "first-page": "54",
+        "DOI": "10.1016/j.neunet.2019.01.012",
+        "volume": "113",
+        "author": "GI Parisi",
+        "year": "2019",
+        "unstructured": "Parisi GI, Kemker R, Part JL, Kanan C, Wermter S. Continual lifelong learning with neural networks: a review. Neural Netw. 2019;113:54–71.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "444_CR191",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1016/j.neunet.2018.07.013",
+        "volume": "108",
+        "author": "A Soltoggio",
+        "year": "2018",
+        "unstructured": "Soltoggio A, Stanley KO, Risi S. Born to learn: the inspiration, progress, and future of evolved plastic artificial neural networks. Neural Netw. 2018;108:48–67.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "444_CR192",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1016/j.neunet.2017.09.001",
+        "volume": "96",
+        "author": "GI Parisi",
+        "year": "2017",
+        "unstructured": "Parisi GI, Tani J, Weber C, Wermter S. Lifelong learning of human actions with deep neural network self-organization. Neural Netw. 2017;96:137–49.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR193",
+        "doi-asserted-by": "publisher",
+        "first-page": "126",
+        "DOI": "10.1109/MSP.2017.2765695",
+        "volume": "35",
+        "author": "Y Cheng",
+        "year": "2018",
+        "unstructured": "Cheng Y, Wang D, Zhou P, Zhang T. Model compression and acceleration for deep neural networks: the principles, progress, and challenges. IEEE Signal Process Mag. 2018;35(1):126–36.",
+        "journal-title": "IEEE Signal Process Mag"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR194",
+        "doi-asserted-by": "publisher",
+        "first-page": "700",
+        "DOI": "10.1109/JSTSP.2020.2969554",
+        "volume": "14",
+        "author": "S Wiedemann",
+        "year": "2020",
+        "unstructured": "Wiedemann S, Kirchhoffer H, Matlage S, Haase P, Marban A, Marinč T, Neumann D, Nguyen T, Schwarz H, Wiegand T, et al. Deepcabac: a universal compression algorithm for deep neural networks. IEEE J Sel Topics Signal Process. 2020;14(4):700–14.",
+        "journal-title": "IEEE J Sel Topics Signal Process"
+      },
+      {
+        "key": "444_CR195",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1016/j.ijmedinf.2018.03.013",
+        "volume": "114",
+        "author": "N Mehta",
+        "year": "2018",
+        "unstructured": "Mehta N, Pandit A. Concurrence of big data analytics and healthcare: a systematic review. Int J Med Inform. 2018;114:57–65.",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR196",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+        "DOI": "10.1038/s41591-018-0316-z",
+        "volume": "25",
+        "author": "A Esteva",
+        "year": "2019",
+        "unstructured": "Esteva A, Robicquet A, Ramsundar B, Kuleshov V, DePristo M, Chou K, Cui C, Corrado G, Thrun S, Dean J. A guide to deep learning in healthcare. Nat Med. 2019;25(1):24–9.",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "444_CR197",
+        "doi-asserted-by": "publisher",
+        "first-page": "7823",
+        "DOI": "10.1109/ACCESS.2018.2890150",
+        "volume": "7",
+        "author": "A Shawahna",
+        "year": "2018",
+        "unstructured": "Shawahna A, Sait SM, El-Maleh A. Fpga-based accelerators of deep learning networks for learning and classification: a review. IEEE Access. 2018;7:7823–59.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR198",
+        "doi-asserted-by": "publisher",
+        "first-page": "103333",
+        "DOI": "10.1016/j.micpro.2020.103333",
+        "volume": "80",
+        "author": "Z Min",
+        "year": "2020",
+        "unstructured": "Min Z. Public welfare organization management system based on FPGA and deep learning. Microprocess Microsyst. 2020;80:103333.",
+        "journal-title": "Microprocess Microsyst"
+      },
+      {
+        "key": "444_CR199",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-Shamma O, Fadhel MA, Hameed RA, Alzubaidi L, Zhang J. Boosting convolutional neural networks performance based on fpga accelerator. In: International conference on intelligent systems design and applications. Springer; 2018. p. 509–17.",
+        "DOI": "10.1007/978-3-030-16657-1_47"
+      },
+      {
+        "key": "444_CR200",
+        "unstructured": "Han S, Mao H, Dally WJ. Deep compression: compressing deep neural networks with pruning, trained quantization and huffman coding; 2015. arXiv preprint arXiv:1510.00149."
+      },
+      {
+        "issue": "10",
+        "key": "444_CR201",
+        "doi-asserted-by": "publisher",
+        "first-page": "4334",
+        "DOI": "10.1109/TII.2018.2789925",
+        "volume": "14",
+        "author": "Z Chen",
+        "year": "2018",
+        "unstructured": "Chen Z, Zhang L, Cao Z, Guo J. Distilling the knowledge from handcrafted features for human activity recognition. IEEE Trans Ind Inform. 2018;14(10):4334–42.",
+        "journal-title": "IEEE Trans Ind Inform"
+      },
+      {
+        "key": "444_CR202",
+        "unstructured": "Hinton G, Vinyals O, Dean J. Distilling the knowledge in a neural network; 2015. arXiv preprint arXiv:1503.02531."
+      },
+      {
+        "key": "444_CR203",
+        "first-page": "8844",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "JE Lenssen",
+        "year": "2018",
+        "unstructured": "Lenssen JE, Fey M, Libuschewski P. Group equivariant capsule networks. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2018. p. 8844–53."
+      },
+      {
+        "key": "444_CR204",
+        "first-page": "1269",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "EL Denton",
+        "year": "2014",
+        "unstructured": "Denton EL, Zaremba W, Bruna J, LeCun Y, Fergus R. Exploiting linear structure within convolutional networks for efficient evaluation. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2014. p. 1269–77."
+      },
+      {
+        "key": "444_CR205",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1016/j.neucom.2018.03.080",
+        "volume": "328",
+        "author": "Q Xu",
+        "year": "2019",
+        "unstructured": "Xu Q, Zhang M, Gu Z, Pan G. Overfitting remedy by sparsifying regularization on fully-connected layers of CNNs. Neurocomputing. 2019;328:69–74.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR206",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1145/3446776",
+        "volume": "64",
+        "author": "C Zhang",
+        "year": "2018",
+        "unstructured": "Zhang C, Bengio S, Hardt M, Recht B, Vinyals O. Understanding deep learning requires rethinking generalization. Commun ACM. 2018;64(3):107–15.",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "issue": "10",
+        "key": "444_CR207",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.eng.2020.04.010",
+        "volume": "6",
+        "author": "X Xu",
+        "year": "2020",
+        "unstructured": "Xu X, Jiang X, Ma C, Du P, Li X, Lv S, Yu L, Ni Q, Chen Y, Su J, et al. A deep learning system to screen novel coronavirus disease 2019 pneumonia. Engineering. 2020;6(10):1122–9.",
+        "journal-title": "Engineering"
+      },
+      {
+        "key": "444_CR208",
+        "doi-asserted-by": "publisher",
+        "first-page": "105751",
+        "DOI": "10.1016/j.cmpb.2020.105751",
+        "volume": "197",
+        "author": "K Sharma",
+        "year": "2020",
+        "unstructured": "Sharma K, Alsadoon A, Prasad P, Al-Dala’in T, Nguyen TQV, Pham DTH. A novel solution of using deep learning for left ventricle detection: enhanced feature extraction. Comput Methods Programs Biomed. 2020;197:105751.",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "444_CR209",
+        "unstructured": "Zhang G, Wang C, Xu B, Grosse R. Three mechanisms of weight decay regularization; 2018. arXiv preprint arXiv:1810.12281."
+      },
+      {
+        "key": "444_CR210",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Laurent C, Pereyra G, Brakel P, Zhang Y, Bengio Y. Batch normalized recurrent neural networks. In: 2016 IEEE international conference on acoustics, speech and signal processing (ICASSP), IEEE; 2016. p. 2657–61.",
+        "DOI": "10.1109/ICASSP.2016.7472159"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR211",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1109/LSP.2017.2657381",
+        "volume": "24",
+        "author": "J Salamon",
+        "year": "2017",
+        "unstructured": "Salamon J, Bello JP. Deep convolutional neural networks and data augmentation for environmental sound classification. IEEE Signal Process Lett. 2017;24(3):279–83.",
+        "journal-title": "IEEE Signal Process Lett"
+      },
+      {
+        "key": "444_CR212",
+        "doi-asserted-by": "publisher",
+        "first-page": "88",
+        "DOI": "10.1016/j.neucom.2019.07.017",
+        "volume": "363",
+        "author": "X Wang",
+        "year": "2019",
+        "unstructured": "Wang X, Qin Y, Wang Y, Xiang S, Chen H. ReLTanh: an activation function with vanishing gradient resistance for SAE-based DNNs and its application to rotating machinery fault diagnosis. Neurocomputing. 2019;363:88–98.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR213",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tan HH, Lim KH. Vanishing gradient mitigation with deep learning neural network optimization. In: 2019 7th international conference on smart computing & communications (ICSCC). IEEE; 2019. p. 1–4.",
+        "DOI": "10.1109/ICSCC.2019.8843652"
+      },
+      {
+        "key": "444_CR214",
+        "unstructured": "MacDonald G, Godbout A, Gillcash B, Cairns S. Volume-preserving neural networks: a solution to the vanishing gradient problem; 2019. arXiv preprint arXiv:1911.09576."
+      },
+      {
+        "key": "444_CR215",
+        "doi-asserted-by": "publisher",
+        "first-page": "101635",
+        "DOI": "10.1016/j.sysarc.2019.101635",
+        "volume": "99",
+        "author": "S Mittal",
+        "year": "2019",
+        "unstructured": "Mittal S, Vaishay S. A survey of techniques for optimizing deep learning on GPUs. J Syst Arch. 2019;99:101635.",
+        "journal-title": "J Syst Arch"
+      },
+      {
+        "key": "444_CR216",
+        "first-page": "435",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "S Kanai",
+        "year": "2017",
+        "unstructured": "Kanai S, Fujiwara Y, Iwamura S. Preventing gradient explosions in gated recurrent units. In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2017. p. 435–44."
+      },
+      {
+        "key": "444_CR217",
+        "first-page": "582",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "B Hanin",
+        "year": "2018",
+        "unstructured": "Hanin B. Which neural net architectures give rise to exploding and vanishing gradients? In: Advances in neural information processing systems. San Mateo: Morgan Kaufmann Publishers; 2018. p. 582–91."
+      },
+      {
+        "key": "444_CR218",
+        "unstructured": "Ribeiro AH, Tiels K, Aguirre LA, Schön T. Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness. In: International conference on artificial intelligence and statistics, PMLR; 2020. p. 2370–80."
+      },
+      {
+        "key": "444_CR219",
+        "unstructured": "D’Amour A, Heller K, Moldovan D, Adlam B, Alipanahi B, Beutel A, Chen C, Deaton J, Eisenstein J, Hoffman MD, et al. Underspecification presents challenges for credibility in modern machine learning; 2020. arXiv preprint arXiv:2011.03395."
+      },
+      {
+        "issue": "2",
+        "key": "444_CR220",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s00256-019-03284-z",
+        "volume": "49",
+        "author": "P Chea",
+        "year": "2020",
+        "unstructured": "Chea P, Mandell JC. Current applications and future directions of deep learning in musculoskeletal radiology. Skelet Radiol. 2020;49(2):1–15.",
+        "journal-title": "Skelet Radiol"
+      },
+      {
+        "key": "444_CR221",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1016/j.neucom.2020.01.085",
+        "volume": "396",
+        "author": "X Wu",
+        "year": "2020",
+        "unstructured": "Wu X, Sahoo D, Hoi SC. Recent advances in deep learning for object detection. Neurocomputing. 2020;396:39–64.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR222",
+        "doi-asserted-by": "publisher",
+        "first-page": "712",
+        "DOI": "10.1109/TITS.2019.2962338",
+        "volume": "22",
+        "author": "S Kuutti",
+        "year": "2020",
+        "unstructured": "Kuutti S, Bowden R, Jin Y, Barber P, Fallah S. A survey of deep learning applications to autonomous vehicle control. IEEE Trans Intell Transp Syst. 2020;22:712–33.",
+        "journal-title": "IEEE Trans Intell Transp Syst"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR223",
+        "doi-asserted-by": "publisher",
+        "first-page": "237",
+        "DOI": "10.1007/s12652-019-01310-5",
+        "volume": "11",
+        "author": "G Yolcu",
+        "year": "2020",
+        "unstructured": "Yolcu G, Oztel I, Kazan S, Oz C, Bunyak F. Deep learning-based face analysis system for monitoring customer interest. J Ambient Intell Humaniz Comput. 2020;11(1):237–48.",
+        "journal-title": "J Ambient Intell Humaniz Comput"
+      },
+      {
+        "key": "444_CR224",
+        "doi-asserted-by": "publisher",
+        "first-page": "128837",
+        "DOI": "10.1109/ACCESS.2019.2939201",
+        "volume": "7",
+        "author": "L Jiao",
+        "year": "2019",
+        "unstructured": "Jiao L, Zhang F, Liu F, Yang S, Li L, Feng Z, Qu R. A survey of deep learning-based object detection. IEEE Access. 2019;7:128837–68.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR225",
+        "doi-asserted-by": "publisher",
+        "first-page": "507",
+        "DOI": "10.1109/TNNLS.2020.2995800",
+        "volume": "32",
+        "author": "K Muhammad",
+        "year": "2020",
+        "unstructured": "Muhammad K, Khan S, Del Ser J, de Albuquerque VHC. Deep learning for multigrade brain tumor classification in smart healthcare systems: a prospective survey. IEEE Trans Neural Netw Learn Syst. 2020;32:507–22.",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "444_CR226",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "volume": "42",
+        "author": "G Litjens",
+        "year": "2017",
+        "unstructured": "Litjens G, Kooi T, Bejnordi BE, Setio AAA, Ciompi F, Ghafoorian M, Van Der Laak JA, Van Ginneken B, Sánchez CI. A survey on deep learning in medical image analysis. Med Image Anal. 2017;42:60–88.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "issue": "41",
+        "key": "444_CR227",
+        "doi-asserted-by": "publisher",
+        "first-page": "31663",
+        "DOI": "10.1007/s11042-020-09537-7",
+        "volume": "79",
+        "author": "D Mukherjee",
+        "year": "2020",
+        "unstructured": "Mukherjee D, Mondal R, Singh PK, Sarkar R, Bhattacharjee D. Ensemconvnet: a deep learning approach for human activity recognition using smartphone sensors for healthcare applications. Multimed Tools Appl. 2020;79(41):31663–90.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR228",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-20966-2",
+        "volume": "12",
+        "author": "R Zeleznik",
+        "year": "2021",
+        "unstructured": "Zeleznik R, Foldyna B, Eslami P, Weiss J, Alexander I, Taron J, Parmar C, Alvi RM, Banerji D, Uno M, et al. Deep convolutional neural networks to predict cardiovascular risk from computed tomography. Nature Commun. 2021;12(1):1–9.",
+        "journal-title": "Nature Commun"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR229",
+        "doi-asserted-by": "publisher",
+        "first-page": "661",
+        "DOI": "10.3390/cancers13040661",
+        "volume": "13",
+        "author": "J Wang",
+        "year": "2021",
+        "unstructured": "Wang J, Liu Q, Xie H, Yang Z, Zhou H. Boosted efficientnet: detection of lymph node metastases in breast cancer using convolutional neural networks. Cancers. 2021;13(4):661.",
+        "journal-title": "Cancers"
+      },
+      {
+        "key": "444_CR230",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2020.04.157",
+        "author": "H Yu",
+        "year": "2021",
+        "unstructured": "Yu H, Yang LT, Zhang Q, Armstrong D, Deen MJ. Convolutional neural networks for medical image analysis: state-of-the-art, comparisons, improvement and perspectives. Neurocomputing. 2021. https://doi.org/10.1016/j.neucom.2020.04.157.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "444_CR231",
+        "doi-asserted-by": "publisher",
+        "first-page": "100391",
+        "DOI": "10.1016/j.imu.2020.100391",
+        "volume": "20",
+        "author": "S Bharati",
+        "year": "2020",
+        "unstructured": "Bharati S, Podder P, Mondal MRH. Hybrid deep learning for detecting lung diseases from X-ray images. Inform Med Unlocked. 2020;20:100391.",
+        "journal-title": "Inform Med Unlocked"
+      },
+      {
+        "key": "444_CR232",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong Y, Pan Y, Zhang J, Xu W. Learning to read chest X-ray images from 16000+ examples using CNN. In: 2017 IEEE/ACM international conference on connected health: applications, systems and engineering technologies (CHASE). IEEE; 2017. p. 51–7.",
+        "DOI": "10.1109/CHASE.2017.59"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR233",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.1007/s10278-016-9914-9",
+        "volume": "30",
+        "author": "A Rajkomar",
+        "year": "2017",
+        "unstructured": "Rajkomar A, Lingam S, Taylor AG, Blum M, Mongan J. High-throughput classification of radiographs using deep convolutional neural networks. J Digit Imaging. 2017;30(1):95–101.",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "444_CR234",
+        "unstructured": "Rajpurkar P, Irvin J, Zhu K, Yang B, Mehta H, Duan T, Ding D, Bagul A, Langlotz C, Shpanskaya K, et al. Chexnet: radiologist-level pneumonia detection on chest X-rays with deep learning; 2017. arXiv preprint arXiv:1711.05225."
+      },
+      {
+        "key": "444_CR235",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale chest X-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 2097–106.",
+        "DOI": "10.1109/CVPR.2017.369"
+      },
+      {
+        "key": "444_CR236",
+        "doi-asserted-by": "publisher",
+        "first-page": "32510",
+        "DOI": "10.1109/ACCESS.2019.2903587",
+        "volume": "7",
+        "author": "W Zuo",
+        "year": "2019",
+        "unstructured": "Zuo W, Zhou F, Li Z, Wang L. Multi-resolution CNN and knowledge transfer for candidate classification in lung nodule detection. IEEE Access. 2019;7:32510–21.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR237",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen W, Zhou M, Yang F, Yang C, Tian J. Multi-scale convolutional neural networks for lung nodule classification. In: International conference on information processing in medical imaging. Springer; 2015. p. 588–99.",
+        "DOI": "10.1007/978-3-319-19992-4_46"
+      },
+      {
+        "key": "444_CR238",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li R, Zhang W, Suk HI, Wang L, Li J, Shen D, Ji S. Deep learning based imaging data completion for improved brain disease diagnosis. In: International conference on medical image computing and computer-assisted intervention. Springer; 2014. p. 305–12.",
+        "DOI": "10.1007/978-3-319-10443-0_39"
+      },
+      {
+        "key": "444_CR239",
+        "doi-asserted-by": "publisher",
+        "first-page": "101694",
+        "DOI": "10.1016/j.media.2020.101694",
+        "volume": "63",
+        "author": "J Wen",
+        "year": "2020",
+        "unstructured": "Wen J, Thibeau-Sutre E, Diaz-Melo M, Samper-González J, Routier A, Bottani S, Dormont D, Durrleman S, Burgos N, Colliot O, et al. Convolutional neural networks for classification of Alzheimer’s disease: overview and reproducible evaluation. Med Image Anal. 2020;63:101694.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR240",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.3390/brainsci10020084",
+        "volume": "10",
+        "author": "A Mehmood",
+        "year": "2020",
+        "unstructured": "Mehmood A, Maqsood M, Bashir M, Shuyuan Y. A deep siamese convolution neural network for multi-class classification of Alzheimer disease. Brain Sci. 2020;10(2):84.",
+        "journal-title": "Brain Sci"
+      },
+      {
+        "key": "444_CR241",
+        "doi-asserted-by": "publisher",
+        "first-page": "584",
+        "DOI": "10.2741/4606",
+        "volume": "23",
+        "author": "E Hosseini-Asl",
+        "year": "2018",
+        "unstructured": "Hosseini-Asl E, Ghazal M, Mahmoud A, Aslantas A, Shalaby A, Casanova M, Barnes G, Gimel’farb G, Keynton R, El-Baz A. Alzheimer’s disease diagnostics by a 3d deeply supervised adaptable convolutional network. Front Biosci. 2018;23:584–96.",
+        "journal-title": "Front Biosci"
+      },
+      {
+        "key": "444_CR242",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Korolev S, Safiullin A, Belyaev M, Dodonova Y. Residual and plain convolutional neural networks for 3D brain MRI classification. In: 2017 IEEE 14th international symposium on biomedical imaging (ISBI 2017). IEEE; 2017. p. 835–8.",
+        "DOI": "10.1109/ISBI.2017.7950647"
+      },
+      {
+        "issue": "21",
+        "key": "444_CR243",
+        "doi-asserted-by": "publisher",
+        "first-page": "15655",
+        "DOI": "10.1007/s11042-019-07820-w",
+        "volume": "79",
+        "author": "L Alzubaidi",
+        "year": "2020",
+        "unstructured": "Alzubaidi L, Fadhel MA, Oleiwi SR, Al-Shamma O, Zhang J. DFU_QUTNet: diabetic foot ulcer classification using novel deep convolutional neural network. Multimed Tools Appl. 2020;79(21):15655–77.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR244",
+        "doi-asserted-by": "publisher",
+        "first-page": "728",
+        "DOI": "10.1109/TETCI.2018.2866254",
+        "volume": "4",
+        "author": "M Goyal",
+        "year": "2018",
+        "unstructured": "Goyal M, Reeves ND, Davison AK, Rajbhandari S, Spragg J, Yap MH. Dfunet: convolutional neural networks for diabetic foot ulcer classification. IEEE Trans Emerg Topics Comput Intell. 2018;4(5):728–39.",
+        "journal-title": "IEEE Trans Emerg Topics Comput Intell"
+      },
+      {
+        "key": "444_CR245",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yap MH., Hachiuma R, Alavi A, Brungel R, Goyal M, Zhu H, Cassidy B, Ruckert J, Olshansky M, Huang X, et al. Deep learning in diabetic foot ulcers detection: a comprehensive evaluation; 2020. arXiv preprint arXiv:2010.03341.",
+        "DOI": "10.1016/j.compbiomed.2021.104596"
+      },
+      {
+        "key": "444_CR246",
+        "doi-asserted-by": "publisher",
+        "first-page": "198977",
+        "DOI": "10.1109/ACCESS.2020.3035327",
+        "volume": "8",
+        "author": "J Tulloch",
+        "year": "2020",
+        "unstructured": "Tulloch J, Zamani R, Akrami M. Machine learning in the prevention, diagnosis and management of diabetic foot ulcers: a systematic review. IEEE Access. 2020;8:198977–9000.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR247",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fadhel MA, Al-Shamma O, Alzubaidi L, Oleiwi SR. Real-time sickle cell anemia diagnosis based hardware accelerator. In: International conference on new trends in information and communications technology applications, Springer; 2020. p. 189–99.",
+        "DOI": "10.1007/978-3-030-55340-1_14"
+      },
+      {
+        "issue": "11",
+        "key": "444_CR248",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.3390/jimaging6110121",
+        "volume": "6",
+        "author": "TG Debelee",
+        "year": "2020",
+        "unstructured": "Debelee TG, Kebede SR, Schwenker F, Shewarega ZM. Deep learning in selected cancers’ image analysis—a survey. J Imaging. 2020;6(11):121.",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "444_CR249",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.patrec.2019.03.022",
+        "volume": "125",
+        "author": "S Khan",
+        "year": "2019",
+        "unstructured": "Khan S, Islam N, Jan Z, Din IU, Rodrigues JJC. A novel deep learning based framework for the detection and classification of breast cancer using transfer learning. Pattern Recogn Lett. 2019;125:1–6.",
+        "journal-title": "Pattern Recogn Lett"
+      },
+      {
+        "key": "444_CR250",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alzubaidi L, Hasan RI, Awad FH, Fadhel MA, Alshamma O, Zhang J. Multi-class breast cancer classification by a novel two-branch deep convolutional neural network architecture. In: 2019 12th international conference on developments in eSystems engineering (DeSE). IEEE; 2019. p. 268–73.",
+        "DOI": "10.1109/DeSE.2019.00057"
+      },
+      {
+        "key": "444_CR251",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1016/j.compmedimag.2018.11.003",
+        "volume": "71",
+        "author": "K Roy",
+        "year": "2019",
+        "unstructured": "Roy K, Banik D, Bhattacharjee D, Nasipuri M. Patch-based system for classification of breast histology images using deep learning. Comput Med Imaging Gr. 2019;71:90–103.",
+        "journal-title": "Comput Med Imaging Gr"
+      },
+      {
+        "issue": "16",
+        "key": "444_CR252",
+        "doi-asserted-by": "publisher",
+        "first-page": "4373",
+        "DOI": "10.3390/s20164373",
+        "volume": "20",
+        "author": "Z Hameed",
+        "year": "2020",
+        "unstructured": "Hameed Z, Zahia S, Garcia-Zapirain B, Javier Aguirre J, María Vanegas A. Breast cancer histopathology image classification using an ensemble of deep learning models. Sensors. 2020;20(16):4373.",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "444_CR253",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hosny KM, Kassem MA, Foaud MM. Skin cancer classification using deep learning and transfer learning. In: 2018 9th Cairo international biomedical engineering conference (CIBEC). IEEE; 2018. p. 90–3.",
+        "DOI": "10.1109/CIBEC.2018.8641762"
+      },
+      {
+        "issue": "8",
+        "key": "444_CR254",
+        "doi-asserted-by": "publisher",
+        "first-page": "9909",
+        "DOI": "10.1007/s11042-018-5714-1",
+        "volume": "77",
+        "author": "UO Dorj",
+        "year": "2018",
+        "unstructured": "Dorj UO, Lee KK, Choi JY, Lee M. The skin cancer classification using deep convolutional neural network. Multimed Tools Appl. 2018;77(8):9909–24.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "444_CR255",
+        "doi-asserted-by": "publisher",
+        "first-page": "114822",
+        "DOI": "10.1109/ACCESS.2020.3003890",
+        "volume": "8",
+        "author": "MA Kassem",
+        "year": "2020",
+        "unstructured": "Kassem MA, Hosny KM, Fouad MM. Skin lesions classification into eight classes for ISIC 2019 using deep convolutional neural network and transfer learning. IEEE Access. 2020;8:114822–32.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR256",
+        "doi-asserted-by": "publisher",
+        "first-page": "104284",
+        "DOI": "10.1016/j.ijmedinf.2020.104284",
+        "volume": "144",
+        "author": "M Heidari",
+        "year": "2020",
+        "unstructured": "Heidari M, Mirniaharikandehei S, Khuzani AZ, Danala G, Qiu Y, Zheng B. Improving the performance of CNN to predict the likelihood of COVID-19 using chest X-ray images with preprocessing algorithms. Int J Med Inform. 2020;144:104284.",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "444_CR257",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-Timemy AH, Khushaba RN, Mosa ZM, Escudero J. An efficient mixture of deep and machine learning models for COVID-19 and tuberculosis detection using X-ray images in resource limited settings 2020. arXiv preprint arXiv:2007.08223.",
+        "DOI": "10.1007/978-3-030-69744-0_6"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR258",
+        "doi-asserted-by": "publisher",
+        "first-page": "1436",
+        "DOI": "10.1016/j.bbe.2020.08.005",
+        "volume": "40",
+        "author": "B Abraham",
+        "year": "2020",
+        "unstructured": "Abraham B, Nair MS. Computer-aided detection of COVID-19 from X-ray images using multi-CNN and Bayesnet classifier. Biocybern Biomed Eng. 2020;40(4):1436–45.",
+        "journal-title": "Biocybern Biomed Eng"
+      },
+      {
+        "key": "444_CR259",
+        "doi-asserted-by": "publisher",
+        "first-page": "106580",
+        "DOI": "10.1016/j.asoc.2020.106580",
+        "volume": "97",
+        "author": "M Nour",
+        "year": "2020",
+        "unstructured": "Nour M, Cömert Z, Polat K. A novel medical diagnosis model for COVID-19 infection detection based on deep features and Bayesian optimization. Appl Soft Comput. 2020;97:106580.",
+        "journal-title": "Appl Soft Comput"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR260",
+        "doi-asserted-by": "publisher",
+        "first-page": "652",
+        "DOI": "10.3390/cancers13040652",
+        "volume": "13",
+        "author": "CA Mallio",
+        "year": "2021",
+        "unstructured": "Mallio CA, Napolitano A, Castiello G, Giordano FM, D’Alessio P, Iozzino M, Sun Y, Angeletti S, Russano M, Santini D, et al. Deep learning algorithm trained with COVID-19 pneumonia also identifies immune checkpoint inhibitor therapy-related pneumonitis. Cancers. 2021;13(4):652.",
+        "journal-title": "Cancers"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR261",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1016/j.jormas.2019.06.002",
+        "volume": "120",
+        "author": "A Fourcade",
+        "year": "2019",
+        "unstructured": "Fourcade A, Khonsari R. Deep learning in medical image analysis: a third eye for doctors. J Stomatol Oral Maxillofac Surg. 2019;120(4):279–88.",
+        "journal-title": "J Stomatol Oral Maxillofac Surg"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR262",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.1109/TRPMS.2018.2890359",
+        "volume": "3",
+        "author": "Z Guo",
+        "year": "2019",
+        "unstructured": "Guo Z, Li X, Huang H, Guo N, Li Q. Deep learning-based image segmentation on multimodal medical imaging. IEEE Trans Radiat Plasma Med Sci. 2019;3(2):162–9.",
+        "journal-title": "IEEE Trans Radiat Plasma Med Sci"
+      },
+      {
+        "issue": "7",
+        "key": "444_CR263",
+        "doi-asserted-by": "publisher",
+        "first-page": "1884",
+        "DOI": "10.3390/cancers12071884",
+        "volume": "12",
+        "author": "N Thakur",
+        "year": "2020",
+        "unstructured": "Thakur N, Yoon H, Chong Y. Current trends of artificial intelligence for colorectal cancer pathology image analysis: a systematic review. Cancers. 2020;12(7):1884.",
+        "journal-title": "Cancers"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR264",
+        "doi-asserted-by": "publisher",
+        "first-page": "102",
+        "DOI": "10.1016/j.zemedi.2018.11.002",
+        "volume": "29",
+        "author": "AS Lundervold",
+        "year": "2019",
+        "unstructured": "Lundervold AS, Lundervold A. An overview of deep learning in medical imaging focusing on MRI. Zeitschrift für Medizinische Physik. 2019;29(2):102–27.",
+        "journal-title": "Zeitschrift für Medizinische Physik"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR265",
+        "doi-asserted-by": "publisher",
+        "first-page": "113",
+        "DOI": "10.1186/s40537-019-0276-2",
+        "volume": "6",
+        "author": "SS Yadav",
+        "year": "2019",
+        "unstructured": "Yadav SS, Jadhav SM. Deep convolutional neural network based medical image classification for disease diagnosis. J Big Data. 2019;6(1):113.",
+        "journal-title": "J Big Data"
+      },
+      {
+        "issue": "7",
+        "key": "444_CR266",
+        "doi-asserted-by": "publisher",
+        "first-page": "734",
+        "DOI": "10.1038/s41592-020-0853-5",
+        "volume": "17",
+        "author": "E Nehme",
+        "year": "2020",
+        "unstructured": "Nehme E, Freedman D, Gordon R, Ferdman B, Weiss LE, Alalouf O, Naor T, Orange R, Michaeli T, Shechtman Y. DeepSTORM3D: dense 3D localization microscopy and PSF design by deep learning. Nat Methods. 2020;17(7):734–40.",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "issue": "24",
+        "key": "444_CR267",
+        "doi-asserted-by": "publisher",
+        "first-page": "34563",
+        "DOI": "10.1007/s11042-019-08130-x",
+        "volume": "78",
+        "author": "MA Zulkifley",
+        "year": "2019",
+        "unstructured": "Zulkifley MA, Abdani SR, Zulkifley NH. Pterygium-Net: a deep learning approach to pterygium detection and localization. Multimed Tools Appl. 2019;78(24):34563–84.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "444_CR268",
+        "doi-asserted-by": "publisher",
+        "first-page": "388",
+        "DOI": "10.1016/j.compeleceng.2019.08.004",
+        "volume": "78",
+        "author": "I Sirazitdinov",
+        "year": "2019",
+        "unstructured": "Sirazitdinov I, Kholiavchenko M, Mustafaev T, Yixuan Y, Kuleev R, Ibragimov B. Deep neural network ensemble for pneumonia localization from a large-scale chest X-ray database. Comput Electr Eng. 2019;78:388–99.",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR269",
+        "doi-asserted-by": "publisher",
+        "first-page": "432",
+        "DOI": "10.1016/j.ijrobp.2019.05.071",
+        "volume": "105",
+        "author": "W Zhao",
+        "year": "2019",
+        "unstructured": "Zhao W, Shen L, Han B, Yang Y, Cheng K, Toesca DA, Koong AC, Chang DT, Xing L. Markerless pancreatic tumor target localization enabled by deep learning. Int J Radiat Oncol Biol Phys. 2019;105(2):432–9.",
+        "journal-title": "Int J Radiat Oncol Biol Phys"
+      },
+      {
+        "key": "444_CR270",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roth HR, Lee CT, Shin HC, Seff A, Kim L, Yao J, Lu L, Summers RM. Anatomy-specific classification of medical images using deep convolutional nets. In: 2015 IEEE 12th international symposium on biomedical imaging (ISBI). IEEE; 2015. p. 101–4.",
+        "DOI": "10.1109/ISBI.2015.7163826"
+      },
+      {
+        "issue": "8",
+        "key": "444_CR271",
+        "doi-asserted-by": "publisher",
+        "first-page": "1930",
+        "DOI": "10.1109/TPAMI.2012.277",
+        "volume": "35",
+        "author": "HC Shin",
+        "year": "2012",
+        "unstructured": "Shin HC, Orton MR, Collins DJ, Doran SJ, Leach MO. Stacked autoencoders for unsupervised feature learning and multiple organ detection in a pilot study using 4D patient data. IEEE Trans Pattern Anal Mach Intell. 2012;35(8):1930–43.",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "444_CR272",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.1016/j.neucom.2019.04.028",
+        "volume": "350",
+        "author": "Z Li",
+        "year": "2019",
+        "unstructured": "Li Z, Dong M, Wen S, Hu X, Zhou P, Zeng Z. CLU-CNNs: object detection for medical images. Neurocomputing. 2019;350:53–9.",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR273",
+        "doi-asserted-by": "publisher",
+        "first-page": "6536",
+        "DOI": "10.3934/mbe.2019326",
+        "volume": "16",
+        "author": "J Gao",
+        "year": "2019",
+        "unstructured": "Gao J, Jiang Q, Zhou B, Chen D. Convolutional neural networks for computer-aided detection or diagnosis in medical image analysis: an overview. Math Biosci Eng. 2019;16(6):6536.",
+        "journal-title": "Math Biosci Eng"
+      },
+      {
+        "key": "444_CR274",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2020.113677",
+        "author": "A Lumini",
+        "year": "2020",
+        "unstructured": "Lumini A, Nanni L. Review fair comparison of skin detection approaches on publicly available datasets. Expert Syst Appl. 2020. https://doi.org/10.1016/j.eswa.2020.113677.",
+        "journal-title": "Expert Syst Appl"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR275",
+        "doi-asserted-by": "publisher",
+        "first-page": "559",
+        "DOI": "10.3390/app10020559",
+        "volume": "10",
+        "author": "V Chouhan",
+        "year": "2020",
+        "unstructured": "Chouhan V, Singh SK, Khamparia A, Gupta D, Tiwari P, Moreira C, Damaševičius R, De Albuquerque VHC. A novel transfer learning based approach for pneumonia detection in chest X-ray images. Appl Sci. 2020;10(2):559.",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR276",
+        "doi-asserted-by": "publisher",
+        "first-page": "635",
+        "DOI": "10.1007/s13246-020-00865-4",
+        "volume": "43",
+        "author": "ID Apostolopoulos",
+        "year": "2020",
+        "unstructured": "Apostolopoulos ID, Mpesiana TA. COVID-19: automatic detection from X-ray images utilizing transfer learning with convolutional neural networks. Phys Eng Sci Med. 2020;43(2):635–40.",
+        "journal-title": "Phys Eng Sci Med"
+      },
+      {
+        "key": "444_CR277",
+        "doi-asserted-by": "publisher",
+        "first-page": "103869",
+        "DOI": "10.1016/j.compbiomed.2020.103869",
+        "volume": "122",
+        "author": "T Mahmud",
+        "year": "2020",
+        "unstructured": "Mahmud T, Rahman MA, Fattah SA. CovXNet: a multi-dilation convolutional neural network for automatic COVID-19 and other pneumonia detection from chest X-ray images with transferable multi-receptive feature optimization. Comput Biol Med. 2020;122:103869.",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "444_CR278",
+        "doi-asserted-by": "publisher",
+        "first-page": "110338",
+        "DOI": "10.1016/j.chaos.2020.110338",
+        "volume": "142",
+        "author": "MH Tayarani-N",
+        "year": "2020",
+        "unstructured": "Tayarani-N MH. Applications of artificial intelligence in battling against COVID-19: a literature review. Chaos Solitons Fractals. 2020;142:110338.",
+        "journal-title": "Chaos Solitons Fractals"
+      },
+      {
+        "key": "444_CR279",
+        "doi-asserted-by": "publisher",
+        "first-page": "110122",
+        "DOI": "10.1016/j.chaos.2020.110122",
+        "volume": "140",
+        "author": "S Toraman",
+        "year": "2020",
+        "unstructured": "Toraman S, Alakus TB, Turkoglu I. Convolutional capsnet: a novel artificial neural network approach to detect COVID-19 disease from X-ray images using capsule networks. Chaos Solitons Fractals. 2020;140:110122.",
+        "journal-title": "Chaos Solitons Fractals"
+      },
+      {
+        "key": "444_CR280",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1016/j.ebiom.2019.04.055",
+        "volume": "43",
+        "author": "A Dascalu",
+        "year": "2019",
+        "unstructured": "Dascalu A, David E. Skin cancer detection by deep learning and sound analysis algorithms: a prospective clinical study of an elementary dermoscope. EBioMedicine. 2019;43:107–13.",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "444_CR281",
+        "first-page": "1",
+        "volume": "54",
+        "author": "A Adegun",
+        "year": "2020",
+        "unstructured": "Adegun A, Viriri S. Deep learning techniques for skin lesion analysis and melanoma cancer detection: a survey of state-of-the-art. Artif Intell Rev. 2020;54:1–31.",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "key": "444_CR282",
+        "doi-asserted-by": "publisher",
+        "first-page": "101756",
+        "DOI": "10.1016/j.artmed.2019.101756",
+        "volume": "102",
+        "author": "N Zhang",
+        "year": "2020",
+        "unstructured": "Zhang N, Cai YX, Wang YY, Tian YT, Wang XL, Badami B. Skin cancer diagnosis based on optimized convolutional neural network. Artif Intell Med. 2020;102:101756.",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "key": "444_CR283",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11063-020-10364-y",
+        "author": "K Thurnhofer-Hemsi",
+        "year": "2020",
+        "unstructured": "Thurnhofer-Hemsi K, Domínguez E. A convolutional neural network framework for accurate skin cancer detection. Neural Process Lett. 2020. https://doi.org/10.1007/s11063-020-10364-y.",
+        "journal-title": "Neural Process Lett"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR284",
+        "doi-asserted-by": "publisher",
+        "first-page": "356",
+        "DOI": "10.1038/s42256-020-0190-5",
+        "volume": "2",
+        "author": "MS Jain",
+        "year": "2020",
+        "unstructured": "Jain MS, Massoud TF. Predicting tumour mutational burden from histopathological images using multiscale deep learning. Nat Mach Intell. 2020;2(6):356–62.",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR285",
+        "doi-asserted-by": "publisher",
+        "first-page": "358",
+        "DOI": "10.1109/JBHI.2020.3027566",
+        "volume": "25",
+        "author": "H Lei",
+        "year": "2020",
+        "unstructured": "Lei H, Liu S, Elazab A, Lei B. Attention-guided multi-branch convolutional neural network for mitosis detection from histopathological images. IEEE J Biomed Health Inform. 2020;25(2):358–70.",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "444_CR286",
+        "doi-asserted-by": "publisher",
+        "first-page": "232",
+        "DOI": "10.1016/j.patrec.2020.03.011",
+        "volume": "133",
+        "author": "Y Celik",
+        "year": "2020",
+        "unstructured": "Celik Y, Talo M, Yildirim O, Karabatak M, Acharya UR. Automated invasive ductal carcinoma detection based using deep transfer learning with whole-slide images. Pattern Recogn Lett. 2020;133:232–9.",
+        "journal-title": "Pattern Recogn Lett"
+      },
+      {
+        "key": "444_CR287",
+        "doi-asserted-by": "publisher",
+        "first-page": "1603",
+        "DOI": "10.1007/s11517-020-02175-z",
+        "volume": "58",
+        "author": "M Sebai",
+        "year": "2020",
+        "unstructured": "Sebai M, Wang X, Wang T. Maskmitosis: a deep learning framework for fully supervised, weakly supervised, and unsupervised mitosis detection in histopathology images. Med Biol Eng Comput. 2020;58:1603–23.",
+        "journal-title": "Med Biol Eng Comput"
+      },
+      {
+        "key": "444_CR288",
+        "doi-asserted-by": "publisher",
+        "first-page": "45133",
+        "DOI": "10.1109/ACCESS.2020.2978754",
+        "volume": "8",
+        "author": "M Sebai",
+        "year": "2020",
+        "unstructured": "Sebai M, Wang T, Al-Fadhli SA. Partmitosis: a partially supervised deep learning framework for mitosis detection in breast cancer histopathology images. IEEE Access. 2020;8:45133–47.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR289",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.3390/jcm9030749",
+        "volume": "9",
+        "author": "T Mahmood",
+        "year": "2020",
+        "unstructured": "Mahmood T, Arsalan M, Owais M, Lee MB, Park KR. Artificial intelligence-based mitosis detection in breast cancer histopathology images using faster R-CNN and deep CNNs. J Clin Med. 2020;9(3):749.",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "key": "444_CR290",
+        "doi-asserted-by": "publisher",
+        "first-page": "101813",
+        "DOI": "10.1016/j.media.2020.101813",
+        "volume": "67",
+        "author": "CL Srinidhi",
+        "year": "2020",
+        "unstructured": "Srinidhi CL, Ciga O, Martel AL. Deep neural network models for computational histopathology: a survey. Med Image Anal. 2020;67:101813.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "444_CR291",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cireşan DC, Giusti A, Gambardella LM, Schmidhuber J. Mitosis detection in breast cancer histology images with deep neural networks. In: International conference on medical image computing and computer-assisted intervention. Springer; 2013. p. 411–8.",
+        "DOI": "10.1007/978-3-642-40763-5_51"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR292",
+        "doi-asserted-by": "publisher",
+        "first-page": "1196",
+        "DOI": "10.1109/TMI.2016.2525803",
+        "volume": "35",
+        "author": "K Sirinukunwattana",
+        "year": "2016",
+        "unstructured": "Sirinukunwattana K, Raza SEA, Tsang YW, Snead DR, Cree IA, Rajpoot NM. Locality sensitive deep learning for detection and classification of nuclei in routine colon cancer histology images. IEEE Trans Med Imaging. 2016;35(5):1196–206.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR293",
+        "doi-asserted-by": "publisher",
+        "first-page": "119",
+        "DOI": "10.1109/TMI.2015.2458702",
+        "volume": "35",
+        "author": "J Xu",
+        "year": "2015",
+        "unstructured": "Xu J, Xiang L, Liu Q, Gilmore H, Wu J, Tang J, Madabhushi A. Stacked sparse autoencoder (SSAE) for nuclei detection on breast cancer histopathology images. IEEE Trans Med Imaging. 2015;35(1):119–30.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR294",
+        "doi-asserted-by": "publisher",
+        "first-page": "1313",
+        "DOI": "10.1109/TMI.2016.2528120",
+        "volume": "35",
+        "author": "S Albarqouni",
+        "year": "2016",
+        "unstructured": "Albarqouni S, Baur C, Achilles F, Belagiannis V, Demirci S, Navab N. Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images. IEEE Trans Med Imaging. 2016;35(5):1313–21.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR295",
+        "doi-asserted-by": "publisher",
+        "first-page": "97",
+        "DOI": "10.1186/s13640-018-0332-4",
+        "volume": "2018",
+        "author": "MK Abd-Ellah",
+        "year": "2018",
+        "unstructured": "Abd-Ellah MK, Awad AI, Khalaf AA, Hamed HF. Two-phase multi-model automatic brain tumour diagnosis system from magnetic resonance images using convolutional neural networks. EURASIP J Image Video Process. 2018;2018(1):97.",
+        "journal-title": "EURASIP J Image Video Process"
+      },
+      {
+        "issue": "9",
+        "key": "444_CR296",
+        "doi-asserted-by": "publisher",
+        "first-page": "294",
+        "DOI": "10.1007/s10916-019-1416-0",
+        "volume": "43",
+        "author": "MM Thaha",
+        "year": "2019",
+        "unstructured": "Thaha MM, Kumar KPM, Murugan B, Dhanasekeran S, Vijayakarthick P, Selvi AS. Brain tumor segmentation using convolutional neural networks in MRI images. J Med Syst. 2019;43(9):294.",
+        "journal-title": "J Med Syst"
+      },
+      {
+        "key": "444_CR297",
+        "doi-asserted-by": "publisher",
+        "first-page": "101673",
+        "DOI": "10.1016/j.compmedimag.2019.101673",
+        "volume": "78",
+        "author": "M Talo",
+        "year": "2019",
+        "unstructured": "Talo M, Yildirim O, Baloglu UB, Aydin G, Acharya UR. Convolutional neural networks for multi-class brain disease detection using MRI images. Comput Med Imaging Gr. 2019;78:101673.",
+        "journal-title": "Comput Med Imaging Gr"
+      },
+      {
+        "issue": "10",
+        "key": "444_CR298",
+        "doi-asserted-by": "publisher",
+        "first-page": "1217",
+        "DOI": "10.1177/1352458519856843",
+        "volume": "26",
+        "author": "RE Gabr",
+        "year": "2020",
+        "unstructured": "Gabr RE, Coronado I, Robinson M, Sujit SJ, Datta S, Sun X, Allen WJ, Lublin FD, Wolinsky JS, Narayana PA. Brain and lesion segmentation in multiple sclerosis using fully convolutional neural networks: a large-scale study. Mult Scler J. 2020;26(10):1217–26.",
+        "journal-title": "Mult Scler J"
+      },
+      {
+        "key": "444_CR299",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1016/j.patcog.2018.11.009",
+        "volume": "88",
+        "author": "S Chen",
+        "year": "2019",
+        "unstructured": "Chen S, Ding C, Liu M. Dual-force convolutional neural networks for accurate brain tumor segmentation. Pattern Recogn. 2019;88:90–100.",
+        "journal-title": "Pattern Recogn"
+      },
+      {
+        "key": "444_CR300",
+        "doi-asserted-by": "publisher",
+        "first-page": "92615",
+        "DOI": "10.1109/ACCESS.2019.2927433",
+        "volume": "7",
+        "author": "K Hu",
+        "year": "2019",
+        "unstructured": "Hu K, Gan Q, Zhang Y, Deng S, Xiao F, Huang W, Cao C, Gao X. Brain tumor segmentation using multi-cascaded convolutional neural networks and conditional random field. IEEE Access. 2019;7:92615–29.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "444_CR301",
+        "doi-asserted-by": "publisher",
+        "first-page": "247",
+        "DOI": "10.1016/j.mri.2019.05.043",
+        "volume": "61",
+        "author": "A Wadhwa",
+        "year": "2019",
+        "unstructured": "Wadhwa A, Bhardwaj A, Verma VS. A review on brain tumor segmentation of MRI images. Magn Reson Imaging. 2019;61:247–59.",
+        "journal-title": "Magn Reson Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR302",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1007/s10278-017-9983-4",
+        "volume": "30",
+        "author": "Z Akkus",
+        "year": "2017",
+        "unstructured": "Akkus Z, Galimzianova A, Hoogi A, Rubin DL, Erickson BJ. Deep learning for brain MRI segmentation: state of the art and future directions. J Digit Imaging. 2017;30(4):449–59.",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR303",
+        "doi-asserted-by": "publisher",
+        "first-page": "1252",
+        "DOI": "10.1109/TMI.2016.2548501",
+        "volume": "35",
+        "author": "P Moeskops",
+        "year": "2016",
+        "unstructured": "Moeskops P, Viergever MA, Mendrik AM, De Vries LS, Benders MJ, Išgum I. Automatic segmentation of MR brain images with a convolutional neural network. IEEE Trans Med Imaging. 2016;35(5):1252–61.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "444_CR304",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Milletari F, Navab N, Ahmadi SA. V-net: Fully convolutional neural networks for volumetric medical image segmentation. In: 2016 fourth international conference on 3D vision (3DV). IEEE; 2016. p. 565–71.",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "444_CR305",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In: International conference on medical image computing and computer-assisted intervention. Springer; 2015. p. 234–41.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR306",
+        "doi-asserted-by": "publisher",
+        "first-page": "1240",
+        "DOI": "10.1109/TMI.2016.2538465",
+        "volume": "35",
+        "author": "S Pereira",
+        "year": "2016",
+        "unstructured": "Pereira S, Pinto A, Alves V, Silva CA. Brain tumor segmentation using convolutional neural networks in MRI images. IEEE Trans Med Imaging. 2016;35(5):1240–51.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "444_CR307",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1016/j.media.2016.05.004",
+        "volume": "35",
+        "author": "M Havaei",
+        "year": "2017",
+        "unstructured": "Havaei M, Davy A, Warde-Farley D, Biard A, Courville A, Bengio Y, Pal C, Jodoin PM, Larochelle H. Brain tumor segmentation with deep neural networks. Med Image Anal. 2017;35:18–31.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "issue": "4",
+        "key": "444_CR308",
+        "doi-asserted-by": "publisher",
+        "first-page": "834",
+        "DOI": "10.1109/TPAMI.2017.2699184",
+        "volume": "40",
+        "author": "LC Chen",
+        "year": "2017",
+        "unstructured": "Chen LC, Papandreou G, Kokkinos I, Murphy K, Yuille AL. DeepLab: semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. IEEE Trans Pattern Anal Mach Intell. 2017;40(4):834–48.",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "444_CR309",
+        "unstructured": "Yan Q, Wang B, Gong D, Luo C, Zhao W, Shen J, Shi Q, Jin S, Zhang L, You Z. COVID-19 chest CT image segmentation—a deep convolutional neural network solution; 2020. arXiv preprint arXiv:2004.10987."
+      },
+      {
+        "issue": "8",
+        "key": "444_CR310",
+        "doi-asserted-by": "publisher",
+        "first-page": "2653",
+        "DOI": "10.1109/TMI.2020.3000314",
+        "volume": "39",
+        "author": "G Wang",
+        "year": "2020",
+        "unstructured": "Wang G, Liu X, Li C, Xu Z, Ruan J, Zhu H, Meng T, Li K, Huang N, Zhang S. A noise-robust framework for automatic segmentation of COVID-19 pneumonia lesions from CT images. IEEE Trans Med Imaging. 2020;39(8):2653–63.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "444_CR311",
+        "unstructured": "Khan SH, Sohail A, Khan A, Lee YS. Classification and region analysis of COVID-19 infection using lung CT images and deep convolutional neural networks; 2020. arXiv preprint arXiv:2009.08864."
+      },
+      {
+        "key": "444_CR312",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1109/RBME.2020.2987975",
+        "volume": "14",
+        "author": "F Shi",
+        "year": "2020",
+        "unstructured": "Shi F, Wang J, Shi J, Wu Z, Wang Q, Tang Z, He K, Shi Y, Shen D. Review of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for COVID-19. IEEE Rev Biomed Eng. 2020;14:4–5.",
+        "journal-title": "IEEE Rev Biomed Eng"
+      },
+      {
+        "issue": "6",
+        "key": "444_CR313",
+        "doi-asserted-by": "publisher",
+        "first-page": "1928",
+        "DOI": "10.3390/app10061928",
+        "volume": "10",
+        "author": "J Santamaría",
+        "year": "2020",
+        "unstructured": "Santamaría J, Rivero-Cejudo M, Martos-Fernández M, Roca F. An overview on the latest nature-inspired and metaheuristics-based image registration algorithms. Appl Sci. 2020;10(6):1928.",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "issue": "9",
+        "key": "444_CR314",
+        "doi-asserted-by": "publisher",
+        "first-page": "1340",
+        "DOI": "10.1016/j.cviu.2011.05.006",
+        "volume": "115",
+        "author": "J Santamaría",
+        "year": "2011",
+        "unstructured": "Santamaría J, Cordón O, Damas S. A comparative study of state-of-the-art evolutionary image registration methods for 3D modeling. Comput Vision Image Underst. 2011;115(9):1340–54.",
+        "journal-title": "Comput Vision Image Underst"
+      },
+      {
+        "key": "444_CR315",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yumer ME, Mitra NJ. Learning semantic deformation flows with 3D convolutional networks. In: European conference on computer vision. Springer; 2016. p. 294–311.",
+        "DOI": "10.1007/978-3-319-46466-4_18"
+      },
+      {
+        "key": "444_CR316",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding L, Feng C. Deepmapping: unsupervised map estimation from multiple point clouds. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2019. p. 8650–9.",
+        "DOI": "10.1109/CVPR.2019.00885"
+      },
+      {
+        "key": "444_CR317",
+        "first-page": "7988",
+        "volume": "2018",
+        "author": "S Mahadevan",
+        "year": "2018",
+        "unstructured": "Mahadevan S. Imagination machines: a new challenge for artificial intelligence. AAAI. 2018;2018:7988–93.",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "444_CR318",
+        "unstructured": "Wang L, Fang Y. Unsupervised 3D reconstruction from a single image via adversarial learning; 2017. arXiv preprint arXiv:1711.09312."
+      },
+      {
+        "key": "444_CR319",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hermoza R, Sipiran I. 3D reconstruction of incomplete archaeological objects using a generative adversarial network. In: Proceedings of computer graphics international 2018. Association for Computing Machinery; 2018. p. 5–11.",
+        "DOI": "10.1145/3208159.3208173"
+      },
+      {
+        "issue": "20",
+        "key": "444_CR320",
+        "doi-asserted-by": "publisher",
+        "first-page": "20TR01",
+        "DOI": "10.1088/1361-6560/ab843e",
+        "volume": "65",
+        "author": "Y Fu",
+        "year": "2020",
+        "unstructured": "Fu Y, Lei Y, Wang T, Curran WJ, Liu T, Yang X. Deep learning in medical image registration: a review. Phys Med Biol. 2020;65(20):20TR01.",
+        "journal-title": "Phys Med Biol"
+      },
+      {
+        "issue": "1",
+        "key": "444_CR321",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.1007/s00138-020-01060-x",
+        "volume": "31",
+        "author": "G Haskins",
+        "year": "2020",
+        "unstructured": "Haskins G, Kruger U, Yan P. Deep learning in medical image registration: a survey. Mach Vision Appl. 2020;31(1):8.",
+        "journal-title": "Mach Vision Appl"
+      },
+      {
+        "key": "444_CR322",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1016/j.media.2018.11.010",
+        "volume": "52",
+        "author": "BD de Vos",
+        "year": "2019",
+        "unstructured": "de Vos BD, Berendsen FF, Viergever MA, Sokooti H, Staring M, Išgum I. A deep learning framework for unsupervised affine and deformable image registration. Med Image Anal. 2019;52:128–43.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "444_CR323",
+        "doi-asserted-by": "publisher",
+        "first-page": "378",
+        "DOI": "10.1016/j.neuroimage.2017.07.008",
+        "volume": "158",
+        "author": "X Yang",
+        "year": "2017",
+        "unstructured": "Yang X, Kwitt R, Styner M, Niethammer M. Quicksilver: fast predictive image registration—a deep learning approach. NeuroImage. 2017;158:378–96.",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "5",
+        "key": "444_CR324",
+        "doi-asserted-by": "publisher",
+        "first-page": "1352",
+        "DOI": "10.1109/TMI.2016.2521800",
+        "volume": "35",
+        "author": "S Miao",
+        "year": "2016",
+        "unstructured": "Miao S, Wang ZJ, Liao R. A CNN regression approach for real-time 2D/3D registration. IEEE Trans Med Imaging. 2016;35(5):1352–63.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "444_CR325",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li P, Pei Y, Guo Y, Ma G, Xu T, Zha H. Non-rigid 2D–3D registration using convolutional autoencoders. In: 2020 IEEE 17th international symposium on biomedical imaging (ISBI). IEEE; 2020. p. 700–4.",
+        "DOI": "10.1109/ISBI45749.2020.9098602"
+      },
+      {
+        "key": "444_CR326",
+        "unstructured": "Zhang J, Yeung SH, Shu Y, He B, Wang W. Efficient memory management for GPU-based deep learning systems; 2019. arXiv preprint arXiv:1903.06631."
+      },
+      {
+        "key": "444_CR327",
+        "unstructured": "Zhao H, Han Z, Yang Z, Zhang Q, Yang F, Zhou L, Yang M, Lau FC, Wang Y, Xiong Y, et al. Hived: sharing a {GPU} cluster for deep learning with guarantees. In: 14th {USENIX} symposium on operating systems design and implementation ({OSDI} 20); 2020. p. 515–32."
+      },
+      {
+        "key": "444_CR328",
+        "doi-asserted-by": "publisher",
+        "first-page": "748",
+        "DOI": "10.1109/TCAD.2020.3003843",
+        "volume": "40",
+        "author": "Y Lin",
+        "year": "2020",
+        "unstructured": "Lin Y, Jiang Z, Gu J, Li W, Dhar S, Ren H, Khailany B, Pan DZ. DREAMPlace: deep learning toolkit-enabled GPU acceleration for modern VLSI placement. IEEE Trans Comput Aided Des Integr Circuits Syst. 2020;40:748–61.",
+        "journal-title": "IEEE Trans Comput Aided Des Integr Circuits Syst"
+      },
+      {
+        "issue": "15",
+        "key": "444_CR329",
+        "doi-asserted-by": "publisher",
+        "first-page": "3371",
+        "DOI": "10.3390/s19153371",
+        "volume": "19",
+        "author": "S Hossain",
+        "year": "2019",
+        "unstructured": "Hossain S, Lee DJ. Deep learning-based real-time multiple-object detection and tracking from aerial imagery via a flying robot with GPU-based embedded devices. Sensors. 2019;19(15):3371.",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "21",
+        "key": "444_CR330",
+        "doi-asserted-by": "publisher",
+        "first-page": "4786",
+        "DOI": "10.1002/cpe.4786",
+        "volume": "31",
+        "author": "FM Castro",
+        "year": "2019",
+        "unstructured": "Castro FM, Guil N, Marín-Jiménez MJ, Pérez-Serrano J, Ujaldón M. Energy-based tuning of convolutional neural networks on multi-GPUs. Concurr Comput Pract Exp. 2019;31(21):4786.",
+        "journal-title": "Concurr Comput Pract Exp"
+      },
+      {
+        "key": "444_CR331",
+        "unstructured": "Gschwend D. Zynqnet: an fpga-accelerated embedded convolutional neural network; 2020. arXiv preprint arXiv:2005.06892."
+      },
+      {
+        "issue": "3",
+        "key": "444_CR332",
+        "doi-asserted-by": "publisher",
+        "first-page": "282",
+        "DOI": "10.3390/electronics10030282",
+        "volume": "10",
+        "author": "N Zhang",
+        "year": "2021",
+        "unstructured": "Zhang N, Wei X, Chen H, Liu W. FPGA implementation for CNN-based optical remote sensing object detection. Electronics. 2021;10(3):282.",
+        "journal-title": "Electronics"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR333",
+        "doi-asserted-by": "publisher",
+        "first-page": "350",
+        "DOI": "10.3390/s19020350",
+        "volume": "19",
+        "author": "M Zhao",
+        "year": "2019",
+        "unstructured": "Zhao M, Hu C, Wei F, Wang K, Wang C, Jiang Y. Real-time underwater image recognition with FPGA embedded system for convolutional neural network. Sensors. 2019;19(2):350.",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "444_CR334",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSS.2021.3059318",
+        "author": "X Liu",
+        "year": "2021",
+        "unstructured": "Liu X, Yang J, Zou C, Chen Q, Yan X, Chen Y, Cai C. Collaborative edge computing with FPGA-based CNN accelerators for energy-efficient and time-aware face tracking system. IEEE Trans Comput Soc Syst. 2021. https://doi.org/10.1109/TCSS.2021.3059318.",
+        "journal-title": "IEEE Trans Comput Soc Syst"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR335",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.5121/ijdkp.2015.5201",
+        "volume": "5",
+        "author": "M Hossin",
+        "year": "2015",
+        "unstructured": "Hossin M, Sulaiman M. A review on evaluation metrics for data classification evaluations. Int J Data Min Knowl Manag Process. 2015;5(2):1.",
+        "journal-title": "Int J Data Min Knowl Manag Process"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR336",
+        "doi-asserted-by": "publisher",
+        "first-page": "199",
+        "DOI": "10.1023/A:1024099825458",
+        "volume": "52",
+        "author": "F Provost",
+        "year": "2003",
+        "unstructured": "Provost F, Domingos P. Tree induction for probability-based ranking. Mach Learn. 2003;52(3):199–215.",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "444_CR337",
+        "unstructured": "Rakotomamonyj A. Optimizing area under roc with SVMS. In: Proceedings of the European conference on artificial intelligence workshop on ROC curve and artificial intelligence (ROCAI 2004), 2004. p. 71–80."
+      },
+      {
+        "key": "444_CR338",
+        "doi-asserted-by": "publisher",
+        "first-page": "101078",
+        "DOI": "10.1016/j.csl.2020.101078",
+        "volume": "63",
+        "author": "V Mingote",
+        "year": "2020",
+        "unstructured": "Mingote V, Miguel A, Ortega A, Lleida E. Optimization of the area under the roc curve using neural network supervectors for text-dependent speaker verification. Comput Speech Lang. 2020;63:101078.",
+        "journal-title": "Comput Speech Lang"
+      },
+      {
+        "issue": "8",
+        "key": "444_CR339",
+        "doi-asserted-by": "publisher",
+        "first-page": "861",
+        "DOI": "10.1016/j.patrec.2005.10.010",
+        "volume": "27",
+        "author": "T Fawcett",
+        "year": "2006",
+        "unstructured": "Fawcett T. An introduction to roc analysis. Pattern Recogn Lett. 2006;27(8):861–74.",
+        "journal-title": "Pattern Recogn Lett"
+      },
+      {
+        "issue": "3",
+        "key": "444_CR340",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1109/TKDE.2005.50",
+        "volume": "17",
+        "author": "J Huang",
+        "year": "2005",
+        "unstructured": "Huang J, Ling CX. Using AUC and accuracy in evaluating learning algorithms. IEEE Trans Knowl Data Eng. 2005;17(3):299–310.",
+        "journal-title": "IEEE Trans Knowl Data Eng"
+      },
+      {
+        "issue": "2",
+        "key": "444_CR341",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1023/A:1010920819831",
+        "volume": "45",
+        "author": "DJ Hand",
+        "year": "2001",
+        "unstructured": "Hand DJ, Till RJ. A simple generalisation of the area under the ROC curve for multiple class classification problems. Mach Learn. 2001;45(2):171–86.",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "444_CR342",
+        "doi-asserted-by": "publisher",
+        "first-page": "317",
+        "DOI": "10.1016/j.eswa.2019.03.040",
+        "volume": "133",
+        "author": "S Masoudnia",
+        "year": "2019",
+        "unstructured": "Masoudnia S, Mersa O, Araabi BN, Vahabie AH, Sadeghi MA, Ahmadabadi MN. Multi-representational learning for offline signature verification using multi-loss snapshot ensemble of CNNs. Expert Syst Appl. 2019;133:317–30.",
+        "journal-title": "Expert Syst Appl"
+      },
+      {
+        "key": "444_CR343",
+        "doi-asserted-by": "publisher",
+        "first-page": "117026",
+        "DOI": "10.1016/j.neuroimage.2020.117026",
+        "volume": "219",
+        "author": "P Coupé",
+        "year": "2020",
+        "unstructured": "Coupé P, Mansencal B, Clément M, Giraud R, de Senneville BD, Ta VT, Lepetit V, Manjon JV. Assemblynet: a large ensemble of CNNs for 3D whole brain MRI segmentation. NeuroImage. 2020;219:117026.",
+        "journal-title": "NeuroImage"
+      }
+    ],
+    "container-title": [
+      "Journal of Big Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1186/s40537-021-00444-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1186/s40537-021-00444-8/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1186/s40537-021-00444-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2024-08-27T02:05:36Z",
+      "timestamp": 1724724336000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00444-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "references-count": 343,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "444"
+    ],
+    "URL": "https://doi.org/10.1186/s40537-021-00444-8",
+    "relation": {},
+    "ISSN": [
+      "2196-1115"
+    ],
+    "issn-type": [
+      {
+        "value": "2196-1115",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "21 January 2021",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 March 2021",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "31 March 2021",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "Not applicable.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethics approval and consent to participate"
+        }
+      },
+      {
+        "value": "Not applicable.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent for publication"
+        }
+      },
+      {
+        "value": "The authors declare that they have no competing interests.",
+        "order": 4,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "53"
+  }
+}

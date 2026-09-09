@@ -11,10 +11,10 @@ import {
 import { createStepCoolingGuard } from "../src/lib/thermal.js";
 import { ollamaJson } from "../src/lib/ollama.js";
 test("batch evidence resolves original text and rejects invalid IDs and duplicates", () => {
-  const blocks = [{ id: "S1", text: "Exact source text", start: 0, end: 17 }];
+  const blocks = [{ id: "S1", text: "Exact source text with sufficient supporting detail", start: 0, end: 50 }];
   const items = [
-    { question: "Q", answer: "A", evidenceIds: ["S1"] },
-    { question: "Q", answer: "A", evidenceIds: ["S1"] },
+    { question: "Q", answer: "A", evidenceIds: ["S1"], evidenceQuote: "Exact source text with sufficient supporting detail" },
+    { question: "Q", answer: "A", evidenceIds: ["S1"], evidenceQuote: "Exact source text with sufficient supporting detail" },
     { question: "Z", answer: "A", evidenceIds: ["S9"] },
   ];
   const c = prepareCandidates(items, blocks, [], 1, 10);

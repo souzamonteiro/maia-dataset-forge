@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W2958089299-f94376434b69.txt.gz",
+  "sourceTextSha256": "c7551e1f4ed15c5dbc9ff3a494a1a8abb40e0bda9a8e9e651225a1da857bf71a",
+  "spans": [
+    {
+      "start": 0,
+      "end": 534,
+      "text": "Abstract— Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to justify their reliability."
+    },
+    {
+      "start": 3183,
+      "end": 3736,
+      "text": "Interpretability and explainability of ML algorithms have thus become pressing issues: who is accountable if things go wrong? Can we explain why things go wrong? If things are working well, do we know why and how to leverage them further? Many articles have suggested different measures and frameworks to capture interpretability, and the topic explainable artificial intelligence (XAI) has become a hotspot in ML research community. Popular DL libraries have started to include their own XAI libraries, such as Pytorch Captum and tensorflow tf-explain."
+    },
+    {
+      "start": 5868,
+      "end": 6443,
+      "text": "We also find that many journal articles in the ML and AI community are algorithm-centric. They often assume that the algorithms used are obviously interpretable without conducting human subject tests to verify their interpretability (see column HSI of Tables I and II). It is noted that assuming that a model is obviously interpretable is not necessarily wrong, and, in some cases human tests might be irrelevant (for example, predefined models based on commonly accepted knowledge specific to the content-subject may be considered interpretable without human subject tests)."
+    },
+    {
+      "start": 7084,
+      "end": 7723,
+      "text": "Our categorization draws a starker borderline between the different views of interpretability that seem to be difficult to reconcile. In a sense, our survey is more suitable for technically oriented readers due to some mathematical details, although casual readers may find useful references for relevant popular items, from which they may develop interests in this young research field. Conversely, algorithm users that need interpretability in their work might develop an inclination to understand what is previously hidden in the thick veil of mathematical formulation, which might ironically undermine reliability and interpretability."
+    },
+    {
+      "start": 8125,
+      "end": 8707,
+      "text": "The survey [30] views interpretability in terms of extraction of relational knowledge, more specifically, by scrutinizing the methods under neuralsymbolic cycle. It presents the framework as a subcategory within the interpretability literature. We include it under verbal interpretability, though the framework does demonstrate that methods in other categories can be perceived under verbal interpretability as well. The extensive survey [18] provides a large list of researches categorized under transparent model and models requiring post hoc analysis with multiple subcategories."
+    },
+    {
+      "start": 10345,
+      "end": 10931,
+      "text": "There has yet to be a widely adopted standard to understand ML interpretability, though there have been works proposing frameworks for interpretability [10], [13], [35]. In fact, different works use different criteria, and they are justifiable in one way or another. Network dissection has been suggested [36], [37] to evaluate the interpretability of visual representations in deep NN (DNN) inspired by neuroscientists’ procedures to understand biological neurons. The articles also offer a way to quantify neuronal network units’ activation in response to different concepts detected."
+    }
+  ]
+}

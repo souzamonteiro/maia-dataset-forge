@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W3182706339-ceb606646a05.txt.gz",
+  "sourceTextSha256": "48e8b0db99f31feb9dbab5b5620426f8e7ce4ae0e5422257468644001907468a",
+  "spans": [
+    {
+      "start": 7709,
+      "end": 8303,
+      "text": "The only two regression scores that have strict real values are the non-negative R-squared and SMAPE. R-squared can have negative values, which mean that the regression performed poorly. R-squared can have value 0 when the regression model explains none of the variability of the response data around its mean (Minitab Blog Editor, 2013). The positive values of the coefficient of determination range in the [0, 1] interval, with 1 meaning perfect prediction. On the other side, the values of SMAPE range in the [0, 2], with 0 meaning perfect prediction and 2 meaning worst prediction possible."
+    },
+    {
+      "start": 9507,
+      "end": 9815,
+      "text": "RESULTS AND DISCUSSION In this section, we first report some particular use cases where we compare the results of R-squared and SMAPE (“Use Cases”), and then we describe a real biomedical scenario where the analyzed regression rates generate different rankings for the methods involved (“Medical Scenarios”)."
+    },
+    {
+      "start": 9816,
+      "end": 10147,
+      "text": "As mentioned earlier, we exclude MAE, MSE, RMSE and MAPE from the selection of the best performing regression rate. These statistics range in the [0, +∞) interval, with 0 meaning perfect regression, and their values alone therefore fail to communicate the quality of the regression performance, both on good cases and in bad cases."
+    },
+    {
+      "start": 11334,
+      "end": 11934,
+      "text": "UC4 use case Consider the following example: the seven actual values are (1, 1, 1, 1, 1, 2, 3) , and the predicted values are (1, 1, 1, 1, 1, 1, 1) . From the predicted values, it is clear that the regression method worked very poorly: it predicted 1 for all the seven values. If we compute the coefficient of determination and SMAPE here, we obtain R-squared = −0.346 and SMAPE = 0.238. The coefficient of determination illustrates that something is completely off, by having a negative value. On the contrary, SMAPE has a very good score, that corresponds to 88.1% correctness in the cnSMAPE scale."
+    },
+    {
+      "start": 17770,
+      "end": 18342,
+      "text": "We performed the analysis on the Lichtinghagen dataset (Lichtinghagen et al., 2013; Hoffmann et al., 2018) with the methods employed by Chicco & Jurman (2021). We report here the average values achieved by each method in 100 executions with 80% randomly chosen data elements used for the training set and the remaining 20% used for the test set. R2 : worst value −∞ and best value +1. SMAPE: worst value 2 and best value 0. MAE, MAPE, MSE and RMSE: worst value +∞ and best value 0. We reported the complete regression results including the standard deviations in Table S1."
+    },
+    {
+      "start": 20724,
+      "end": 21265,
+      "text": "Mean values and standard deviations out of 100 executions with 80% randomly chosen data elements used for the training set and the remaining 20% used for the test set. We performed the analysis on the Palechor dataset (Palechor & De-La-Hoz-Manotas, 2019; De-La-Hoz-Correa et al., 2019) with the methods Linear Regression, Decision Tree and Random Forests. We report here the average values achieved by each method in 100 executions with 80% randomly chosen data elements used for the training set and the remaining 20% used for the test set."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "sourceText": "data/text/reviewed/W3003257820-941bfc3edcf9.txt.gz",
+  "sourceTextSha256": "3873f92be7abd1b0f9ebad56de6ae501f3c3985119e88276dc3509fca7530dc1",
+  "spans": [
+    {
+      "start": 746,
+      "end": 1246,
+      "text": "SciPy is an open-source scientific computing library for the Python programming language. Since its initial release in 2001, SciPy has become a de facto standard for leveraging scientific algorithms in Python, with over 600 unique code contributors, thousands of dependent packages, over 100,000 dependent repositories and millions of downloads per year. In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments."
+    },
+    {
+      "start": 13279,
+      "end": 13835,
+      "text": "The SciPy library is organized as a collection of subpackages. The 16 subpackages include mathematical building blocks (for example, linear algebra, Fourier transforms, special functions), data structures (for example, sparse matrices, k-D trees), algorithms (for example, numerical optimization and integration, clustering, interpolation, graph algorithms, computational geometry) and higher-level data analysis functionality (for example, signal and image processing, statistical methods). Here we summarize the scope and capabilities of each subpackage."
+    },
+    {
+      "start": 16200,
+      "end": 17332,
+      "text": "Project scope. SciPy provides fundamental algorithms for scientific computing. The breadth of its scope was derived from the guide to available mathematical software (GAMS) classification system44. In areas that move relatively slowly, for example, linear algebra, SciPy aims to provide complete coverage. In other areas it aims to provide fundamental building blocks while interacting well with other packages specialized in that area. For example, SciPy provides what one expects to find in a statistics textbook (probability distributions, hypothesis tests, frequency statistics, correlation functions, and more), whereas Statsmodels45 provides more advanced statistical estimators and inference methods, scikit-learn3 covers machine learning, and PyMC346, emcee47 and PyStan (http://mc-stan.org) cover Bayesian statistics and probabilistic modeling. scikit-image4 provides image processing capabilities beyond SciPy’s ndimage, SymPy48 provides a Python interface for symbolic computation, and sparse.csgraph and spatial offer basic tools for working with graphs and networks compared to specialized libraries such as NetworkX49."
+    },
+    {
+      "start": 17680,
+      "end": 18301,
+      "text": "In terms of software systems and architecture, SciPy’s scope matches NumPy’s: algorithms for in-memory computing on single machines, with support for a wide range of data types and process architectures. Distributed computing and support for graphics processing units (GPUs) were explicitly out of scope at the 1.0 release point, but this has been revised in our roadmap (see Discussion). Language choices. According to analysis using the linguist library (https://github.com/github/linguist), SciPy is approximately 50% Python, 25% Fortran, 20% C, 3% Cython and 2% C++, with a dash of TeX, Matlab, shell script and Make."
+    },
+    {
+      "start": 20361,
+      "end": 20864,
+      "text": "We also use Cython to enable performance enhancements in Python code, especially for cases where heavily used inner loops benefit from a compiled code with static typing. For implementing new functionality, Python is the still the language of choice. If Python performance is an issue, then we prefer the use of Cython followed by C, C++ or Fortran (in that order). The main motivation for this is maintainability: Cython has the highest abstraction level, and most Python developers will understand it."
+    },
+    {
+      "start": 23293,
+      "end": 23890,
+      "text": "From a new features standpoint, scipy.sparse matrices and linear operators now support the Python matrix multiplication (@) operator. We added scipy.sparse.norm and scipy. sparse.random for computing sparse matrix norms and drawing random variates from arbitrary distributions, respectively. Also, we made a concerted effort to bring the scipy.sparse API into line with the equivalent NumPy API where possible. cKDTree. The scipy.spatial.ckdtree module, which implements a space-partitioning data structure that organizes points in k-dimensional space, was rewritten in C++ with templated classes."
+    }
+  ]
+}
