@@ -4,7 +4,9 @@
   "description": "Reproducible academic corpus and SFT dataset builder for Maia Academic",
   "type": "module",
   "license": "MIT",
-  "engines": {"node": ">=20"},
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node src/cli.js",
     "discover": "node src/cli.js discover",
@@ -14,6 +16,12 @@
     "validate": "node src/cli.js validate",
     "export": "node src/cli.js export",
     "pipeline": "node src/cli.js pipeline",
-    "test": "node --test"
+    "test": "node --test",
+    "cleanup": "node src/cli.js cleanup",
+    "check": "node src/cli.js check",
+    "benchmark": "node src/cli.js benchmark",
+    "prepare-benchmark": "node src/cli.js prepare-benchmark",
+    "benchmark:cost": "node src/cli.js benchmark-cost",
+    "batch:pilot": "node src/cli.js batch-pilot"
   }
 }

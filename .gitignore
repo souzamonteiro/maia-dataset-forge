@@ -7,3 +7,5 @@ data/datasets/*
 data/rejected/*
 data/logs/*
 !data/**/.gitkeep
+
+data/benchmarks/

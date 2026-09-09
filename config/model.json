@@ -6,5 +6,8 @@
   "temperature": 0.3,
   "validationTemperature": 0.0,
   "minScore": 0.75,
-  "languages": ["en", "pt", "es"]
+  "languages": ["en", "pt", "es"],
+  "numCtx": 16384,
+  "numPredict": 4096,
+  "timeoutMs": 600000
 }

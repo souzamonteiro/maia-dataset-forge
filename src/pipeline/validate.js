@@ -1,3 +1,61 @@
-import fs from 'node:fs/promises';import readline from 'node:readline';import {readJson,appendJsonl} from '../lib/io.js';import {ollamaJson} from '../lib/ollama.js';
-export async function validate(){const cfg=await readJson('config/model.json');await fs.writeFile('data/datasets/validated.jsonl','');await fs.writeFile('data/rejected/rejected.jsonl','');const papers=await readJson('data/catalog/papers.json');const byId=new Map(papers.map(p=>[p.id,p]));const rl=readline.createInterface({input:(await import('node:fs')).createReadStream('data/datasets/raw.jsonl'),crlfDelay:Infinity});for await(const line of rl){if(!line.trim())continue;const x=JSON.parse(line);const p=byId.get(x.paperId);let source='';try{source=(await fs.readFile(p.localText,'utf8')).slice(0,cfg.maxChunkChars)}catch{}const prompt=`Judge whether the answer is fully supported by the source. Score 0..1 for grounding, correctness, clarity and usefulness. Return JSON {"grounding":0.0,"correctness":0.0,"clarity":0.0,"usefulness":0.0,"verdict":"accept|reject","reason":"..."}.\nQUESTION:${x.question}\nANSWER:${x.answer}\nSOURCE:${source}`;try{const v=await ollamaJson({model:process.env.TEACHER_MODEL||cfg.teacherModel,prompt,temperature:cfg.validationTemperature,baseUrl:process.env.OLLAMA_BASE_URL||cfg.ollamaBaseUrl});const score=(v.grounding+v.correctness+v.clarity+v.usefulness)/4;const y={...x,validation:v,qualityScore:score};await appendJsonl(score>=cfg.minScore&&v.verdict!=='reject'?'data/datasets/validated.jsonl':'data/rejected/rejected.jsonl',y)}catch(e){await appendJsonl('data/rejected/rejected.jsonl',{...x,validationError:e.message})}}
+import { validationPrompt } from "../lib/prompts.js";
+import { readJson, readJsonl, writeJsonl, readText, hash } from "../lib/io.js";
+import { ollamaJson, teacherOptions } from "../lib/ollama.js";
+import { validItem, judge } from "../lib/quality.js";
+export async function validate() {
+  const cfg = await readJson("config/model.json");
+  const papers = new Map(
+    (await readJson("data/catalog/papers.json")).map((p) => [p.id, p]),
+  );
+  const raw = await readJsonl("data/datasets/raw.jsonl");
+  if (!raw.length) throw new Error("No generated examples");
+  const accepted = await readJsonl("data/datasets/validated.jsonl");
+  const rejected = await readJsonl("data/rejected/rejected.jsonl");
+  const fingerprint = hash(
+    JSON.stringify({ cfg, teacher: teacherOptions(cfg), version: 2 }),
+  );
+  if (
+    [...accepted, ...rejected].some(
+      (x) => x.validationFingerprint !== fingerprint,
+    )
+  )
+    throw new Error(
+      "Validation settings changed; use a separate data directory",
+    );
+  let failures = 0;
+  for (const x of raw) {
+    if ([...accepted, ...rejected].some((y) => y.id === x.id)) continue;
+    try {
+      const p = papers.get(x.paperId);
+      const text = await readText(p.localText);
+      if (hash(text) !== x.textSha256) throw new Error("Source hash mismatch");
+      const source = text.slice(x.sourceStart, x.sourceEnd);
+      if (!validItem(x, source))
+        throw new Error("Invalid candidate or missing source evidence");
+      const prompt = validationPrompt(x, source);
+      const v = await ollamaJson({
+        ...teacherOptions(cfg),
+        prompt,
+        temperature: cfg.validationTemperature,
+      });
+      const decision = judge(v, cfg.minScore);
+      const list = decision.accepted ? accepted : rejected;
+      list.push({
+        ...x,
+        validation: v,
+        qualityScore: decision.score,
+        validationFingerprint: fingerprint,
+      });
+      await writeJsonl(
+        decision.accepted
+          ? "data/datasets/validated.jsonl"
+          : "data/rejected/rejected.jsonl",
+        list,
+      );
+    } catch (error) {
+      failures++;
+      console.error(`VALIDATION RETRY ${x.id}: ${error.message}`);
+    }
+  }
+  if (failures) throw new Error(`${failures} examples need validation retry`);
 }
