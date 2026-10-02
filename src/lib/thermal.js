@@ -138,6 +138,8 @@ export function createThermalGuard({
 // Complete each call, but cool before starting the next one. No thermal retries.
 export function createStepCoolingGuard({
   read = cpuTemperature,
+  shouldCool = temperature => temperature > 60,
+  policy = "cool-before-60-monitor-only",
   intervalMs = 1000,
   sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
   eventPath = "data/logs/thermal-steps.jsonl",
@@ -148,10 +150,11 @@ export function createStepCoolingGuard({
     });
     const started = Date.now();
     let temperature = await read();
-    if (temperature > 60)
+    const coolingRequired = shouldCool(temperature);
+    if (coolingRequired)
       console.log(`[thermal] cooling from ${temperature} °C to <=60 °C`);
     let lastCoolingLog = Date.now();
-    while (temperature > 60) {
+    while (coolingRequired && temperature > 60) {
       await sleep(intervalMs);
       temperature = await read();
       if (Date.now() - lastCoolingLog >= 30000) {
@@ -166,7 +169,7 @@ export function createStepCoolingGuard({
       initialC: temperature,
       maxC: temperature,
       waitMs: Date.now() - started,
-      policy: "cool-before-60-monitor-only",
+      policy,
     };
     console.log(`[thermal] starting at ${temperature} °C`);
     const begin = Date.now();
@@ -210,5 +213,20 @@ export function createStepCoolingGuard({
         `[thermal] completed: ${row.finalC} °C; sampled maximum ${row.maxC} °C; ${(row.callMs / 1000).toFixed(1)} s`,
       );
     }
+  };
+}
+
+// A resumed process also starts cold; retries inside a cycle still check the 85 C gate.
+export function createCycleCoolingGuard(options = {}) {
+  let first = true;
+  const guard = createStepCoolingGuard({...options,
+    policy: 'cycle-start60-between-calls85-monitor-only',
+    shouldCool: temperature => first ? temperature > 60 : temperature >= 85,
+  });
+  return {
+    beginCycle() { first = true; },
+    async run(operation) {
+      return guard(async signal => { first = false; return operation(signal); });
+    },
   };
 }

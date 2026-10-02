@@ -36,6 +36,8 @@ const map = {
   download: () =>
     import("./pipeline/download.js").then((m) => m.downloadPapers()),
   extract: () => import("./pipeline/extract.js").then((m) => m.extract()),
+  dedupe: () => import("./pipeline/dedupe.js").then((m) => m.dedupe()),
+  stats: () => import("./pipeline/stats.js").then((m) => m.stats()),
   generate: () => import("./pipeline/generate.js").then((m) => m.generate()),
   validate: () => import("./pipeline/validate.js").then((m) => m.validate()),
   export: () => import("./pipeline/export.js").then((m) => m.exportDataset()),
@@ -47,6 +49,7 @@ try {
       "discover",
       "download",
       "extract",
+      "dedupe",
       "generate",
       "validate",
       "export",

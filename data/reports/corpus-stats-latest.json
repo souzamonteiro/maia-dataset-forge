@@ -1,0 +1,510 @@
+{
+  "generatedAt": "2026-09-12T14:50:41.207Z",
+  "config": {
+    "targetPapers": 3300,
+    "papersPerTopic": 100,
+    "fromYear": 2018,
+    "allowedLicenses": [
+      "cc-by",
+      "cc0",
+      "public-domain"
+    ]
+  },
+  "topics": [
+    {
+      "id": "computational-modeling",
+      "query": "computational modeling simulation numerical methods"
+    },
+    {
+      "id": "machine-learning",
+      "query": "machine learning deep learning scientific applications"
+    },
+    {
+      "id": "scientific-computing",
+      "query": "scientific computing numerical linear algebra optimization"
+    },
+    {
+      "id": "complex-systems",
+      "query": "complex systems network science agent based modeling"
+    },
+    {
+      "id": "software-engineering",
+      "query": "software engineering architecture testing empirical software engineering"
+    },
+    {
+      "id": "artificial-intelligence",
+      "query": "artificial intelligence reasoning knowledge representation agents"
+    },
+    {
+      "id": "data-science",
+      "query": "data science statistical learning data mining"
+    },
+    {
+      "id": "optimization",
+      "query": "mathematical optimization metaheuristics operations research"
+    },
+    {
+      "id": "applied-mathematics",
+      "query": "applied mathematics differential equations numerical analysis"
+    },
+    {
+      "id": "interdisciplinary-modeling",
+      "query": "interdisciplinary modeling computational science engineering applications"
+    },
+    {
+      "id": "computational-physics",
+      "query": "computational physics simulation particle methods"
+    },
+    {
+      "id": "computational-biology",
+      "query": "computational biology bioinformatics genomics modeling"
+    },
+    {
+      "id": "computational-chemistry",
+      "query": "computational chemistry molecular dynamics quantum chemistry"
+    },
+    {
+      "id": "robotics-control",
+      "query": "robotics control systems autonomous systems"
+    },
+    {
+      "id": "high-performance-computing",
+      "query": "high performance computing parallel computing GPU computing"
+    },
+    {
+      "id": "natural-language-processing",
+      "query": "natural language processing computational linguistics"
+    },
+    {
+      "id": "computer-vision",
+      "query": "computer vision image processing pattern recognition"
+    },
+    {
+      "id": "computational-social-science",
+      "query": "computational social science agent based social simulation"
+    },
+    {
+      "id": "climate-environmental-modeling",
+      "query": "climate modeling environmental simulation earth system science"
+    },
+    {
+      "id": "quantum-computing",
+      "query": "quantum computing quantum algorithms quantum information"
+    },
+    {
+      "id": "cybersecurity-computing",
+      "query": "cybersecurity cryptography computational security"
+    },
+    {
+      "id": "computational-neuroscience",
+      "query": "computational neuroscience brain modeling neural simulation"
+    },
+    {
+      "id": "computational-materials-science",
+      "query": "computational materials science modeling simulation"
+    },
+    {
+      "id": "computational-finance",
+      "query": "computational finance quantitative finance risk modeling"
+    },
+    {
+      "id": "speech-signal-processing",
+      "query": "speech processing signal processing acoustic modeling"
+    },
+    {
+      "id": "database-systems",
+      "query": "database systems distributed data management query processing"
+    },
+    {
+      "id": "computer-networks",
+      "query": "computer networks distributed systems network protocols"
+    },
+    {
+      "id": "computational-geoscience",
+      "query": "computational geoscience geophysics remote sensing modeling"
+    },
+    {
+      "id": "epidemiological-modeling",
+      "query": "epidemiological modeling infectious disease simulation public health"
+    },
+    {
+      "id": "human-computer-interaction",
+      "query": "human computer interaction usability computational methods"
+    },
+    {
+      "id": "computer-graphics",
+      "query": "computer graphics rendering geometric modeling animation"
+    },
+    {
+      "id": "formal-methods-verification",
+      "query": "formal methods program verification model checking"
+    },
+    {
+      "id": "computational-economics",
+      "query": "computational economics game theory market simulation"
+    },
+    {
+      "id": "medical-imaging-computing",
+      "query": "medical imaging computational diagnostics image reconstruction"
+    },
+    {
+      "id": "blockchain-distributed-ledger",
+      "query": "blockchain distributed ledger consensus protocols"
+    }
+  ],
+  "totals": {
+    "discovered": 3300,
+    "downloaded": 1115,
+    "downloadFailed": 2185,
+    "extracted": 1116,
+    "extractFailed": 2184,
+    "duplicates": 7,
+    "recoveredViaAlternateUrl": 287,
+    "unrecoverableDownloads": 1535,
+    "permanentlyFailed": 33
+  },
+  "perTopic": [
+    {
+      "topic": "computational-modeling",
+      "query": "computational modeling simulation numerical methods",
+      "discovered": 100,
+      "downloaded": 43,
+      "downloadFailed": 57,
+      "extracted": 43,
+      "duplicates": 1
+    },
+    {
+      "topic": "machine-learning",
+      "query": "machine learning deep learning scientific applications",
+      "discovered": 100,
+      "downloaded": 38,
+      "downloadFailed": 62,
+      "extracted": 38,
+      "duplicates": 0
+    },
+    {
+      "topic": "scientific-computing",
+      "query": "scientific computing numerical linear algebra optimization",
+      "discovered": 100,
+      "downloaded": 43,
+      "downloadFailed": 57,
+      "extracted": 43,
+      "duplicates": 1
+    },
+    {
+      "topic": "complex-systems",
+      "query": "complex systems network science agent based modeling",
+      "discovered": 100,
+      "downloaded": 33,
+      "downloadFailed": 67,
+      "extracted": 33,
+      "duplicates": 0
+    },
+    {
+      "topic": "software-engineering",
+      "query": "software engineering architecture testing empirical software engineering",
+      "discovered": 100,
+      "downloaded": 42,
+      "downloadFailed": 58,
+      "extracted": 42,
+      "duplicates": 1
+    },
+    {
+      "topic": "artificial-intelligence",
+      "query": "artificial intelligence reasoning knowledge representation agents",
+      "discovered": 100,
+      "downloaded": 37,
+      "downloadFailed": 63,
+      "extracted": 38,
+      "duplicates": 0
+    },
+    {
+      "topic": "data-science",
+      "query": "data science statistical learning data mining",
+      "discovered": 100,
+      "downloaded": 33,
+      "downloadFailed": 67,
+      "extracted": 33,
+      "duplicates": 0
+    },
+    {
+      "topic": "optimization",
+      "query": "mathematical optimization metaheuristics operations research",
+      "discovered": 100,
+      "downloaded": 43,
+      "downloadFailed": 57,
+      "extracted": 43,
+      "duplicates": 0
+    },
+    {
+      "topic": "applied-mathematics",
+      "query": "applied mathematics differential equations numerical analysis",
+      "discovered": 100,
+      "downloaded": 29,
+      "downloadFailed": 71,
+      "extracted": 29,
+      "duplicates": 0
+    },
+    {
+      "topic": "interdisciplinary-modeling",
+      "query": "interdisciplinary modeling computational science engineering applications",
+      "discovered": 100,
+      "downloaded": 31,
+      "downloadFailed": 69,
+      "extracted": 31,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-physics",
+      "query": "computational physics simulation particle methods",
+      "discovered": 100,
+      "downloaded": 21,
+      "downloadFailed": 79,
+      "extracted": 21,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-biology",
+      "query": "computational biology bioinformatics genomics modeling",
+      "discovered": 100,
+      "downloaded": 27,
+      "downloadFailed": 73,
+      "extracted": 27,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-chemistry",
+      "query": "computational chemistry molecular dynamics quantum chemistry",
+      "discovered": 100,
+      "downloaded": 25,
+      "downloadFailed": 75,
+      "extracted": 25,
+      "duplicates": 1
+    },
+    {
+      "topic": "robotics-control",
+      "query": "robotics control systems autonomous systems",
+      "discovered": 100,
+      "downloaded": 36,
+      "downloadFailed": 64,
+      "extracted": 36,
+      "duplicates": 0
+    },
+    {
+      "topic": "high-performance-computing",
+      "query": "high performance computing parallel computing GPU computing",
+      "discovered": 100,
+      "downloaded": 31,
+      "downloadFailed": 69,
+      "extracted": 31,
+      "duplicates": 0
+    },
+    {
+      "topic": "natural-language-processing",
+      "query": "natural language processing computational linguistics",
+      "discovered": 100,
+      "downloaded": 34,
+      "downloadFailed": 66,
+      "extracted": 34,
+      "duplicates": 0
+    },
+    {
+      "topic": "computer-vision",
+      "query": "computer vision image processing pattern recognition",
+      "discovered": 82,
+      "downloaded": 35,
+      "downloadFailed": 47,
+      "extracted": 35,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-social-science",
+      "query": "computational social science agent based social simulation",
+      "discovered": 100,
+      "downloaded": 43,
+      "downloadFailed": 57,
+      "extracted": 43,
+      "duplicates": 0
+    },
+    {
+      "topic": "climate-environmental-modeling",
+      "query": "climate modeling environmental simulation earth system science",
+      "discovered": 100,
+      "downloaded": 40,
+      "downloadFailed": 60,
+      "extracted": 40,
+      "duplicates": 0
+    },
+    {
+      "topic": "quantum-computing",
+      "query": "quantum computing quantum algorithms quantum information",
+      "discovered": 72,
+      "downloaded": 25,
+      "downloadFailed": 47,
+      "extracted": 25,
+      "duplicates": 0
+    },
+    {
+      "topic": "cybersecurity-computing",
+      "query": "cybersecurity cryptography computational security",
+      "discovered": 100,
+      "downloaded": 42,
+      "downloadFailed": 58,
+      "extracted": 42,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-neuroscience",
+      "query": "computational neuroscience brain modeling neural simulation",
+      "discovered": 100,
+      "downloaded": 28,
+      "downloadFailed": 72,
+      "extracted": 28,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-materials-science",
+      "query": "computational materials science modeling simulation",
+      "discovered": 58,
+      "downloaded": 13,
+      "downloadFailed": 45,
+      "extracted": 13,
+      "duplicates": 0
+    },
+    {
+      "topic": "computational-finance",
+      "query": "computational finance quantitative finance risk modeling",
+      "discovered": 100,
+      "downloaded": 33,
+      "downloadFailed": 67,
+      "extracted": 33,
+      "duplicates": 0
+    },
+    {
+      "topic": "speech-signal-processing",
+      "query": "speech processing signal processing acoustic modeling",
+      "discovered": 100,
+      "downloaded": 40,
+      "downloadFailed": 60,
+      "extracted": 40,
+      "duplicates": 0
+    },
+    {
+      "topic": "database-systems",
+      "query": "database systems distributed data management query processing",
+      "discovered": 100,
+      "downloaded": 34,
+      "downloadFailed": 66,
+      "extracted": 34,
+      "duplicates": 0
+    },
+    {
+      "topic": "computer-networks",
+      "query": "computer networks distributed systems network protocols",
+      "discovered": 66,
+      "downloaded": 15,
+      "downloadFailed": 51,
+      "extracted": 15,
+      "duplicates": 1
+    },
+    {
+      "topic": "computational-geoscience",
+      "query": "computational geoscience geophysics remote sensing modeling",
+      "discovered": 100,
+      "downloaded": 29,
+      "downloadFailed": 71,
+      "extracted": 29,
+      "duplicates": 0
+    },
+    {
+      "topic": "epidemiological-modeling",
+      "query": "epidemiological modeling infectious disease simulation public health",
+      "discovered": 100,
+      "downloaded": 37,
+      "downloadFailed": 63,
+      "extracted": 37,
+      "duplicates": 0
+    },
+    {
+      "topic": "human-computer-interaction",
+      "query": "human computer interaction usability computational methods",
+      "discovered": 31,
+      "downloaded": 7,
+      "downloadFailed": 24,
+      "extracted": 7,
+      "duplicates": 0
+    },
+    {
+      "topic": "computer-graphics",
+      "query": "computer graphics rendering geometric modeling animation",
+      "discovered": 100,
+      "downloaded": 30,
+      "downloadFailed": 70,
+      "extracted": 30,
+      "duplicates": 0
+    },
+    {
+      "topic": "formal-methods-verification",
+      "query": "formal methods program verification model checking",
+      "discovered": 100,
+      "downloaded": 29,
+      "downloadFailed": 71,
+      "extracted": 29,
+      "duplicates": 1
+    },
+    {
+      "topic": "computational-economics",
+      "query": "computational economics game theory market simulation",
+      "discovered": 100,
+      "downloaded": 29,
+      "downloadFailed": 71,
+      "extracted": 29,
+      "duplicates": 0
+    },
+    {
+      "topic": "medical-imaging-computing",
+      "query": "medical imaging computational diagnostics image reconstruction",
+      "discovered": 100,
+      "downloaded": 22,
+      "downloadFailed": 78,
+      "extracted": 22,
+      "duplicates": 1
+    },
+    {
+      "topic": "blockchain-distributed-ledger",
+      "query": "blockchain distributed ledger consensus protocols",
+      "discovered": 91,
+      "downloaded": 38,
+      "downloadFailed": 53,
+      "extracted": 38,
+      "duplicates": 0
+    }
+  ],
+  "downloadErrorBreakdown": {
+    "invalid_pdf_signature": 1495,
+    "http_5xx": 1,
+    "http_403": 628,
+    "timeout": 3,
+    "http_404": 41,
+    "fetch_failed": 3,
+    "http_429": 9,
+    "http_405": 5
+  },
+  "licenseBreakdown": {
+    "cc-by": 3242,
+    "other-oa": 1,
+    "public-domain": 54,
+    "unknown": 3
+  },
+  "yearBreakdown": {
+    "2018": 511,
+    "2019": 622,
+    "2020": 775,
+    "2021": 513,
+    "2022": 426,
+    "2023": 322,
+    "2024": 122,
+    "2025": 8,
+    "2026": 1
+  }
+}

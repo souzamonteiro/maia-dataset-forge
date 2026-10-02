@@ -36,6 +36,7 @@ An OpenAlex key is recommended for non-trivial API use; a Semantic Scholar API k
 npm run discover
 npm run download
 npm run extract
+npm run dedupe
 npm run generate
 npm run validate
 npm run export
@@ -63,6 +64,10 @@ data/
 ## Dataset quality policy
 
 The generator requests ten complementary question types per paper: conceptual, methodology, results, comparison, technical, critical, application and synthesis. A second LLM call scores grounding, correctness, clarity and usefulness. Samples below the configured threshold are rejected.
+
+`npm run dedupe` runs after `extract` and before `generate`. It marks a paper as `duplicateOfId` only when its extracted text or its raw PDF bytes are byte-for-byte identical to another catalog entry (the higher-citation paper is kept as canonical); `generate` then skips duplicate-flagged papers. Papers that merely share a normalized title (for example, companion papers in a series) are reported for manual review only and are never auto-excluded, since that signal alone is not reliable enough to remove a distinct paper.
+
+`npm run stats` saves a reproducible evidence snapshot for later reporting (for example in a dataset paper): the exact topic list and query used for discovery, per-topic and total discovery/download/extraction/dedup counts, a classified download-error breakdown, and license/year distributions. It writes `data/reports/corpus-stats-latest.json` and appends a timestamped copy to `data/logs/corpus-stats.jsonl`, so running it again at different pipeline stages keeps a full history rather than overwriting prior evidence.
 
 For training/evaluation splits, split **by source paper**, never randomly by Q/A pair, to reduce leakage.
 
@@ -95,6 +100,14 @@ Discovery uses `allowedLicenses` in `config/topics.json` (initially `cc-by`, `cc
 filter. Missing PDF URLs cannot currently be rescued through Semantic Scholar.
 HTTP failures are retried with backoff; downloads are bounded to 100 MiB and checked
 for PDF signature/EOF before being saved. Scanned papers needing OCR are reported.
+
+`npm run download` also tries every other allowed-license OA mirror OpenAlex indexed
+for a work before giving up on it, and re-runs retry prior failures automatically.
+If every recorded location confirms `HTTP 404` twice across separate runs, the paper
+is marked `permanentlyFailed` and is skipped on later runs instead of being retried
+forever; the failure reason and attempt count remain in the catalog for evidence.
+Other failure kinds (blocked, timed out, or returning a non-PDF page) keep retrying
+indefinitely, since they may be transient.
 
 Export writes `train.jsonl`, `validation.jsonl`, `test.jsonl` and the combined file.
 Splits are deterministic by paper ID, approximately 80/10/10; small pilots may have
@@ -351,3 +364,63 @@ excluído porque a licença permitida não foi comprovada. Excluir não signific
 apagar arquivos nem afirmar que o artigo seja incorreto. Faltam substitutos nos
 temas artificial-intelligence, applied-mathematics e interdisciplinary-modeling.
 As decisões e justificativas estão em `data/corpus/decisions.json`.
+
+### Comparação de geradores (três artigos)
+
+`npm run benchmark:generators` compara Qwen 2.5 14B, Llama 3.1 8B e Gemma 3 12B
+nos mesmos trechos de SciPy, métodos multifidelidade e gêmeos digitais. O avaliador
+é Qwen 2.5 14B, com quatro threads e resfriamento entre chamadas. São nove casos,
+sequenciais, com retomada. Instale previamente `qwen2.5:14b`, `llama3.1:8b` e
+`gemma3:12b` no Ollama. As saídas ficam em `data/benchmarks/generator-comparison`:
+`progress.json` informa o caso atual; `summary.json` resume os casos finalizados.
+O Qwen avalia a si mesmo, portanto a comparação automática tem esse viés e requer
+revisão manual. Não compara apenas capacidade linguística nem certifica qualidade.
+
+A política de evidência v3 aceita um par de aspas externas em uma citação que,
+sem essas aspas, corresponda literalmente ao bloco. A citação original é mantida.
+Essa mudança exige diretórios novos para pilotos anteriores à versão 3.
+
+### Piloto editorial v3
+
+`npm run benchmark:editorial` executa sequencialmente os três artigos de regressão
+(métricas, gêmeos digitais e STRING), com Llama 8B gerando e Qwen 14B validando.
+Mantém quatro threads, resfriamento até 60 °C e o bloqueio compartilhado dos pilotos.
+Resultados: `data/benchmarks/editorial-regression-v3/`; execute novamente para
+retomar uma interrupção. `completed` indica fim da bateria, não necessariamente
+30 aprovações: cada artigo ainda tem limite de três rodadas.
+
+O gerador seleciona IDs; o pipeline copia os blocos originais como evidência,
+preserva `originalAnswer` e remove apenas marcadores internos parentéticos.
+A detecção de duplicatas também sinaliza respostas longas iguais com perguntas
+muito semelhantes; respostas curtas iguais não bastam para descartar um item.
+O validador recebe exemplos de erros da auditoria e critérios explícitos de notas.
+Essas mudanças precisam de avaliação empírica; aprovação automática não substitui
+revisão editorial. `batch:ten` usa uma pasta v3 separada dos resultados v2.
+
+### Piloto de ciclos v4
+
+`npm run benchmark:editorial` agora salva em `data/benchmarks/editorial-cycles-v4/`.
+Gera até 15 candidatas na primeira rodada, valida em lotes de até cinco e seleciona
+até dez aprovadas por nota (empates preservam a ordem). Rodadas seguintes pedem
+somente o déficit e recebem as rejeições anteriores. Cada lote validado é salvo;
+retomadas reutilizam esses resultados. Aprovações excedentes ficam no estado.
+
+Cada ciclo/rodada começa a <=60 °C. Dentro dele, novas chamadas só exigem retorno
+a 60 °C se a leitura anterior à chamada estiver >=85 °C. A temperatura continua
+sendo amostrada durante as chamadas; o monitor existente não cancela uma chamada
+por temperatura. Sensores indisponíveis interrompem a execução. A primeira chamada
+após reiniciar o processo também exige <=60 °C. Quatro threads e um modelo por vez.
+Os eventos térmicos deste piloto ficam em `thermal.jsonl` dentro da pasta de cada
+artigo. O comando `batch:ten` usa uma pasta própria `cycles-v4-10`.
+
+### Avaliação fixa do validador
+
+`npm run benchmark:validator` testa Qwen 14B em 24 casos fixos (12 aceitos e
+12 rejeitados editorialmente), em lotes de cinco, sem gerar novas questões.
+Inclui uma hipótese corretamente qualificada que havia sido rejeitada.
+As decisões editoriais e justificativas não são enviadas ao modelo. Os rótulos
+são provisórios, produzidos pela revisão por IA, e os casos são conhecidos pela
+calibração anterior: este painel mede regressão, não generalização independente.
+Saídas e retomada em `data/benchmarks/validator-regression-v1/`; `disagreements.json`
+lista divergências. O denominador de falsa aceitação são os negativos editoriais;
+o de falsa rejeição são os positivos. Quatro threads e política térmica por ciclo.

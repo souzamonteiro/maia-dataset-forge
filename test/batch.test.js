@@ -84,3 +84,61 @@ test("Ollama request sends four threads and assembles streaming JSON", async () 
     globalThis.fetch = original;
   }
 });
+
+test('excess generations are capped in original order, preserving raw input and checks',()=>{
+ const blocks=[{id:'S1',text:'This is a literal supporting sentence with enough detail.'}];
+ const item={question:'First?',answer:'Answer',evidenceIds:['S1'],evidenceQuote:blocks[0].text};
+ const raw=[item,{...item,question:'Second?'},{...item,question:'Extra?'}];
+ const before=JSON.stringify(raw);
+ const c=prepareCandidates(raw,blocks,[],1,2);
+ assert.equal(c.length,2);assert.equal(c[1].question,'Second?');assert.equal(JSON.stringify(raw),before);
+ assert.equal(prepareCandidates(raw,blocks,[item],2,2)[0].invalidReason!==undefined,true);
+ assert.ok(prepareCandidates([null],blocks,[],1,1)[0].invalidReason);
+ assert.throws(()=>prepareCandidates({},blocks,[],1,2),/items must be an array/);
+});
+
+test('quote wrappers tolerated without weakening literal evidence',async()=>{
+ const {literalQuoteMatches}=await import('../src/pipeline/batch-pilot.js');
+ const source='This scientific evidence describes the experiment accurately.';
+ for(const q of [source,`"${source}"`,`“${source}”`])assert.equal(literalQuoteMatches(q,source),true);
+ assert.equal(literalQuoteMatches('"This scientific evidence invents a different result."',source),false);
+ assert.equal(literalQuoteMatches('"short"',source),false);
+ assert.equal(literalQuoteMatches(`"${source}`,source),false);
+});
+
+test('selected evidence is copied from source and answer markers are cleaned without changing numbers',()=>{
+ const blocks=[{id:'S1',text:'The metric takes any real value in the interval [0,2].'}];
+ const raw={question:'What interval does the metric use?',answer:'The interval [0,2] (S1).',evidenceIds:['S1']};
+ const [c]=prepareCandidates([raw],blocks,[],1,1,true);
+ assert.equal(c.invalidReason,undefined);
+ assert.equal(c.answer,'The interval [0,2].');
+ assert.equal(c.originalAnswer,raw.answer);
+ assert.equal(c.evidenceQuote,blocks[0].text);
+ assert.ok(prepareCandidates([{...raw,evidenceIds:['S9']}],blocks,[],1,1,true)[0].invalidReason);
+ assert.equal(raw.answer,'The interval [0,2] (S1).');
+});
+test('duplicate guard catches audited paraphrases but preserves distinct questions with short equal answers',async()=>{
+ const {duplicateCandidate}=await import('../src/lib/editorial.js');
+ const answer='Protein associations are transferred based on orthology relationships with the assumption that orthologs are likewise associated.';
+ const first={id:'a',question:'How are protein associations transferred across organisms in STRING?',answer};
+ assert.equal(duplicateCandidate({question:'How are protein associations transferred in STRING across organisms?',answer:answer+' (S2)'},[first]).id,'a');
+ assert.equal(duplicateCandidate({question:'What language implements new functionality?',answer:'Python'},[{question:'What language is used in this tutorial?',answer:'Python'}]),undefined);
+});
+
+test('cycle cooling allows 80 C inside cycle, cools at exactly 85 C and resets each cycle',async()=>{
+ const {createCycleCoolingGuard}=await import('../src/lib/thermal.js');
+ const dir=await fs.mkdtemp(path.join(os.tmpdir(),'forge-cycle-'));
+ try {
+  // Initial read, cooling read when required, final read for each operation.
+  const temperatures=[70,60,70,80,80,85,60,65,70,60,62];
+  const guard=createCycleCoolingGuard({read:async()=>{assert.ok(temperatures.length);return temperatures.shift();},intervalMs:1,eventPath:path.join(dir,'events.jsonl')});
+  await guard.run(async()=>{});
+  await guard.run(async()=>{});
+  await guard.run(async()=>{});
+  guard.beginCycle();
+  await guard.run(async()=>{});
+  const rows=(await fs.readFile(path.join(dir,'events.jsonl'),'utf8')).trim().split('\n').map(JSON.parse);
+  assert.deepEqual(rows.map(x=>x.initialC),[60,80,60,60]);
+  assert.equal(temperatures.length,0);
+ } finally {await fs.rm(dir,{recursive:true,force:true});}
+});

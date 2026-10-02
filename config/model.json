@@ -1,7 +1,8 @@
 {
   "ollamaBaseUrl": "http://127.0.0.1:11434",
+  "generatorModel": "llama3.1:8b",
   "teacherModel": "qwen2.5:14b",
-  "questionsPerPaper": 10,
+  "questionsPerPaper": 15,
   "maxChunkChars": 12000,
   "temperature": 0.3,
   "validationTemperature": 0.0,

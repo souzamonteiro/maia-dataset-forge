@@ -169,8 +169,8 @@ test("model switching unloads other models and refuses to proceed if they remain
           : { done: true },
       );
     await assert.rejects(
-      releaseOtherModels("http://mock", "large"),
-      /remain loaded/,
+      releaseOtherModels("http://mock", "large", {timeoutMs: 0}),
+      /still loaded/,
     );
   } finally {
     globalThis.fetch = original;

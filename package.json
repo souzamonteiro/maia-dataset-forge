@@ -12,6 +12,8 @@
     "discover": "node src/cli.js discover",
     "download": "node src/cli.js download",
     "extract": "node src/cli.js extract",
+    "dedupe": "node src/cli.js dedupe",
+    "stats": "node src/cli.js stats",
     "generate": "node src/cli.js generate",
     "validate": "node src/cli.js validate",
     "export": "node src/cli.js export",
@@ -25,6 +27,11 @@
     "batch:pilot": "node src/cli.js batch-pilot",
     "prepare:reviewed": "node src/cli.js prepare-reviewed",
     "corpus:audit": "node src/cli.js corpus",
-    "corpus:collect": "node src/cli.js corpus --collect"
+    "corpus:collect": "node src/cli.js corpus --collect",
+    "batch:ten": "flock -n data/logs/batch-pilot.lock node scripts/batch-ten.js",
+    "benchmark:generators": "flock -n data/logs/batch-pilot.lock node scripts/compare-generators.js",
+    "benchmark:editorial": "flock -n data/logs/batch-pilot.lock node scripts/editorial-regression.js",
+    "benchmark:validator": "flock -n data/logs/batch-pilot.lock node scripts/evaluate-validator.js",
+    "benchmark:validators": "flock -n data/logs/batch-pilot.lock node scripts/compare-validators.js"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "targetPapers": 1000,
+  "targetPapers": 3300,
   "papersPerTopic": 100,
   "fromYear": 2018,
   "openAccessOnly": true,
@@ -43,6 +43,106 @@
     {
       "id": "interdisciplinary-modeling",
       "query": "interdisciplinary modeling computational science engineering applications"
+    },
+    {
+      "id": "computational-physics",
+      "query": "computational physics simulation particle methods"
+    },
+    {
+      "id": "computational-biology",
+      "query": "computational biology bioinformatics genomics modeling"
+    },
+    {
+      "id": "computational-chemistry",
+      "query": "computational chemistry molecular dynamics quantum chemistry"
+    },
+    {
+      "id": "robotics-control",
+      "query": "robotics control systems autonomous systems"
+    },
+    {
+      "id": "high-performance-computing",
+      "query": "high performance computing parallel computing GPU computing"
+    },
+    {
+      "id": "natural-language-processing",
+      "query": "natural language processing computational linguistics"
+    },
+    {
+      "id": "computer-vision",
+      "query": "computer vision image processing pattern recognition"
+    },
+    {
+      "id": "computational-social-science",
+      "query": "computational social science agent based social simulation"
+    },
+    {
+      "id": "climate-environmental-modeling",
+      "query": "climate modeling environmental simulation earth system science"
+    },
+    {
+      "id": "quantum-computing",
+      "query": "quantum computing quantum algorithms quantum information"
+    },
+    {
+      "id": "cybersecurity-computing",
+      "query": "cybersecurity cryptography computational security"
+    },
+    {
+      "id": "computational-neuroscience",
+      "query": "computational neuroscience brain modeling neural simulation"
+    },
+    {
+      "id": "computational-materials-science",
+      "query": "computational materials science modeling simulation"
+    },
+    {
+      "id": "computational-finance",
+      "query": "computational finance quantitative finance risk modeling"
+    },
+    {
+      "id": "speech-signal-processing",
+      "query": "speech processing signal processing acoustic modeling"
+    },
+    {
+      "id": "database-systems",
+      "query": "database systems distributed data management query processing"
+    },
+    {
+      "id": "computer-networks",
+      "query": "computer networks distributed systems network protocols"
+    },
+    {
+      "id": "computational-geoscience",
+      "query": "computational geoscience geophysics remote sensing modeling"
+    },
+    {
+      "id": "epidemiological-modeling",
+      "query": "epidemiological modeling infectious disease simulation public health"
+    },
+    {
+      "id": "human-computer-interaction",
+      "query": "human computer interaction usability computational methods"
+    },
+    {
+      "id": "computer-graphics",
+      "query": "computer graphics rendering geometric modeling animation"
+    },
+    {
+      "id": "formal-methods-verification",
+      "query": "formal methods program verification model checking"
+    },
+    {
+      "id": "computational-economics",
+      "query": "computational economics game theory market simulation"
+    },
+    {
+      "id": "medical-imaging-computing",
+      "query": "medical imaging computational diagnostics image reconstruction"
+    },
+    {
+      "id": "blockchain-distributed-ledger",
+      "query": "blockchain distributed ledger consensus protocols"
     }
   ],
   "allowedLicenses": ["cc-by", "cc0", "public-domain"]

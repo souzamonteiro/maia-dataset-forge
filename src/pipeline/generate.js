@@ -1,6 +1,6 @@
 import { generationPrompt } from "../lib/prompts.js";
 import { readJson, readJsonl, writeJsonl, readText, hash } from "../lib/io.js";
-import { ollamaJson, teacherOptions } from "../lib/ollama.js";
+import { ollamaJson, generatorOptions } from "../lib/ollama.js";
 import { chunks, validItem, paperSplit } from "../lib/quality.js";
 const types = [
   "conceptual",
@@ -18,7 +18,7 @@ export async function generate() {
   const out = "data/datasets/raw.jsonl";
   const rows = await readJsonl(out);
   const fingerprint = hash(
-    JSON.stringify({ cfg, teacher: teacherOptions(cfg), version: 2 }),
+    JSON.stringify({ cfg, generator: generatorOptions(cfg), version: 2 }),
   );
   if (rows.some((x) => x.generationFingerprint !== fingerprint))
     throw new Error(
@@ -26,26 +26,36 @@ export async function generate() {
     );
   let failures = 0;
   for (const p of papers) {
+    if (p.duplicateOfId || !p.localText || !p.textSha256) continue;
+    let text;
+    let parts;
     try {
-      const text = await readText(p.localText);
+      text = await readText(p.localText);
       if (hash(text) !== p.textSha256)
         throw new Error("Source text hash mismatch");
-      const parts = chunks(text, cfg.maxChunkChars);
-      for (let i = 0; i < cfg.questionsPerPaper; i++) {
-        const id = `${p.id}-q${String(i + 1).padStart(2, "0")}`;
-        const previous = rows.find((x) => x.id === id);
-        if (previous && previous.textSha256 !== p.textSha256)
-          throw new Error("Source changed; use a separate data directory");
-        if (previous) continue;
-        const chunkIndex =
-          cfg.questionsPerPaper === 1
-            ? 0
-            : Math.round(
-                (i * (parts.length - 1)) / (cfg.questionsPerPaper - 1),
-              );
-        const part = parts[chunkIndex];
-        const language = cfg.languages[i % cfg.languages.length];
-        const type = types[i % types.length];
+      parts = chunks(text, cfg.maxChunkChars);
+    } catch (error) {
+      failures++;
+      console.error(`GEN FAIL ${p.id}: ${error.message}`);
+      continue;
+    }
+    for (let i = 0; i < cfg.questionsPerPaper; i++) {
+      const id = `${p.id}-q${String(i + 1).padStart(2, "0")}`;
+      const previous = rows.find((x) => x.id === id);
+      if (previous && previous.textSha256 !== p.textSha256) {
+        failures++;
+        console.error(`GEN FAIL ${id}: Source changed; use a separate data directory`);
+        continue;
+      }
+      if (previous) continue;
+      const chunkIndex =
+        cfg.questionsPerPaper === 1
+          ? 0
+          : Math.round((i * (parts.length - 1)) / (cfg.questionsPerPaper - 1));
+      const part = parts[chunkIndex];
+      const language = cfg.languages[i % cfg.languages.length];
+      const type = types[i % types.length];
+      try {
         const prompt = generationPrompt({
           type,
           language,
@@ -53,7 +63,7 @@ export async function generate() {
           source: part.text,
         });
         const item = await ollamaJson({
-          ...teacherOptions(cfg),
+          ...generatorOptions(cfg),
           prompt,
           temperature: cfg.temperature,
         });
@@ -86,15 +96,18 @@ export async function generate() {
           sourceEnd: part.end,
           textSha256: p.textSha256,
           pdfSha256: p.pdfSha256,
-          generator: teacherOptions(cfg).model,
+          generator: generatorOptions(cfg).model,
           generationFingerprint: fingerprint,
         });
         await writeJsonl(out, rows);
+      } catch (error) {
+        failures++;
+        console.error(`GEN FAIL ${id}: ${error.message}`);
       }
-    } catch (error) {
-      failures++;
-      console.error(`GEN FAIL ${p.id}: ${error.message}`);
     }
   }
-  if (failures) throw new Error(`${failures} papers need generation retry`);
+  if (failures)
+    console.warn(
+      `Generation completed with ${failures} failed question attempts; rerun generate to retry remaining items.`,
+    );
 }

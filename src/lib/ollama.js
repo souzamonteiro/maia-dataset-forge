@@ -66,10 +66,22 @@ async function requestJson({
     }
     buffer += decoder.decode();
     consume(buffer);
-    if (!result) throw new Error("Ollama returned an incomplete response");
+    if (!result) {
+      const error = new Error(`Ollama stream ended without done:true (${content.length} response characters)`);
+      error.code = 'OLLAMA_INCOMPLETE_STREAM';
+      error.partialResponse = content;
+      throw error;
+    }
     result.response = content;
   }
-  if (result.error || result.done !== true || result.done_reason === "length")
+  if (result.done_reason === "length") {
+    const error = new Error(`Ollama output token limit reached (${numPredict}; emitted ${result.eval_count ?? 'unknown'})`);
+    error.code = 'OLLAMA_OUTPUT_LIMIT';
+    error.partialResponse = result.response;
+    error.completionTokens = result.eval_count;
+    throw error;
+  }
+  if (result.error || result.done !== true)
     throw new Error("Ollama returned an incomplete response");
   const value = JSON.parse(result.response);
   return withMetrics
@@ -96,8 +108,28 @@ export function teacherOptions(cfg) {
   };
 }
 
+// Generation and validation may use different models; falls back to the
+// validator (teacherModel) when no separate generator is configured.
+export function generatorOptions(cfg) {
+  return {
+    model: process.env.GENERATOR_MODEL || cfg.generatorModel || cfg.teacherModel,
+    baseUrl: process.env.OLLAMA_BASE_URL || cfg.ollamaBaseUrl,
+    numThreads: cfg.numThreads ?? 4,
+    numCtx: cfg.numCtx,
+    numPredict: cfg.numPredict,
+    timeoutMs: cfg.timeoutMs,
+  };
+}
+
 // Fail closed if memory cannot be released before switching models.
-export async function releaseOtherModels(baseUrl, target) {
+export async function releaseOtherModels(baseUrl, target, {
+  timeoutMs = 60000,
+  pollMs = 1000,
+  sleep = ms => new Promise(resolve => setTimeout(resolve, ms)),
+  now = () => performance.now(),
+  log = message => console.log(message),
+} = {}) {
+  const deadline = now() + timeoutMs;
   const list = async () => {
     const response = await fetch(`${baseUrl}/api/ps`, {
       signal: AbortSignal.timeout(30000),
@@ -123,10 +155,23 @@ export async function releaseOtherModels(baseUrl, target) {
       throw new Error(`Could not unload ${name}: HTTP ${response.status}`);
     await response.json();
   }
-  if ((await list()).some((model) => (model.name || model.model) !== target))
-    throw new Error(
-      "Other models remain loaded; benchmark stopped to protect memory",
+  // Unload acknowledgment may precede removal from /api/ps. Do not load the
+  // next model until inventory confirms the previous runner has disappeared.
+  let announced = false;
+  while (true) {
+    const remaining = (await list()).map(model => model.name || model.model)
+      .filter(name => name !== target);
+    if (!remaining.length) return;
+    if (now() >= deadline) throw new Error(
+      `Models still loaded after ${timeoutMs / 1000}s: ${remaining.join(', ')}; ` +
+      'benchmark stopped to protect memory. Check other Ollama clients.'
     );
+    if (!announced) {
+      log(`[ollama] Waiting for model unload: ${remaining.join(', ')}`);
+      announced = true;
+    }
+    await sleep(Math.min(pollMs, Math.max(0, deadline - now())));
+  }
 }
 
 export function connectionFailure(error) {
@@ -137,4 +182,19 @@ export function connectionFailure(error) {
     /Ollama HTTP 5\d\d/.test(error.message) ||
     Boolean(error.cause?.code)
   );
+}
+
+// One bounded retry for a confirmed output limit, never for a broken stream.
+export async function ollamaJsonWithOutputRetry(options, record = async () => {}) {
+  const initial = options.numPredict ?? 4096;
+  const limits = [initial, Math.min(initial * 2, (options.numCtx ?? 16384) - Math.ceil(Buffer.byteLength(options.prompt) / 2))];
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try { return await ollamaJson({...options, numPredict: limits[attempt]}); }
+    catch (error) {
+      if (error.code !== 'OLLAMA_OUTPUT_LIMIT') throw error;
+      await record({at: new Date().toISOString(), attempt: attempt + 1, numPredict: limits[attempt], completionTokens: error.completionTokens, partialResponse: error.partialResponse, error: error.message});
+      if (attempt || limits[1] <= initial) throw error;
+      console.log(`[ollama] Output limit reached; retrying once with ${limits[1]} tokens after cooling`);
+    }
+  }
 }

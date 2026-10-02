@@ -1,0 +1,414 @@
+{
+  "labelSource": "Codex editorial review; provisional AI labels, not independent human ground truth",
+  "scope": "Known regression cases; not held-out generalization evaluation",
+  "cases": [
+    {
+      "id": "03259e21191a",
+      "paperId": "W3182706339",
+      "question": "Why are MAE, MSE, RMSE, and MAPE excluded from regression analysis evaluation?",
+      "answer": "Their values alone fail to communicate the quality of the regression performance.",
+      "evidence": [
+        {
+          "id": "S3",
+          "start": 906,
+          "end": 1237,
+          "text": "As mentioned earlier, we exclude MAE, MSE, RMSE and MAPE from the selection of the best performing regression rate. These statistics range in the [0, +∞) interval, with 0 meaning perfect regression, and their values alone therefore fail to communicate the quality of the regression performance, both on good cases and in bad cases."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Generaliza a exclusão feita pelos autores para toda avaliação de regressão; atribuir ao estudo e explicar a limitação de interpretação sem referência.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q4"
+    },
+    {
+      "id": "07696dd0921d",
+      "paperId": "W3182706339",
+      "question": "What is a possible limitation of using R-squared in regression analysis evaluation?",
+      "answer": "It may not accurately reflect the quality of the regression performance, especially when it has negative values.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 594,
+          "text": "The only two regression scores that have strict real values are the non-negative R-squared and SMAPE. R-squared can have negative values, which mean that the regression performed poorly. R-squared can have value 0 when the regression model explains none of the variability of the response data around its mean (Minitab Blog Editor, 2013). The positive values of the coefficient of determination range in the [0, 1] interval, with 1 meaning perfect prediction. On the other side, the values of SMAPE range in the [0, 2], with 0 meaning perfect prediction and 2 meaning worst prediction possible."
+        }
+      ],
+      "expected": "reject",
+      "reason": "A fonte usa R² negativo como indicação de desempenho ruim, não como limitação da métrica em representar esse desempenho. Afirmação sem suporte.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q9"
+    },
+    {
+      "id": "1e7b15a3529c",
+      "paperId": "W4308834893",
+      "question": "What types of data have been added to the co-expression network in version 12.0 of STRING?",
+      "answer": "Single-cell RNA-Seq data from the Human Protein Atlas and proteomics datasets from the PRIDE database.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1781,
+          "end": 2428,
+          "text": "In version 12.0 of STRING, the co-expression network is being extended with evidence from two novel sources: single-cell RNA-Seq data from the Human Protein Atlas (66) and proteomics datasets from the PRIDE database (67). The expression data tends to be sparse, highdimensional and highly redundant. These attributes decrease the performance of correlations using Pearson Correlation Coefficient. For previous versions of STRING we have reduced the redundancy by removing highly correlated expression matrices before correlating the gene expression which, in turn, increased the recovery of the functional associations derived from these matrices."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W4308834893/r1-q4"
+    },
+    {
+      "id": "203c12da5cde",
+      "paperId": "W4308834893",
+      "question": "What assumption underlies the transfer of protein associations across organisms in the STRING database?",
+      "answer": "The assumption is that orthologs of associated proteins are likewise associated, based on hierarchical orthology relationships.",
+      "evidence": [
+        {
+          "id": "S2",
+          "start": 527,
+          "end": 1069,
+          "text": "All protein–protein associations assembled for the STRING database are then transferred across organisms, where applicable, based on orthology relationships with the assumption that orthologs of associated proteins are likewise associated (‘interologs’, (50)). For this, hierarchical orthology relationships, at various levels of taxonomic resolution, are imported from the eggNOG database (51). After interolog transfer and the final combined score integration, the resulting protein association networks can be accessed in a number of ways."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W4308834893/r1-q1"
+    },
+    {
+      "id": "3214b81773f6",
+      "paperId": "W3182706339",
+      "question": "In what percentage of cases does SMAPE have a very good score in the UC4 use case?",
+      "answer": "It corresponds to 88.1% correctness.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1239,
+          "end": 1839,
+          "text": "UC4 use case Consider the following example: the seven actual values are (1, 1, 1, 1, 1, 2, 3) , and the predicted values are (1, 1, 1, 1, 1, 1, 1) . From the predicted values, it is clear that the regression method worked very poorly: it predicted 1 for all the seven values. If we compute the coefficient of determination and SMAPE here, we obtain R-squared = −0.346 and SMAPE = 0.238. The coefficient of determination illustrates that something is completely off, by having a negative value. On the contrary, SMAPE has a very good score, that corresponds to 88.1% correctness in the cnSMAPE scale."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Pergunta pede porcentagem de casos; 88,1% é pontuação na escala cnSMAPE, não frequência de casos.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q8"
+    },
+    {
+      "id": "362b870a4074",
+      "paperId": "W3003667836",
+      "question": "What are some enabling technologies for digital twins?",
+      "answer": "Physics-based modeling, data-driven modeling, big data cybernetics, infrastructure and platforms, and human-machine interface.",
+      "evidence": [
+        {
+          "id": "S2",
+          "start": 527,
+          "end": 1010,
+          "text": "It is quiet evident from the preceding section on common challenges that we need to develop technologies that will address those challenges. In this section we attempt to cover the enabling technologies under five major categories: physics-based modeling, data-driven modeling, big data cybernetics, infrastructure and platforms, and humanmachine interface. The section is structured in way to address the challenges using various enabling technologies (see Table 1 for an overview)."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q9"
+    },
+    {
+      "id": "36fa6067cb26",
+      "paperId": "W3182706339",
+      "question": "What is the range of SMAPE values in the Lichtinghagen dataset?",
+      "answer": "The worst value is 2 and the best value is 0.",
+      "evidence": [
+        {
+          "id": "S5",
+          "start": 1841,
+          "end": 2413,
+          "text": "We performed the analysis on the Lichtinghagen dataset (Lichtinghagen et al., 2013; Hoffmann et al., 2018) with the methods employed by Chicco & Jurman (2021). We report here the average values achieved by each method in 100 executions with 80% randomly chosen data elements used for the training set and the remaining 20% used for the test set. R2 : worst value −∞ and best value +1. SMAPE: worst value 2 and best value 0. MAE, MAPE, MSE and RMSE: worst value +∞ and best value 0. We reported the complete regression results including the standard deviations in Table S1."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Confunde limites teóricos da métrica com valores observados no dataset; pergunta pede intervalo e resposta fornece extremos. Explicitar intervalo da convenção usada, não faixa empírica.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q6"
+    },
+    {
+      "id": "47a1def4e682",
+      "paperId": "W3182706339",
+      "question": "What is a possible implication of R-squared having negative values?",
+      "answer": "It means that the regression performed poorly.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 594,
+          "text": "The only two regression scores that have strict real values are the non-negative R-squared and SMAPE. R-squared can have negative values, which mean that the regression performed poorly. R-squared can have value 0 when the regression model explains none of the variability of the response data around its mean (Minitab Blog Editor, 2013). The positive values of the coefficient of determination range in the [0, 1] interval, with 1 meaning perfect prediction. On the other side, the values of SMAPE range in the [0, 2], with 0 meaning perfect prediction and 2 meaning worst prediction possible."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q1"
+    },
+    {
+      "id": "4f7afa316d82",
+      "paperId": "W3003667836",
+      "question": "What is the Hardware-in-the-loop (HIL) simulation approach in digital twins?",
+      "answer": "A well-established concept of using a physical object during system development phase in control engineering, which can be considered as a promising approach towards near real-time predictions.",
+      "evidence": [
+        {
+          "id": "S6",
+          "start": 2790,
+          "end": 3173,
+          "text": "Hardware-in-the-loop (HIL) simulation approach, a wellestablished concept of using a physical object during system development phase in control engineering [316]–[318], can be also considered as a promising approach towards near real-time predictions within digital twin platforms (e.g., see also software-in-the-loop (SIL) simulation studies for early design processes [319]–[321])."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q8"
+    },
+    {
+      "id": "6b406227a291",
+      "paperId": "W3003667836",
+      "question": "What are some challenges associated with managing huge amounts of data in digital twins?",
+      "answer": "Quality management, ownership resolution, and the need to improve data quality and compress it on the fly.",
+      "evidence": [
+        {
+          "id": "S5",
+          "start": 2221,
+          "end": 2788,
+          "text": "With huge amount of data comes the problem of quality, management and ownership resolution of the data. For a correct working of digital twin there will be a need to improve the quality of data and compress them on the fly. Algorithms are required for automatic outlier detection and filling of missing data. At the moment very simplistic models like Principal Component and multidimensional interpolation techniques are utilized to fix these issues. However, more advanced methods like Restricted Boltzman Machine and Generative Adversarial Networks can be employed."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q6"
+    },
+    {
+      "id": "7be984a9959d",
+      "paperId": "W3003667836",
+      "question": "What are some algorithms that can be employed for automatic outlier detection and filling missing data in digital twins?",
+      "answer": "Principal Component analysis, multidimensional interpolation techniques, Restricted Boltzman Machine, and Generative Adversarial Networks.",
+      "evidence": [
+        {
+          "id": "S5",
+          "start": 2221,
+          "end": 2788,
+          "text": "With huge amount of data comes the problem of quality, management and ownership resolution of the data. For a correct working of digital twin there will be a need to improve the quality of data and compress them on the fly. Algorithms are required for automatic outlier detection and filling of missing data. At the moment very simplistic models like Principal Component and multidimensional interpolation techniques are utilized to fix these issues. However, more advanced methods like Restricted Boltzman Machine and Generative Adversarial Networks can be employed."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Corrigir Boltzmann e distinguir técnicas descritas para qualidade de dados de atribuição específica a detecção de outliers e imputação; apresentar como sugestões do artigo.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q7"
+    },
+    {
+      "id": "7d0d9502cee4",
+      "paperId": "W4308834893",
+      "question": "What types of protein interactions does the STRING database collect and integrate?",
+      "answer": "Both physical interactions as well as functional associations.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 525,
+          "text": "ABSTRACT Much of the complexity within cells arises from functional and regulatory interactions among proteins. The core of these interactions is increasingly known, but novel interactions continue to be discovered, and the information remains scattered across different database resources, experimental modalities and levels of mechanistic detail. The STRING database (https://string-db.org/) systematically collects and integrates protein–protein interactions––both physical interactions as well as functional associations."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W4308834893/r1-q2"
+    },
+    {
+      "id": "7fb6f8f6df62",
+      "paperId": "W4308834893",
+      "question": "How are duplicate records from different sources removed in the experiments channel of STRING?",
+      "answer": "Duplicate records are removed during import, where each reported protein pair supported by a specific publication is considered an independent piece of evidence.",
+      "evidence": [
+        {
+          "id": "S6",
+          "start": 2966,
+          "end": 3632,
+          "text": "EXPERIMENT-LEVEL CONFIDENCE SCORING For the experiments channel, STRING integrates pairwise experimental interaction evidence from BioGRID, IntAct, MINT, and others ((37–40), see Figure 3). Each reported protein pair supported by a specific publication is considered an independent piece of evidence and scored individually. During import, duplicate records from different sources are removed. Each ‘experiment’, defined as all protein–protein pairs supported by a common PubMed identifier and a given detection method, is classified as a high-throughput (HT) experiment if at least 25 unique interactions are reported, otherwise as a low-throughput (LT) experiment."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Pergunta como duplicatas são removidas, mas fonte/resposta apenas informam quando. Perguntar em que etapa ocorre a remoção.",
+      "origin": "editorial-regression-v3/W4308834893/r1-q3"
+    },
+    {
+      "id": "8e360d651819",
+      "paperId": "W3182706339",
+      "question": "In what interval do positive values of the coefficient of determination range?",
+      "answer": "The [0, 1] interval, with 1 meaning perfect prediction.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 594,
+          "text": "The only two regression scores that have strict real values are the non-negative R-squared and SMAPE. R-squared can have negative values, which mean that the regression performed poorly. R-squared can have value 0 when the regression model explains none of the variability of the response data around its mean (Minitab Blog Editor, 2013). The positive values of the coefficient of determination range in the [0, 1] interval, with 1 meaning perfect prediction. On the other side, the values of SMAPE range in the [0, 2], with 0 meaning perfect prediction and 2 meaning worst prediction possible."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Valores estritamente positivos excluem zero; ajustar pergunta para valores não negativos ou intervalo para (0,1]. A redação problemática já está na fonte.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q2"
+    },
+    {
+      "id": "9293daa0565d",
+      "paperId": "W3003667836",
+      "question": "What is the first step towards numerical modeling in digital twins?",
+      "answer": "3D modeling, which involves developing a mathematical representation of any surface of an object.",
+      "evidence": [
+        {
+          "id": "S3",
+          "start": 1012,
+          "end": 1597,
+          "text": "The first step towards numerical modeling is 3D modeling. It is the process of developing a mathematical representation of any surface of an object. In most of the digital twins, 3D models are the starting point. The 3D models can either be constructed by a 3D scan of the object or through specialized software using equations and finally represented in terms of curves and surfaces. Almost all 3D models can be categorized into solid or shell models. In the context of digital twin, the 3D model goes as input to the physical simulators and hence its quality is of utmost importance."
+        }
+      ],
+      "expected": "reject",
+      "reason": "A fonte diz que 3D é ponto inicial na maioria dos gêmeos digitais; evitar regra universal.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q3"
+    },
+    {
+      "id": "93bb21ffad14",
+      "paperId": "W3182706339",
+      "question": "What is the worst possible prediction according to SMAPE?",
+      "answer": "It corresponds to a value of 2, indicating the worst prediction possible.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1239,
+          "end": 1839,
+          "text": "UC4 use case Consider the following example: the seven actual values are (1, 1, 1, 1, 1, 2, 3) , and the predicted values are (1, 1, 1, 1, 1, 1, 1) . From the predicted values, it is clear that the regression method worked very poorly: it predicted 1 for all the seven values. If we compute the coefficient of determination and SMAPE here, we obtain R-squared = −0.346 and SMAPE = 0.238. The coefficient of determination illustrates that something is completely off, by having a negative value. On the contrary, SMAPE has a very good score, that corresponds to 88.1% correctness in the cnSMAPE scale."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Bloco citado S4 não sustenta o extremo 2; a informação está em S1/S5. Corrigir vínculo e explicitar a convenção de SMAPE.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q3"
+    },
+    {
+      "id": "a57a0725e0f7",
+      "paperId": "W3003667836",
+      "question": "What is the importance of 3D model quality in digital twins?",
+      "answer": "Its quality is of utmost importance as it goes as input to physical simulators.",
+      "evidence": [
+        {
+          "id": "S3",
+          "start": 1012,
+          "end": 1597,
+          "text": "The first step towards numerical modeling is 3D modeling. It is the process of developing a mathematical representation of any surface of an object. In most of the digital twins, 3D models are the starting point. The 3D models can either be constructed by a 3D scan of the object or through specialized software using equations and finally represented in terms of curves and surfaces. Almost all 3D models can be categorized into solid or shell models. In the context of digital twin, the 3D model goes as input to the physical simulators and hence its quality is of utmost importance."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q10"
+    },
+    {
+      "id": "a8663a445b06",
+      "paperId": "W3182706339",
+      "question": "What is a possible limitation of using SMAPE in regression analysis evaluation?",
+      "answer": "It may not accurately reflect the quality of the regression performance, especially when it has a very good score.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1239,
+          "end": 1839,
+          "text": "UC4 use case Consider the following example: the seven actual values are (1, 1, 1, 1, 1, 2, 3) , and the predicted values are (1, 1, 1, 1, 1, 1, 1) . From the predicted values, it is clear that the regression method worked very poorly: it predicted 1 for all the seven values. If we compute the coefficient of determination and SMAPE here, we obtain R-squared = −0.346 and SMAPE = 0.238. The coefficient of determination illustrates that something is completely off, by having a negative value. On the contrary, SMAPE has a very good score, that corresponds to 88.1% correctness in the cnSMAPE scale."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q5"
+    },
+    {
+      "id": "a9ba1b9de362",
+      "paperId": "W3003667836",
+      "question": "What is the primary purpose of a digital twin?",
+      "answer": "A virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 525,
+          "text": "ABSTRACT Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q1"
+    },
+    {
+      "id": "ad5665c0d0b5",
+      "paperId": "W3182706339",
+      "question": "What is the range of R-squared values in the Lichtinghagen dataset?",
+      "answer": "The worst value is −∞ and the best value is +1.",
+      "evidence": [
+        {
+          "id": "S5",
+          "start": 1841,
+          "end": 2413,
+          "text": "We performed the analysis on the Lichtinghagen dataset (Lichtinghagen et al., 2013; Hoffmann et al., 2018) with the methods employed by Chicco & Jurman (2021). We report here the average values achieved by each method in 100 executions with 80% randomly chosen data elements used for the training set and the remaining 20% used for the test set. R2 : worst value −∞ and best value +1. SMAPE: worst value 2 and best value 0. MAE, MAPE, MSE and RMSE: worst value +∞ and best value 0. We reported the complete regression results including the standard deviations in Table S1."
+        }
+      ],
+      "expected": "reject",
+      "reason": "Confunde limites teóricos com faixa observada no dataset e trata −infinito como valor mínimo atingível. Dizer que não há limite inferior finito e que o máximo é 1, no contexto da definição usada.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q10"
+    },
+    {
+      "id": "b37796cc3b69",
+      "paperId": "W3182706339",
+      "question": "What is a possible implication of R-squared having a negative value in the UC4 use case?",
+      "answer": "It illustrates that something is completely off.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1239,
+          "end": 1839,
+          "text": "UC4 use case Consider the following example: the seven actual values are (1, 1, 1, 1, 1, 2, 3) , and the predicted values are (1, 1, 1, 1, 1, 1, 1) . From the predicted values, it is clear that the regression method worked very poorly: it predicted 1 for all the seven values. If we compute the coefficient of determination and SMAPE here, we obtain R-squared = −0.346 and SMAPE = 0.238. The coefficient of determination illustrates that something is completely off, by having a negative value. On the contrary, SMAPE has a very good score, that corresponds to 88.1% correctness in the cnSMAPE scale."
+        }
+      ],
+      "expected": "reject",
+      "reason": "“Something is completely off” é vago; contextualizar UC4 com os valores reais/preditos, identificar estudo e explicar por que a previsão constante é ruim.",
+      "origin": "editorial-regression-v3/W3182706339/r1-q7"
+    },
+    {
+      "id": "c50372918fde",
+      "paperId": "W3003667836",
+      "question": "What recent advances have brought the promise of digital twins closer to reality?",
+      "answer": "Computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, and data processing and management tools.",
+      "evidence": [
+        {
+          "id": "S1",
+          "start": 0,
+          "end": 525,
+          "text": "ABSTRACT Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications."
+        }
+      ],
+      "expected": "reject",
+      "reason": "“Recent advances” exige atribuição temporal ao artigo.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q2"
+    },
+    {
+      "id": "ebc0f7d48408",
+      "paperId": "W4308834893",
+      "question": "What is the impact of removing highly correlated expression matrices on the performance of correlations in previous versions of STRING?",
+      "answer": "It increased the recovery of functional associations derived from these matrices.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1781,
+          "end": 2428,
+          "text": "In version 12.0 of STRING, the co-expression network is being extended with evidence from two novel sources: single-cell RNA-Seq data from the Human Protein Atlas (66) and proteomics datasets from the PRIDE database (67). The expression data tends to be sparse, highdimensional and highly redundant. These attributes decrease the performance of correlations using Pearson Correlation Coefficient. For previous versions of STRING we have reduced the redundancy by removing highly correlated expression matrices before correlating the gene expression which, in turn, increased the recovery of the functional associations derived from these matrices."
+        }
+      ],
+      "expected": "accept",
+      "reason": "Pergunta e resposta compatíveis com os blocos citados, sem correção obrigatória identificada. Item básico; não certifica profundidade de pós-graduação.",
+      "origin": "editorial-regression-v3/W4308834893/r1-q6"
+    },
+    {
+      "id": "hypothesis-qualified",
+      "paperId": "W3003667836",
+      "question": "What is the assumption underlying data-driven modeling in digital twins?",
+      "answer": "That since data is a manifestation of both known and unknown physics, by developing a data-driven model, one can account for the full physics.",
+      "evidence": [
+        {
+          "id": "S4",
+          "start": 1599,
+          "end": 2219,
+          "text": "While physics based models are the workhorse at the design phase, with the abundant supply of data in a digital twin context, opensource cutting edge and easy-to-use libraries (tensorflow, torch, openAI), cheap computational infrastructure (CPU, GPU and TPU) and high quality, readily available training resources, data-driven modeling is becoming very popular. Compared to the physics based modeling approach, as illustrated in Fig. 3, this approach is based on the assumption that since data is a manifestation of both known and unknown physics, by developing a data-driven model, one can account for the full physics."
+        }
+      ],
+      "expected": "accept",
+      "reason": "A pergunta qualifica explicitamente a afirmação como hipótese; avaliar o par completo, sem tratá-la como garantia.",
+      "origin": "editorial-regression-v3/W3003667836/r1-q5"
+    }
+  ]
+}

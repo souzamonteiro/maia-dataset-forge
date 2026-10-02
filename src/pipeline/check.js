@@ -1,6 +1,6 @@
 import { spawnSync } from "node:child_process";
 import { readJson, exists } from "../lib/io.js";
-import { teacherOptions } from "../lib/ollama.js";
+import { teacherOptions, generatorOptions } from "../lib/ollama.js";
 export async function check() {
   const cfg = await readJson("config/model.json");
   const topics = await readJson("config/topics.json");
@@ -36,13 +36,18 @@ export async function check() {
   console.log(
     `OpenAlex API key: ${process.env.OPENALEX_API_KEY ? "configured" : "absent; limited anonymous access"}`,
   );
-  const options = teacherOptions(cfg);
-  const response = await fetch(`${options.baseUrl}/api/tags`, {
+  const validator = teacherOptions(cfg);
+  const generator = generatorOptions(cfg);
+  const response = await fetch(`${validator.baseUrl}/api/tags`, {
     signal: AbortSignal.timeout(10000),
   });
   if (!response.ok) throw new Error(`Ollama HTTP ${response.status}`);
   const models = await response.json();
-  if (!models.models?.some((x) => x.name === options.model))
-    throw new Error("Teacher model is not installed");
-  console.log("Configuration, extraction tool and teacher availability OK.");
+  if (!models.models?.some((x) => x.name === validator.model))
+    throw new Error("Validator model is not installed");
+  if (!models.models?.some((x) => x.name === generator.model))
+    throw new Error("Generator model is not installed");
+  console.log(
+    `Configuration, extraction tool, generator (${generator.model}) and validator (${validator.model}) availability OK.`,
+  );
 }

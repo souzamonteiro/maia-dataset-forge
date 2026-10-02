@@ -164,7 +164,7 @@ test("invalid downloads are not saved and truncated model responses fail", async
       Response.json({ done: true, done_reason: "length", response: "{}" });
     await assert.rejects(
       ollamaJson({ model: "mock", prompt: "hello" }),
-      /incomplete/,
+      /output token limit/,
     );
   } finally {
     globalThis.fetch = originalFetch;
