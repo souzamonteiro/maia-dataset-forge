@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-10-16T23:12:29.986Z",
+  "accepted": 1392,
+  "rejected": 2187,
+  "pending": 14,
+  "withoutTiming": 24,
+  "groups": {
+    "gpu": {
+      "samples": 3555,
+      "meanSeconds": 92.8059453731354,
+      "medianSeconds": 88.120691437006,
+      "minSeconds": 17.019232463002204,
+      "maxSeconds": 328.49362735700606,
+      "projectedRemainingHours": 0.36091200978441546
+    }
+  }
+}

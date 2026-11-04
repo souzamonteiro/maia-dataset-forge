@@ -1,0 +1,18 @@
+{
+  "model": "qwen2.5:14b",
+  "baseUrl": "http://127.0.0.1:11434",
+  "languages": [
+    "en",
+    "es",
+    "pt"
+  ],
+  "numThreads": 2,
+  "numBatch": 128,
+  "numCtx": 8192,
+  "numPredict": 2048,
+  "timeoutMs": 1800000,
+  "temperature": 0,
+  "minimumScore": 0.9,
+  "promptVersion": 3,
+  "glossaryFile": "config/translation-glossary-v2.json"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "withdrawn candidate: sample quality gate failed; not published",
+  "sampleReview": "50 triplets inspected by AI; see data/reports/release-v0.1-audit",
+  "papers": 533,
+  "licenseLabelsByExample": {
+    "cc-by": 3246,
+    "public-domain": 111,
+    "other-oa": 6,
+    "None": 3
+  },
+  "sourcesRequiringLicenseClarification": [
+    {
+      "groupId": "W3015391807-q02",
+      "paperId": "W3015391807",
+      "source": {
+        "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+        "doi": "10.1017/rdc.2020.41",
+        "license": "other-oa",
+        "sourceUrl": "https://pure.au.dk/portal/files/223686320/the_intcal20_northern_hemisphere_radiocarbon_age_calibration_curve_055_cal_kbp.pdf",
+        "evidence": "Because of the large amount of new data under consideration, particularly from 0 to 3000 cal BP, a minimum length for datasets was adopted to allow a realistic assessment of their reliability against existing datasets (10 measurements for decadal samples, 15 for 5-ring samples, 20 for 3-ring samples or 100 for single-year data, if not replicated by a second laboratory).",
+        "textSha256": "854f63ec64f6f96102494d5ca29f79b57d17a3768319291227a4daf054f7db60"
+      }
+    },
+    {
+      "groupId": "W3015391807-q09",
+      "paperId": "W3015391807",
+      "source": {
+        "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+        "doi": "10.1017/rdc.2020.41",
+        "license": "other-oa",
+        "sourceUrl": "https://pure.au.dk/portal/files/223686320/the_intcal20_northern_hemisphere_radiocarbon_age_calibration_curve_055_cal_kbp.pdf",
+        "evidence": "The older portion of the IntCal20 curve also has a larger range in Δ14C, with higher values than the highest IntCal13 values and lower values than the lowest IntCal13 values.",
+        "textSha256": "854f63ec64f6f96102494d5ca29f79b57d17a3768319291227a4daf054f7db60"
+      }
+    },
+    {
+      "groupId": "W2886443073-q12",
+      "paperId": "W2886443073",
+      "source": {
+        "title": "Fixed and random effects models: making an informed choice",
+        "doi": "10.1007/s11135-018-0802-x",
+        "license": null,
+        "sourceUrl": "http://www.scopus.com/inward/record.url?scp=85051733436&partnerID=8YFLogxK",
+        "evidence": "The only reason to choose FE is if (1) higher-level variables are of no interest whatsoever, (2) there are no random slopes in the true DGP, or (3) there are so few level-2 entities that random slopes are unlikely to be estimable.",
+        "textSha256": "0cd894213f80747a07ea92f894b7eb638a0e59410cf78639e0916373db9b627a"
+      }
+    }
+  ],
+  "note": "Original manifest and training files preserved. Do not publish or train as reviewed data. License corrections are recorded as an overlay, not silently applied to original lineage.",
+  "sampleReviewCounts": {
+    "pass": 22,
+    "reject": 13,
+    "revise": 7,
+    "hold": 8
+  },
+  "flaggedLicenseGapsResolved": 3,
+  "licenseResolutionReport": "data/reports/release-v0.1-audit/license-resolutions.json",
+  "publicationReady": false,
+  "knownSourceMismatchPaper": "W4387242094"
+}

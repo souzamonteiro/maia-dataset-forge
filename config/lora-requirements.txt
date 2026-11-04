@@ -1,0 +1,5 @@
+# Install a PyTorch ROCm build compatible with your host separately first.
+transformers>=4.45,<5
+peft>=0.13,<1
+accelerate>=1,<2
+safetensors>=0.4

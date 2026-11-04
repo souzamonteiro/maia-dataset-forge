@@ -6,6 +6,8 @@
   "maxChunkChars": 12000,
   "temperature": 0.3,
   "validationTemperature": 0.0,
+  "validationNumThreads": 2,
+  "validationNumBatch": 128,
   "minScore": 0.75,
   "languages": ["en", "pt", "es"],
   "numCtx": 16384,

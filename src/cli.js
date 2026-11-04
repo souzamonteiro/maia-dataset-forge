@@ -7,10 +7,16 @@ if (fs.existsSync(".env")) {
   }
 }
 import { setThermalGuard } from "./lib/ollama.js";
-import { createStepCoolingGuard } from "./lib/thermal.js";
-setThermalGuard(createStepCoolingGuard());
+import { createStepCoolingGuard, createThermalGuard } from "./lib/thermal.js";
 const cmd = process.argv[2] || "help";
+setThermalGuard(["validate", "translations"].includes(cmd)
+  ? createThermalGuard({
+      statePath: `data/logs/${cmd === "translations" ? "translations" : "validation"}-thermal-state.json`,
+      eventPath: `data/logs/${cmd === "translations" ? "translations" : "validation"}-thermal-events.jsonl`,
+    })
+  : createStepCoolingGuard());
 const map = {
+  translations: () => import("./pipeline/translation-cli.js").then(m => m.translationCli()),
   corpus: () => import("./pipeline/corpus.js").then(m => m.corpus()),
   "prepare-reviewed": () => import("./pipeline/prepare-reviewed.js").then(m => m.prepareReviewed()),
   "review-corpus": () => import("./pipeline/review-corpus.js").then(m => m.reviewCorpus()),
@@ -54,7 +60,13 @@ try {
       "validate",
       "export",
     ])
-      await map[x]();
+      {
+        if (x === "validate") setThermalGuard(createThermalGuard({
+          statePath: "data/logs/validation-thermal-state.json",
+          eventPath: "data/logs/validation-thermal-events.jsonl",
+        }));
+        await map[x]();
+      }
   } else if (map[cmd]) await map[cmd]();
   else
     console.log(

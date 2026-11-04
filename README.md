@@ -32,6 +32,11 @@ An OpenAlex key is recommended for non-trivial API use; a Semantic Scholar API k
 
 ## Run step by step
 
+For the resumable English/Spanish/Portuguese translation pilot and fine-tuning
+exports of existing validated pairs, see [Trilingual dataset workflow](docs/TRILINGUAL-DATASET.md).
+The corrected pilot, frozen terminology glossary and current `full-v5` production
+workspace are documented in [Pilot corrections and glossary](docs/TRANSLATION-PILOT-V3.md).
+
 ```bash
 npm run discover
 npm run download

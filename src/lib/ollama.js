@@ -1,3 +1,13 @@
+import { Agent } from "undici";
+
+// fetch supplies its own 300-second headers timeout. Override it at dispatch;
+// the request AbortSignal below owns the configured total inference deadline.
+class InferenceAgent extends Agent {
+  dispatch(options, handler) {
+    return super.dispatch({ ...options, headersTimeout: 0, bodyTimeout: 0 }, handler);
+  }
+}
+const inferenceAgent = new InferenceAgent();
 let thermalGuard;
 export function setThermalGuard(guard) {
   thermalGuard = guard;
@@ -16,6 +26,7 @@ async function requestJson({
   temperature = 0.2,
   baseUrl = "http://127.0.0.1:11434",
   numThreads = 4,
+  numBatch,
   stream = false,
   numCtx = 16384,
   numPredict = 4096,
@@ -24,6 +35,7 @@ async function requestJson({
   if (Math.ceil(Buffer.byteLength(prompt) / 2) + numPredict > numCtx)
     throw new Error("Prompt exceeds estimated context budget");
   const r = await fetch(`${baseUrl}/api/generate`, {
+    dispatcher: inferenceAgent,
     method: "POST",
     headers: { "content-type": "application/json" },
     signal: thermalSignal
@@ -36,6 +48,7 @@ async function requestJson({
       format: "json",
       options: {
         num_thread: numThreads,
+        ...(numBatch === undefined ? {} : { num_batch: numBatch }),
         temperature,
         num_ctx: numCtx,
         num_predict: numPredict,
@@ -81,8 +94,13 @@ async function requestJson({
     error.completionTokens = result.eval_count;
     throw error;
   }
-  if (result.error || result.done !== true)
-    throw new Error("Ollama returned an incomplete response");
+  if (result.error || result.done !== true) {
+    const error = new Error("Ollama returned an incomplete response");
+    error.code = 'OLLAMA_INCOMPLETE_RESPONSE';
+    error.partialResponse = result.response;
+    error.responseMetadata = { done: result.done, doneReason: result.done_reason, error: result.error };
+    throw error;
+  }
   const value = JSON.parse(result.response);
   return withMetrics
     ? {
@@ -101,7 +119,8 @@ export function teacherOptions(cfg) {
   return {
     model: process.env.TEACHER_MODEL || cfg.teacherModel,
     baseUrl: process.env.OLLAMA_BASE_URL || cfg.ollamaBaseUrl,
-    numThreads: cfg.numThreads ?? 4,
+    numThreads: cfg.validationNumThreads ?? cfg.numThreads ?? 4,
+    ...(cfg.validationNumBatch === undefined ? {} : { numBatch: cfg.validationNumBatch }),
     numCtx: cfg.numCtx,
     numPredict: cfg.numPredict,
     timeoutMs: cfg.timeoutMs,

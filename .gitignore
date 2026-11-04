@@ -9,3 +9,8 @@ data/logs/*
 !data/**/.gitkeep
 
 data/benchmarks/
+data/translations/
+.venv-language-audit/
+__pycache__/
+.venv-lora/
+data/training/

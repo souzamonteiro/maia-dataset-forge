@@ -1,0 +1,20 @@
+{
+  "reviewedGroups": 50,
+  "counts": {
+    "pass": 22,
+    "reject": 13,
+    "revise": 7,
+    "hold": 8
+  },
+  "statusDefinitions": {
+    "pass": "No material defect found in this limited AI inspection; not editorial certification",
+    "revise": "Scope, wording or evidence linkage requires revision",
+    "reject": "Confirmed material question/answer, translation or lineage defect",
+    "hold": "Insufficient evidence or specialist review required"
+  },
+  "publicationReady": false,
+  "trainingQualityCertified": false,
+  "reason": "Material errors in automatically accepted sample and a confirmed source-to-paper mismatch require broader screening; removing only sampled defects does not establish remaining dataset quality.",
+  "allOriginalSnapshotsPreserved": true,
+  "productionReviewDecisionsChanged": false
+}

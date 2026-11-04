@@ -1,0 +1,14 @@
+import { readJsonl, writeJson } from '../src/lib/io.js';
+import { summarizeTimings } from '../src/lib/validation-timing.js';
+const raw = await readJsonl('data/datasets/raw.jsonl');
+const accepted = await readJsonl('data/datasets/validated.jsonl');
+const rejected = await readJsonl('data/rejected/rejected.jsonl');
+const rows = [...accepted,...rejected];
+const done = new Set(rows.map(x=>x.id));
+const pending = raw.filter(x=>!done.has(x.id)).length;
+const groups = summarizeTimings(rows,pending);
+const report = { updatedAt:new Date().toISOString(), accepted:accepted.length,rejected:rejected.length,pending,withoutTiming:rows.filter(x=>!x.validationTiming).length,groups };
+await writeJson('data/reports/validation-timings-latest.json',report);
+console.log(`Aprovados: ${accepted.length}; rejeitados: ${rejected.length}; pendentes: ${pending}.`);
+console.table(Object.entries(groups).map(([processor,g])=>({processor,amostra:g.samples,'média (s)':g.meanSeconds.toFixed(1),'mediana (s)':g.medianSeconds.toFixed(1),'mínimo (s)':g.minSeconds.toFixed(1),'máximo (s)':g.maxSeconds.toFixed(1),'restante (horas)':g.projectedRemainingHours.toFixed(1),'restante (dias, 24h/dia)':(g.projectedRemainingHours/24).toFixed(1)})));
+console.log(`Resultados sem tempo registrado: ${report.withoutTiming}. Projeções por grupo, para execução contínua; não incluem futuras falhas, paradas do computador ou revisão editorial. Amostras pequenas são preliminares.`);

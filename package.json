@@ -5,7 +5,7 @@
   "type": "module",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=20.18.1"
   },
   "scripts": {
     "start": "node src/cli.js",
@@ -16,6 +16,15 @@
     "stats": "node src/cli.js stats",
     "generate": "node src/cli.js generate",
     "validate": "node src/cli.js validate",
+    "validation:timings": "node scripts/validation-timings.js",
+    "translations:prepare": "node src/cli.js translations prepare",
+    "translations:revise": "node src/cli.js translations revise",
+    "translations:audit-languages": ".venv-language-audit/bin/python scripts/audit-source-languages.py",
+    "translations:generate": "node src/cli.js translations generate",
+    "translations:check": "node src/cli.js translations check",
+    "translations:review": "node src/cli.js translations review",
+    "translations:stats": "node src/cli.js translations stats",
+    "translations:export": "node src/cli.js translations export",
     "export": "node src/cli.js export",
     "pipeline": "node src/cli.js pipeline",
     "test": "node --test",
@@ -33,5 +42,8 @@
     "benchmark:editorial": "flock -n data/logs/batch-pilot.lock node scripts/editorial-regression.js",
     "benchmark:validator": "flock -n data/logs/batch-pilot.lock node scripts/evaluate-validator.js",
     "benchmark:validators": "flock -n data/logs/batch-pilot.lock node scripts/compare-validators.js"
+  },
+  "dependencies": {
+    "undici": "^7.30.0"
   }
 }

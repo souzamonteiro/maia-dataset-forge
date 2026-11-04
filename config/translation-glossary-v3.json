@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "scope": "Project terminology for scientific Q/A translations; preferred wording is contextual, not a license to change meaning.",
+  "entries": [
+    {
+      "term": "edge computing",
+      "source": [
+        "edge computing"
+      ],
+      "preferred": {
+        "pt": "computação de borda",
+        "es": "computación de borde"
+      },
+      "forbidden": {
+        "pt": [
+          "computação em bordo"
+        ]
+      }
+    },
+    {
+      "term": "SDGs",
+      "source": [
+        "SDGs",
+        "Sustainable Development Goals"
+      ],
+      "preferred": {
+        "pt": "Objetivos de Desenvolvimento Sustentável (ODS)",
+        "es": "Objetivos de Desarrollo Sostenible (ODS)"
+      },
+      "required": {
+        "pt": [
+          "ODS"
+        ],
+        "es": [
+          "ODS"
+        ]
+      },
+      "forbidden": {
+        "pt": [
+          "ODM"
+        ],
+        "es": [
+          "ODM"
+        ]
+      }
+    },
+    {
+      "term": "held-out likelihood",
+      "source": [
+        "held-out likelihood",
+        "heldout likelihood"
+      ],
+      "preferred": {
+        "pt": "verossimilhança em dados reservados (held-out)",
+        "es": "verosimilitud en datos reservados (held-out)"
+      },
+      "forbidden": {
+        "pt": [
+          "verossimilhança removida"
+        ],
+        "es": [
+          "verosimilitud mantenida"
+        ]
+      }
+    },
+    {
+      "term": "time-varying",
+      "source": [
+        "time-varying",
+        "time varying"
+      ],
+      "preferred": {
+        "pt": "variável no tempo / que varia no tempo",
+        "es": "variable en el tiempo"
+      },
+      "forbidden": {
+        "pt": [
+          "variância temporal"
+        ]
+      }
+    },
+    {
+      "term": "morphing",
+      "source": [
+        "morphing"
+      ],
+      "preferred": {
+        "pt": "morphing (transformação gradual)",
+        "es": "morphing"
+      },
+      "forbidden": {
+        "es": [
+          "morfología"
+        ]
+      }
+    },
+    {
+      "term": "keyframe animation",
+      "source": [
+        "keyframe animation"
+      ],
+      "preferred": {
+        "pt": "animação por quadros-chave",
+        "es": "animación por fotogramas clave"
+      }
+    },
+    {
+      "term": "Marine Heat Wave",
+      "source": [
+        "Marine Heat Wave",
+        "MHW"
+      ],
+      "preferred": {
+        "pt": "onda de calor marinha (MHW)",
+        "es": "ola de calor marina (MHW)"
+      },
+      "required": {
+        "pt": [
+          "MHW"
+        ],
+        "es": [
+          "MHW"
+        ]
+      },
+      "forbidden": {
+        "pt": [
+          "OWM",
+          "onda quente marinha"
+        ],
+        "es": [
+          "descomposición"
+        ]
+      }
+    },
+    {
+      "term": "large language models",
+      "source": [
+        "LLMs",
+        "large language models"
+      ],
+      "preferred": {
+        "pt": "grandes modelos de linguagem (LLMs)",
+        "es": "grandes modelos de lenguaje (LLMs)"
+      },
+      "required": {
+        "pt": [
+          "LLMs"
+        ],
+        "es": [
+          "LLMs"
+        ]
+      },
+      "forbidden": {
+        "es": [
+          "MLG"
+        ]
+      }
+    },
+    {
+      "term": "quantum-safe encryption",
+      "source": [
+        "quantum-safe encryption"
+      ],
+      "preferred": {
+        "pt": "criptografia resistente a ataques de computadores quânticos",
+        "es": "cifrado resistente a ataques de computadoras cuánticas"
+      }
+    },
+    {
+      "term": "electrolyser",
+      "source": [
+        "electrolyser",
+        "electrolysers",
+        "electrolyzer",
+        "electrolyzers"
+      ],
+      "preferred": {
+        "pt": "eletrolisador / eletrolisadores",
+        "es": "electrolizador / electrolizadores"
+      },
+      "forbidden": {
+        "pt": [
+          "eletróliseiro",
+          "eletróliseiros"
+        ]
+      }
+    },
+    {
+      "term": "pixel-flipping",
+      "source": [
+        "pixel-flipping"
+      ],
+      "preferred": {
+        "pt": "procedimento pixel-flipping",
+        "es": "procedimiento pixel-flipping"
+      },
+      "required": {
+        "pt": [
+          "pixel-flipping"
+        ],
+        "es": [
+          "pixel-flipping"
+        ]
+      }
+    },
+    {
+      "term": "accuracy",
+      "source": [
+        "accuracy"
+      ],
+      "preferred": {
+        "pt": "acurácia",
+        "es": "exactitud"
+      }
+    },
+    {
+      "term": "single-phase far detector",
+      "source": [
+        "single-phase far detector"
+      ],
+      "preferred": {
+        "pt": "detector distante monofásico",
+        "es": "detector lejano de fase única"
+      }
+    },
+    {
+      "term": "drift length",
+      "source": [
+        "drift length"
+      ],
+      "preferred": {
+        "pt": "comprimento de deriva",
+        "es": "longitud de deriva"
+      },
+      "forbidden": {
+        "es": [
+          "longitud de deslizamiento"
+        ]
+      }
+    },
+    {
+      "term": "preserve qualifications",
+      "source": [
+        "most",
+        "up to",
+        "may",
+        "can"
+      ],
+      "preferred": {
+        "pt": "Preservar maioria, até, pode e demais ressalvas; não omitir qualificações.",
+        "es": "Conservar mayoría, hasta, puede y demás matices; no omitir calificadores."
+      }
+    },
+    {
+      "term": "pre-emptive regulatory options",
+      "source": [
+        "pre-emptive regulatory options",
+        "preemptive regulatory options"
+      ],
+      "preferred": {
+        "pt": "opções regulatórias preventivas",
+        "es": "opciones regulatorias preventivas"
+      },
+      "required": {
+        "pt": [
+          "preventivas"
+        ],
+        "es": [
+          "preventivas"
+        ]
+      },
+      "forbidden": {
+        "pt": [
+          "prevenientes"
+        ],
+        "es": [
+          "previsivas"
+        ]
+      }
+    },
+    {
+      "term": "cannot be trusted to operate",
+      "source": [
+        "cannot be trusted to operate"
+      ],
+      "preferred": {
+        "pt": "não se pode confiar que opere",
+        "es": "no se puede confiar en que opere"
+      },
+      "forbidden": {
+        "pt": [
+          "confiada a operar",
+          "confiado a operar",
+          "ela não se pode confiar",
+          "ele não se pode confiar"
+        ]
+      },
+      "required": {
+        "pt": [
+          "não se pode confiar que"
+        ]
+      },
+      "usage": {
+        "pt": "Use impersonal Portuguese syntax: 'não se pode confiar que...'. Never place ela/ele before 'não se pode confiar'. If needed, put the entity inside the following clause: 'não se pode confiar que ela opere'."
+      }
+    },
+    {
+      "term": "unscrupulous history",
+      "source": [
+        "unscrupulous history"
+      ],
+      "preferred": {
+        "pt": "histórico de práticas sem escrúpulos",
+        "es": "historial de prácticas sin escrúpulos"
+      },
+      "forbidden": {
+        "pt": [
+          "história desregrada"
+        ]
+      }
+    }
+  ],
+  "revision": 3
+}

@@ -1,0 +1,33 @@
+{
+  "policy": "automatic",
+  "datasetHash": "eaaca6a311ba166afec9b708735dcbe7781628baca35f27d6696d1294149f88b",
+  "originalsSnapshot": 1392,
+  "exportedContents": 1122,
+  "exportedExamples": 3366,
+  "excludedContents": 270,
+  "sourceManifestHash": "c4c0ef33f5efa6ce0dff1ca43f7d019e98e9ad69e221a2117ec18fc840e5b0a7",
+  "splits": {
+    "train": 2712,
+    "validation": 258,
+    "test": 396
+  },
+  "note": "Automatic review is model-based, not human certification. Splits group all languages and questions by source paper. Fit tokenizer/chat template to the actual target model; train only on train.jsonl.",
+  "files": {
+    "train.jsonl": "ca86a3988727ad1505d36ab93a0ed5dcac7150b1828de74c060b216dd4cd18b4",
+    "train-pairs.jsonl": "654727554d565a324d1e211dd45b19e4a3991d23f6cccc44e29a227031ed6674",
+    "en/train.jsonl": "77e119dadca8a061b81501d5da9d92fde8b86fe851aef09a1aeb999c00d3fc26",
+    "es/train.jsonl": "b9c826d77d76de1fcaf436671c5e56f53eda2f91a855f7409ddcafc3e82585fd",
+    "pt/train.jsonl": "edb16eeccaf2515d0674e1af9e2dde6ba707e8e9120d3e9e2d32adaa64040d7d",
+    "validation.jsonl": "e432f79905ba798dbd0a17ce3eecf1cdcf1cd8a9c8fb381c39ae08b6e3ee522a",
+    "validation-pairs.jsonl": "70a03c14cd4936df7c07b10d1d04d66ea9cd8376981f5c3f519e3b2ad04af851",
+    "en/validation.jsonl": "ed1ef6d5f3c93462eba8aa2f7fb7ce2eed4ea4166fca3485ff582353540993ac",
+    "es/validation.jsonl": "3894c2d05bc54adf10bb25be9d4fda0c89e8e0fdcfe013c28c2385b4f78a4f5f",
+    "pt/validation.jsonl": "47e9503374fa1eafa0280ae6d3897023131559cc96afc1d7c85b9908a0941b60",
+    "test.jsonl": "afc06273c5fe318fa07b49d5e994778a40e944eae46c6ff630753cdf5eece2a4",
+    "test-pairs.jsonl": "2b4a6008c17fc1c3cc99cd113621e34614380ffbb0ac126c5afdd62037953321",
+    "en/test.jsonl": "887de477505e21a0a9fb9ab00b8dd6bd84739c6b2097a282bb4553e3bd149eb0",
+    "es/test.jsonl": "39c4bdcc246de3f6cebb48d9fab32224d81b0a46fe2875712d5dd1f46ce5baf3",
+    "pt/test.jsonl": "48a345bffd8fa04a895b6bb3aa01418222d9838c3f100d8185266330e37c1c73",
+    "audit.jsonl": "751b3e6ea65b2ca9d74a2155ac3855f5f8be47ff823ef2dae876d594dee65736"
+  }
+}

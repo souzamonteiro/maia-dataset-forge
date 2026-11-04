@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-04",
+  "reviewer": "Codex, source-document inspection",
+  "resolutions": [
+    {
+      "paperId": "W3015391807",
+      "groups": [
+        "W3015391807-q02",
+        "W3015391807-q09"
+      ],
+      "previousLabel": "other-oa",
+      "verifiedLicense": "CC-BY-4.0",
+      "source": "https://www.cambridge.org/core/journals/radiocarbon/article/intcal20-northern-hemisphereradiocarbon-age-calibration-curve-055-cal-kbp/83257B63DC3AF9CFA6243F59D7503EFF",
+      "corroboration": "Explicit CC BY 4.0 notice also present in local extracted text."
+    },
+    {
+      "paperId": "W2886443073",
+      "groups": [
+        "W2886443073-q12"
+      ],
+      "previousLabel": null,
+      "verifiedLicense": "CC-BY-4.0",
+      "source": "https://link.springer.com/article/10.1007/s11135-018-0802-x",
+      "corroboration": "Rights and permissions section and local publisher PDF state CC BY 4.0."
+    }
+  ],
+  "note": "Resolves the three flagged metadata gaps; not a full verification of all 533 source licenses or attribution requirements. Immutable training snapshot not rewritten."
+}

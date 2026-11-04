@@ -11,6 +11,7 @@ import {
   readText,
   hash,
   exists,
+  writeJsonl,
 } from "../src/lib/io.js";
 import { generate } from "../src/pipeline/generate.js";
 import { validate } from "../src/pipeline/validate.js";
@@ -56,6 +57,26 @@ test("chunks preserve the full source; validation rejects weak grounding and mal
   assert.throws(() => judge({ grounding: "1" }, 0.75));
 });
 
+test("connection failure stops validation without deciding remaining candidates", async () => {
+  const cwd=process.cwd(),originalFetch=globalThis.fetch;
+  const dir=await fs.mkdtemp(path.join(os.tmpdir(),"forge-connection-"));
+  process.chdir(dir);
+  try {
+    const text="Exact source evidence about the numerical experiment.";
+    await writeJson("config/model.json",{teacherModel:"mock",minScore:0.75});
+    await writeText("data/text/W1.txt.gz",text);
+    await writeJson("data/catalog/papers.json",[{id:"W1",localText:"data/text/W1.txt.gz"}]);
+    await writeJsonl("data/datasets/raw.jsonl",[1,2].map(n=>({id:`W1-q0${n}`,paperId:"W1",question:"q",answer:"a",type:"conceptual",evidence:text,sourceStart:0,sourceEnd:text.length,textSha256:hash(text)})));
+    let calls=0;
+    globalThis.fetch=async()=>{calls++;throw new TypeError("fetch failed",{cause:Object.assign(new Error("Headers timeout"),{code:"UND_ERR_HEADERS_TIMEOUT"})});};
+    await assert.rejects(validate(),/stopped on connection failure.*UND_ERR_HEADERS_TIMEOUT/);
+    assert.equal(calls,1);
+    assert.equal((await readJsonl("data/datasets/validated.jsonl")).length,0);
+    assert.equal((await readJsonl("data/rejected/rejected.jsonl")).length,0);
+    const errors=await readJsonl("data/logs/validation-errors.jsonl");
+    assert.equal(errors[0].cause.code,"UND_ERR_HEADERS_TIMEOUT");
+  } finally {globalThis.fetch=originalFetch;process.chdir(cwd);await fs.rm(dir,{recursive:true,force:true});}
+});
 test("resume, compressed evidence, paper splits and explicit cleanup work end to end", async () => {
   const cwd = process.cwd();
   const originalFetch = globalThis.fetch;
@@ -97,6 +118,7 @@ test("resume, compressed evidence, paper splits and explicit cleanup work end to
     await writeJson("data/catalog/papers.json", papers);
     let calls = 0;
     globalThis.fetch = async (_url, options) => {
+      if (_url.endsWith('/api/ps')) return Response.json({models:[{name:'mock',size:100,size_vram:100}]});
       calls++;
       const request = JSON.parse(options.body);
       assert.equal(request.options.num_ctx, 16384);
@@ -129,6 +151,8 @@ test("resume, compressed evidence, paper splits and explicit cleanup work end to
     assert.deepEqual([...new Set(raw.map((x) => x.language))], ["pt", "en"]);
     await validate();
     await validate();
+    const timed = await readJsonl("data/datasets/validated.jsonl");
+    assert.ok(timed.every(x => x.validationTiming.elapsedMs >= 0 && x.validationTiming.processor === 'gpu'));
     assert.equal(calls, 12);
     await cleanup({ apply: true });
     assert.equal(await exists(papers[0].localPdf), true);
